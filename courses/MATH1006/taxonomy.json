@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH1006",
+  "nodes": [
+    {
+      "id": "ma1.lim",
+      "parent_id": null,
+      "level": 1,
+      "name": "极限论",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma1.real",
+      "parent_id": "ma1.lim",
+      "level": 2,
+      "name": "实数系与确界原理",
+      "chapter_ref": "第一册·第1章 极限"
+    },
+    {
+      "id": "ma1.seq",
+      "parent_id": "ma1.lim",
+      "level": 2,
+      "name": "数列极限",
+      "chapter_ref": "第一册·第1章 极限"
+    },
+    {
+      "id": "ma1.fnlim",
+      "parent_id": "ma1.lim",
+      "level": 2,
+      "name": "函数极限",
+      "chapter_ref": "第一册·第1章 极限"
+    },
+    {
+      "id": "ma1.limcalc",
+      "parent_id": "ma1.lim",
+      "level": 2,
+      "name": "极限计算与等价无穷小",
+      "chapter_ref": "第一册·第1章 极限"
+    },
+    {
+      "id": "ma1.cont",
+      "parent_id": null,
+      "level": 1,
+      "name": "连续性",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma1.cont.point",
+      "parent_id": "ma1.cont",
+      "level": 2,
+      "name": "连续性与间断点",
+      "chapter_ref": "第一册·第2章 单变量函数的连续性"
+    },
+    {
+      "id": "ma1.cont.uniform",
+      "parent_id": "ma1.cont",
+      "level": 2,
+      "name": "一致连续",
+      "chapter_ref": "第一册·第2章 单变量函数的连续性"
+    },
+    {
+      "id": "ma1.cont.closed",
+      "parent_id": "ma1.cont",
+      "level": 2,
+      "name": "闭区间上连续函数的性质",
+      "chapter_ref": "第一册·第2章 单变量函数的连续性"
+    },
+    {
+      "id": "ma1.diff",
+      "parent_id": null,
+      "level": 1,
+      "name": "微分学",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma1.deriv",
+      "parent_id": "ma1.diff",
+      "level": 2,
+      "name": "导数与微分、求导法则",
+      "chapter_ref": "第一册·第3章 单变量函数的微分学"
+    },
+    {
+      "id": "ma1.deriv.higher",
+      "parent_id": "ma1.diff",
+      "level": 2,
+      "name": "高阶导数与隐函数求导",
+      "chapter_ref": "第一册·第3章 单变量函数的微分学"
+    },
+    {
+      "id": "ma1.mvt",
+      "parent_id": "ma1.diff",
+      "level": 2,
+      "name": "微分中值定理",
+      "chapter_ref": "第一册·第3章 单变量函数的微分学"
+    },
+    {
+      "id": "ma1.taylor",
+      "parent_id": "ma1.diff",
+      "level": 2,
+      "name": "泰勒公式",
+      "chapter_ref": "第一册·第3章 单变量函数的微分学"
+    },
+    {
+      "id": "ma1.lhopital",
+      "parent_id": "ma1.diff",
+      "level": 2,
+      "name": "洛必达法则",
+      "chapter_ref": "第一册·第3章 单变量函数的微分学"
+    },
+    {
+      "id": "ma1.mono",
+      "parent_id": "ma1.diff",
+      "level": 2,
+      "name": "单调性、极值与凹凸性",
+      "chapter_ref": "第一册·第3章 单变量函数的微分学"
+    },
+    {
+      "id": "ma1.int",
+      "parent_id": null,
+      "level": 1,
+      "name": "积分学",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma1.indef",
+      "parent_id": "ma1.int",
+      "level": 2,
+      "name": "不定积分与换元、分部积分",
+      "chapter_ref": "第一册·第4章 不定积分"
+    },
+    {
+      "id": "ma1.defint",
+      "parent_id": "ma1.int",
+      "level": 2,
+      "name": "定积分的定义与性质",
+      "chapter_ref": "第一册·第5章 单变量函数的积分学"
+    },
+    {
+      "id": "ma1.ftc",
+      "parent_id": "ma1.int",
+      "level": 2,
+      "name": "微积分基本定理",
+      "chapter_ref": "第一册·第5章 单变量函数的积分学"
+    },
+    {
+      "id": "ma1.defint.calc",
+      "parent_id": "ma1.int",
+      "level": 2,
+      "name": "定积分计算",
+      "chapter_ref": "第一册·第5章 单变量函数的积分学"
+    },
+    {
+      "id": "ma1.defint.app",
+      "parent_id": "ma1.int",
+      "level": 2,
+      "name": "定积分的几何与物理应用",
+      "chapter_ref": "第一册·第5章 单变量函数的积分学"
+    },
+    {
+      "id": "ma1.improper",
+      "parent_id": "ma1.int",
+      "level": 2,
+      "name": "反常积分",
+      "chapter_ref": "第一册·第5章 单变量函数的积分学"
+    },
+    {
+      "id": "ma1.ode",
+      "parent_id": null,
+      "level": 1,
+      "name": "常微分方程初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma1.ode.first",
+      "parent_id": "ma1.ode",
+      "level": 2,
+      "name": "一阶微分方程",
+      "chapter_ref": "第一册·第6章 常微分方程初步"
+    },
+    {
+      "id": "ma1.ode.second",
+      "parent_id": "ma1.ode",
+      "level": 2,
+      "name": "二阶线性微分方程",
+      "chapter_ref": "第一册·第6章 常微分方程初步"
+    },
+    {
+      "id": "ma1.ser",
+      "parent_id": null,
+      "level": 1,
+      "name": "无穷级数",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma1.ser.positive",
+      "parent_id": "ma1.ser",
+      "level": 2,
+      "name": "正项级数",
+      "chapter_ref": "第一册·第7章 无穷级数"
+    },
+    {
+      "id": "ma1.ser.any",
+      "parent_id": "ma1.ser",
+      "level": 2,
+      "name": "任意项级数",
+      "chapter_ref": "第一册·第7章 无穷级数"
+    },
+    {
+      "id": "ma1.ser.func",
+      "parent_id": "ma1.ser",
+      "level": 2,
+      "name": "函数项级数与一致收敛",
+      "chapter_ref": "第一册·第7章 无穷级数"
+    },
+    {
+      "id": "ma1.ser.power",
+      "parent_id": "ma1.ser",
+      "level": 2,
+      "name": "幂级数与泰勒级数",
+      "chapter_ref": "第一册·第7章 无穷级数"
+    }
+  ]
+}

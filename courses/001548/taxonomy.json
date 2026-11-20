@@ -1,0 +1,251 @@
+{
+  "schema_version": "1.0",
+  "course_code": "001548",
+  "nodes": [
+    {
+      "id": "cplx",
+      "parent_id": null,
+      "level": 1,
+      "name": "复数与复变函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cplx.number",
+      "parent_id": "cplx",
+      "level": 2,
+      "name": "复数运算与几何表示",
+      "chapter_ref": "复变函数B·第一章"
+    },
+    {
+      "id": "cplx.eq",
+      "parent_id": "cplx",
+      "level": 2,
+      "name": "复方程与根的求解",
+      "chapter_ref": "复变函数B·第一章"
+    },
+    {
+      "id": "cplx.elem",
+      "parent_id": "cplx",
+      "level": 2,
+      "name": "初等复变函数（指数、三角、对数、幂）",
+      "chapter_ref": "复变函数B·第一章"
+    },
+    {
+      "id": "cplx.geometry",
+      "parent_id": "cplx",
+      "level": 2,
+      "name": "复平面上的点集与区域",
+      "chapter_ref": "复变函数B·第一章"
+    },
+    {
+      "id": "analytic",
+      "parent_id": null,
+      "level": 1,
+      "name": "解析函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "analytic.cr",
+      "parent_id": "analytic",
+      "level": 2,
+      "name": "解析性与柯西-黎曼方程",
+      "chapter_ref": "复变函数B·第二章"
+    },
+    {
+      "id": "analytic.harmonic",
+      "parent_id": "analytic",
+      "level": 2,
+      "name": "调和函数与共轭调和函数",
+      "chapter_ref": "复变函数B·第二章"
+    },
+    {
+      "id": "analytic.geometry",
+      "parent_id": "analytic",
+      "level": 2,
+      "name": "解析函数的几何性质",
+      "chapter_ref": "复变函数B·第二章"
+    },
+    {
+      "id": "integral",
+      "parent_id": null,
+      "level": 1,
+      "name": "复变函数的积分",
+      "chapter_ref": null
+    },
+    {
+      "id": "integral.cauchy",
+      "parent_id": "integral",
+      "level": 2,
+      "name": "柯西定理与柯西积分公式",
+      "chapter_ref": "复变函数B·第三章"
+    },
+    {
+      "id": "integral.contour",
+      "parent_id": "integral",
+      "level": 2,
+      "name": "围道积分与参数化计算",
+      "chapter_ref": "复变函数B·第三章"
+    },
+    {
+      "id": "integral.formula",
+      "parent_id": "integral",
+      "level": 2,
+      "name": "高阶导数公式与积分估计",
+      "chapter_ref": "复变函数B·第三章"
+    },
+    {
+      "id": "series",
+      "parent_id": null,
+      "level": 1,
+      "name": "复级数",
+      "chapter_ref": null
+    },
+    {
+      "id": "series.power",
+      "parent_id": "series",
+      "level": 2,
+      "name": "幂级数与收敛半径",
+      "chapter_ref": "复变函数B·第四章"
+    },
+    {
+      "id": "series.taylor",
+      "parent_id": "series",
+      "level": 2,
+      "name": "泰勒展开",
+      "chapter_ref": "复变函数B·第四章"
+    },
+    {
+      "id": "series.laurent",
+      "parent_id": "series",
+      "level": 2,
+      "name": "洛朗展开与奇点分类",
+      "chapter_ref": "复变函数B·第四章"
+    },
+    {
+      "id": "residue",
+      "parent_id": null,
+      "level": 1,
+      "name": "留数理论",
+      "chapter_ref": null
+    },
+    {
+      "id": "residue.theorem",
+      "parent_id": "residue",
+      "level": 2,
+      "name": "留数定理与极点留数计算",
+      "chapter_ref": "复变函数B·第五章"
+    },
+    {
+      "id": "residue.real",
+      "parent_id": "residue",
+      "level": 2,
+      "name": "用留数计算实积分",
+      "chapter_ref": "复变函数B·第五章"
+    },
+    {
+      "id": "residue.arg",
+      "parent_id": "residue",
+      "level": 2,
+      "name": "辐角原理与儒歇定理",
+      "chapter_ref": "复变函数B·第五章"
+    },
+    {
+      "id": "laplace",
+      "parent_id": null,
+      "level": 1,
+      "name": "拉普拉斯变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "laplace.transform",
+      "parent_id": "laplace",
+      "level": 2,
+      "name": "拉普拉斯变换与逆变换",
+      "chapter_ref": "复变函数B·第六章"
+    },
+    {
+      "id": "laplace.ode",
+      "parent_id": "laplace",
+      "level": 2,
+      "name": "用拉普拉斯变换解微分方程",
+      "chapter_ref": "复变函数B·第六章"
+    },
+    {
+      "id": "theory",
+      "parent_id": null,
+      "level": 1,
+      "name": "解析函数的整体性质",
+      "chapter_ref": null
+    },
+    {
+      "id": "theory.liouville",
+      "parent_id": "theory",
+      "level": 2,
+      "name": "刘维尔定理与最大模原理",
+      "chapter_ref": "复变函数B·第七章"
+    },
+    {
+      "id": "theory.zeros",
+      "parent_id": "theory",
+      "level": 2,
+      "name": "零点、唯一性定理与解析延拓",
+      "chapter_ref": "复变函数B·第七章"
+    },
+    {
+      "id": "conformal",
+      "parent_id": null,
+      "level": 1,
+      "name": "共形映射",
+      "chapter_ref": null
+    },
+    {
+      "id": "conformal.mobius",
+      "parent_id": "conformal",
+      "level": 2,
+      "name": "分式线性变换",
+      "chapter_ref": "复变函数B·第八章"
+    },
+    {
+      "id": "pde",
+      "parent_id": null,
+      "level": 1,
+      "name": "数学物理方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.model",
+      "parent_id": "pde",
+      "level": 2,
+      "name": "数学物理方程建模与行波法",
+      "chapter_ref": "数学物理方法·第二篇第1章"
+    },
+    {
+      "id": "pde.separation",
+      "parent_id": "pde",
+      "level": 2,
+      "name": "分离变量法与本征值问题",
+      "chapter_ref": "数学物理方法·第二篇第2章"
+    },
+    {
+      "id": "pde.special",
+      "parent_id": "pde",
+      "level": 2,
+      "name": "特殊函数（贝塞尔函数与勒让德多项式）",
+      "chapter_ref": "数学物理方法·第二篇第3章"
+    },
+    {
+      "id": "pde.transform",
+      "parent_id": "pde",
+      "level": 2,
+      "name": "积分变换法解偏微分方程",
+      "chapter_ref": "数学物理方法·第二篇第4章"
+    },
+    {
+      "id": "pde.green",
+      "parent_id": "pde",
+      "level": 2,
+      "name": "格林函数与基本解",
+      "chapter_ref": "数学物理方法·第二篇第5章"
+    }
+  ]
+}

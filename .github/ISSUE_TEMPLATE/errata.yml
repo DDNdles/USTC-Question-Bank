@@ -1,0 +1,37 @@
+name: 题目或答案勘误
+description: 反馈题干 OCR 错误、公式符号偏差、答案或解析错误
+title: "[勘误] "
+labels: ["errata"]
+body:
+  - type: input
+    id: question_id
+    attributes:
+      label: 题目 ID
+      description: 来自 questions.jsonl 的 id 字段（如 MATH1006-exam-2024f-03）
+      placeholder: 001548-exam-2022f-01
+    validations:
+      required: true
+  - type: dropdown
+    id: field
+    attributes:
+      label: 出错位置
+      options:
+        - 题干（stem.md）
+        - 答案（answer.md）
+        - 解析（solution.md / steps）
+        - 知识点或难度标签（tags）
+        - 来源或版权标注（source）
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 问题描述与修正建议
+      description: 请说明原内容错在哪里，并尽量给出正确的 LaTeX 表达或推导依据。
+    validations:
+      required: true
+  - type: input
+    id: reference
+    attributes:
+      label: 原卷 / 教材页码依据（可选）
+      placeholder: 如 2024 秋期末原卷第 3 题、或教材第 2 版第 85 页

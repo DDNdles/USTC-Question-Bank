@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ustc-qbank"
+version = "0.1.0"
+description = "Structured question bank loader and SQLite FTS5 builder for USTC undergraduate courses"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "DDNdles" }]
+keywords = ["ustc", "question-bank", "mathematics", "dataset", "latex"]
+
+[project.urls]
+Homepage = "https://github.com/DDNdles/USTC-Question-Bank"
+Repository = "https://github.com/DDNdles/USTC-Question-Bank"
+Issues = "https://github.com/DDNdles/USTC-Question-Bank/issues"
+
+[tool.setuptools.packages.find]
+where = ["python"]

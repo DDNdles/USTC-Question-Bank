@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH1006",
+  "name": "数学分析(B1)",
+  "name_en": "Mathematical Analysis (B1)",
+  "department": "数学科学学院",
+  "category": "common",
+  "description": "中国科学技术大学《数学分析(B1)》（课号 MATH1006）结构化题库，收录 2016–2025 年期中/期末/小测真题，以及程艺、陈卿、李平《数学分析讲义》第一册第 1–7 章课后习题及社区非官方详解。",
+  "stats": {
+    "total": 445,
+    "quarantined": 0,
+    "taxonomy_nodes": 31,
+    "by_origin": {
+      "official": 133,
+      "community": 300,
+      "ai": 12
+    },
+    "by_type": {
+      "solve": 445
+    },
+    "by_difficulty": {
+      "1": 36,
+      "2": 134,
+      "3": 179,
+      "4": 74,
+      "5": 22
+    },
+    "exam_years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "ma1_exams",
+      "count": 145,
+      "rights": "third_party_exam",
+      "description": "2016 小测与 2017–2025 学年期中/期末 18 套真题"
+    },
+    {
+      "id": "ma1_textbook",
+      "count": 300,
+      "rights": "third_party_textbook_and_community",
+      "description": "程艺、陈卿、李平《数学分析讲义》第一册第 1–7 章课后习题"
+    }
+  ],
+  "known_notes": [
+    "教材 300 题详解源自非官方仓库 DongYaoZe/math-analysis-lectures-solutions-USTC，标记为 origin=community；复核发现的原解错误（如 4.2.2(1)、6.1.4(5)）已修正并记入 quality.note。",
+    "2021-2022 期中第 6 题、2024-2025 期中第 5 题及 2017-2018 期中第 6 题原卷参考答案存在局部错误或疑点，已在 quality.note 注明。",
+    "2019-2020 期末第 3 题原扫描件缺页，按评分者手绘区域与答案重建，已在 quality.note 标注。",
+    "2016 小测仅有卷面，12 题解答由模型独立求解，标记为 origin=ai。",
+    "2020 秋期中在公开资料库中与 2019 期中文件 md5 相同，故未重复收录。"
+  ],
+  "files": {
+    "questions": "courses/MATH1006/questions.jsonl",
+    "taxonomy": "courses/MATH1006/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "9da2a8379904984e0a1420947a6e78a034777681b3dda622409b10c0ca0fc135",
+    "taxonomy": "6a1f918fd51fb2989248c76bddf2018e5912acc7226b01b8d7b8390471cd0039"
+  }
+}

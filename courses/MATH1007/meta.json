@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH1007",
+  "name": "数学分析(B2)",
+  "name_en": "Mathematical Analysis (B2)",
+  "department": "数学科学学院",
+  "category": "common",
+  "description": "中国科学技术大学《数学分析(B2)》（课号 MATH1007）结构化题库，收录 2018–2026 年期中/期末真题，以及程艺、陈卿、李平《数学分析讲义》第二册第 8–13 章课后习题及社区非官方详解。",
+  "stats": {
+    "total": 569,
+    "quarantined": 0,
+    "taxonomy_nodes": 28,
+    "by_origin": {
+      "official": 131,
+      "community": 438,
+      "ai": 0
+    },
+    "by_type": {
+      "solve": 569
+    },
+    "by_difficulty": {
+      "1": 34,
+      "2": 168,
+      "3": 246,
+      "4": 106,
+      "5": 15
+    },
+    "exam_years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "ma2_exams",
+      "count": 131,
+      "rights": "third_party_exam",
+      "description": "2018–2026 年春季期中/期末 17 套真题"
+    },
+    {
+      "id": "ma2_textbook",
+      "count": 438,
+      "rights": "third_party_textbook_and_community",
+      "description": "程艺、陈卿、李平《数学分析讲义》第二册第 8–13 章课后习题"
+    }
+  ],
+  "known_notes": [
+    "教材 438 题详解源自非官方仓库 DongYaoZe/math-analysis-lectures-solutions-USTC，标记为 origin=community；复核发现的多处原解错误（如 8.comp.11、9.2.9(3)、9.5.2(2)、11.3.1(6)）已修正并记入 quality.note。",
+    "2019 春期中第 4 题原参考答案边界范围取错，已按正确极值收录并在 quality.note 说明。",
+    "2026 春期末原 PDF 字体映射损坏，中文题干按 LaTeX 数学内容重建，措辞可能与原卷略有出入。",
+    "2020 春期中在公开资料库中与 2019 春期中文件 md5 相同，故未重复收录。"
+  ],
+  "files": {
+    "questions": "courses/MATH1007/questions.jsonl",
+    "taxonomy": "courses/MATH1007/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "4516693a72186cea64dd2ebc567a3cefd9af850749f92aa5379b35f423be18a8",
+    "taxonomy": "d22a7d4d94164c4c28d35febee7253ddb60d23383eabaa90fff7bc19b86cccc3"
+  }
+}

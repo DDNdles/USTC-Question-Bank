@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "code": "001548",
+  "name": "复变函数B",
+  "name_en": "Complex Analysis (B)",
+  "department": "数学科学学院",
+  "category": "professional",
+  "description": "中国科学技术大学《复变函数B》（课号 001548）结构化题库，收录 2003–2026 年历年期末/期中真题、复习讲义例题、公开复习题库，以及严镇军《复变函数》（第 2 版）与《数学物理方法》书末习题。",
+  "stats": {
+    "total": 571,
+    "quarantined": 7,
+    "taxonomy_nodes": 35,
+    "by_origin": {
+      "official": 229,
+      "community": 26,
+      "ai": 316
+    },
+    "by_type": {
+      "blank": 41,
+      "solve": 530
+    },
+    "by_difficulty": {
+      "1": 13,
+      "2": 105,
+      "3": 216,
+      "4": 178,
+      "5": 59
+    },
+    "exam_years": [
+      2003,
+      2006,
+      2007,
+      2009,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "complex_b",
+      "count": 225,
+      "rights": "third_party_exam",
+      "description": "2003–2026 年 14 套期末真题（含 2019-2020 补考）"
+    },
+    {
+      "id": "complex_b_midterm",
+      "count": 3,
+      "rights": "third_party_exam",
+      "description": "2023 秋期中考试（含 Q1/Q5/Q6）"
+    },
+    {
+      "id": "jiangyi_examples",
+      "count": 10,
+      "rights": "third_party_notes",
+      "description": "舒文炫《复变函数B期末复习讲义》（第二版）例题"
+    },
+    {
+      "id": "github_workbook",
+      "count": 40,
+      "rights": "third_party_community",
+      "description": "GitHub 公开复变期末复习题库（jieyou520/-）"
+    },
+    {
+      "id": "yan_complex",
+      "count": 127,
+      "rights": "third_party_textbook",
+      "description": "严镇军《复变函数》（第 2 版）第 1–9 章习题"
+    },
+    {
+      "id": "yan_mp_part1",
+      "count": 99,
+      "rights": "third_party_textbook",
+      "description": "严镇军《数学物理方法》第一篇（复变函数）第 1–7 章习题"
+    },
+    {
+      "id": "yan_mp_part2",
+      "count": 67,
+      "rights": "third_party_textbook",
+      "description": "严镇军《数学物理方法》第二篇（数学物理方程）第 1–5 章习题"
+    }
+  ],
+  "known_notes": [
+    "2015-2016 期末卷原 PDF 后附「参考答案」实为 2009-2010 卷答案，已弃用并改为独立求解（origin=ai）。",
+    "2022-2023 期末为手写回忆版，部分题干存在符号歧义，低置信题已标记 quality.quarantined=true。",
+    "《数学物理方法》第一篇（yan_mp_part1）与《复变函数》（yan_complex）内容存在重叠；如需去重可排除 batch='yan_mp_part1'。",
+    "《复变函数》第 9 章习题 3、5 与《数学物理方法》第 7 章习题 4 依赖原书插图，未收录。",
+    "全库共 7 道低置信题标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+  ],
+  "files": {
+    "questions": "courses/001548/questions.jsonl",
+    "taxonomy": "courses/001548/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "b16f14a78bef086a503b93b5d2d44e48a93059e1ac1f045eeed02e6211313b17",
+    "taxonomy": "94c7b1a0333ca92708f18e0404afc65b12597a19bb368323ab6c404e520e6268"
+  }
+}

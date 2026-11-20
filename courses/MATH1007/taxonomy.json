@@ -1,0 +1,202 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH1007",
+  "nodes": [
+    {
+      "id": "ma2.geo",
+      "parent_id": null,
+      "level": 1,
+      "name": "空间解析几何",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma2.geo.vec",
+      "parent_id": "ma2.geo",
+      "level": 2,
+      "name": "向量代数",
+      "chapter_ref": "第二册·第8章 空间解析几何"
+    },
+    {
+      "id": "ma2.geo.plane",
+      "parent_id": "ma2.geo",
+      "level": 2,
+      "name": "平面与直线",
+      "chapter_ref": "第二册·第8章 空间解析几何"
+    },
+    {
+      "id": "ma2.geo.surface",
+      "parent_id": "ma2.geo",
+      "level": 2,
+      "name": "曲面与空间曲线",
+      "chapter_ref": "第二册·第8章 空间解析几何"
+    },
+    {
+      "id": "ma2.diff",
+      "parent_id": null,
+      "level": 1,
+      "name": "多变量函数的微分学",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma2.diff.limit",
+      "parent_id": "ma2.diff",
+      "level": 2,
+      "name": "多元函数的极限与连续",
+      "chapter_ref": "第二册·第9章 多变量函数的微分学"
+    },
+    {
+      "id": "ma2.diff.partial",
+      "parent_id": "ma2.diff",
+      "level": 2,
+      "name": "偏导数与全微分",
+      "chapter_ref": "第二册·第9章 多变量函数的微分学"
+    },
+    {
+      "id": "ma2.diff.chain",
+      "parent_id": "ma2.diff",
+      "level": 2,
+      "name": "复合函数与隐函数求导",
+      "chapter_ref": "第二册·第9章 多变量函数的微分学"
+    },
+    {
+      "id": "ma2.diff.taylor",
+      "parent_id": "ma2.diff",
+      "level": 2,
+      "name": "多元泰勒公式与极值",
+      "chapter_ref": "第二册·第9章 多变量函数的微分学"
+    },
+    {
+      "id": "ma2.diff.geom",
+      "parent_id": "ma2.diff",
+      "level": 2,
+      "name": "切平面与法向量",
+      "chapter_ref": "第二册·第9章 多变量函数的微分学"
+    },
+    {
+      "id": "ma2.multint",
+      "parent_id": null,
+      "level": 1,
+      "name": "多变量函数的重积分",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma2.multint.double",
+      "parent_id": "ma2.multint",
+      "level": 2,
+      "name": "二重积分",
+      "chapter_ref": "第二册·第10章 多变量函数的重积分"
+    },
+    {
+      "id": "ma2.multint.triple",
+      "parent_id": "ma2.multint",
+      "level": 2,
+      "name": "三重积分",
+      "chapter_ref": "第二册·第10章 多变量函数的重积分"
+    },
+    {
+      "id": "ma2.multint.change",
+      "parent_id": "ma2.multint",
+      "level": 2,
+      "name": "换元法与雅可比行列式",
+      "chapter_ref": "第二册·第10章 多变量函数的重积分"
+    },
+    {
+      "id": "ma2.multint.app",
+      "parent_id": "ma2.multint",
+      "level": 2,
+      "name": "重积分的几何与物理应用",
+      "chapter_ref": "第二册·第10章 多变量函数的重积分"
+    },
+    {
+      "id": "ma2.line",
+      "parent_id": null,
+      "level": 1,
+      "name": "曲线积分和曲面积分",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma2.line.first",
+      "parent_id": "ma2.line",
+      "level": 2,
+      "name": "第一型曲线与曲面积分",
+      "chapter_ref": "第二册·第11章 曲线积分和曲面积分"
+    },
+    {
+      "id": "ma2.line.second",
+      "parent_id": "ma2.line",
+      "level": 2,
+      "name": "第二型曲线与曲面积分",
+      "chapter_ref": "第二册·第11章 曲线积分和曲面积分"
+    },
+    {
+      "id": "ma2.line.green",
+      "parent_id": "ma2.line",
+      "level": 2,
+      "name": "格林公式与路径无关",
+      "chapter_ref": "第二册·第11章 曲线积分和曲面积分"
+    },
+    {
+      "id": "ma2.line.gauss",
+      "parent_id": "ma2.line",
+      "level": 2,
+      "name": "高斯公式与斯托克斯公式",
+      "chapter_ref": "第二册·第11章 曲线积分和曲面积分"
+    },
+    {
+      "id": "ma2.line.field",
+      "parent_id": "ma2.line",
+      "level": 2,
+      "name": "场论初步（散度、旋度）",
+      "chapter_ref": "第二册·第11章 曲线积分和曲面积分"
+    },
+    {
+      "id": "ma2.fourier",
+      "parent_id": null,
+      "level": 1,
+      "name": "Fourier 分析",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma2.fourier.series",
+      "parent_id": "ma2.fourier",
+      "level": 2,
+      "name": "Fourier 级数展开",
+      "chapter_ref": "第二册·第12章 Fourier 分析"
+    },
+    {
+      "id": "ma2.fourier.conv",
+      "parent_id": "ma2.fourier",
+      "level": 2,
+      "name": "Fourier 级数的收敛性",
+      "chapter_ref": "第二册·第12章 Fourier 分析"
+    },
+    {
+      "id": "ma2.imp",
+      "parent_id": null,
+      "level": 1,
+      "name": "反常积分与含参变量积分",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma2.imp.improper",
+      "parent_id": "ma2.imp",
+      "level": 2,
+      "name": "反常积分",
+      "chapter_ref": "第二册·第13章 反常积分和含参变量的积分"
+    },
+    {
+      "id": "ma2.imp.param",
+      "parent_id": "ma2.imp",
+      "level": 2,
+      "name": "含参变量积分",
+      "chapter_ref": "第二册·第13章 反常积分和含参变量的积分"
+    },
+    {
+      "id": "ma2.imp.uniform",
+      "parent_id": "ma2.imp",
+      "level": 2,
+      "name": "含参积分的一致收敛与性质",
+      "chapter_ref": "第二册·第13章 反常积分和含参变量的积分"
+    }
+  ]
+}

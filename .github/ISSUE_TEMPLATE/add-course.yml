@@ -1,0 +1,24 @@
+name: 贡献新课程或新批次题目
+description: 提议新增中科大本科课程题库或补充已有课程的新年份真题
+title: "[新课程] "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: course
+    attributes:
+      label: 课程号与课程名
+      placeholder: MATH1009 线性代数(B1)
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 题目与答案来源说明
+      description: 请说明来源类型（历年真题/习题/原创）、年份范围与公开链接。请勿提交扫描 PDF 原件或整本教材 OCR。
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 补充说明（可选）
+      description: 知识点划分、答案分级（official / community / ai）或其他注意事项。

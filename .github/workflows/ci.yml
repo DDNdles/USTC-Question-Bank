@@ -1,0 +1,25 @@
+name: Validate Question Bank
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate datasets, taxonomy, checksums, and assets
+        run: python scripts/validate.py
+
+      - name: Run Python library tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Smoke test SQLite FTS5 build
+        run: python scripts/build_sqlite.py -o dist/ustc-question-bank.sqlite
