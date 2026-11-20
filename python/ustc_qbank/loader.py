@@ -11,11 +11,9 @@ from typing import Any, Iterable, Iterator
 
 def _default_repo_root() -> pathlib.Path:
     """Locate repository root containing manifest.json."""
-    # 1. Relative to this package (editable / repo checkout)
     candidate = pathlib.Path(__file__).resolve().parents[2]
     if (candidate / "manifest.json").is_file():
         return candidate
-    # 2. Current working directory or its parents
     cwd = pathlib.Path.cwd().resolve()
     for base in (cwd, *cwd.parents):
         if (base / "manifest.json").is_file() and (base / "courses").is_dir():
@@ -45,17 +43,59 @@ class TaxonomyNode:
 
 
 @dataclass(frozen=True)
+class FigureRef:
+    id: str
+    path: str
+    alt: str
+    caption: str | None = None
+    width: int | None = None
+    height: int | None = None
+    sha256: str | None = None
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> FigureRef:
+        return cls(
+            id=data["id"],
+            path=data["path"],
+            alt=data["alt"],
+            caption=data.get("caption"),
+            width=data.get("width"),
+            height=data.get("height"),
+            sha256=data.get("sha256"),
+        )
+
+
+@dataclass(frozen=True)
+class QuestionOption:
+    key: str
+    md: str
+    figures: tuple[FigureRef, ...] = ()
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> QuestionOption:
+        return cls(
+            key=data["key"],
+            md=data["md"],
+            figures=tuple(FigureRef.from_dict(f) for f in (data.get("figures") or ())),
+        )
+
+
+@dataclass(frozen=True)
 class Question:
     id: str
     course_code: str
     schema_version: str
     type: str
     stem_md: str
+    stem_figures: tuple[FigureRef, ...]
+    options: tuple[QuestionOption, ...]
     answer_md: str
+    answer_figures: tuple[FigureRef, ...]
     answer_origin: str
     answer_origin_detail: str
     solution_md: str
     solution_steps: tuple[str, ...]
+    solution_figures: tuple[FigureRef, ...]
     kp_ids: tuple[str, ...]
     keywords: tuple[str, ...]
     difficulty: int
@@ -74,6 +114,15 @@ class Question:
     overlap_hint: str | None
     raw: dict[str, Any]
 
+    @property
+    def has_figures(self) -> bool:
+        return bool(
+            self.stem_figures
+            or self.answer_figures
+            or self.solution_figures
+            or any(opt.figures for opt in self.options)
+        )
+
     @classmethod
     def from_dict(cls, d: dict[str, Any]) -> Question:
         return cls(
@@ -82,11 +131,15 @@ class Question:
             schema_version=d["schema_version"],
             type=d["type"],
             stem_md=d["stem"]["md"],
+            stem_figures=tuple(FigureRef.from_dict(f) for f in (d["stem"].get("figures") or ())),
+            options=tuple(QuestionOption.from_dict(o) for o in (d.get("options") or ())),
             answer_md=d["answer"]["md"],
+            answer_figures=tuple(FigureRef.from_dict(f) for f in (d["answer"].get("figures") or ())),
             answer_origin=d["answer"]["origin"],
             answer_origin_detail=d["answer"]["origin_detail"],
             solution_md=d["solution"]["md"],
             solution_steps=tuple(d["solution"].get("steps") or ()),
+            solution_figures=tuple(FigureRef.from_dict(f) for f in (d["solution"].get("figures") or ())),
             kp_ids=tuple(d["tags"]["kp_ids"]),
             keywords=tuple(d["tags"].get("keywords") or ()),
             difficulty=int(d["tags"]["difficulty"]),
@@ -113,9 +166,10 @@ class Question:
 class Course:
     """Single USTC course question bank with taxonomy-aware querying."""
 
-    def __init__(self, root: pathlib.Path, code: str) -> None:
+    def __init__(self, root: pathlib.Path, code: str, *, asset_base_url: str | None = None) -> None:
         self.root = root
         self.code = code
+        self.asset_base_url = asset_base_url
         self.dir = root / "courses" / code
         if not self.dir.is_dir():
             raise KeyError(f"Course directory not found: {self.dir}")
@@ -133,6 +187,14 @@ class Course:
     @property
     def name(self) -> str:
         return self.meta["name"]
+
+    def resolve_asset(self, figure_path: str) -> str:
+        """Resolve a course-relative figure path to a remote URL (if configured) or local path."""
+        clean = figure_path.lstrip("/")
+        if self.asset_base_url:
+            base = self.asset_base_url.rstrip("/")
+            return f"{base}/courses/{self.code}/{clean}"
+        return str((self.dir / clean).resolve())
 
     def questions(self) -> list[Question]:
         if self._questions is None:
@@ -176,6 +238,7 @@ class Course:
         years: Iterable[int] | None = None,
         difficulty: tuple[int, int] | None = None,
         qtypes: Iterable[str] | None = None,
+        has_figures: bool | None = None,
         exclude_quarantined: bool = True,
         text: str | None = None,
     ) -> list[Question]:
@@ -198,6 +261,8 @@ class Course:
         out: list[Question] = []
         for q in self.questions():
             if exclude_quarantined and q.quarantined:
+                continue
+            if has_figures is not None and q.has_figures != has_figures:
                 continue
             if kp_set is not None and not (kp_set.intersection(q.kp_ids)):
                 continue
@@ -249,6 +314,7 @@ class QuestionBank:
         if not manifest_path.is_file():
             raise FileNotFoundError(f"manifest.json not found under {self.root}")
         self.manifest: dict[str, Any] = json.loads(manifest_path.read_text(encoding="utf-8"))
+        self.asset_base_url: str | None = self.manifest.get("asset_base_url")
         self._courses: dict[str, Course] = {}
 
     @property
@@ -257,7 +323,7 @@ class QuestionBank:
 
     def course(self, code: str) -> Course:
         if code not in self._courses:
-            self._courses[code] = Course(self.root, code)
+            self._courses[code] = Course(self.root, code, asset_base_url=self.asset_base_url)
         return self._courses[code]
 
     def __getitem__(self, code: str) -> Course:

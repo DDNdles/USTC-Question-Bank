@@ -13,40 +13,45 @@
 | `MATH1007` | 数学分析(B2) | 569 | 131 | 438 | 0 | 0 | 2018–2026 | 28 |
 | **合计** | **3 门课程** | **1,585** | **493** | **764** | **328** | **7** | — | **94** |
 
-- 所有 1,585 题均包含完整题干、答案与分步解析，无空白项。
+- **100% 带答案与分步解析**：全部 1,585 题均包含最终答案（`answer.md`）与完整解析（`solution.md` / `solution.steps`），无空白题。
 - `official`：原卷参考答案、评分细则或教材书末参考答案。
 - `community`：非官方书面详解（如 `DongYaoZe`《数学分析讲义》详解、舒文炫讲义例题、renyixin 2019–2020 答案）。
 - `ai`：无原始答案时由模型求解或入库独立推导/补证。
 
-## 仓库结构
+## 仓库结构与可扩展性
 
-按中科大官方课号分目录组织，方便后续按相同契约持续扩展其他课程：
+按中科大官方课号分目录组织，面向全校本科课程持续扩展：
 
 ```text
 USTC-Question-Bank/
-├── manifest.json                 # 全库索引：课程列表、统计、路径与 SHA-256
+├── manifest.json                 # 全库索引：课程列表、统计、路径、asset_base_url 与 SHA-256
 ├── schema/
 │   ├── manifest.schema.json      # 索引契约（JSON Schema 2020-12）
-│   ├── question.schema.json      # 单题契约
+│   ├── question.schema.json      # 单题契约（原生支持图片 figures 与选择题 options）
 │   └── taxonomy.schema.json      # 知识点树契约
 ├── courses/
 │   ├── 001548/                   # 复变函数B
 │   │   ├── meta.json             # 课程元信息、批次清单、已知勘误说明
 │   │   ├── taxonomy.json         # 知识点层次树
-│   │   └── questions.jsonl       # 每行一道题（UTF-8，按稳定 ID 排序）
+│   │   ├── questions.jsonl       # 每行一道题（UTF-8，按稳定 ID 排序）
+│   │   └── assets/               # （按需创建）带图题的 SVG / WebP / PNG 配图
 │   ├── MATH1006/                 # 数学分析(B1)
 │   └── MATH1007/                 # 数学分析(B2)
 ├── python/ustc_qbank/            # 零第三方依赖 Python 加载库与 SQLite 构建器
 ├── types/index.d.ts              # TypeScript 类型定义
 ├── scripts/
-│   ├── validate.py               # Schema、ID、kp 白名单、LaTeX 与 SHA-256 校验
+│   ├── validate.py               # Schema、ID、kp 白名单、图片资产、LaTeX 与 SHA-256 校验
 │   └── build_sqlite.py           # 一键编译带 FTS5 全文索引的 SQLite 数据库
 ├── tests/test_library.py         # 单元测试
 ├── LICENSE                       # MIT License（仅限原创代码/架构/元数据）
 └── NOTICE.md                     # 第三方来源署名、版权声明与侵删渠道
 ```
 
-本仓库不提交扫描 PDF 原件、整本教材 OCR 原文或二进制 SQLite 文件；需要 SQLite 时通过 `scripts/build_sqlite.py` 本地一键构建（或从 Release 附件获取）。
+### 面向全校规模与带图题的架构设计
+
+- **按课分片、纯文本入库**：每门课独立 `courses/<课号>/questions.jsonl`，即使扩展到上百门课、数万道题，单文件与仓库压缩体积依然远低于 GitHub 上限。
+- **不把 SQLite 与扫描件塞进 Git**：二进制 SQLite（带 FTS5 索引）通过 `scripts/build_sqlite.py` 本地一键生成或通过 GitHub Releases 分发，避免仓库历史膨胀。
+- **原生支持带图题与选择题**：`stem`、`answer`、`solution` 与 `options[]` 均内置 `figures` 数组，支持 `courses/<课号>/assets/` 下的 `.svg`（首选矢量图）、`.webp`、`.png` 配图（单图限 500 KB，CI 自动校验引用完整性与防孤儿图）；当未来全校图片总量扩大时，只需在 `manifest.json` 配置 `asset_base_url` 指向外部对象存储/CDN（如 Cloudflare R2 或独立资产仓），无需修改任何题库 JSONL 或下游调用代码。
 
 ## 单题数据契约
 
@@ -58,15 +63,21 @@ USTC-Question-Bank/
   "course_code": "001548",
   "schema_version": "1.0",
   "type": "blank",
-  "stem": { "md": "设方程 $z^{3}=\\bar{z}$，求 $z$。" },
+  "stem": {
+    "md": "设方程 $z^{3}=\\bar{z}$，求 $z$。",
+    "figures": []
+  },
+  "options": [],
   "answer": {
     "md": "$z\\in\\{0,\\ 1,\\ -1,\\ \\mathrm{i},\\ -\\mathrm{i}\\}$",
+    "figures": [],
     "origin": "ai",
     "origin_detail": "入库时独立推导"
   },
   "solution": {
     "md": "取模，$|z|^{3}=|z|$，故 $|z|=0$ 或 $|z|=1$。...",
-    "steps": ["取模，$|z|^{3}=|z|$，故 $|z|=0$ 或 $|z|=1$。", "..."]
+    "steps": ["取模，$|z|^{3}=|z|$，故 $|z|=0$ 或 $|z|=1$。", "..."],
+    "figures": []
   },
   "tags": {
     "kp_ids": ["cplx.eq"],
@@ -96,6 +107,8 @@ USTC-Question-Bank/
 ### 字段约定
 
 - **`id`**：全局唯一、稳定、URL 安全的确定性编号，格式 `<course_code>-<batch_slug>-<local_key>`（如 `MATH1006-tb-1.1.1`、`MATH1007-exam-2025f-03`），可安全用作数据库主键、路由参数或外部引用锚点。
+- **`stem.figures` / `answer.figures` / `solution.figures`**：每张图包含 `id`、`path`（相对路径 `assets/*.svg|webp|png`）、`alt`，可选 `caption`、`width`、`height`、`sha256`。
+- **`options`**：选择题选项数组（`{ key, md, figures? }`），填空/解答/证明题为空数组 `[]`。
 - **`tags.kp_ids`**：受同目录 `taxonomy.json` 白名单约束，支持按父节点递归检索整个知识子树。
 - **`quality.quarantined`**：`true` 表示题干存疑（如手写回忆版）或模型自评低置信；`Course.query()` 默认排除这些题目，可传 `exclude_quarantined=False` 显式包含。
 - **`quality.overlap_hint`**：`001548` 中严镇军《数学物理方法》第一篇（`yan_mp_part1`）与《复变函数》（`yan_complex`）存在内容重叠，如需去重可直接过滤 `exclude_batches=["yan_mp_part1"]`。
@@ -137,9 +150,11 @@ paper = bank["001548"].sample(
     exclude_batches=["yan_mp_part1"],
 )
 
-# 按全局 ID 精确查找
+# 按全局 ID 精确查找 & 解析带图题资产路径（兼容本地与外置 CDN）
 q = bank.get("MATH1007-exam-2026f-01")
 print(q.stem_md)
+for fig in q.stem_figures:
+    print(bank[q.course_code].resolve_asset(fig.path))
 ```
 
 ### 2. 编译为 SQLite + FTS5 全文检索引擎
@@ -212,14 +227,30 @@ const questions: QuestionRecord[] = raw
 
 各课程的详细勘误与已知局限见对应 `courses/<course_code>/meta.json` 中的 `known_notes` 字段。
 
+## 加入共建 / 寻找 Contributor
+
+这个仓库的长期目标是覆盖中科大尽可能多的本科核心课程（数分、线代、概率、大物、数理方法、专业课等），靠一个人很难维护全校所有课程的录入与校对。**非常欢迎中科大的同学、校友以及任何愿意帮忙的朋友成为 Contributor：**
+
+- **认领一门课**：整理你正在学或刚考完的课程真题/习题（哪怕先交 1 套结构化真题也很棒）。
+- **随手勘误**：刷题时发现 OCR 错字、LaTeX 符号偏差或答案有误，直接提 [勘误 Issue](.github/ISSUE_TEMPLATE/errata.yml) 或 PR。
+- **核对存疑题**：帮忙核对 `quarantined: true` 的低置信/手写回忆题。
+- **绘制题图**：给带图题目绘制清晰的 SVG / WebP 配图。
+- **共建生态**：基于本库开发刷题网站、Anki 制卡脚本、组卷工具或 Agent 插件，欢迎在 README 展示你的项目。
+
+具体格式要求和校验命令见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+## 联系方式
+
+- **维护者 GitHub**：[@DDNdles](https://github.com/DDNdles)
+- **勘误 / 新课程认领**：直接在 [GitHub Issues](https://github.com/DDNdles/USTC-Question-Bank/issues) 开帖（推荐，公开可追溯）
+- **其他联系方式**：<!-- 如需补充公开邮箱 / QQ 群 / 微信，可在此处填写 -->
+
 ## 校验与开发
 
 ```bash
 python scripts/validate.py
 python -m unittest discover -s tests -v
 ```
-
-发现题干、答案或解析错误，请使用 [勘误 Issue 模板](.github/ISSUE_TEMPLATE/errata.yml) 反馈或直接提交 PR（参见 [CONTRIBUTING.md](CONTRIBUTING.md)）。
 
 ## 许可与致谢
 

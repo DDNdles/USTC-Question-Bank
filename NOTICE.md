@@ -17,7 +17,7 @@ This repository does **not** host scanned textbook PDFs, raw exam PDFs, or full-
 
 | Course | Batch (`source.batch`) | Rights Class | Original Source / Attribution |
 | --- | --- | --- | --- |
-| `001548` 复变函数B | `complex_b`, `complex_b_midterm` | `third_party_exam` | 中国科学技术大学《复变函数B》2003–2026 历年真题及公开参考答案；部分 2019–2020 答案源自 renyixin 公开文档；索引入口见 [USTC_Study_Materials_Navigation](https://github.com/TwinJades/USTC_Study_Materials_Navigation)、feixu 镜像、`ustcmathexams`、评课社区 (`icourse.club`) |
+| `001548` 复变函数B | `complex_b`, `complex_b_midterm` | `third_party_exam` | 中国科学技术大学《复变函数B》2003–2026 历年真题及公开参考答案；部分 2019–2020 答案源自 renyixin 公开文档；索引入口见 [USTC_Study_Materials_Navigation](https://github.com/TwinJades/USTC_Study_Materials_Navigation)、feixu 镜像、`ustcmathexam`、评课社区 (`icourse.club`) |
 | `001548` 复变函数B | `jiangyi_examples` | `third_party_notes` | 舒文炫《复变函数B期末复习讲义》（第二版）例题 |
 | `001548` 复变函数B | `github_workbook` | `third_party_community` | GitHub [`jieyou520/-`](https://github.com/jieyou520/-) 复变函数期末复习题库（原仓库无 LICENSE） |
 | `001548` 复变函数B | `yan_complex` | `third_party_textbook` | 严镇军《复变函数》（第 2 版，中国科学技术大学出版社）第 1–9 章课后习题及书末部分参考答案 |

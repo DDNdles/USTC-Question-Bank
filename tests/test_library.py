@@ -57,6 +57,17 @@ class TestQuestionBank(unittest.TestCase):
         self.assertEqual([q.id for q in s1], [q.id for q in s2])
         self.assertTrue(all(q.source_batch != "yan_mp_part1" for q in s1))
 
+    def test_figures_and_asset_resolution(self) -> None:
+        c = self.bank["001548"]
+        self.assertEqual(len(c.query(has_figures=True)), 0)
+        local_resolved = c.resolve_asset("assets/demo.svg")
+        self.assertTrue(local_resolved.endswith(str(pathlib.Path("courses") / "001548" / "assets" / "demo.svg")))
+        c_cdn = type(c)(ROOT, "001548", asset_base_url="https://cdn.example.com/qbank")
+        self.assertEqual(
+            c_cdn.resolve_asset("assets/demo.svg"),
+            "https://cdn.example.com/qbank/courses/001548/assets/demo.svg",
+        )
+
     def test_build_sqlite_and_fts(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             db_path = build_sqlite(pathlib.Path(tmp) / "qbank.sqlite", root=ROOT)

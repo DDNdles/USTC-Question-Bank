@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Validate USTC-Question-Bank data integrity, schema compliance, taxonomy refs,
-LaTeX delimiter balance, SHA-256 checksums, and forbidden binary assets.
+figure asset rules, LaTeX delimiter balance, SHA-256 checksums, and forbidden assets.
 
 Zero third-party dependencies (runs cleanly on stock Python >= 3.10).
 """
@@ -28,8 +28,11 @@ ALLOWED_RIGHTS = {
     "third_party_community",
     "third_party_textbook_and_community",
 }
-FORBIDDEN_SUFFIXES = {".pdf", ".sqlite", ".sqlite3", ".db", ".png", ".jpg", ".jpeg", ".zip", ".rar"}
+ALLOWED_ASSET_SUFFIXES = {".svg", ".webp", ".png"}
+MAX_ASSET_BYTES = 500 * 1024  # 500 KB per figure
+FORBIDDEN_SUFFIXES = {".pdf", ".sqlite", ".sqlite3", ".db", ".zip", ".rar", ".jpg", ".jpeg"}
 ID_PATTERN = re.compile(r"^[A-Za-z0-9]+-[A-Za-z0-9._-]+$")
+ASSET_PATH_PATTERN = re.compile(r"^assets/[A-Za-z0-9._/-]+\.(svg|webp|png)$")
 
 
 def sha256_file(path: pathlib.Path) -> str:
@@ -38,28 +41,70 @@ def sha256_file(path: pathlib.Path) -> str:
 
 def check_latex_dollars(text: str) -> bool:
     """Return True if unescaped single/double dollar delimiters are balanced."""
-    # Remove escaped \$
     cleaned = re.sub(r"\\\$", "", text)
-    # Replace display $$ first
     if cleaned.count("$$") % 2 != 0:
         return False
     cleaned = cleaned.replace("$$", "")
     return cleaned.count("$") % 2 == 0
 
 
+def validate_figures(
+    qid: str,
+    course_dir: pathlib.Path,
+    figures: list,
+    asset_base_url: str | None,
+    referenced_assets: set[str],
+    errors: list[str],
+) -> None:
+    if not isinstance(figures, list):
+        errors.append(f"[{qid}] figures must be an array")
+        return
+    for fig in figures:
+        fpath = fig.get("path", "")
+        if not ASSET_PATH_PATTERN.match(fpath):
+            errors.append(f"[{qid}] invalid figure path {fpath!r} (expected assets/*.svg|webp|png)")
+            continue
+        if not (fig.get("alt") or "").strip():
+            errors.append(f"[{qid}] figure {fpath!r} missing alt text")
+        referenced_assets.add(fpath)
+        if asset_base_url is None:
+            local_asset = course_dir / fpath
+            if not local_asset.is_file():
+                errors.append(f"[{qid}] missing local figure file: {local_asset.relative_to(ROOT).as_posix()}")
+            else:
+                if local_asset.stat().st_size > MAX_ASSET_BYTES:
+                    errors.append(
+                        f"[{qid}] figure {fpath} exceeds {MAX_ASSET_BYTES // 1024} KB limit"
+                    )
+                expected_sha = fig.get("sha256")
+                if expected_sha and sha256_file(local_asset) != expected_sha:
+                    errors.append(f"[{qid}] figure sha256 mismatch for {fpath}")
+
+
 def main() -> int:
     errors: list[str] = []
     warnings: list[str] = []
 
-    # 1. Check forbidden binary/raw files outside .git and dist/
+    # 1. Check forbidden raw/binary files outside .git and dist/
     for p in ROOT.rglob("*"):
         if not p.is_file():
             continue
         rel = p.relative_to(ROOT)
         if rel.parts[0] in {".git", "dist", "__pycache__"}:
             continue
-        if p.suffix.lower() in FORBIDDEN_SUFFIXES:
+        suf = p.suffix.lower()
+        if suf in FORBIDDEN_SUFFIXES:
             errors.append(f"Forbidden asset committed in repo: {rel.as_posix()}")
+        elif suf in ALLOWED_ASSET_SUFFIXES:
+            # Image assets are only allowed inside courses/<course_code>/assets/
+            if not (len(rel.parts) >= 4 and rel.parts[0] == "courses" and rel.parts[2] == "assets"):
+                errors.append(
+                    f"Image asset outside courses/<code >/assets/: {rel.as_posix()}"
+                )
+            elif p.stat().st_size > MAX_ASSET_BYTES:
+                errors.append(
+                    f"Image asset exceeds {MAX_ASSET_BYTES // 1024} KB limit: {rel.as_posix()}"
+                )
 
     # 2. Load manifest
     manifest_path = ROOT / "manifest.json"
@@ -67,6 +112,7 @@ def main() -> int:
         print("ERROR: manifest.json missing", file=sys.stderr)
         return 1
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    asset_base_url: str | None = manifest.get("asset_base_url")
 
     global_ids: set[str] = set()
     total_questions = 0
@@ -108,10 +154,10 @@ def main() -> int:
             if pid is not None and pid not in kp_ids:
                 errors.append(f"[{code}] taxonomy node {node['id']} has missing parent {pid}")
 
-        # Check questions.jsonl
         c_origins: Counter = Counter()
         c_quarantined = 0
         c_count = 0
+        referenced_assets: set[str] = set()
 
         for lineno, raw_line in enumerate(q_path.read_text(encoding="utf-8").splitlines(), start=1):
             if not raw_line.strip():
@@ -133,10 +179,13 @@ def main() -> int:
 
             if q.get("course_code") != code:
                 errors.append(f"[{qid}] course_code mismatch: {q.get('course_code')!r}")
-            if q.get("type") not in ALLOWED_TYPES:
-                errors.append(f"[{qid}] invalid type: {q.get('type')!r}")
+            qtype = q.get("type")
+            if qtype not in ALLOWED_TYPES:
+                errors.append(f"[{qid}] invalid type: {qtype!r}")
 
-            stem_md = (q.get("stem") or {}).get("md", "")
+            stem = q.get("stem") or {}
+            stem_md = stem.get("md", "")
+            options = q.get("options")
             ans = q.get("answer") or {}
             sol = q.get("solution") or {}
             tags = q.get("tags") or {}
@@ -145,6 +194,20 @@ def main() -> int:
 
             if not stem_md.strip():
                 errors.append(f"[{qid}] empty stem.md")
+            if not isinstance(options, list):
+                errors.append(f"[{qid}] options must be an array")
+            elif qtype in {"single", "multi"} and len(options) < 2:
+                errors.append(f"[{qid}] choice question ({qtype}) requires at least 2 options")
+
+            validate_figures(qid, c_dir, stem.get("figures", []), asset_base_url, referenced_assets, errors)
+            validate_figures(qid, c_dir, ans.get("figures", []), asset_base_url, referenced_assets, errors)
+            validate_figures(qid, c_dir, sol.get("figures", []), asset_base_url, referenced_assets, errors)
+            if isinstance(options, list):
+                for opt in options:
+                    validate_figures(
+                        qid, c_dir, opt.get("figures", []), asset_base_url, referenced_assets, errors
+                    )
+
             if not (ans.get("md") or "").strip():
                 errors.append(f"[{qid}] empty answer.md")
             if ans.get("origin") not in ALLOWED_ORIGINS:
@@ -179,6 +242,15 @@ def main() -> int:
             c_origins[ans.get("origin")] += 1
             if qual.get("quarantined"):
                 c_quarantined += 1
+
+        # Ensure no unreferenced orphan images under courses/<code>/assets/
+        assets_dir = c_dir / "assets"
+        if assets_dir.is_dir():
+            for asset in assets_dir.rglob("*"):
+                if asset.is_file():
+                    rel_asset = asset.relative_to(c_dir).as_posix()
+                    if rel_asset not in referenced_assets:
+                        errors.append(f"[{code}] unreferenced orphan asset: {rel_asset}")
 
         if c_count != meta["stats"]["total"] or c_count != c_entry["total"]:
             errors.append(

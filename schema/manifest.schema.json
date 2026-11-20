@@ -10,6 +10,7 @@
     "data_version",
     "updated_at",
     "repository",
+    "asset_base_url",
     "license",
     "stats",
     "courses"
@@ -20,6 +21,10 @@
     "data_version": { "type": "string" },
     "updated_at": { "type": "string" },
     "repository": { "type": "string" },
+    "asset_base_url": {
+      "type": ["string", "null"],
+      "description": "Optional external CDN/object-storage base URL for course figure assets when offloaded from Git."
+    },
     "license": {
       "type": "object",
       "required": ["code_and_schema", "question_content"],

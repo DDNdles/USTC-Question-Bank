@@ -14,6 +14,23 @@ export type RightsClass =
   | "third_party_community"
   | "third_party_textbook_and_community";
 
+export interface FigureRef {
+  id: string;
+  /** Course-relative POSIX path under courses/<course_code>/assets/, e.g. assets/fig-01.webp */
+  path: string;
+  alt: string;
+  caption?: string | null;
+  width?: number | null;
+  height?: number | null;
+  sha256?: string | null;
+}
+
+export interface QuestionOption {
+  key: string;
+  md: string;
+  figures?: FigureRef[];
+}
+
 export interface QuestionRecord {
   id: string;
   course_code: string;
@@ -21,15 +38,19 @@ export interface QuestionRecord {
   type: QuestionType;
   stem: {
     md: string;
+    figures: FigureRef[];
   };
+  options: QuestionOption[];
   answer: {
     md: string;
+    figures: FigureRef[];
     origin: AnswerOrigin;
     origin_detail: string;
   };
   solution: {
     md: string;
     steps: string[];
+    figures: FigureRef[];
   };
   tags: {
     kp_ids: string[];
@@ -115,6 +136,7 @@ export interface Manifest {
   data_version: string;
   updated_at: string;
   repository: string;
+  asset_base_url: string | null;
   license: {
     code_and_schema: string;
     question_content: string;

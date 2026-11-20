@@ -4,6 +4,7 @@
   "data_version": "0.1.0",
   "updated_at": "2026-11-20",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
+  "asset_base_url": null,
   "license": {
     "code_and_schema": "MIT",
     "question_content": "Third-party rights retained by original authors and publishers; see NOTICE.md"
@@ -54,9 +55,9 @@
         "questions": "courses/001548/questions.jsonl"
       },
       "sha256": {
-        "meta": "408fb39733ebe62892dd11902574b124f083591cca4602a8e4cf65d853461db7",
+        "meta": "c04cb2efbdcf8d99cb77a0b9a2fa57f7d36a0a81c44e4bd567e621e40300766f",
         "taxonomy": "94c7b1a0333ca92708f18e0404afc65b12597a19bb368323ab6c404e520e6268",
-        "questions": "b16f14a78bef086a503b93b5d2d44e48a93059e1ac1f045eeed02e6211313b17"
+        "questions": "8f1cf960605db27249fd592a63431255a8287ce3318cc2d8f5bd5ee338b1b87e"
       }
     },
     {
@@ -90,9 +91,9 @@
         "questions": "courses/MATH1006/questions.jsonl"
       },
       "sha256": {
-        "meta": "5aab2f7354c267e714d2c18b1806681fa2623d0b57596c4cad80829f2cab8882",
+        "meta": "def11644bd4d44fed0b83ba9e6c79553348cdceeeb78909a4101725a455b6d7d",
         "taxonomy": "6a1f918fd51fb2989248c76bddf2018e5912acc7226b01b8d7b8390471cd0039",
-        "questions": "9da2a8379904984e0a1420947a6e78a034777681b3dda622409b10c0ca0fc135"
+        "questions": "1e1658d79377ebe28ed210b73d8d78d4505590f8da41978b72f51a34d988df74"
       }
     },
     {
@@ -125,9 +126,9 @@
         "questions": "courses/MATH1007/questions.jsonl"
       },
       "sha256": {
-        "meta": "8a26842a10abc54b9eae890e9bd52c236424fe621836a38c0d1f17e8086b2f6f",
+        "meta": "74b8be6bfed85e360a9c65f0d255ff0aa59a0cc1d5b45bd7f1206403ad41bca5",
         "taxonomy": "d22a7d4d94164c4c28d35febee7253ddb60d23383eabaa90fff7bc19b86cccc3",
-        "questions": "4516693a72186cea64dd2ebc567a3cefd9af850749f92aa5379b35f423be18a8"
+        "questions": "81799adb01324382c79681da3985cc7e58ab75e2ac97bad9bb4e8cb1351d3e5f"
       }
     }
   ]

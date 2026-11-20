@@ -10,12 +10,71 @@
     "schema_version",
     "type",
     "stem",
+    "options",
     "answer",
     "solution",
     "tags",
     "source",
     "quality"
   ],
+  "$defs": {
+    "figure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "path", "alt"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9._-]+$",
+          "description": "Local figure identifier within the question (e.g., fig-1)."
+        },
+        "path": {
+          "type": "string",
+          "pattern": "^assets/[A-Za-z0-9._/-]+\\.(svg|webp|png)$",
+          "description": "Course-relative POSIX path under courses/<course_code>/assets/ (or joined with manifest.asset_base_url)."
+        },
+        "alt": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Accessible text description of the diagram/figure."
+        },
+        "caption": {
+          "type": ["string", "null"]
+        },
+        "width": {
+          "type": ["integer", "null"],
+          "minimum": 1
+        },
+        "height": {
+          "type": ["integer", "null"],
+          "minimum": 1
+        },
+        "sha256": {
+          "type": ["string", "null"],
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      }
+    },
+    "option": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "md"],
+      "properties": {
+        "key": {
+          "type": "string",
+          "pattern": "^[A-Z]$"
+        },
+        "md": {
+          "type": "string",
+          "minLength": 1
+        },
+        "figures": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/figure" }
+        }
+      }
+    }
+  },
   "properties": {
     "id": {
       "type": "string",
@@ -38,24 +97,37 @@
     "stem": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["md"],
+      "required": ["md", "figures"],
       "properties": {
         "md": {
           "type": "string",
           "minLength": 1,
           "description": "Question statement in Markdown + LaTeX."
+        },
+        "figures": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/figure" }
         }
       }
+    },
+    "options": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/option" },
+      "description": "Choice options for single/multi questions; empty array for blank/solve/proof."
     },
     "answer": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["md", "origin", "origin_detail"],
+      "required": ["md", "figures", "origin", "origin_detail"],
       "properties": {
         "md": {
           "type": "string",
           "minLength": 1,
           "description": "Concise final answer or key result in Markdown + LaTeX."
+        },
+        "figures": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/figure" }
         },
         "origin": {
           "type": "string",
@@ -71,7 +143,7 @@
     "solution": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["md", "steps"],
+      "required": ["md", "steps", "figures"],
       "properties": {
         "md": {
           "type": "string",
@@ -84,6 +156,10 @@
             "type": "string",
             "minLength": 1
           }
+        },
+        "figures": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/figure" }
         }
       }
     },
