@@ -127,10 +127,10 @@ paper = bank["001548"].sample(12, seed=2026, exclude_batches=["yan_mp_part1"])
 
 | 环节 | 模型 / 工具 | 说明 |
 | --- | --- | --- |
-| 仓库架构与工程设计 | <img src=".github/assets/logo-gemini.svg" width="16" height="16" align="absmiddle" alt="Gemini" /> **Gemini 4 Neon** | 数据契约、Schema、Python/TS 库、SQLite FTS5 与 CI 校验架构 |
-| 题目分析、标注与无答案题解析 | <img src=".github/assets/logo-deepseek.svg" width="16" height="16" align="absmiddle" alt="DeepSeek" /> **DeepSeek-v4.1-flash-1017** | 题目切分结构化、知识点与难度标注、勘误复核及无答案题独立求解 |
-| 数分教材详解上游底本 | <img src=".github/assets/logo-gemini.svg" width="16" height="16" align="absmiddle" alt="Gemini" /> **Gemini Pro**（`DongYaoZe` 上游） | `DongYaoZe` 仓库前言注明原作者以 Gemini Pro 会员起草初稿并经多轮人工校订（未注明具体小版本），入库时已二次复核 |
-| 试卷与教材 PDF OCR | <img src=".github/assets/logo-mineru.svg" width="16" height="16" align="absmiddle" alt="MinerU" /> **MinerU** @ <img src=".github/assets/logo-ustc107.svg" width="16" height="16" align="absmiddle" alt="USTC 107" /> **107.ustc.edu.cn** | 在中科大 107 平台自部署 MinerU GPU 作业完成版面与公式解析 |
+| 仓库架构与工程设计 | <img src="https://cdn.simpleicons.org/googlegemini/4285F4" width="16" height="16" align="absmiddle" alt="Gemini" /> **Gemini 4 Neon** | 数据契约、Schema、Python/TS 库、SQLite FTS5 与 CI 校验架构 |
+| 题目分析、标注与无答案题解析 | <img src="https://avatars.githubusercontent.com/u/148330874?s=64&v=4" width="16" height="16" align="absmiddle" alt="DeepSeek" /> **DeepSeek-v4.1-flash-1017** | 题目切分结构化、知识点与难度标注、勘误复核及无答案题独立求解 |
+| 数分教材详解上游底本 | <img src="https://cdn.simpleicons.org/googlegemini/4285F4" width="16" height="16" align="absmiddle" alt="Gemini" /> **Gemini Pro**（`DongYaoZe` 上游） | `DongYaoZe` 仓库前言注明原作者以 Gemini Pro 会员起草初稿并经多轮人工校订（未注明具体小版本），入库时已二次复核 |
+| 试卷与教材 PDF OCR | <img src="https://raw.githubusercontent.com/opendatalab/MinerU/master/docs/images/MinerU-logo.png" height="16" align="absmiddle" alt="MinerU" /> @ <img src="https://107.ustc.edu.cn/api/icon?type=favicon" width="16" height="16" align="absmiddle" alt="USTC 107" /> **107.ustc.edu.cn** | 在中科大 107 平台自部署 MinerU GPU 作业完成版面与公式解析 |
 
 ## 寻找 Contributor · 加入共建
 
@@ -143,7 +143,7 @@ paper = bank["001548"].sample(12, seed=2026, exclude_batches=["yan_mp_part1"])
 ## 联系方式
 
 - **GitHub**：[@DDNdles](https://github.com/DDNdles) · [Issues](https://github.com/DDNdles/USTC-Question-Bank/issues)
-- **中科大邮箱**：`<your-id>@mail.ustc.edu.cn`（待替换为你的校内邮箱）
+- **中科大邮箱**：[zzl_stella05@mail.ustc.edu.cn](mailto:zzl_stella05@mail.ustc.edu.cn)
 
 ---
 
