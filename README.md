@@ -1,35 +1,31 @@
 <div align="center">
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/hero-kraft-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset=".github/assets/hero-kraft.svg" />
-  <img alt="USTC-Question-Bank" src=".github/assets/hero-kraft.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/hero-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset=".github/assets/hero.svg" />
+  <img alt="USTC-Question-Bank" src=".github/assets/hero.svg" width="100%" />
 </picture>
-
-<br />
-
-<a href="LICENSE"><img alt="Code MIT" src="https://img.shields.io/badge/Code-MIT-8C4A27?style=flat-square&labelColor=3B2F27" /></a>
-<a href="manifest.json"><img alt="Questions 1,585" src="https://img.shields.io/badge/Questions-1%2C585-1E4E79?style=flat-square&labelColor=3B2F27" /></a>
-<a href="python/ustc_qbank"><img alt="Python >=3.10" src="https://img.shields.io/badge/Python-%E2%89%A53.10-4D6B53?style=flat-square&labelColor=3B2F27&logo=python&logoColor=F2E8D5" /></a>
-<a href="types/index.d.ts"><img alt="TypeScript" src="https://img.shields.io/badge/TS-Types-6E5A49?style=flat-square&labelColor=3B2F27&logo=typescript&logoColor=F2E8D5" /></a>
-<a href="scripts/build_sqlite.py"><img alt="SQLite FTS5" src="https://img.shields.io/badge/SQLite-FTS5-5C4B3B?style=flat-square&labelColor=3B2F27&logo=sqlite&logoColor=F2E8D5" /></a>
-
 <p>
-  <a href="#收录一览">收录一览</a> &nbsp;·&nbsp;
-  <a href="#仓库结构">仓库结构</a> &nbsp;·&nbsp;
-  <a href="#作为库使用">作为库使用</a> &nbsp;·&nbsp;
-  <a href="#ai-与数据管线说明">AI 管线</a> &nbsp;·&nbsp;
-  <a href="#上游来源">上游来源</a> &nbsp;·&nbsp;
-  <a href="#寻找-contributor--加入共建">加入共建</a>
+  <a href="LICENSE"><img alt="Code MIT" src="https://img.shields.io/badge/code-MIT-3A7BE0?style=flat-square&labelColor=24292F" /></a>
+  <a href="python/ustc_qbank"><img alt="Python >=3.10" src="https://img.shields.io/badge/python-%E2%89%A53.10-3A7BE0?style=flat-square&labelColor=24292F&logo=python&logoColor=white" /></a>
+  <a href="types/index.d.ts"><img alt="TypeScript" src="https://img.shields.io/badge/typescript-types-3A7BE0?style=flat-square&labelColor=24292F&logo=typescript&logoColor=white" /></a>
+  <a href="scripts/build_sqlite.py"><img alt="SQLite FTS5" src="https://img.shields.io/badge/sqlite-FTS5-3A7BE0?style=flat-square&labelColor=24292F&logo=sqlite&logoColor=white" /></a>
 </p>
-
+<p>
+  <a href="#收录一览">01 收录一览</a> &nbsp;&nbsp;
+  <a href="#仓库结构">02 仓库结构</a> &nbsp;&nbsp;
+  <a href="#作为库使用">03 作为库使用</a> &nbsp;&nbsp;
+  <a href="#ai-与数据管线说明">04 AI 管线</a> &nbsp;&nbsp;
+  <a href="#上游来源">05 上游来源</a> &nbsp;&nbsp;
+  <a href="#寻找-contributor--加入共建">06 加入共建</a> &nbsp;&nbsp;
+  <a href="#联系方式">07 联系方式</a>
+</p>
 </div>
-
----
 
 面向中国科学技术大学（USTC）本科课程的**结构化、可编程题库底座**。每道题含 Markdown + LaTeX 题干、答案、分步解析、知识点树标签与可信分级，可直接驱动刷题网站、LaTeX 组卷、Anki 制卡、RAG 检索与评测基准。
 
 > **许可边界**：仓库代码、Schema、知识点树与元数据采用 [MIT License](LICENSE)；第三方真题、教材习题及引用解答版权归原权利人所有，**不适用 MIT**，详阅 [NOTICE.md](NOTICE.md)。
+
+<img alt="01" src=".github/assets/route-01.svg" width="100%" />
 
 ## 收录一览
 
@@ -51,6 +47,8 @@
 - 详细勘误与局限见各课程 `courses/<课号>/meta.json` 的 `known_notes`。
 
 </details>
+
+<img alt="02" src=".github/assets/route-02.svg" width="100%" />
 
 ## 仓库结构
 
@@ -111,6 +109,8 @@ USTC-Question-Bank/
 
 </details>
 
+<img alt="03" src=".github/assets/route-03.svg" width="100%" />
+
 ## 作为库使用
 
 **Python（零第三方依赖）**
@@ -132,6 +132,8 @@ paper = bank["001548"].sample(12, seed=2026, exclude_batches=["yan_mp_part1"])
 - **Hugging Face / RAG**：`load_dataset("json", data_files="courses/MATH1006/questions.jsonl")`
 - **本地校验**：`python scripts/validate.py && python -m unittest discover -s tests -v`
 
+<img alt="04" src=".github/assets/route-04.svg" width="100%" />
+
 ## AI 与数据管线说明
 
 所有 AI 产出均通过 `answer.origin` 与 `quality` 透明标注：
@@ -142,6 +144,8 @@ paper = bank["001548"].sample(12, seed=2026, exclude_batches=["yan_mp_part1"])
 | 题目分析、标注与无答案题解析 | <img src="https://avatars.githubusercontent.com/u/148330874?s=64&v=4" width="16" height="16" align="absmiddle" alt="DeepSeek" /> [**DeepSeek-v4.1-flash-1017**](https://github.com/deepseek-ai) | 题目切分结构化、知识点与难度标注、勘误复核及无答案题独立求解 |
 | 数分教材详解上游底本 | <img src="https://cdn.simpleicons.org/googlegemini/4285F4" width="16" height="16" align="absmiddle" alt="Gemini" /> [**Gemini Pro**](https://deepmind.google/technologies/gemini/)（[`DongYaoZe`](https://github.com/DongYaoZe/math-analysis-lectures-solutions-USTC) 上游） | 原作者前言注明以 Gemini Pro 会员起草初稿并经多轮人工校订（未注明具体小版本），入库时已二次复核 |
 | 试卷与教材 PDF OCR | <a href="https://github.com/opendatalab/MinerU"><img src="https://raw.githubusercontent.com/opendatalab/MinerU/master/docs/images/MinerU-logo.png" height="16" align="absmiddle" alt="MinerU" /></a> @ <img src="https://107.ustc.edu.cn/api/icon?type=favicon" width="16" height="16" align="absmiddle" alt="USTC 107" /> [**107.ustc.edu.cn**](https://107.ustc.edu.cn/) | 在中科大 107 平台自部署 MinerU GPU 作业完成版面与公式解析 |
+
+<img alt="05" src=".github/assets/route-05.svg" width="100%" />
 
 ## 上游来源
 
@@ -157,6 +161,8 @@ paper = bank["001548"].sample(12, seed=2026, exclude_batches=["yan_mp_part1"])
 
 完整版权归属与侵删渠道见 [NOTICE.md](NOTICE.md)。
 
+<img alt="06" src=".github/assets/route-06.svg" width="100%" />
+
 ## 寻找 Contributor · 加入共建
 
 目标是覆盖中科大尽可能多的本科核心课程（线代、概率、大物、数理方法、计科与各院专业课）。单人维护覆盖全校非常吃力，**欢迎所有中科大同学与校友加入共建**：
@@ -164,6 +170,8 @@ paper = bank["001548"].sample(12, seed=2026, exclude_batches=["yan_mp_part1"])
 - 认领一门你熟悉的课程，哪怕先补录 1 套结构化真题
 - 刷题顺手提 [勘误 Issue](.github/ISSUE_TEMPLATE/errata.yml) 或 PR（详见 [CONTRIBUTING.md](CONTRIBUTING.md)）
 - 帮忙核对低置信题、重绘清晰 SVG/WebP 题图，或基于本库构建刷题/Anki/组卷工具
+
+<img alt="07" src=".github/assets/route-07.svg" width="100%" />
 
 ## 联系方式
 
