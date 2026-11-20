@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260">
+  <defs>
+    <pattern id="grid-l" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#E2E8F0" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="accent-l" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#004A98"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" rx="14" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <rect width="1200" height="260" rx="14" fill="url(#grid-l)" opacity="0.7"/>
+  <rect x="0" y="0" width="8" height="260" rx="4" fill="url(#accent-l)"/>
+  <g transform="translate(56, 54)">
+    <rect x="0" y="0" width="142" height="26" rx="13" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+    <circle cx="16" cy="13" r="4" fill="#004A98"/>
+    <text x="28" y="17.5" fill="#004A98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="600" letter-spacing="0.6">USTC · v0.1.0</text>
+    <text x="0" y="88" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="-1">USTC-Question-Bank</text>
+    <text x="0" y="124" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400">中国科学技术大学本科课程结构化题库  ·  JSONL / Taxonomy / SQLite FTS5</text>
+    <g transform="translate(0, 148)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+      <rect x="0" y="0" width="124" height="30" rx="6" fill="#FFFFFF" stroke="#CBD5E1"/>
+      <text x="14" y="20" fill="#1E293B"><tspan fill="#004A98" font-weight="700">3</tspan> Courses</text>
+      <rect x="136" y="0" width="164" height="30" rx="6" fill="#FFFFFF" stroke="#CBD5E1"/>
+      <text x="150" y="20" fill="#1E293B"><tspan fill="#004A98" font-weight="700">1,585</tspan> Questions</text>
+      <rect x="312" y="0" width="146" height="30" rx="6" fill="#FFFFFF" stroke="#CBD5E1"/>
+      <text x="326" y="20" fill="#1E293B"><tspan fill="#059669" font-weight="700">100%</tspan> Solved</text>
+      <rect x="470" y="0" width="152" height="30" rx="6" fill="#FFFFFF" stroke="#CBD5E1"/>
+      <text x="484" y="20" fill="#1E293B"><tspan fill="#004A98" font-weight="700">94</tspan> KP Nodes</text>
+    </g>
+  </g>
+  <g transform="translate(948, 56)">
+    <rect x="0" y="0" width="196" height="148" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+    <text x="18" y="28" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">courses/MATH1006</text>
+    <line x1="18" y1="38" x2="178" y2="38" stroke="#E2E8F0"/>
+    <text x="18" y="64" fill="#004A98" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">001548   · 571</text>
+    <text x="18" y="88" fill="#004A98" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">MATH1006 · 445</text>
+    <text x="18" y="112" fill="#004A98" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">MATH1007 · 569</text>
+    <text x="18" y="134" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">... more courses</text>
+  </g>
+</svg>

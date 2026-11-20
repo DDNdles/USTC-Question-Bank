@@ -96,10 +96,21 @@ def main() -> int:
         if suf in FORBIDDEN_SUFFIXES:
             errors.append(f"Forbidden asset committed in repo: {rel.as_posix()}")
         elif suf in ALLOWED_ASSET_SUFFIXES:
-            # Image assets are only allowed inside courses/<course_code>/assets/
-            if not (len(rel.parts) >= 4 and rel.parts[0] == "courses" and rel.parts[2] == "assets"):
+            # Allow branding SVGs in .github/assets/ and question figures in courses/<code>/assets/
+            is_branding_svg = (
+                len(rel.parts) == 3
+                and rel.parts[0] == ".github"
+                and rel.parts[1] == "assets"
+                and suf == ".svg"
+            )
+            is_course_asset = (
+                len(rel.parts) >= 4
+                and rel.parts[0] == "courses"
+                and rel.parts[2] == "assets"
+            )
+            if not (is_branding_svg or is_course_asset):
                 errors.append(
-                    f"Image asset outside courses/<code >/assets/: {rel.as_posix()}"
+                    f"Image asset outside courses/<code>/assets/ or .github/assets/*.svg: {rel.as_posix()}"
                 )
             elif p.stat().st_size > MAX_ASSET_BYTES:
                 errors.append(
