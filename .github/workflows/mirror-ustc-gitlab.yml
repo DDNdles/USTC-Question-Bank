@@ -1,0 +1,34 @@
+name: Mirror to USTC GitLab
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  workflow_dispatch:
+
+concurrency:
+  group: mirror-ustc-gitlab
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+
+      - name: Push main and tags to git.ustc.edu.cn
+        env:
+          USTC_GITLAB_TOKEN: ${{ secrets.USTC_GITLAB_TOKEN }}
+        run: |
+          if [ -z "$USTC_GITLAB_TOKEN" ]; then
+            echo "USTC_GITLAB_TOKEN secret is not set; skipping mirror."
+            exit 0
+          fi
+          AUTH=$(printf "oauth2:%s" "$USTC_GITLAB_TOKEN" | base64 -w 0)
+          git -c "http.https://git.ustc.edu.cn/.extraHeader=Authorization: Basic ${AUTH}" \
+            push https://git.ustc.edu.cn/zzl_stella05/USTC-Question-Bank.git \
+            refs/heads/main:refs/heads/main --tags

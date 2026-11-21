@@ -123,6 +123,8 @@ USTC-Question-Bank/
 
 ```bash
 git clone https://github.com/DDNdles/USTC-Question-Bank.git && pip install -e ./USTC-Question-Bank
+# 中科大校内 / 国内直连镜像（git.ustc.edu.cn，自动同步）：
+# git clone https://git.ustc.edu.cn/zzl_stella05/USTC-Question-Bank.git
 ```
 
 ```python
@@ -184,4 +186,5 @@ paper = bank["001548"].sample(12, seed=2026, exclude_batches=["yan_mp_part1"])
 ## 联系方式
 
 - **GitHub**：[@DDNdles](https://github.com/DDNdles) · [Issues](https://github.com/DDNdles/USTC-Question-Bank/issues)
+- **USTC GitLab 镜像**：[git.ustc.edu.cn/zzl_stella05/USTC-Question-Bank](https://git.ustc.edu.cn/zzl_stella05/USTC-Question-Bank)（校内/国内免梯子直连，自动同步）
 - **中科大邮箱**：[zzl_stella05@mail.ustc.edu.cn](mailto:zzl_stella05@mail.ustc.edu.cn)
