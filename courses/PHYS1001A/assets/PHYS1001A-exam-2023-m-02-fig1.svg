@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 250" width="260" height="250">
+<rect width="260" height="250" rx="6" fill="#FFFFFF"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#15181E"/></marker><marker id="arr_blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#1F5FC9"/></marker></defs>
+<line x1="70.0" y1="28.0" x2="190.0" y2="28.0" stroke="#15181E" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="74.0" y1="28.0" x2="79.0" y2="20.0" stroke="#555A62" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="84.0" y1="28.0" x2="89.0" y2="20.0" stroke="#555A62" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="94.0" y1="28.0" x2="99.0" y2="20.0" stroke="#555A62" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="104.0" y1="28.0" x2="109.0" y2="20.0" stroke="#555A62" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="114.0" y1="28.0" x2="119.0" y2="20.0" stroke="#555A62" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="124.0" y1="28.0" x2="129.0" y2="20.0" stroke="#555A62" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="134.0" y1="28.0" x2="139.0" y2="20.0" stroke="#555A62" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="144.0" y1="28.0" x2="149.0" y2="20.0" stroke="#555A62" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="154.0" y1="28.0" x2="159.0" y2="20.0" stroke="#555A62" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="164.0" y1="28.0" x2="169.0" y2="20.0" stroke="#555A62" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="174.0" y1="28.0" x2="179.0" y2="20.0" stroke="#555A62" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="184.0" y1="28.0" x2="189.0" y2="20.0" stroke="#555A62" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="130.0" y1="28.0" x2="130.0" y2="74.0" stroke="#15181E" stroke-width="2.0" stroke-linecap="round"/>
+<circle cx="130.0" cy="74.0" r="24.0" fill="#F3F5F8" stroke="#15181E" stroke-width="2.0"/>
+<circle cx="130.0" cy="74.0" r="3.0" fill="#15181E" stroke="#15181E" stroke-width="1.8"/>
+<path fill="#15181E" d="M163.8 54Q165.6 54 166.5 54.7Q167.4 55.4 167.4 56.8Q167.4 57.6 167.1 58.2Q166.8 58.7 166.4 59Q165.9 59.3 165.4 59.5L168.1 64H166.7L164.3 59.9H162.3V64H161V54ZM163.7 55.1H162.3V58.8H163.8Q165 58.8 165.5 58.3Q166.1 57.8 166.1 56.9Q166.1 55.9 165.5 55.5Q164.9 55.1 163.7 55.1Z"/>
+<line x1="106.0" y1="74.0" x2="106.0" y2="186.0" stroke="#15181E" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="154.0" y1="74.0" x2="154.0" y2="186.0" stroke="#15181E" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="92.0" y="186.0" width="28.0" height="28.0" fill="#FFFFFF" stroke="#15181E" stroke-width="1.8"/>
+<path fill="#15181E" d="M105.4 197.4Q106.7 197.4 107.3 198Q108 198.7 108 200.1V205H106.7V200.2Q106.7 198.4 105.2 198.4Q104.1 198.4 103.7 199Q103.2 199.7 103.2 200.9V205H102V200.2Q102 198.4 100.4 198.4Q99.3 198.4 98.9 199.1Q98.4 199.8 98.4 201.1V205H97.2V197.5H98.2L98.4 198.5H98.4Q98.8 197.9 99.4 197.6Q100 197.4 100.6 197.4Q102.4 197.4 102.9 198.6H103Q103.4 198 104 197.7Q104.7 197.4 105.4 197.4Z"/>
+<path fill="#15181E" d="M113.6 208.5H112.7V203.6Q112.7 203.2 112.7 202.9Q112.7 202.7 112.8 202.4Q112.6 202.6 112.5 202.7Q112.4 202.8 112.2 202.9L111.4 203.6L111 203L112.9 201.5H113.6Z"/>
+<rect x="138.0" y="186.0" width="32.0" height="32.0" fill="#E9ECF0" stroke="#15181E" stroke-width="1.8"/>
+<path fill="#15181E" d="M153.4 199.4Q154.7 199.4 155.3 200Q156 200.7 156 202.1V207H154.7V202.2Q154.7 200.4 153.2 200.4Q152.1 200.4 151.7 201Q151.2 201.7 151.2 202.9V207H150V202.2Q150 200.4 148.4 200.4Q147.3 200.4 146.9 201.1Q146.4 201.8 146.4 203.1V207H145.2V199.5H146.2L146.4 200.5H146.4Q146.8 199.9 147.4 199.6Q148 199.4 148.6 199.4Q150.4 199.4 150.9 200.6H151Q151.4 200 152 199.7Q152.7 199.4 153.4 199.4Z"/>
+<path fill="#15181E" d="M163.2 210.5H158.6V209.8L160.4 207.9Q160.9 207.4 161.3 207Q161.6 206.6 161.8 206.2Q162 205.8 162 205.3Q162 204.7 161.7 204.4Q161.3 204.1 160.8 204.1Q160.3 204.1 159.9 204.3Q159.5 204.5 159.1 204.8L158.6 204.2Q159.1 203.9 159.6 203.6Q160.1 203.4 160.8 203.4Q161.8 203.4 162.3 203.9Q162.9 204.4 162.9 205.3Q162.9 205.8 162.7 206.3Q162.5 206.8 162 207.2Q161.6 207.7 161.1 208.2L159.6 209.7V209.7H163.2Z"/>
+<line x1="106.0" y1="174.0" x2="106.0" y2="138.0" stroke="#1F5FC9" stroke-width="1.3" stroke-linecap="round" marker-end="url(#arr_blue)"/>
+<path fill="#1F5FC9" d="M92.6 156H91.4V147.1H88.2V146H95.7V147.1H92.6Z"/>
+<line x1="154.0" y1="174.0" x2="154.0" y2="138.0" stroke="#1F5FC9" stroke-width="1.3" stroke-linecap="round" marker-end="url(#arr_blue)"/>
+<path fill="#1F5FC9" d="M168.6 156H167.4V147.1H164.2V146H171.7V147.1H168.6Z"/>
+</svg>
