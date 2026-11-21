@@ -34,7 +34,8 @@
 | `001548` | 复变函数B | 571 | 229 | 26 | 316 | 7 | 2003–2025 | 35 |
 | `MATH1006` | 数学分析(B1) | 445 | 133 | 300 | 12 | 0 | 2016–2025 | 31 |
 | `MATH1007` | 数学分析(B2) | 569 | 131 | 438 | 0 | 0 | 2018–2026 | 28 |
-| **合计** | **3 门课程** | **1,585** | **493** | **764** | **328** | **7** | — | **94** |
+| `MATH1009` | 线性代数(B1) | 885 | 611 | 273 | 1 | 0 | 2011–2026 | 41 |
+| **合计** | **4 门课程** | **2,470** | **1,104** | **1,037** | **329** | **7** | — | **135** |
 
 - **100% 含答案与分步解析**。`official` 为原卷/书末标答，`community` 为非官方书面详解，`ai` 为模型或独立推导。
 
@@ -44,6 +45,7 @@
 - **`001548` 复变函数B**：`complex_b` (225，14 套期末含补考)、`complex_b_midterm` (3，2023 期中)、`jiangyi_examples` (10，舒文炫讲义)、`github_workbook` (40，[`jieyou520/-`](https://github.com/jieyou520/-))、`yan_complex` (127，严镇军《复变函数》第 2 版)、`yan_mp_part1` (99，与 `yan_complex` 部分重叠，去重可排除)、`yan_mp_part2` (67，《数学物理方法》第二篇)。
 - **`MATH1006` 数学分析(B1)**：`ma1_exams` (145，2016 小测 + 2017–2025 期中/期末 18 套)、`ma1_textbook` (300，《数学分析讲义》第一册，[`DongYaoZe`](https://github.com/DongYaoZe/math-analysis-lectures-solutions-USTC) 详解)。
 - **`MATH1007` 数学分析(B2)**：`ma2_exams` (131，2018–2026 期中/期末 17 套)、`ma2_textbook` (438，《数学分析讲义》第二册，[`DongYaoZe`](https://github.com/DongYaoZe/math-analysis-lectures-solutions-USTC) 详解)。
+- **`MATH1009` 线性代数(B1)**：`la1_exams` (566，2010–2026 学年 42 套期中/期末，含花开花败 20 套参考解答 + 22 套单卷)、`la1_textbook` (319，李尚志《线性代数学习指导》第 1–4、6、8、9 章例题分析与解答)。
 - 详细勘误与局限见各课程 `courses/<课号>/meta.json` 的 `known_notes`。
 
 </details>
@@ -58,7 +60,7 @@
 USTC-Question-Bank/
 ├── manifest.json                 # 全库索引、统计、SHA-256 与外置资产基址
 ├── schema/                       # JSON Schema (2020-12): manifest / question / taxonomy
-├── courses/<course_code>/        # 001548 / MATH1006 / MATH1007 / ...
+├── courses/<course_code>/        # 001548 / MATH1006 / MATH1007 / MATH1009 / ...
 │   ├── meta.json                 # 课程元数据与批次统计
 │   ├── taxonomy.json             # 知识点层次树
 │   ├── questions.jsonl           # 单题流（按稳定全局 ID 排序）
@@ -152,12 +154,13 @@ paper = bank["001548"].sample(12, seed=2026, exclude_batches=["yan_mp_part1"])
 | 上游项目 / 站点 | 对应内容 | 链接 |
 | --- | --- | --- |
 | 中科大本科课程资料导航 | 课程资料总索引入口 | [TwinJades/USTC_Study_Materials_Navigation](https://github.com/TwinJades/USTC_Study_Materials_Navigation) |
-| feixu 镜像站 | 复变/数分历年真题、参考答案、舒文炫复习讲义 | [share.feixu.site](https://share.feixu.site/) |
-| USTC Math Exam | 复变/数分近年真题卷面 PDF | [ustcmathexam.github.io](https://ustcmathexam.github.io/) |
-| USTC 评课社区 | 2023 秋复变函数B期中参考答案 | [icourse.club](https://icourse.club/) |
+| feixu 镜像站 | 复变/数分/线代历年真题、花开花败参考解答、舒文炫复习讲义 | [share.feixu.site](https://share.feixu.site/) |
+| USTC Math Exam | 复变/数分/线代近年真题卷面 PDF | [ustcmathexam.github.io](https://ustcmathexam.github.io/) |
+| USTC 评课社区 | 2023 秋复变期中答案、线代 B1 历年真题与解答附件 | [icourse.club](https://icourse.club/) |
 | 《数学分析讲义》非官方习题详解 | 数分 B1/B2 教材第 1–13 章详解底本（`origin=community`） | [DongYaoZe/math-analysis-lectures-solutions-USTC](https://github.com/DongYaoZe/math-analysis-lectures-solutions-USTC) |
 | 复变函数期末复习题库 | 复变 40 题复习题集（`github_workbook`） | [jieyou520/-](https://github.com/jieyou520/-) |
 | 数学分析历年真题汇编与讲义 | 补充卷面与课程范围核对 | [Passiflora-sago/Passiflora-sago.github.io](https://github.com/Passiflora-sago/Passiflora-sago.github.io) |
+| 线代 B1 公开课程资料归档 | 线代 B1 往年真题卷面补充来源 | [fandahao17/USTC-CS-Courses-Resource](https://github.com/fandahao17/USTC-CS-Courses-Resource) · [Wloner0809/ustc-course-resource](https://github.com/Wloner0809/ustc-course-resource) |
 
 完整版权归属与侵删渠道见 [NOTICE.md](NOTICE.md)。
 
@@ -165,7 +168,7 @@ paper = bank["001548"].sample(12, seed=2026, exclude_batches=["yan_mp_part1"])
 
 ## 寻找 Contributor · 加入共建
 
-目标是覆盖中科大尽可能多的本科核心课程（线代、概率、大物、数理方法、计科与各院专业课）。单人维护覆盖全校非常吃力，**欢迎所有中科大同学与校友加入共建**：
+目标是覆盖中科大尽可能多的本科核心课程（线代 B2/A、概率、大物、数理方法、计科与各院专业课）。单人维护覆盖全校非常吃力，**欢迎所有中科大同学与校友加入共建**：
 
 - 认领一门你熟悉的课程，哪怕先补录 1 套结构化真题
 - 刷题顺手提 [勘误 Issue](.github/ISSUE_TEMPLATE/errata.yml) 或 PR（详见 [CONTRIBUTING.md](CONTRIBUTING.md)）
