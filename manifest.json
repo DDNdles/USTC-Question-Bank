@@ -1,7 +1,7 @@
 {
   "name": "USTC-Question-Bank",
   "schema_version": "1.0",
-  "data_version": "0.2.0",
+  "data_version": "0.3.0",
   "updated_at": "2026-11-21",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
   "asset_base_url": null,
@@ -10,13 +10,13 @@
     "question_content": "Third-party rights retained by original authors and publishers; see NOTICE.md"
   },
   "stats": {
-    "courses": 4,
-    "questions": 2470,
-    "quarantined": 7,
+    "courses": 6,
+    "questions": 4256,
+    "quarantined": 21,
     "by_origin": {
-      "official": 1104,
-      "community": 1037,
-      "ai": 329
+      "official": 2384,
+      "community": 1226,
+      "ai": 646
     }
   },
   "courses": [
@@ -168,6 +168,80 @@
         "meta": "ffe404e2c7a18b09cdaff2af17bc0e41b0f034cd9e70ebbb0326bff2f74aa34b",
         "taxonomy": "ba8d0730bb724b58344c8a48e59358e7a8734c29febb55fa863b04fea77d3a02",
         "questions": "e3f09c06e14b01ad1bb79d51c3391e0c8f9bcfe272ebd9495980159894ec77ca"
+      }
+    },
+    {
+      "code": "CS1003",
+      "name": "计算机程序设计",
+      "name_en": "Computer Programming",
+      "department": "计算机科学与技术学院",
+      "category": "common",
+      "total": 1533,
+      "quarantined": 0,
+      "by_origin": {
+        "official": 1231,
+        "community": 188,
+        "ai": 114
+      },
+      "exam_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2024,
+        2025
+      ],
+      "paths": {
+        "meta": "courses/CS1003/meta.json",
+        "taxonomy": "courses/CS1003/taxonomy.json",
+        "questions": "courses/CS1003/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "514138e99a8f51a8a6612d32982e3709829eab896a4c4ada56c64f7369bb4646",
+        "taxonomy": "46fa2b6f45eaacfac22a15a73debdc51f2dca04a5202afc6c1c8adc16858c663",
+        "questions": "f375e58775879961e328db756f78f2bb5e671b183f3436f0e5f8811e61c4d055"
+      }
+    },
+    {
+      "code": "PHYS1001A",
+      "name": "力学A",
+      "name_en": "Mechanics (A)",
+      "department": "物理学院",
+      "category": "common",
+      "total": 253,
+      "quarantined": 14,
+      "by_origin": {
+        "official": 49,
+        "community": 1,
+        "ai": 203
+      },
+      "exam_years": [
+        2006,
+        2008,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2020,
+        2021,
+        2023,
+        2024,
+        2025
+      ],
+      "paths": {
+        "meta": "courses/PHYS1001A/meta.json",
+        "taxonomy": "courses/PHYS1001A/taxonomy.json",
+        "questions": "courses/PHYS1001A/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "d32ff127404bbbd57d813db722b7a1ab9b8f53c4cb133bdabc31c0bda7ceb181",
+        "taxonomy": "c4bb47a4850489d389a9e2873c2b30fd6d6d9081af258ff0b7e09f0684cfe8df",
+        "questions": "42d7a17be18934e8882315d8842cc3f6bc6f44157d7ce9d4ec2670bd94608213"
       }
     }
   ]

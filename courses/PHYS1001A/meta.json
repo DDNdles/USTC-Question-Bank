@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "code": "PHYS1001A",
+  "name": "力学A",
+  "name_en": "Mechanics (A)",
+  "department": "物理学院",
+  "category": "common",
+  "description": "中国科学技术大学《力学A》（课号 PHYS1001A / A(L)）结构化题库，收录 2005–2026 学年期中/期末真题（含 A(L) 班卷与力学历年考题合集）及刚体笔记例题，并附 91 张经灰度优化压缩的 WebP 配图。",
+  "stats": {
+    "total": 253,
+    "quarantined": 14,
+    "taxonomy_nodes": 46,
+    "by_origin": {
+      "official": 49,
+      "community": 1,
+      "ai": 203
+    },
+    "by_type": {
+      "blank": 15,
+      "multi": 2,
+      "single": 12,
+      "solve": 224
+    },
+    "by_difficulty": {
+      "1": 4,
+      "2": 52,
+      "3": 129,
+      "4": 60,
+      "5": 8
+    },
+    "exam_years": [
+      2006,
+      2008,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2020,
+      2021,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "mech1_exams",
+      "count": 105,
+      "rights": "third_party_exam",
+      "description": "2016–2026 学年 14 套期中/期末真题（含 A(L) 班卷与回忆/照片卷）"
+    },
+    {
+      "id": "mech1_quiz",
+      "count": 147,
+      "rights": "third_party_exam",
+      "description": "力学历年考题合集（2005–2016 年 15 套期中/期末扫描卷）"
+    },
+    {
+      "id": "mech1_drill",
+      "count": 1,
+      "rights": "third_party_notes",
+      "description": "刚体笔记整理例题"
+    }
+  ],
+  "known_notes": [
+    "2016 秋「力学与热学」期末卷（10 题全为热学）与 2024 A(L) 班卷 II（粒子物理强子对撞题）超出力学A 课程范围，未收录。",
+    "2016–2018、2023–2025 期末卷采用原卷/公开参考答案（origin=official），原答案局部量纲或笔误已校订并记入 quality.note；其余无标答卷与合集由模型独立求解（origin=ai）。",
+    "全库共 14 道题设条件存在歧义或开放估算的低置信度题标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。",
+    "2012 年度力学期中二、7 原扫描件漏印插图，该题未挂图；其余 86 道带图题（共 88 张题干图 + 3 张解析图）已全部压缩为灰度 WebP 存入 courses/PHYS1001A/assets/。",
+    "2025-2026 秋期末简答 1、2 原卷参考答案仅注「能，略。」「潮汐，略。」，公开版已补充估算与潮汐角动量转移解析并在 quality.note 注明。"
+  ],
+  "files": {
+    "questions": "courses/PHYS1001A/questions.jsonl",
+    "taxonomy": "courses/PHYS1001A/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "42d7a17be18934e8882315d8842cc3f6bc6f44157d7ce9d4ec2670bd94608213",
+    "taxonomy": "c4bb47a4850489d389a9e2873c2b30fd6d6d9081af258ff0b7e09f0684cfe8df"
+  }
+}

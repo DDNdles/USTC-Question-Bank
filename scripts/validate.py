@@ -40,8 +40,10 @@ def sha256_file(path: pathlib.Path) -> str:
 
 
 def check_latex_dollars(text: str) -> bool:
-    """Return True if unescaped single/double dollar delimiters are balanced."""
-    cleaned = re.sub(r"\\\$", "", text)
+    """Return True if unescaped single/double dollar delimiters are balanced outside code."""
+    cleaned = re.sub(r"```[\s\S]*?```", "", text)
+    cleaned = re.sub(r"`[^`]*`", "", cleaned)
+    cleaned = re.sub(r"\\\$", "", cleaned)
     if cleaned.count("$$") % 2 != 0:
         return False
     cleaned = cleaned.replace("$$", "")

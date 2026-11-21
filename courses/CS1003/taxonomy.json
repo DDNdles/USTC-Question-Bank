@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "course_code": "CS1003",
+  "nodes": [
+    {
+      "id": "cs1.basics",
+      "parent_id": null,
+      "level": 1,
+      "name": "C 语言基本语法",
+      "chapter_ref": "第1-3章"
+    },
+    {
+      "id": "cs1.basics.type",
+      "parent_id": "cs1.basics",
+      "level": 2,
+      "name": "数据类型与常量变量",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.basics.op",
+      "parent_id": "cs1.basics",
+      "level": 2,
+      "name": "运算符与表达式",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.basics.ctrl",
+      "parent_id": "cs1.basics",
+      "level": 2,
+      "name": "分支与循环控制",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.func",
+      "parent_id": null,
+      "level": 1,
+      "name": "函数与程序结构",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "cs1.func.def",
+      "parent_id": "cs1.func",
+      "level": 2,
+      "name": "函数定义、调用与参数传递",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.func.rec",
+      "parent_id": "cs1.func",
+      "level": 2,
+      "name": "递归函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.func.scope",
+      "parent_id": "cs1.func",
+      "level": 2,
+      "name": "作用域与存储类别",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.array",
+      "parent_id": null,
+      "level": 1,
+      "name": "数组与字符串",
+      "chapter_ref": "第6-7章"
+    },
+    {
+      "id": "cs1.array.arr",
+      "parent_id": "cs1.array",
+      "level": 2,
+      "name": "一维与多维数组",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.array.str",
+      "parent_id": "cs1.array",
+      "level": 2,
+      "name": "字符串与字符处理",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.array.sort",
+      "parent_id": "cs1.array",
+      "level": 2,
+      "name": "排序与查找算法",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.ptr",
+      "parent_id": null,
+      "level": 1,
+      "name": "指针",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "cs1.ptr.def",
+      "parent_id": "cs1.ptr",
+      "level": 2,
+      "name": "指针定义与基本运算",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.ptr.arr",
+      "parent_id": "cs1.ptr",
+      "level": 2,
+      "name": "指针与数组、字符串",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.ptr.fn",
+      "parent_id": "cs1.ptr",
+      "level": 2,
+      "name": "指针与函数（传址、函数指针）",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.ptr.dyn",
+      "parent_id": "cs1.ptr",
+      "level": 2,
+      "name": "动态内存与链表",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.udt",
+      "parent_id": null,
+      "level": 1,
+      "name": "用户自定义类型",
+      "chapter_ref": "第9章"
+    },
+    {
+      "id": "cs1.udt.struct",
+      "parent_id": "cs1.udt",
+      "level": 2,
+      "name": "结构体",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.udt.union",
+      "parent_id": "cs1.udt",
+      "level": 2,
+      "name": "联合、枚举与位运算",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.udt.typedef",
+      "parent_id": "cs1.udt",
+      "level": 2,
+      "name": "typedef 与类型别名",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.io",
+      "parent_id": null,
+      "level": 1,
+      "name": "输入输出与文件",
+      "chapter_ref": "第10章"
+    },
+    {
+      "id": "cs1.io.std",
+      "parent_id": "cs1.io",
+      "level": 2,
+      "name": "标准输入输出与格式化",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.io.file",
+      "parent_id": "cs1.io",
+      "level": 2,
+      "name": "文件操作",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.preproc",
+      "parent_id": null,
+      "level": 1,
+      "name": "预处理与宏",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "cs1.preproc.def",
+      "parent_id": "cs1.preproc",
+      "level": 2,
+      "name": "宏定义与展开",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.preproc.inc",
+      "parent_id": "cs1.preproc",
+      "level": 2,
+      "name": "文件包含与条件编译",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.algo",
+      "parent_id": null,
+      "level": 1,
+      "name": "算法与流程",
+      "chapter_ref": "贯穿"
+    },
+    {
+      "id": "cs1.algo.flow",
+      "parent_id": "cs1.algo",
+      "level": 2,
+      "name": "流程图与伪代码",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.algo.design",
+      "parent_id": "cs1.algo",
+      "level": 2,
+      "name": "程序设计与模块化",
+      "chapter_ref": null
+    },
+    {
+      "id": "cs1.algo.trace",
+      "parent_id": "cs1.algo",
+      "level": 2,
+      "name": "程序跟踪与运行结果推导",
+      "chapter_ref": null
+    }
+  ]
+}

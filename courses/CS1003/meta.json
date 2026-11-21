@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "code": "CS1003",
+  "name": "计算机程序设计",
+  "name_en": "Computer Programming",
+  "department": "计算机科学与技术学院",
+  "category": "common",
+  "description": "中国科学技术大学《计算机程序设计》（C 语言，课号 CS1003 / CS1003L）结构化题库，收录 2018–2025 年 13 套期中/期末/补考/机考真题、2012/2024/2025 综合与模拟测试、公开 C 语言经典题库，以及指针专题与习题课练习，跨源同题已按 MD5 去重。",
+  "stats": {
+    "total": 1533,
+    "quarantined": 0,
+    "taxonomy_nodes": 31,
+    "by_origin": {
+      "official": 1231,
+      "community": 188,
+      "ai": 114
+    },
+    "by_type": {
+      "blank": 299,
+      "multi": 49,
+      "single": 868,
+      "solve": 317
+    },
+    "by_difficulty": {
+      "1": 392,
+      "2": 685,
+      "3": 363,
+      "4": 83,
+      "5": 10
+    },
+    "exam_years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2024,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "cs1_exams",
+      "count": 334,
+      "rights": "third_party_exam",
+      "description": "2018–2025 年 13 套期中/期末/补考/机考真题"
+    },
+    {
+      "id": "cs1_quiz",
+      "count": 319,
+      "rights": "third_party_textbook",
+      "description": "2012 学习指导综合测试 4 套 + 2024 秋模拟 4 套 + 2025 版复习测试 4 套"
+    },
+    {
+      "id": "cs1_banks",
+      "count": 750,
+      "rights": "third_party_community",
+      "description": "三份公开 C 语言题库（2009 试题集、理论上机 200+45 题、分类选择库）"
+    },
+    {
+      "id": "cs1_drill",
+      "count": 130,
+      "rights": "third_party_notes",
+      "description": "指针专题、期中练习、L 班习题课与期末上机习题课"
+    }
+  ],
+  "known_notes": [
+    "跨源重复题目（如 2025 版复习测试与 2024 秋模拟测试、2012 版学习指导含往年真题等）已按题干去重，仅保留一份，故个别年份分卷题数少于原始卷面。",
+    "少年班学院同学整理手写答案（sxl）、评课社区详细解析及 duxiaoyang 仓库修订答案标记为 origin=community；原卷官方答案、教材/题库附答及习题课课件答案标记为 origin=official；4 套无标答卷（2019 秋期中、2020 秋期末机考、2021 秋期中样卷等）由模型补解并经 gcc 实测核对，标记为 origin=ai。",
+    "少量原答案存在 C 语言语义错误（如海伦公式漏乘 s、完数循环上界 100 等），已按正确语义修正并在 quality.note 说明。",
+    "知识点树 31 节点中有 23 个二级节点有题，其余 8 个冷门小节（如 typedef、联合枚举、条件编译等）当前题源未覆盖。"
+  ],
+  "files": {
+    "questions": "courses/CS1003/questions.jsonl",
+    "taxonomy": "courses/CS1003/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "f375e58775879961e328db756f78f2bb5e671b183f3436f0e5f8811e61c4d055",
+    "taxonomy": "46fa2b6f45eaacfac22a15a73debdc51f2dca04a5202afc6c1c8adc16858c663"
+  }
+}
