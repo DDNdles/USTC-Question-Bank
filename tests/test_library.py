@@ -20,18 +20,24 @@ class TestQuestionBank(unittest.TestCase):
         cls.bank = QuestionBank(ROOT)
 
     def test_courses_and_totals(self) -> None:
-        self.assertEqual(self.bank.course_codes, ["001548", "MATH1006", "MATH1007"])
+        self.assertEqual(self.bank.course_codes, ["001548", "MATH1006", "MATH1007", "MATH1009"])
         self.assertEqual(len(self.bank["001548"]), 571)
         self.assertEqual(len(self.bank["MATH1006"]), 445)
         self.assertEqual(len(self.bank["MATH1007"]), 569)
-        self.assertEqual(len(self.bank.all_questions()), 1585)
-        self.assertEqual(len(self.bank.all_questions(exclude_quarantined=True)), 1578)
+        self.assertEqual(len(self.bank["MATH1009"]), 885)
+        self.assertEqual(len(self.bank.all_questions()), 2470)
+        self.assertEqual(len(self.bank.all_questions(exclude_quarantined=True)), 2463)
 
     def test_lookup_by_id(self) -> None:
         q = self.bank.get("MATH1006-tb-1.1.1")
         self.assertEqual(q.course_code, "MATH1006")
         self.assertEqual(q.answer_origin, "community")
         self.assertTrue(len(q.stem_md) > 0)
+
+        q_la = self.bank.get("MATH1009-tb-1.1.1")
+        self.assertEqual(q_la.course_code, "MATH1009")
+        self.assertEqual(q_la.answer_origin, "official")
+        self.assertTrue(len(q_la.stem_md) > 0)
 
     def test_taxonomy_subtree_query(self) -> None:
         c = self.bank["MATH1006"]
@@ -40,6 +46,9 @@ class TestQuestionBank(unittest.TestCase):
         expanded = c.expand_kp("ma1.lim")
         for q in lim_qs:
             self.assertTrue(expanded.intersection(q.kp_ids))
+
+        la_qs = self.bank["MATH1009"].query(kp="la1.map")
+        self.assertGreater(len(la_qs), 100)
 
     def test_filters_and_sampling(self) -> None:
         c = self.bank["001548"]
@@ -74,7 +83,7 @@ class TestQuestionBank(unittest.TestCase):
             conn = sqlite3.connect(db_path)
             try:
                 count = conn.execute("SELECT COUNT(*) FROM questions").fetchone()[0]
-                self.assertEqual(count, 1585)
+                self.assertEqual(count, 2470)
                 hits = conn.execute(
                     "SELECT id FROM questions_fts WHERE questions_fts MATCH 'Laurent' LIMIT 5"
                 ).fetchall()

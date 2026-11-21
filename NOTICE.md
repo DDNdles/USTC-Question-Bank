@@ -26,6 +26,8 @@ This repository does **not** host scanned textbook PDFs, raw exam PDFs, or full-
 | `MATH1006` 数学分析(B1) | `ma1_textbook` | `third_party_textbook_and_community` | 程艺、陈卿、李平《数学分析讲义》第一册课后习题；非官方详解源自 GitHub [`DongYaoZe/math-analysis-lectures-solutions-USTC`](https://github.com/DongYaoZe/math-analysis-lectures-solutions-USTC)（原仓库无 LICENSE，按 `origin: "community"` 标注） |
 | `MATH1007` 数学分析(B2) | `ma2_exams` | `third_party_exam` | 中国科学技术大学《数学分析(B2)》2018–2026 历年期中/期末真题及公开参考答案/评分细则（源自 [feixu 镜像](https://share.feixu.site/)、[ustcmathexam](https://ustcmathexam.github.io/)） |
 | `MATH1007` 数学分析(B2) | `ma2_textbook` | `third_party_textbook_and_community` | 程艺、陈卿、李平《数学分析讲义》第二册课后习题；非官方详解源自 GitHub [`DongYaoZe/math-analysis-lectures-solutions-USTC`](https://github.com/DongYaoZe/math-analysis-lectures-solutions-USTC)（原仓库无 LICENSE，按 `origin: "community"` 标注） |
+| `MATH1009` 线性代数(B1) | `la1_exams` | `third_party_exam` | 中国科学技术大学《线性代数(B1)》2010–2026 学年 42 套期中/期末真题及参考答案；其中花开花败《线性代数B1历年真题及参考解答》（2024-07，20 套，线代 B1 助教编写）按 `origin: "community"` 标注；来源包括 [USTC_Study_Materials_Navigation](https://github.com/TwinJades/USTC_Study_Materials_Navigation)、[ustcmathexam](https://ustcmathexam.github.io/)、[feixu 镜像](https://share.feixu.site/)、[评课社区](https://icourse.club/)、[`fandahao17/USTC-CS-Courses-Resource`](https://github.com/fandahao17/USTC-CS-Courses-Resource)、[`Wloner0809/ustc-course-resource`](https://github.com/Wloner0809/ustc-course-resource) |
+| `MATH1009` 线性代数(B1) | `la1_textbook` | `third_party_textbook` | 李尚志《线性代数学习指导》（中国科学技术大学出版社）第 1–4、6、8、9 章例题分析与解答 |
 
 ## 3. Downstream Usage Responsibility
 

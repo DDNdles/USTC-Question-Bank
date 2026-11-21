@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH1009",
+  "name": "线性代数(B1)",
+  "name_en": "Linear Algebra (B1)",
+  "department": "数学科学学院",
+  "category": "common",
+  "description": "中国科学技术大学《线性代数(B1)》（课号 MATH1009）结构化题库，收录 2010–2026 学年 42 套期中/期末真题，以及李尚志《线性代数学习指导》第 1–4、6、8、9 章例题分析与解答。",
+  "stats": {
+    "total": 885,
+    "quarantined": 0,
+    "taxonomy_nodes": 41,
+    "by_origin": {
+      "official": 611,
+      "community": 273,
+      "ai": 1
+    },
+    "by_type": {
+      "blank": 218,
+      "proof": 376,
+      "solve": 291
+    },
+    "by_difficulty": {
+      "1": 35,
+      "2": 287,
+      "3": 340,
+      "4": 193,
+      "5": 30
+    },
+    "exam_years": [
+      2011,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "la1_exams",
+      "count": 566,
+      "rights": "third_party_exam",
+      "description": "2010–2026 学年 42 套期中/期末真题（花开花败 20 套参考解答 + 22 套单卷）"
+    },
+    {
+      "id": "la1_textbook",
+      "count": 319,
+      "rights": "third_party_textbook",
+      "description": "李尚志《线性代数学习指导》第 1–4、6、8、9 章例题分析与解答"
+    }
+  ],
+  "known_notes": [
+    "《线性代数学习指导》按 B1 教学大纲收录第 1–4、6、8、9 章共 319 题（第 5 章多项式与第 7 章若尔当标准形不在 B1 大纲内）；第 9 章因分段处理，9.5.5 未收录。",
+    "2024-2025 第一学期期末（y2425_t1_fin）与 2023-2024 第二学期期末逐页 MD5 相同，判定为重复归档并跳过。",
+    "2016-2017 第二学期期末与 2018-2019 第一学期期中部分填空题原件仅存答案、题干不可还原（共 10 题），已按质量规则弃录。",
+    "花开花败《线性代数B1历年真题及参考解答》（20 套）标记为 origin=community；各单套真题原卷参考答案及李尚志《线性代数学习指导》标记为 origin=official；2017-2018 第二学期期中解答第 4 题原书截断由模型补全，标记为 origin=ai。",
+    "部分 2010–2019 年老卷（尤其 2015-2016 第二学期期末手写答案卷）由答案反推重建题干，原答案勘误已修正并在 quality.note 说明。"
+  ],
+  "files": {
+    "questions": "courses/MATH1009/questions.jsonl",
+    "taxonomy": "courses/MATH1009/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "e3f09c06e14b01ad1bb79d51c3391e0c8f9bcfe272ebd9495980159894ec77ca",
+    "taxonomy": "ba8d0730bb724b58344c8a48e59358e7a8734c29febb55fa863b04fea77d3a02"
+  }
+}

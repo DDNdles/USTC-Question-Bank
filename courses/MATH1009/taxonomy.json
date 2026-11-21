@@ -1,0 +1,293 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH1009",
+  "nodes": [
+    {
+      "id": "la1.vec",
+      "parent_id": null,
+      "level": 1,
+      "name": "向量与解析几何",
+      "chapter_ref": null
+    },
+    {
+      "id": "la1.vec.op",
+      "parent_id": "la1.vec",
+      "level": 2,
+      "name": "向量线性运算、内积与外积",
+      "chapter_ref": "讲义·第1章 向量"
+    },
+    {
+      "id": "la1.vec.geo",
+      "parent_id": "la1.vec",
+      "level": 2,
+      "name": "平面、直线与距离",
+      "chapter_ref": "讲义·第1章 向量"
+    },
+    {
+      "id": "la1.vec.area",
+      "parent_id": "la1.vec",
+      "level": 2,
+      "name": "面积体积与混合积",
+      "chapter_ref": "讲义·第1章 向量"
+    },
+    {
+      "id": "la1.sys",
+      "parent_id": null,
+      "level": 1,
+      "name": "线性方程组",
+      "chapter_ref": null
+    },
+    {
+      "id": "la1.sys.gauss",
+      "parent_id": "la1.sys",
+      "level": 2,
+      "name": "Gauss 消元与矩阵表示",
+      "chapter_ref": "讲义·第2章 线性方程组"
+    },
+    {
+      "id": "la1.sys.sol",
+      "parent_id": "la1.sys",
+      "level": 2,
+      "name": "解的存在性与解集结构",
+      "chapter_ref": "讲义·第2章 线性方程组"
+    },
+    {
+      "id": "la1.sys.param",
+      "parent_id": "la1.sys",
+      "level": 2,
+      "name": "含参数方程组讨论",
+      "chapter_ref": "讲义·第2章 线性方程组"
+    },
+    {
+      "id": "la1.mat",
+      "parent_id": null,
+      "level": 1,
+      "name": "矩阵",
+      "chapter_ref": null
+    },
+    {
+      "id": "la1.mat.op",
+      "parent_id": "la1.mat",
+      "level": 2,
+      "name": "矩阵运算、转置、共轭与迹",
+      "chapter_ref": "讲义·第4章 矩阵"
+    },
+    {
+      "id": "la1.mat.inv",
+      "parent_id": "la1.mat",
+      "level": 2,
+      "name": "逆矩阵与伴随矩阵",
+      "chapter_ref": "讲义·第4章 矩阵"
+    },
+    {
+      "id": "la1.mat.block",
+      "parent_id": "la1.mat",
+      "level": 2,
+      "name": "分块矩阵",
+      "chapter_ref": "讲义·第4章 矩阵"
+    },
+    {
+      "id": "la1.mat.elem",
+      "parent_id": "la1.mat",
+      "level": 2,
+      "name": "初等变换与初等矩阵",
+      "chapter_ref": "讲义·第4章 矩阵"
+    },
+    {
+      "id": "la1.mat.rank",
+      "parent_id": "la1.mat",
+      "level": 2,
+      "name": "矩阵的秩与相抵标准形",
+      "chapter_ref": "讲义·第4章 矩阵"
+    },
+    {
+      "id": "la1.det",
+      "parent_id": null,
+      "level": 1,
+      "name": "行列式",
+      "chapter_ref": null
+    },
+    {
+      "id": "la1.det.def",
+      "parent_id": "la1.det",
+      "level": 2,
+      "name": "行列式的定义与性质",
+      "chapter_ref": "讲义·第3章 行列式"
+    },
+    {
+      "id": "la1.det.calc",
+      "parent_id": "la1.det",
+      "level": 2,
+      "name": "行列式计算与展开",
+      "chapter_ref": "讲义·第3章 行列式"
+    },
+    {
+      "id": "la1.det.cramer",
+      "parent_id": "la1.det",
+      "level": 2,
+      "name": "Cramer 法则",
+      "chapter_ref": "讲义·第3章 行列式"
+    },
+    {
+      "id": "la1.det.geo",
+      "parent_id": "la1.det",
+      "level": 2,
+      "name": "行列式的几何意义",
+      "chapter_ref": "讲义·第3章 行列式"
+    },
+    {
+      "id": "la1.space",
+      "parent_id": null,
+      "level": 1,
+      "name": "线性空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "la1.space.dep",
+      "parent_id": "la1.space",
+      "level": 2,
+      "name": "线性相关与线性无关",
+      "chapter_ref": "讲义·第5章 线性空间"
+    },
+    {
+      "id": "la1.space.basis",
+      "parent_id": "la1.space",
+      "level": 2,
+      "name": "基、维数与坐标",
+      "chapter_ref": "讲义·第5章 线性空间"
+    },
+    {
+      "id": "la1.space.sub",
+      "parent_id": "la1.space",
+      "level": 2,
+      "name": "子空间、交与和",
+      "chapter_ref": "讲义·第5章 线性空间"
+    },
+    {
+      "id": "la1.space.sum",
+      "parent_id": "la1.space",
+      "level": 2,
+      "name": "直和与补空间",
+      "chapter_ref": "讲义·第5章 线性空间"
+    },
+    {
+      "id": "la1.space.trans",
+      "parent_id": "la1.space",
+      "level": 2,
+      "name": "过渡矩阵与坐标变换",
+      "chapter_ref": "讲义·第5章 线性空间"
+    },
+    {
+      "id": "la1.map",
+      "parent_id": null,
+      "level": 1,
+      "name": "线性映射与线性变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "la1.map.def",
+      "parent_id": "la1.map",
+      "level": 2,
+      "name": "线性映射及其矩阵表示",
+      "chapter_ref": "讲义·第6章 线性映射"
+    },
+    {
+      "id": "la1.map.kernel",
+      "parent_id": "la1.map",
+      "level": 2,
+      "name": "核、像与维数公式",
+      "chapter_ref": "讲义·第6章 线性映射"
+    },
+    {
+      "id": "la1.map.similar",
+      "parent_id": "la1.map",
+      "level": 2,
+      "name": "相似与相似不变量",
+      "chapter_ref": "讲义·第7章 特征值与对角化"
+    },
+    {
+      "id": "la1.map.eigen",
+      "parent_id": "la1.map",
+      "level": 2,
+      "name": "特征值与特征向量",
+      "chapter_ref": "讲义·第7章 特征值与对角化"
+    },
+    {
+      "id": "la1.map.diag",
+      "parent_id": "la1.map",
+      "level": 2,
+      "name": "可对角化条件",
+      "chapter_ref": "讲义·第7章 特征值与对角化"
+    },
+    {
+      "id": "la1.map.minpoly",
+      "parent_id": "la1.map",
+      "level": 2,
+      "name": "最小多项式",
+      "chapter_ref": "讲义·第7章 特征值与对角化"
+    },
+    {
+      "id": "la1.inner",
+      "parent_id": null,
+      "level": 1,
+      "name": "内积空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "la1.inner.gram",
+      "parent_id": "la1.inner",
+      "level": 2,
+      "name": "内积与 Gram-Schmidt 正交化",
+      "chapter_ref": "讲义·第8章 内积空间"
+    },
+    {
+      "id": "la1.inner.orth",
+      "parent_id": "la1.inner",
+      "level": 2,
+      "name": "正交矩阵与正交变换",
+      "chapter_ref": "讲义·第8章 内积空间"
+    },
+    {
+      "id": "la1.inner.adj",
+      "parent_id": "la1.inner",
+      "level": 2,
+      "name": "伴随变换与实对称矩阵",
+      "chapter_ref": "讲义·第8章 内积空间"
+    },
+    {
+      "id": "la1.inner.unitary",
+      "parent_id": "la1.inner",
+      "level": 2,
+      "name": "酉空间与酉矩阵",
+      "chapter_ref": "讲义·第8章 内积空间"
+    },
+    {
+      "id": "la1.quad",
+      "parent_id": null,
+      "level": 1,
+      "name": "二次型",
+      "chapter_ref": null
+    },
+    {
+      "id": "la1.quad.std",
+      "parent_id": "la1.quad",
+      "level": 2,
+      "name": "二次型的标准形与配方法",
+      "chapter_ref": "讲义·第9章 二次型"
+    },
+    {
+      "id": "la1.quad.congruent",
+      "parent_id": "la1.quad",
+      "level": 2,
+      "name": "合同与惯性定理",
+      "chapter_ref": "讲义·第9章 二次型"
+    },
+    {
+      "id": "la1.quad.definite",
+      "parent_id": "la1.quad",
+      "level": 2,
+      "name": "正定二次型与正定矩阵",
+      "chapter_ref": "讲义·第9章 二次型"
+    }
+  ]
+}

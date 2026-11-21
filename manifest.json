@@ -1,8 +1,8 @@
 {
   "name": "USTC-Question-Bank",
   "schema_version": "1.0",
-  "data_version": "0.1.0",
-  "updated_at": "2026-11-20",
+  "data_version": "0.2.0",
+  "updated_at": "2026-11-21",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
   "asset_base_url": null,
   "license": {
@@ -10,13 +10,13 @@
     "question_content": "Third-party rights retained by original authors and publishers; see NOTICE.md"
   },
   "stats": {
-    "courses": 3,
-    "questions": 1585,
+    "courses": 4,
+    "questions": 2470,
     "quarantined": 7,
     "by_origin": {
-      "official": 493,
-      "community": 764,
-      "ai": 328
+      "official": 1104,
+      "community": 1037,
+      "ai": 329
     }
   },
   "courses": [
@@ -129,6 +129,45 @@
         "meta": "72dbb32980861085f4b8579c907ff40ec8afe48dd8d8d081ba4747c232354807",
         "taxonomy": "17e6e0b970f3788c9ebc20d68df92f245bbf49ab9581805e270a4e137cfadb32",
         "questions": "81799adb01324382c79681da3985cc7e58ab75e2ac97bad9bb4e8cb1351d3e5f"
+      }
+    },
+    {
+      "code": "MATH1009",
+      "name": "线性代数(B1)",
+      "name_en": "Linear Algebra (B1)",
+      "department": "数学科学学院",
+      "category": "common",
+      "total": 885,
+      "quarantined": 0,
+      "by_origin": {
+        "official": 611,
+        "community": 273,
+        "ai": 1
+      },
+      "exam_years": [
+        2011,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/MATH1009/meta.json",
+        "taxonomy": "courses/MATH1009/taxonomy.json",
+        "questions": "courses/MATH1009/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "ffe404e2c7a18b09cdaff2af17bc0e41b0f034cd9e70ebbb0326bff2f74aa34b",
+        "taxonomy": "ba8d0730bb724b58344c8a48e59358e7a8734c29febb55fa863b04fea77d3a02",
+        "questions": "e3f09c06e14b01ad1bb79d51c3391e0c8f9bcfe272ebd9495980159894ec77ca"
       }
     }
   ]
