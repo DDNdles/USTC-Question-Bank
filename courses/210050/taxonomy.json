@@ -1,0 +1,363 @@
+{
+  "schema_version": "1.0",
+  "course_code": "210050",
+  "nodes": [
+    {
+      "id": "dl1.num",
+      "parent_id": null,
+      "level": 1,
+      "name": "数制与编码",
+      "chapter_ref": "第1章"
+    },
+    {
+      "id": "dl1.num.base",
+      "parent_id": "dl1.num",
+      "level": 2,
+      "name": "进制转换与二进制运算",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.num.bcd",
+      "parent_id": "dl1.num",
+      "level": 2,
+      "name": "BCD 码与余三码",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.num.gray",
+      "parent_id": "dl1.num",
+      "level": 2,
+      "name": "格雷码与可靠性编码",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.num.complement",
+      "parent_id": "dl1.num",
+      "level": 2,
+      "name": "原码、反码与补码运算",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.bool",
+      "parent_id": null,
+      "level": 1,
+      "name": "逻辑代数与化简",
+      "chapter_ref": "第2章"
+    },
+    {
+      "id": "dl1.bool.algebra",
+      "parent_id": "dl1.bool",
+      "level": 2,
+      "name": "逻辑运算、公式与定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.bool.kmap",
+      "parent_id": "dl1.bool",
+      "level": 2,
+      "name": "卡诺图化简",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.bool.dontcare",
+      "parent_id": "dl1.bool",
+      "level": 2,
+      "name": "无关项与约束项",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.bool.gateconv",
+      "parent_id": "dl1.bool",
+      "level": 2,
+      "name": "与非/或非/与或非式转换",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.gate",
+      "parent_id": null,
+      "level": 1,
+      "name": "集成逻辑门",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "dl1.gate.ttl",
+      "parent_id": "dl1.gate",
+      "level": 2,
+      "name": "TTL 门电路与电气特性",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.gate.cmos",
+      "parent_id": "dl1.gate",
+      "level": 2,
+      "name": "CMOS 门电路与传输门",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.gate.od",
+      "parent_id": "dl1.gate",
+      "level": 2,
+      "name": "OC/OD 门与上拉电阻",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.gate.tristate",
+      "parent_id": "dl1.gate",
+      "level": 2,
+      "name": "三态门与总线接口",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.comb",
+      "parent_id": null,
+      "level": 1,
+      "name": "组合逻辑电路",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "dl1.comb.analysis",
+      "parent_id": "dl1.comb",
+      "level": 2,
+      "name": "组合电路分析",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.comb.design",
+      "parent_id": "dl1.comb",
+      "level": 2,
+      "name": "组合电路设计（SSI 门级）",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.comb.hazard",
+      "parent_id": "dl1.comb",
+      "level": 2,
+      "name": "竞争冒险与消除",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.comb.mux",
+      "parent_id": "dl1.comb",
+      "level": 2,
+      "name": "数据选择器（74151/74153）",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.comb.decoder",
+      "parent_id": "dl1.comb",
+      "level": 2,
+      "name": "译码器与编码器（74138/74148）",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.comb.adder",
+      "parent_id": "dl1.comb",
+      "level": 2,
+      "name": "加法器与数值比较器（74LS283）",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.comb.rom",
+      "parent_id": "dl1.comb",
+      "level": 2,
+      "name": "用 ROM/PLA 实现组合逻辑",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.ff",
+      "parent_id": null,
+      "level": 1,
+      "name": "触发器",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "dl1.ff.rs",
+      "parent_id": "dl1.ff",
+      "level": 2,
+      "name": "基本 RS 触发器",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.ff.edge",
+      "parent_id": "dl1.ff",
+      "level": 2,
+      "name": "电平/边沿/脉冲触发方式",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.ff.master",
+      "parent_id": "dl1.ff",
+      "level": 2,
+      "name": "主从触发器与一次变化",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.ff.jk",
+      "parent_id": "dl1.ff",
+      "level": 2,
+      "name": "JK 触发器逻辑功能",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.ff.d",
+      "parent_id": "dl1.ff",
+      "level": 2,
+      "name": "D/T 触发器与特性方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.ff.waveform",
+      "parent_id": "dl1.ff",
+      "level": 2,
+      "name": "触发器波形与初态",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.seq",
+      "parent_id": null,
+      "level": 1,
+      "name": "时序逻辑电路",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "dl1.seq.analysis",
+      "parent_id": "dl1.seq",
+      "level": 2,
+      "name": "时序电路分析与 Mealy/Moore",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.seq.design",
+      "parent_id": "dl1.seq",
+      "level": 2,
+      "name": "同步时序电路设计",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.seq.counter",
+      "parent_id": "dl1.seq",
+      "level": 2,
+      "name": "计数器的分析与设计",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.seq.register",
+      "parent_id": "dl1.seq",
+      "level": 2,
+      "name": "寄存器与移位寄存器（74194）",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.seq.seqdetect",
+      "parent_id": "dl1.seq",
+      "level": 2,
+      "name": "序列检测与状态编码",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.seq.selfstart",
+      "parent_id": "dl1.seq",
+      "level": 2,
+      "name": "自启动与无效状态处理",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.pulse",
+      "parent_id": null,
+      "level": 1,
+      "name": "脉冲产生与整形",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "dl1.pulse.555",
+      "parent_id": "dl1.pulse",
+      "level": 2,
+      "name": "555 定时器原理",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.pulse.mono",
+      "parent_id": "dl1.pulse",
+      "level": 2,
+      "name": "单稳态触发器（74121）",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.pulse.astable",
+      "parent_id": "dl1.pulse",
+      "level": 2,
+      "name": "多谐振荡器与石英晶体振荡",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.pulse.schmitt",
+      "parent_id": "dl1.pulse",
+      "level": 2,
+      "name": "施密特触发器",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.conv",
+      "parent_id": null,
+      "level": 1,
+      "name": "数模与模数转换",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "dl1.conv.dac",
+      "parent_id": "dl1.conv",
+      "level": 2,
+      "name": "D/A 转换器（权电阻/倒梯形/AD7520）",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.conv.adc",
+      "parent_id": "dl1.conv",
+      "level": 2,
+      "name": "A/D 转换器与转换流程",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.conv.quant",
+      "parent_id": "dl1.conv",
+      "level": 2,
+      "name": "量化误差、分辨率与转换精度",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.mem",
+      "parent_id": null,
+      "level": 1,
+      "name": "存储器与可编程逻辑",
+      "chapter_ref": "第9章"
+    },
+    {
+      "id": "dl1.mem.ram",
+      "parent_id": "dl1.mem",
+      "level": 2,
+      "name": "RAM 结构与读写时序",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.mem.rom",
+      "parent_id": "dl1.mem",
+      "level": 2,
+      "name": "ROM/PROM/EPROM 分类",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.mem.expand",
+      "parent_id": "dl1.mem",
+      "level": 2,
+      "name": "存储器容量扩展与地址译码",
+      "chapter_ref": null
+    },
+    {
+      "id": "dl1.mem.pld",
+      "parent_id": "dl1.mem",
+      "level": 2,
+      "name": "PLD/GAL/FPGA 基础",
+      "chapter_ref": null
+    }
+  ]
+}

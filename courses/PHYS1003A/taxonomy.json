@@ -1,0 +1,363 @@
+{
+  "schema_version": "1.0",
+  "course_code": "PHYS1003A",
+  "nodes": [
+    {
+      "id": "opt1.geom",
+      "parent_id": null,
+      "level": 1,
+      "name": "几何光学",
+      "chapter_ref": "第1-2章"
+    },
+    {
+      "id": "opt1.geom.basic",
+      "parent_id": "opt1.geom",
+      "level": 2,
+      "name": "基本定律与费马原理",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.geom.prism",
+      "parent_id": "opt1.geom",
+      "level": 2,
+      "name": "棱镜、全反射与色散",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.geom.sphere",
+      "parent_id": "opt1.geom",
+      "level": 2,
+      "name": "球面反射与单球面折射成像",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.geom.lens",
+      "parent_id": "opt1.geom",
+      "level": 2,
+      "name": "薄透镜与密接透镜",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.geom.combination",
+      "parent_id": "opt1.geom",
+      "level": 2,
+      "name": "光具组成像与放大率",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.geom.instrument",
+      "parent_id": "opt1.geom",
+      "level": 2,
+      "name": "光学仪器（眼睛/放大镜/显微镜/望远镜）",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.geom.aperture",
+      "parent_id": "opt1.geom",
+      "level": 2,
+      "name": "光阑、景深与视场",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.geom.aberration",
+      "parent_id": "opt1.geom",
+      "level": 2,
+      "name": "像差",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.interference",
+      "parent_id": null,
+      "level": 1,
+      "name": "光的干涉",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "opt1.int.two",
+      "parent_id": "opt1.interference",
+      "level": 2,
+      "name": "双光束干涉（杨氏双孔/双缝）",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.int.thinfilm",
+      "parent_id": "opt1.interference",
+      "level": 2,
+      "name": "薄膜干涉（等倾/等厚）",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.int.newton",
+      "parent_id": "opt1.interference",
+      "level": 2,
+      "name": "牛顿环",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.int.michelson",
+      "parent_id": "opt1.interference",
+      "level": 2,
+      "name": "迈克尔逊干涉仪",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.int.multibeam",
+      "parent_id": "opt1.interference",
+      "level": 2,
+      "name": "多光束干涉与 F-P 干涉仪",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.int.coherence",
+      "parent_id": "opt1.interference",
+      "level": 2,
+      "name": "时间相干性与空间相干性",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.int.visibility",
+      "parent_id": "opt1.interference",
+      "level": 2,
+      "name": "条纹可见度与衬比度",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.int.polarization",
+      "parent_id": "opt1.interference",
+      "level": 2,
+      "name": "偏振光干涉（色偏振）",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.diffraction",
+      "parent_id": null,
+      "level": 1,
+      "name": "光的衍射",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "opt1.dif.fresnel",
+      "parent_id": "opt1.diffraction",
+      "level": 2,
+      "name": "菲涅耳衍射与半波带法",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.dif.zoneplate",
+      "parent_id": "opt1.diffraction",
+      "level": 2,
+      "name": "波带片",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.dif.single",
+      "parent_id": "opt1.diffraction",
+      "level": 2,
+      "name": "单缝与矩孔夫琅禾费衍射",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.dif.circular",
+      "parent_id": "opt1.diffraction",
+      "level": 2,
+      "name": "圆孔衍射、艾里斑与分辨本领",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.dif.grating",
+      "parent_id": "opt1.diffraction",
+      "level": 2,
+      "name": "光栅（多缝干涉、缺级、色散与色分辨）",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.dif.babinet",
+      "parent_id": "opt1.diffraction",
+      "level": 2,
+      "name": "互补屏与巴比涅原理",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.polarization",
+      "parent_id": null,
+      "level": 1,
+      "name": "光的偏振",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "opt1.pol.state",
+      "parent_id": "opt1.polarization",
+      "level": 2,
+      "name": "偏振态与马吕斯定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.pol.brewster",
+      "parent_id": "opt1.polarization",
+      "level": 2,
+      "name": "反射偏振与布儒斯特角",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.pol.birefringence",
+      "parent_id": "opt1.polarization",
+      "level": 2,
+      "name": "晶体双折射与尼科耳棱镜",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.pol.waveplate",
+      "parent_id": "opt1.polarization",
+      "level": 2,
+      "name": "波片与相位延迟",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.pol.ellipse",
+      "parent_id": "opt1.polarization",
+      "level": 2,
+      "name": "圆偏振与椭圆偏振",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.pol.rotation",
+      "parent_id": "opt1.polarization",
+      "level": 2,
+      "name": "旋光与磁光效应",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.pol.scattering",
+      "parent_id": "opt1.polarization",
+      "level": 2,
+      "name": "光的散射（瑞利/米氏）",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.em",
+      "parent_id": null,
+      "level": 1,
+      "name": "光的电磁理论与传播",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "opt1.em.wave",
+      "parent_id": "opt1.em",
+      "level": 2,
+      "name": "电磁波方程与能流",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.em.fresnel",
+      "parent_id": "opt1.em",
+      "level": 2,
+      "name": "菲涅耳公式与反射/透射率",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.em.dispersion",
+      "parent_id": "opt1.em",
+      "level": 2,
+      "name": "色散、相速与群速",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.em.absorption",
+      "parent_id": "opt1.em",
+      "level": 2,
+      "name": "光的吸收",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.fourier",
+      "parent_id": null,
+      "level": 1,
+      "name": "傅里叶光学",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "opt1.fourier.transform",
+      "parent_id": "opt1.fourier",
+      "level": 2,
+      "name": "空间频谱与傅里叶变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.fourier.abi",
+      "parent_id": "opt1.fourier",
+      "level": 2,
+      "name": "阿贝成像与空间滤波",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.fourier.holography",
+      "parent_id": "opt1.fourier",
+      "level": 2,
+      "name": "全息照相",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.quantum",
+      "parent_id": null,
+      "level": 1,
+      "name": "光的量子性",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "opt1.qm.thermal",
+      "parent_id": "opt1.quantum",
+      "level": 2,
+      "name": "黑体辐射（普朗克/维恩/斯特藩）",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.qm.photoelectric",
+      "parent_id": "opt1.quantum",
+      "level": 2,
+      "name": "光电效应",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.qm.compton",
+      "parent_id": "opt1.quantum",
+      "level": 2,
+      "name": "康普顿散射",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.qm.photon",
+      "parent_id": "opt1.quantum",
+      "level": 2,
+      "name": "光子与波粒二象性",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.laser",
+      "parent_id": null,
+      "level": 1,
+      "name": "激光",
+      "chapter_ref": "第9章"
+    },
+    {
+      "id": "opt1.laser.principle",
+      "parent_id": "opt1.laser",
+      "level": 2,
+      "name": "激光原理与谐振腔",
+      "chapter_ref": null
+    },
+    {
+      "id": "opt1.photometry",
+      "parent_id": null,
+      "level": 1,
+      "name": "光度学",
+      "chapter_ref": "附录/选讲"
+    },
+    {
+      "id": "opt1.phot.basic",
+      "parent_id": "opt1.photometry",
+      "level": 2,
+      "name": "辐射度与光度学量",
+      "chapter_ref": null
+    }
+  ]
+}

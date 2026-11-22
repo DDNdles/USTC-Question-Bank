@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 265" width="600" height="265">
+  <rect width="600" height="265" fill="#ffffff"/>
+  <line x1="114" y1="26" x2="114" y2="232" stroke="#888888" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="176" y1="26" x2="176" y2="232" stroke="#888888" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="238" y1="26" x2="238" y2="232" stroke="#888888" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="300" y1="26" x2="300" y2="232" stroke="#888888" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="362" y1="26" x2="362" y2="232" stroke="#888888" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="424" y1="26" x2="424" y2="232" stroke="#888888" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="486" y1="26" x2="486" y2="232" stroke="#888888" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="548" y1="26" x2="548" y2="232" stroke="#888888" stroke-width="1" stroke-dasharray="3 3"/>
+  <polyline points="36,58 82,58 82,26 114,26 114,58 144,58 144,26 176,26 176,58 206,58 206,26 238,26 238,58 268,58 268,26 300,26 300,58 330,58 330,26 362,26 362,58 392,58 392,26 424,26 424,58 454,58 454,26 486,26 486,58 516,58 516,26 548,26 548,58 578,58" fill="none" stroke="#111111" stroke-width="1.8"/>
+  <polyline points="36,118 66,118 66,86 256,86 256,118 328,118 328,86 512,86 512,118 578,118" fill="none" stroke="#111111" stroke-width="1.8"/>
+  <line x1="36" y1="176" x2="578" y2="176" stroke="#111111" stroke-width="1.6"/>
+  <line x1="36" y1="230" x2="578" y2="230" stroke="#111111" stroke-width="1.6"/>
+  <g font-family="Times New Roman, Noto Serif, serif" font-size="14" font-style="italic" fill="#111111">
+    <text x="32" y="55" text-anchor="end">CLK</text>
+    <text x="32" y="115" text-anchor="end">A</text>
+    <text x="26" y="174" text-anchor="end">Q</text>
+    <text x="27" y="177" font-size="10" font-style="normal">1</text>
+    <text x="26" y="228" text-anchor="end">Q</text>
+    <text x="27" y="231" font-size="10" font-style="normal">2</text>
+  </g>
+  <text x="300" y="254" text-anchor="middle" font-family="SimSun, Noto Serif SC, serif" font-size="14" font-weight="bold" fill="#111111">图 7(b)</text>
+</svg>

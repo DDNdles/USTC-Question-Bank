@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "code": "PHYS1003A",
+  "name": "光学A",
+  "name_en": "Optics A",
+  "department": "物理学院",
+  "category": "common",
+  "description": "中国科学技术大学《光学A》（课号 PHYS1003A）结构化题库，收录 2020–2026 学年共 6 套期末与模拟试卷、配套《光学复习指导》107 题与《光学A习题集》23 题（共 228 题），覆盖 38 个二级知识点，其中 121 题附原卷/讲义参考解答（origin=official）、16 题来自 2023 秋卷面手写批注答案（origin=community）、91 题由模型独立推导并配分步解析。",
+  "stats": {
+    "total": 228,
+    "quarantined": 10,
+    "taxonomy_nodes": 51,
+    "by_origin": {
+      "official": 121,
+      "community": 16,
+      "ai": 91
+    },
+    "by_type": {
+      "blank": 41,
+      "proof": 6,
+      "single": 43,
+      "solve": 138
+    },
+    "by_difficulty": {
+      "1": 7,
+      "2": 52,
+      "3": 96,
+      "4": 60,
+      "5": 13
+    },
+    "exam_years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "opt1_exams",
+      "count": 98,
+      "rights": "third_party_exam",
+      "description": "2020–2026 学年 6 套光学A期末与模拟试卷（含回忆版与手写批注答案版）"
+    },
+    {
+      "id": "opt1_drills",
+      "count": 107,
+      "rights": "third_party_textbook",
+      "description": "《光学复习指导》（第 1–7 章例题与作业题，107 题）"
+    },
+    {
+      "id": "opt1_sets",
+      "count": 23,
+      "rights": "third_party_textbook",
+      "description": "《光学A习题集》（典型例题与选择题，23 题）"
+    }
+  ],
+  "known_notes": [
+    "全库共 10 道题目因原复习指导缺图、缺参数或推导置信度低于 0.70 标为 quality.quarantined=true，详见对应题目的 quality.quarantine_reason 与 quality.note。",
+    "2023 秋 光学(A) 期末试卷除第三-13 题外均附有卷面手写批注答案，公开版将其归类为 origin=community。",
+    "全部 17 幅历年真题配图经裁剪去边与灰度/光照归一化后以紧凑 WebP 格式随题导出（2022–2023 卷照片底图已做背景均衡增强）。"
+  ],
+  "files": {
+    "questions": "courses/PHYS1003A/questions.jsonl",
+    "taxonomy": "courses/PHYS1003A/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "1c47af3f97a1d1ff7975b7c5200dfabfeb2920634af9935f091c4f28ce77f78a",
+    "taxonomy": "8b371542d876f31cff3a824d8ceab0e5d2d1a855bf4e337d6eaf37771e5bebc6"
+  }
+}

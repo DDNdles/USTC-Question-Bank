@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 210" width="300" height="210">
+  <rect width="300" height="210" fill="#ffffff"/>
+  <g stroke="#111111" stroke-width="1.6" fill="none" stroke-linecap="round">
+    <rect x="75" y="45" width="160" height="92"/>
+    <!-- Top inputs D0..D3 and S (with active-low bubble S') -->
+    <line x1="100" y1="20" x2="100" y2="45"/>
+    <line x1="128" y1="20" x2="128" y2="45"/>
+    <line x1="156" y1="20" x2="156" y2="45"/>
+    <line x1="184" y1="20" x2="184" y2="45"/>
+    <line x1="212" y1="20" x2="212" y2="39"/>
+    <circle cx="212" cy="42" r="3" fill="#ffffff"/>
+    <!-- Left select lines A0, A1 -->
+    <line x1="50" y1="76" x2="75" y2="76"/>
+    <line x1="50" y1="108" x2="75" y2="108"/>
+    <!-- Bottom output Y -->
+    <line x1="155" y1="137" x2="155" y2="164"/>
+  </g>
+  <g font-family="Times New Roman, Noto Serif, serif" font-size="14" font-style="italic" fill="#111111">
+    <text x="100" y="61" text-anchor="middle">D<tspan dy="3" font-size="10" font-style="normal">0</tspan></text>
+    <text x="128" y="61" text-anchor="middle">D<tspan dy="3" font-size="10" font-style="normal">1</tspan></text>
+    <text x="156" y="61" text-anchor="middle">D<tspan dy="3" font-size="10" font-style="normal">2</tspan></text>
+    <text x="184" y="61" text-anchor="middle">D<tspan dy="3" font-size="10" font-style="normal">3</tspan></text>
+    <text x="212" y="61" text-anchor="middle">S</text>
+    <text x="220" y="34" font-size="12">S'</text>
+    <text x="82" y="81">A<tspan dy="3" font-size="10" font-style="normal">0</tspan></text>
+    <text x="82" y="113">A<tspan dy="3" font-size="10" font-style="normal">1</tspan></text>
+    <text x="155" y="132" text-anchor="middle">Y</text>
+  </g>
+  <text x="155" y="192" text-anchor="middle" font-family="SimSun, Noto Serif SC, serif" font-size="14" font-weight="bold" fill="#111111">图 2</text>
+</svg>

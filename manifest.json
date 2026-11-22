@@ -1,7 +1,7 @@
 {
   "name": "USTC-Question-Bank",
   "schema_version": "1.0",
-  "data_version": "0.5.0",
+  "data_version": "0.6.0",
   "updated_at": "2026-11-22",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
   "asset_base_url": null,
@@ -10,13 +10,13 @@
     "question_content": "Third-party rights retained by original authors and publishers; see NOTICE.md"
   },
   "stats": {
-    "courses": 10,
-    "questions": 5507,
-    "quarantined": 41,
+    "courses": 12,
+    "questions": 5827,
+    "quarantined": 51,
     "by_origin": {
-      "official": 3044,
-      "community": 1384,
-      "ai": 1079
+      "official": 3194,
+      "community": 1423,
+      "ai": 1210
     }
   },
   "courses": [
@@ -390,6 +390,71 @@
         "meta": "679da93785517f810f7e7d49a517c553097aaddb3660f9df05bd588a706fe950",
         "taxonomy": "667d86c6930d39052c519697d4dbf924e5b9456d4565b45c61ca6fbfebbcfe44",
         "questions": "be80b11d65b069fdde7cae70934c56103338c9e9bba27bee345a5b172c95a9e2"
+      }
+    },
+    {
+      "code": "PHYS1003A",
+      "name": "光学A",
+      "name_en": "Optics A",
+      "department": "物理学院",
+      "category": "common",
+      "total": 228,
+      "quarantined": 10,
+      "by_origin": {
+        "official": 121,
+        "community": 16,
+        "ai": 91
+      },
+      "exam_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "paths": {
+        "meta": "courses/PHYS1003A/meta.json",
+        "taxonomy": "courses/PHYS1003A/taxonomy.json",
+        "questions": "courses/PHYS1003A/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "6bd3fea8dfe143f050a7c5da0014d0ddd3c24bef54785b454621081da16d105c",
+        "taxonomy": "8b371542d876f31cff3a824d8ceab0e5d2d1a855bf4e337d6eaf37771e5bebc6",
+        "questions": "1c47af3f97a1d1ff7975b7c5200dfabfeb2920634af9935f091c4f28ce77f78a"
+      }
+    },
+    {
+      "code": "210050",
+      "name": "数字逻辑电路",
+      "name_en": "Digital Logic Circuits",
+      "department": "信息科学技术学院",
+      "category": "professional",
+      "total": 92,
+      "quarantined": 0,
+      "by_origin": {
+        "official": 29,
+        "community": 23,
+        "ai": 40
+      },
+      "exam_years": [
+        2015,
+        2016,
+        2017,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "paths": {
+        "meta": "courses/210050/meta.json",
+        "taxonomy": "courses/210050/taxonomy.json",
+        "questions": "courses/210050/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "28d3f2176269e104ab4fb59f92b055d77f3a0c6e547b768e61d6fda80302a11b",
+        "taxonomy": "2c16cb5964e5d55589aca9b857e4d1a251ca4df54a205ad5602909c445238253",
+        "questions": "875920794878f64c511b8b1210f1269bf9ce742880278bab3270212a4a6fb947"
       }
     }
   ]
