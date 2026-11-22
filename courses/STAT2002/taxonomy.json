@@ -1,0 +1,342 @@
+{
+  "schema_version": "1.0",
+  "course_code": "STAT2002",
+  "nodes": [
+    {
+      "id": "ps1.basic",
+      "parent_id": null,
+      "level": 1,
+      "name": "概率论基本概念",
+      "chapter_ref": "第1章"
+    },
+    {
+      "id": "ps1.basic.sample_space",
+      "parent_id": "ps1.basic",
+      "level": 2,
+      "name": "样本空间与事件运算",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.basic.classical",
+      "parent_id": "ps1.basic",
+      "level": 2,
+      "name": "古典概型与计数",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.basic.conditional",
+      "parent_id": "ps1.basic",
+      "level": 2,
+      "name": "条件概率与乘法公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.basic.bayes",
+      "parent_id": "ps1.basic",
+      "level": 2,
+      "name": "全概率公式与贝叶斯公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.basic.independence",
+      "parent_id": "ps1.basic",
+      "level": 2,
+      "name": "事件独立性",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.rv",
+      "parent_id": null,
+      "level": 1,
+      "name": "随机变量及其分布",
+      "chapter_ref": "第2章"
+    },
+    {
+      "id": "ps1.rv.cdf",
+      "parent_id": "ps1.rv",
+      "level": 2,
+      "name": "分布函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.rv.discrete",
+      "parent_id": "ps1.rv",
+      "level": 2,
+      "name": "离散型随机变量与分布律",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.rv.continuous",
+      "parent_id": "ps1.rv",
+      "level": 2,
+      "name": "连续型随机变量与密度函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.rv.common_dist",
+      "parent_id": "ps1.rv",
+      "level": 2,
+      "name": "常见分布（二项/泊松/几何/超几何/均匀/指数/正态）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.rv.transform",
+      "parent_id": "ps1.rv",
+      "level": 2,
+      "name": "随机变量函数的分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.multi",
+      "parent_id": null,
+      "level": 1,
+      "name": "多维随机变量",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "ps1.multi.joint",
+      "parent_id": "ps1.multi",
+      "level": 2,
+      "name": "联合分布与边缘分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.multi.conditional",
+      "parent_id": "ps1.multi",
+      "level": 2,
+      "name": "条件分布与条件密度",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.multi.independence",
+      "parent_id": "ps1.multi",
+      "level": 2,
+      "name": "随机变量独立性",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.multi.func",
+      "parent_id": "ps1.multi",
+      "level": 2,
+      "name": "多维随机变量函数的分布（和/商/max/min）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.multi.bivar_normal",
+      "parent_id": "ps1.multi",
+      "level": 2,
+      "name": "二元正态分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.moment",
+      "parent_id": null,
+      "level": 1,
+      "name": "数字特征",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "ps1.moment.expectation",
+      "parent_id": "ps1.moment",
+      "level": 2,
+      "name": "数学期望",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.moment.variance",
+      "parent_id": "ps1.moment",
+      "level": 2,
+      "name": "方差与标准差",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.moment.covariance",
+      "parent_id": "ps1.moment",
+      "level": 2,
+      "name": "协方差与相关系数",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.moment.higher",
+      "parent_id": "ps1.moment",
+      "level": 2,
+      "name": "高阶矩、协方差矩阵与矩母函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.moment.cond_exp",
+      "parent_id": "ps1.moment",
+      "level": 2,
+      "name": "条件期望与条件方差",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.moment.entropy",
+      "parent_id": "ps1.moment",
+      "level": 2,
+      "name": "熵",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.limit",
+      "parent_id": null,
+      "level": 1,
+      "name": "极限定理",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "ps1.limit.ll",
+      "parent_id": "ps1.limit",
+      "level": 2,
+      "name": "大数定律（切比雪夫/辛钦/伯努利）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.limit.clt",
+      "parent_id": "ps1.limit",
+      "level": 2,
+      "name": "中心极限定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.sample",
+      "parent_id": null,
+      "level": 1,
+      "name": "数理统计基本概念",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "ps1.sample.population",
+      "parent_id": "ps1.sample",
+      "level": 2,
+      "name": "总体、样本与统计量",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.sample.order",
+      "parent_id": "ps1.sample",
+      "level": 2,
+      "name": "次序统计量及其分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.sample.chi2",
+      "parent_id": "ps1.sample",
+      "level": 2,
+      "name": "χ² 分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.sample.t",
+      "parent_id": "ps1.sample",
+      "level": 2,
+      "name": "t 分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.sample.f",
+      "parent_id": "ps1.sample",
+      "level": 2,
+      "name": "F 分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.estimate",
+      "parent_id": null,
+      "level": 1,
+      "name": "参数估计",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "ps1.estimate.moment",
+      "parent_id": "ps1.estimate",
+      "level": 2,
+      "name": "矩估计",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.estimate.mle",
+      "parent_id": "ps1.estimate",
+      "level": 2,
+      "name": "极大似然估计",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.estimate.unbiased",
+      "parent_id": "ps1.estimate",
+      "level": 2,
+      "name": "无偏性与有效性",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.estimate.consistency",
+      "parent_id": "ps1.estimate",
+      "level": 2,
+      "name": "相合性（一致性）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.estimate.interval",
+      "parent_id": "ps1.estimate",
+      "level": 2,
+      "name": "区间估计与置信区间",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.estimate.bayes",
+      "parent_id": "ps1.estimate",
+      "level": 2,
+      "name": "贝叶斯估计",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.test",
+      "parent_id": null,
+      "level": 1,
+      "name": "假设检验",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "ps1.test.idea",
+      "parent_id": "ps1.test",
+      "level": 2,
+      "name": "假设检验基本思想与两类错误",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.test.pvalue",
+      "parent_id": "ps1.test",
+      "level": 2,
+      "name": "p 值与显著性水平",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.test.mean",
+      "parent_id": "ps1.test",
+      "level": 2,
+      "name": "正态总体均值的检验（u/t 检验）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.test.var",
+      "parent_id": "ps1.test",
+      "level": 2,
+      "name": "正态总体方差的检验（χ²/F 检验）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.test.chisq",
+      "parent_id": "ps1.test",
+      "level": 2,
+      "name": "拟合优度检验与独立性检验",
+      "chapter_ref": null
+    },
+    {
+      "id": "ps1.test.power",
+      "parent_id": "ps1.test",
+      "level": 2,
+      "name": "检验功效与样本量",
+      "chapter_ref": null
+    }
+  ]
+}

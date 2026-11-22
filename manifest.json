@@ -1,7 +1,7 @@
 {
   "name": "USTC-Question-Bank",
   "schema_version": "1.0",
-  "data_version": "0.4.1",
+  "data_version": "0.5.0",
   "updated_at": "2026-11-22",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
   "asset_base_url": null,
@@ -10,13 +10,13 @@
     "question_content": "Third-party rights retained by original authors and publishers; see NOTICE.md"
   },
   "stats": {
-    "courses": 9,
-    "questions": 5076,
-    "quarantined": 38,
+    "courses": 10,
+    "questions": 5507,
+    "quarantined": 41,
     "by_origin": {
-      "official": 2717,
+      "official": 3044,
       "community": 1384,
-      "ai": 975
+      "ai": 1079
     }
   },
   "courses": [
@@ -343,6 +343,53 @@
         "meta": "8699e58dfa3b7f11fa36257eb35f6b55dccc26dd867f0c3815ac14b687d63972",
         "taxonomy": "5d92b032f29625b74fc8a9dda1caaf389906e180c742a7f7f8d33f5d46c3be70",
         "questions": "aef3ef2dea300ec80d44d5b43f1339f575a887c8c5056289c39f078a37e6036d"
+      }
+    },
+    {
+      "code": "STAT2002",
+      "name": "概率论与数理统计",
+      "name_en": "Probability Theory and Mathematical Statistics",
+      "department": "数学科学学院",
+      "category": "common",
+      "total": 431,
+      "quarantined": 3,
+      "by_origin": {
+        "official": 327,
+        "community": 0,
+        "ai": 104
+      },
+      "exam_years": [
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2010,
+        2011,
+        2012,
+        2013,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "paths": {
+        "meta": "courses/STAT2002/meta.json",
+        "taxonomy": "courses/STAT2002/taxonomy.json",
+        "questions": "courses/STAT2002/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "679da93785517f810f7e7d49a517c553097aaddb3660f9df05bd588a706fe950",
+        "taxonomy": "667d86c6930d39052c519697d4dbf924e5b9456d4565b45c61ca6fbfebbcfe44",
+        "questions": "be80b11d65b069fdde7cae70934c56103338c9e9bba27bee345a5b172c95a9e2"
       }
     }
   ]

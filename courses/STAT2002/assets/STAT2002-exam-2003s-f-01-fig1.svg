@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 220" width="460" height="220">
+  <rect width="460" height="220" fill="#fff"/>
+  <g stroke="#2B5B84" stroke-width="2" fill="none" stroke-linejoin="round">
+    <!-- Input and output leads -->
+    <line x1="28" y1="110" x2="96" y2="110"/>
+    <line x1="364" y1="110" x2="432" y2="110"/>
+    <!-- Outer bridge rails -->
+    <polyline points="96,110 96,46 146,46"/>
+    <polyline points="200,46 260,46"/>
+    <polyline points="314,46 364,46 364,174 314,174"/>
+    <polyline points="96,110 96,174 146,174"/>
+    <polyline points="200,174 260,174"/>
+    <!-- Vertical bridge link with switch E -->
+    <line x1="230" y1="46" x2="230" y2="85"/>
+    <line x1="230" y1="135" x2="230" y2="174"/>
+  </g>
+  <!-- Junction dots -->
+  <g fill="#2B5B84">
+    <circle cx="96" cy="110" r="3"/>
+    <circle cx="364" cy="110" r="3"/>
+    <circle cx="230" cy="46" r="3"/>
+    <circle cx="230" cy="174" r="3"/>
+  </g>
+  <!-- Switch boxes A, B, C, D, E -->
+  <g fill="#fff" stroke="#111" stroke-width="1.6">
+    <rect x="146" y="29" width="54" height="34" rx="2"/>
+    <rect x="260" y="29" width="54" height="34" rx="2"/>
+    <rect x="146" y="157" width="54" height="34" rx="2"/>
+    <rect x="260" y="157" width="54" height="34" rx="2"/>
+    <rect x="203" y="85" width="54" height="50" rx="2"/>
+  </g>
+  <g font-family="serif" font-size="22" fill="#111" text-anchor="middle">
+    <text x="173" y="53">A</text>
+    <text x="287" y="53">B</text>
+    <text x="173" y="181">C</text>
+    <text x="287" y="181">D</text>
+    <text x="230" y="117">E</text>
+  </g>
+</svg>
