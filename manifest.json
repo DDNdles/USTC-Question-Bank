@@ -5,6 +5,7 @@
   "updated_at": "2026-11-22",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
   "asset_base_url": null,
+  "feedback_endpoint": "https://dsh-study-feedback-relay.ddndles.workers.dev/",
   "license": {
     "code_and_schema": "MIT",
     "question_content": "Third-party rights retained by original authors and publishers; see NOTICE.md"
