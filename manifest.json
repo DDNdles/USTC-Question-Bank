@@ -1,7 +1,7 @@
 {
   "name": "USTC-Question-Bank",
   "schema_version": "1.0",
-  "data_version": "0.4.0",
+  "data_version": "0.4.1",
   "updated_at": "2026-11-22",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
   "asset_base_url": null,
@@ -239,9 +239,9 @@
         "questions": "courses/PHYS1001A/questions.jsonl"
       },
       "sha256": {
-        "meta": "095ef68d28cfa1967b755ea3c307e709f657d84208a80f6271bdf94491099809",
+        "meta": "af66162dddbc4e9eb7de3396ce07325a5d7287c5d6d294a30e19abc9c5d60df6",
         "taxonomy": "c4bb47a4850489d389a9e2873c2b30fd6d6d9081af258ff0b7e09f0684cfe8df",
-        "questions": "4779f4093576b4aa6335c785ebe0e367146e122e2770ff6dca5f7c8bdc80d3b5"
+        "questions": "460067bb805ee915ea510797c664013d21c475c8e6172560a23b7127d21ec196"
       }
     },
     {
@@ -276,9 +276,9 @@
         "questions": "courses/PHYS1002A/questions.jsonl"
       },
       "sha256": {
-        "meta": "537c7e79c895e0e4ceb1443c230d52e71fe5ed106da9b4b2537b7c751717ad5b",
+        "meta": "8dc7d05f6ef3480e1a72b587484dfb413106e4205fa8f373c514bfb575ce36eb",
         "taxonomy": "ca7a25046ae104c333b10a82b6d4e55e409ce1330f0cbcd318dfc7d6d282fbbe",
-        "questions": "65080b3615752578449d782841046160aa2a55fa4771313106dff29777cb3cc6"
+        "questions": "7e49a2ab06333e853583ef4e98966f9213645379193f95b6d8063f4210937223"
       }
     },
     {
@@ -309,9 +309,9 @@
         "questions": "courses/PHYS1004A/questions.jsonl"
       },
       "sha256": {
-        "meta": "56c1fb02e106553fac64f20b439d9ad0844323c40182789f7e98963da4419fd1",
+        "meta": "a83cd59dc48ac2be9e28748e84a8dde72ba394c7560ab306e70a6dde53f9b294",
         "taxonomy": "dc37a23b0987cc00d11ab727700b3a1584ffb3419853a2e9698e15a9c361de92",
-        "questions": "92625b59d9c7c026ce32d4281904a059d0dccefeb73f1908b046f43f3a04918d"
+        "questions": "84eff912c7d16bd941b6ad9217bc54bc8aea0a79cfa7d0c36705392065d38802"
       }
     },
     {
@@ -340,9 +340,9 @@
         "questions": "courses/210070/questions.jsonl"
       },
       "sha256": {
-        "meta": "c54aa94598637e5d303d3a2119bf53c59d62a1075942d5dd5c925826a003a9ad",
+        "meta": "8699e58dfa3b7f11fa36257eb35f6b55dccc26dd867f0c3815ac14b687d63972",
         "taxonomy": "5d92b032f29625b74fc8a9dda1caaf389906e180c742a7f7f8d33f5d46c3be70",
-        "questions": "48c9f911c27e274c34a1f432b8d3b46073ae48badf6ae8c6c5bb5b4da8ca7363"
+        "questions": "aef3ef2dea300ec80d44d5b43f1339f575a887c8c5056289c39f078a37e6036d"
       }
     }
   ]
