@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 195" width="410" height="195" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif">
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 1 1.5 L 8.5 5 L 1 8.5 z" fill="#111827"/>
+  </marker>
+  <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 1 1.5 L 8.5 5 L 1 8.5 z" fill="#2563eb"/>
+  </marker>
+  <pattern id="hatch" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="0" y2="8" stroke="#64748b" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<rect x="25" y="25" width="95" height="150" fill="#cffafe" stroke="none"/>
+<rect x="120" y="25" width="95" height="150" fill="#fef9c3" stroke="none"/>
+<line x1="120" y1="20" x2="120" y2="185" stroke="#111827" stroke-width="2.0" marker-start="url(#arr)"/>
+<line x1="25" y1="100" x2="225" y2="100" stroke="#111827" stroke-width="1.4" marker-end="url(#arr)"/>
+<text x="126" y="20" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">y</text>
+<text x="230" y="105" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">x</text>
+<text x="110" y="114" font-size="12" text-anchor="middle" fill="#111827" font-style="italic">O</text>
+<text x="132" y="60" font-size="13" text-anchor="middle" fill="#dc2626" font-style="italic">I<tspan dy="3" font-size="9">c</tspan></text>
+<text x="66" y="52" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">μ<tspan dy="3" font-size="9">r2</tspan></text>
+<text x="168" y="52" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">μ<tspan dy="3" font-size="9">r1</tspan></text>
+<circle cx="325" cy="100" r="16" fill="none" stroke="#9333ea" stroke-width="1.2"/>
+<circle cx="325" cy="100" r="30" fill="none" stroke="#9333ea" stroke-width="1.2"/>
+<circle cx="325" cy="100" r="44" fill="none" stroke="#9333ea" stroke-width="1.2"/>
+<circle cx="325" cy="100" r="58" fill="none" stroke="#9333ea" stroke-width="1.2"/>
+<circle cx="325" cy="100" r="4" fill="#dc2626"/>
+<text x="280" y="165" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">μ<tspan dy="3" font-size="9">r2</tspan></text>
+<text x="370" y="165" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">μ<tspan dy="3" font-size="9">r1</tspan></text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 210" width="285" height="210" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif">
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 1 1.5 L 8.5 5 L 1 8.5 z" fill="#111827"/>
+  </marker>
+  <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 1 1.5 L 8.5 5 L 1 8.5 z" fill="#2563eb"/>
+  </marker>
+  <pattern id="hatch" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="0" y2="8" stroke="#64748b" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="45" y1="185" x2="260" y2="185" stroke="#111827" stroke-width="1.8" marker-end="url(#arr)"/>
+<line x1="45" y1="185" x2="45" y2="22" stroke="#111827" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="266" y="190" font-size="15" font-style="italic" fill="#111827">V</text>
+<text x="39" y="14" font-size="15" font-style="italic" text-anchor="middle" fill="#111827">p</text>
+<text x="33" y="200" font-size="14" font-style="italic" fill="#111827">O</text>
+<path d="M 92 52 Q 105 110 120 148" fill="none" stroke="#111827" stroke-width="1.8"/>
+<path d="M 120 148 Q 160 110 218 76" fill="none" stroke="#111827" stroke-width="1.8"/>
+<path d="M 218 76 Q 212 108 228 136" fill="none" stroke="#111827" stroke-width="1.8"/>
+<path d="M 228 136 Q 150 118 92 52" fill="none" stroke="#111827" stroke-width="1.7"/>
+<path d="M -5 -3.5 L 5 0 L -5 3.5 z" fill="#111827" transform="translate(103.0,88.5) rotate(73.2)"/>
+<path d="M -5 -3.5 L 5 0 L -5 3.5 z" fill="#111827" transform="translate(157.5,120.0) rotate(-36.7)"/>
+<path d="M -5 -3.5 L 5 0 L -5 3.5 z" fill="#111827" transform="translate(222.0,101.0) rotate(80.9)"/>
+<path d="M -5 -3.5 L 5 0 L -5 3.5 z" fill="#111827" transform="translate(156.0,101.0) rotate(-148.5)"/>
+<circle cx="92" cy="52" r="2.6" fill="#111827"/><circle cx="120" cy="148" r="2.6" fill="#111827"/><circle cx="218" cy="76" r="2.6" fill="#111827"/><circle cx="228" cy="136" r="2.6" fill="#111827"/>
+<text x="88" y="44" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">A</text>
+<text x="116" y="164" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">B</text>
+<text x="236" y="142" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">C</text>
+<text x="222" y="68" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">D</text>
+<text x="140" y="116" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">E</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 175" width="270" height="175" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif">
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 1 1.5 L 8.5 5 L 1 8.5 z" fill="#111827"/>
+  </marker>
+  <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 1 1.5 L 8.5 5 L 1 8.5 z" fill="#2563eb"/>
+  </marker>
+  <pattern id="hatch" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="0" y2="8" stroke="#64748b" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<path d="M 40 140 A 95 95 0 0 1 230 140 L 198 140 A 63 63 0 0 0 72 140 Z" fill="#dbeafe" stroke="#111827" stroke-width="1.7"/>
+<path d="M 72 140 A 63 63 0 0 1 198 140 L 166 140 A 31 31 0 0 0 104 140 Z" fill="#fef3c7" stroke="#111827" stroke-width="1.7"/>
+<line x1="32" y1="140" x2="238" y2="140" stroke="#111827" stroke-width="1.2" stroke-dasharray="5,3"/>
+<line x1="135" y1="140" x2="135" y2="32" stroke="#111827" stroke-width="1.1" stroke-dasharray="4,3"/>
+<text x="135" y="62" font-size="14" text-anchor="middle" fill="#111827" font-style="italic">μ₂</text>
+<text x="135" y="96" font-size="14" text-anchor="middle" fill="#111827" font-style="italic">μ₁</text>
+<text x="150" y="155" font-size="12" text-anchor="middle" fill="#111827" font-style="italic">a</text>
+<text x="182" y="155" font-size="12" text-anchor="middle" fill="#111827" font-style="italic">a</text>
+<text x="214" y="155" font-size="12" text-anchor="middle" fill="#111827" font-style="italic">a</text>
+<text x="24" y="96" font-size="11" text-anchor="middle" fill="#111827">高 2a</text>
+</svg>

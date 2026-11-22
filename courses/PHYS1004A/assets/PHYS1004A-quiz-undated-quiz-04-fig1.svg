@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225 215" width="225" height="215" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif">
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 1 1.5 L 8.5 5 L 1 8.5 z" fill="#111827"/>
+  </marker>
+  <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 1 1.5 L 8.5 5 L 1 8.5 z" fill="#2563eb"/>
+  </marker>
+  <pattern id="hatch" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="0" y2="8" stroke="#64748b" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="40" y1="35" x2="65" y2="35" stroke="#111827" stroke-width="1.7"/>
+<rect x="65" y="27" width="40" height="16" fill="#ffffff" stroke="#111827" stroke-width="1.6"/>
+<line x1="105" y1="35" x2="130" y2="35" stroke="#111827" stroke-width="1.7"/>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="35" y1="32" x2="105" y2="32" stroke="#111827" stroke-width="1.7"/>
+<line x1="105" y1="32" x2="105" y2="50" stroke="#111827" stroke-width="1.7"/>
+<rect x="97" y="50" width="16" height="34" fill="#ffffff" stroke="#111827" stroke-width="1.6"/>
+<line x1="105" y1="84" x2="105" y2="100" stroke="#111827" stroke-width="1.7"/>
+<line x1="91" y1="100" x2="119" y2="100" stroke="#111827" stroke-width="2.0"/>
+<line x1="91" y1="108" x2="119" y2="108" stroke="#111827" stroke-width="2.0"/>
+<line x1="105" y1="108" x2="105" y2="128" stroke="#111827" stroke-width="1.7"/>
+<line x1="80" y1="128" x2="130" y2="128" stroke="#111827" stroke-width="1.7"/>
+<line x1="80" y1="128" x2="80" y2="144" stroke="#111827" stroke-width="1.7"/>
+<rect x="72" y="144" width="16" height="34" fill="#ffffff" stroke="#111827" stroke-width="1.6"/>
+<line x1="80" y1="178" x2="80" y2="195" stroke="#111827" stroke-width="1.7"/>
+<line x1="130" y1="128" x2="130" y2="156" stroke="#111827" stroke-width="1.7"/>
+<line x1="116" y1="156" x2="144" y2="156" stroke="#111827" stroke-width="2.0"/>
+<line x1="116" y1="164" x2="144" y2="164" stroke="#111827" stroke-width="2.0"/>
+<line x1="130" y1="164" x2="130" y2="195" stroke="#111827" stroke-width="1.7"/>
+<line x1="35" y1="195" x2="130" y2="195" stroke="#111827" stroke-width="1.7"/>
+<circle cx="35" cy="32" r="3" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<circle cx="35" cy="195" r="3" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="24" y="118" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">u(t)</text>
+<text x="126" y="72" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">R</text>
+<text x="126" y="108" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">C</text>
+<text x="62" y="166" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">R</text>
+<text x="152" y="166" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">C</text>
+<line x1="168" y1="32" x2="168" y2="128" stroke="#111827" stroke-width="1.0" stroke-dasharray="3,2"/>
+<text x="186" y="84" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">u₁(t)</text>
+<line x1="168" y1="128" x2="168" y2="195" stroke="#111827" stroke-width="1.0" stroke-dasharray="3,2"/>
+<text x="186" y="166" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">u₂(t)</text>
+</svg>

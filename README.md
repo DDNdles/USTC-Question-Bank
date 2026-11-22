@@ -37,7 +37,10 @@
 | `MATH1009` | 线性代数(B1) | 885 | 611 | 273 | 1 | 0 | 2011–2026 | 41 |
 | `CS1003` | 计算机程序设计 | 1,533 | 1,231 | 188 | 114 | 0 | 2018–2025 | 31 |
 | `PHYS1001A` | 力学A（含 91 张配图） | 253 | 49 | 1 | 203 | 14 | 2006–2025 | 46 |
-| **合计** | **6 门课程** | **4,256** | **2,384** | **1,226** | **646** | **21** | — | **212** |
+| `PHYS1002A` | 热学A（含 48 张配图） | 352 | 219 | 13 | 120 | 10 | 2004–2026 | 45 |
+| `PHYS1004A` | 电磁学A（含 59 张配图） | 121 | 43 | 0 | 78 | 7 | 2017–2026 | 47 |
+| `210070` | 数据结构及其算法（含 17 张配图） | 347 | 71 | 145 | 131 | 0 | 2008–2024 | 46 |
+| **合计** | **9 门课程** | **5,076** | **2,717** | **1,384** | **975** | **38** | — | **350** |
 
 - **100% 含答案与分步解析**。`official` 为原卷/书末标答，`community` 为非官方书面详解，`ai` 为模型或独立推导。
 
@@ -50,6 +53,9 @@
 - **`MATH1009` 线性代数(B1)**：`la1_exams` (566，2010–2026 学年 42 套期中/期末，含花开花败 20 套参考解答 + 22 套单卷)、`la1_textbook` (319，李尚志《线性代数学习指导》第 1–4、6、8、9 章例题分析与解答)。
 - **`CS1003` 计算机程序设计**：`cs1_exams` (334，2018–2025 期中/期末/补考/机考 13 套)、`cs1_quiz` (319，2012 学习指导 + 2024 秋模拟 + 2025 版复习测试各 4 套)、`cs1_banks` (750，三份公开 C 语言题库)、`cs1_drill` (130，指针专题、期中练习与习题课课件)。
 - **`PHYS1001A` 力学A**：`mech1_exams` (105，2016–2026 学年期中/期末 14 套，含 A(L) 班卷)、`mech1_quiz` (147，2005–2016 力学历年考题合集 15 套)、`mech1_drill` (1，刚体笔记例题)；86 道带图题共附 91 张配图（`courses/PHYS1001A/assets/`，70 张灰度 WebP + 21 张矢量重绘 SVG，合计 449 KB）。
+- **`PHYS1002A` 热学A**：`therm1_exams` (105，2016–2026 期中/期末/预考/免修考与公共题)、`therm1_quiz` (233，热学历年真题合订本 10 卷 + 2021 三次小测 + 清华《大学物理》热学选择题库 86 题)、`therm1_drill` (14，2023 春 wxf 班参考题)；48 道带图题共附 48 张配图（`courses/PHYS1002A/assets/`，28 张灰度 WebP + 20 张矢量重绘 SVG，合计 123.7 KB）。
+- **`PHYS1004A` 电磁学A**：`em1_exams` (107，2017–2026 期中/期末公共题、各班回忆版与 2023 秦敢期中样题)、`em1_quiz` (4，课堂练习/小测)、`em1_drill` (10，磁场习题课讲稿例题)；58 道带图题共附 59 张配图（`courses/PHYS1004A/assets/`，33 张灰度 WebP + 26 张矢量重绘 SVG，合计 190.2 KB）。
+- **`210070` 数据结构及其算法**：`ds1_exams` (174，2008–2019 四学年期末、2024 秋期末及《数据结构》试卷A)、`ds1_drill` (173，2-4-6-8 / 3-5-7-9 / 10.24 习题课讲义与六次课程作业)；17 道含关键图例题附配图（`courses/210070/assets/`，14 张灰度 WebP + 3 张矢量重绘 SVG，合计 101.7 KB）。
 - 详细勘误与局限见各课程 `courses/<课号>/meta.json` 的 `known_notes`。
 
 </details>
@@ -162,12 +168,12 @@ paper = bank["001548"].sample(12, seed=2026, exclude_batches=["yan_mp_part1"])
 | 中科大本科课程资料导航 | 课程资料总索引入口 | [TwinJades/USTC_Study_Materials_Navigation](https://github.com/TwinJades/USTC_Study_Materials_Navigation) |
 | feixu 镜像站 | 数学/物理/计算机历年真题、题库、参考解答与复习讲义 | [share.feixu.site](https://share.feixu.site/) |
 | USTC Math Exam | 复变/数分/线代近年真题卷面 PDF | [ustcmathexam.github.io](https://ustcmathexam.github.io/) |
-| USTC Physics Exam | 力学A 历年真题卷面 PDF | [ustcphyexam.github.io](https://ustcphyexam.github.io/) |
+| USTC Physics Exam | 力学A / 热学A / 电磁学A 历年真题卷面 PDF | [ustcphyexam.github.io](https://ustcphyexam.github.io/) |
 | USTC 评课社区 | 复变/线代/程序设计/力学真题、解答与笔记附件 | [icourse.club](https://icourse.club/) |
 | 《数学分析讲义》非官方习题详解 | 数分 B1/B2 教材第 1–13 章详解底本（`origin=community`） | [DongYaoZe/math-analysis-lectures-solutions-USTC](https://github.com/DongYaoZe/math-analysis-lectures-solutions-USTC) |
 | 复变函数期末复习题库 | 复变 40 题复习题集（`github_workbook`） | [jieyou520/-](https://github.com/jieyou520/-) |
 | 数学分析历年真题汇编与讲义 | 补充卷面与课程范围核对 | [Passiflora-sago/Passiflora-sago.github.io](https://github.com/Passiflora-sago/Passiflora-sago.github.io) |
-| 线代 / 计科公开课程资料归档 | 线代 B1 与计算机程序设计历年真题、源码与修订答案 | [fandahao17/USTC-CS-Courses-Resource](https://github.com/fandahao17/USTC-CS-Courses-Resource) · [Wloner0809/ustc-course-resource](https://github.com/Wloner0809/ustc-course-resource) · [guch8017/USTC_CS_EXAM](https://github.com/guch8017/USTC_CS_EXAM) · [duxiaoyang/USTC-Course-Materials](https://github.com/duxiaoyang/USTC-Course-Materials) |
+| 线代 / 计科公开课程资料归档 | 线代 B1、计算机程序设计及数据结构历年真题、答案汇编与习题课 | [fandahao17/USTC-CS-Courses-Resource](https://github.com/fandahao17/USTC-CS-Courses-Resource) · [Wloner0809/ustc-course-resource](https://github.com/Wloner0809/ustc-course-resource) · [guch8017/USTC_CS_EXAM](https://github.com/guch8017/USTC_CS_EXAM) · [duxiaoyang/USTC-Course-Materials](https://github.com/duxiaoyang/USTC-Course-Materials) · [ly382965/USTC_learning_materials](https://github.com/ly382965/USTC_learning_materials) · [li-qi-lin/USTC-Course-Materials-Sharing](https://github.com/li-qi-lin/USTC-Course-Materials-Sharing) |
 
 完整版权归属与侵删渠道见 [NOTICE.md](NOTICE.md)。
 

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 275 232" width="275" height="232" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif">
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 1 1.5 L 8.5 5 L 1 8.5 z" fill="#111827"/>
+  </marker>
+  <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 1 1.5 L 8.5 5 L 1 8.5 z" fill="#2563eb"/>
+  </marker>
+  <pattern id="hatch" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="0" y2="8" stroke="#64748b" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="65" y1="25" x2="65" y2="205" stroke="#dc2626" stroke-width="2.2"/>
+<path d="M -5 -3.5 L 5 0 L -5 3.5 z" fill="#dc2626" transform="translate(65.0,77.5) rotate(90.0)"/>
+<line x1="185" y1="20" x2="185" y2="208" stroke="#64748b" stroke-width="1.2" stroke-dasharray="5,3"/>
+<polygon points="148,74 222,50 222,140 148,164" fill="none" stroke="#111827" stroke-width="1.9"/>
+<path d="M -5 -3.5 L 5 0 L -5 3.5 z" fill="#111827" transform="translate(148.0,101.0) rotate(90.0)"/>
+<path d="M -5 -3.5 L 5 0 L -5 3.5 z" fill="#111827" transform="translate(222.0,114.0) rotate(-90.0)"/>
+<line x1="65" y1="107" x2="185" y2="107" stroke="#111827" stroke-width="1.2" stroke-dasharray="3,2"/>
+<line x1="152" y1="68" x2="228" y2="68" stroke="#111827" stroke-width="1.1" stroke-dasharray="3,2"/>
+<text x="52" y="115" font-size="14" text-anchor="middle" fill="#dc2626" font-style="italic">I₁</text>
+<text x="185" y="16" font-size="12" text-anchor="middle" fill="#111827" font-style="italic">O₁</text>
+<text x="185" y="222" font-size="12" text-anchor="middle" fill="#111827" font-style="italic">O₂</text>
+<text x="138" y="76" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">A</text>
+<text x="232" y="52" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">B</text>
+<text x="232" y="144" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">C</text>
+<text x="138" y="174" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">D</text>
+<text x="120" y="102" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">b</text>
+<text x="234" y="98" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">2a</text>
+<text x="164" y="134" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">I₂</text>
+<text x="176" y="65" font-size="12" text-anchor="middle" fill="#111827" font-style="italic">θ</text>
+</svg>

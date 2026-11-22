@@ -1,8 +1,8 @@
 {
   "name": "USTC-Question-Bank",
   "schema_version": "1.0",
-  "data_version": "0.3.0",
-  "updated_at": "2026-11-21",
+  "data_version": "0.4.0",
+  "updated_at": "2026-11-22",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
   "asset_base_url": null,
   "license": {
@@ -10,13 +10,13 @@
     "question_content": "Third-party rights retained by original authors and publishers; see NOTICE.md"
   },
   "stats": {
-    "courses": 6,
-    "questions": 4256,
-    "quarantined": 21,
+    "courses": 9,
+    "questions": 5076,
+    "quarantined": 38,
     "by_origin": {
-      "official": 2384,
-      "community": 1226,
-      "ai": 646
+      "official": 2717,
+      "community": 1384,
+      "ai": 975
     }
   },
   "courses": [
@@ -242,6 +242,107 @@
         "meta": "095ef68d28cfa1967b755ea3c307e709f657d84208a80f6271bdf94491099809",
         "taxonomy": "c4bb47a4850489d389a9e2873c2b30fd6d6d9081af258ff0b7e09f0684cfe8df",
         "questions": "4779f4093576b4aa6335c785ebe0e367146e122e2770ff6dca5f7c8bdc80d3b5"
+      }
+    },
+    {
+      "code": "PHYS1002A",
+      "name": "热学A",
+      "name_en": "Thermal Physics (A)",
+      "department": "物理学院",
+      "category": "common",
+      "total": 352,
+      "quarantined": 10,
+      "by_origin": {
+        "official": 219,
+        "community": 13,
+        "ai": 120
+      },
+      "exam_years": [
+        2004,
+        2009,
+        2012,
+        2015,
+        2016,
+        2017,
+        2021,
+        2022,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/PHYS1002A/meta.json",
+        "taxonomy": "courses/PHYS1002A/taxonomy.json",
+        "questions": "courses/PHYS1002A/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "537c7e79c895e0e4ceb1443c230d52e71fe5ed106da9b4b2537b7c751717ad5b",
+        "taxonomy": "ca7a25046ae104c333b10a82b6d4e55e409ce1330f0cbcd318dfc7d6d282fbbe",
+        "questions": "65080b3615752578449d782841046160aa2a55fa4771313106dff29777cb3cc6"
+      }
+    },
+    {
+      "code": "PHYS1004A",
+      "name": "电磁学A",
+      "name_en": "Electromagnetism (A)",
+      "department": "物理学院",
+      "category": "common",
+      "total": 121,
+      "quarantined": 7,
+      "by_origin": {
+        "official": 43,
+        "community": 0,
+        "ai": 78
+      },
+      "exam_years": [
+        2017,
+        2018,
+        2020,
+        2021,
+        2023,
+        2024,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/PHYS1004A/meta.json",
+        "taxonomy": "courses/PHYS1004A/taxonomy.json",
+        "questions": "courses/PHYS1004A/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "56c1fb02e106553fac64f20b439d9ad0844323c40182789f7e98963da4419fd1",
+        "taxonomy": "dc37a23b0987cc00d11ab727700b3a1584ffb3419853a2e9698e15a9c361de92",
+        "questions": "92625b59d9c7c026ce32d4281904a059d0dccefeb73f1908b046f43f3a04918d"
+      }
+    },
+    {
+      "code": "210070",
+      "name": "数据结构及其算法",
+      "name_en": "Data Structures and Algorithms",
+      "department": "计算机科学与技术学院",
+      "category": "common",
+      "total": 347,
+      "quarantined": 0,
+      "by_origin": {
+        "official": 71,
+        "community": 145,
+        "ai": 131
+      },
+      "exam_years": [
+        2008,
+        2009,
+        2017,
+        2018,
+        2024
+      ],
+      "paths": {
+        "meta": "courses/210070/meta.json",
+        "taxonomy": "courses/210070/taxonomy.json",
+        "questions": "courses/210070/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "c54aa94598637e5d303d3a2119bf53c59d62a1075942d5dd5c925826a003a9ad",
+        "taxonomy": "5d92b032f29625b74fc8a9dda1caaf389906e180c742a7f7f8d33f5d46c3be70",
+        "questions": "48c9f911c27e274c34a1f432b8d3b46073ae48badf6ae8c6c5bb5b4da8ca7363"
       }
     }
   ]

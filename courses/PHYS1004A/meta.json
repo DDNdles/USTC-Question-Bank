@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "code": "PHYS1004A",
+  "name": "电磁学A",
+  "name_en": "Electromagnetism (A)",
+  "department": "物理学院",
+  "category": "common",
+  "description": "中国科学技术大学《电磁学A》（课号 PHYS1004A）结构化题库，收录 2017–2026 年期中/期末公共题、各班期中期末回忆版、秦敢班期中样题及磁场习题课讲稿例题，并附 59 张灰度 WebP 与矢量化重绘 SVG 配图。",
+  "stats": {
+    "total": 121,
+    "quarantined": 7,
+    "taxonomy_nodes": 47,
+    "by_origin": {
+      "official": 43,
+      "community": 0,
+      "ai": 78
+    },
+    "by_type": {
+      "blank": 23,
+      "proof": 2,
+      "solve": 96
+    },
+    "by_difficulty": {
+      "1": 8,
+      "2": 18,
+      "3": 35,
+      "4": 44,
+      "5": 16
+    },
+    "exam_years": [
+      2017,
+      2018,
+      2020,
+      2021,
+      2023,
+      2024,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "em1_exams",
+      "count": 107,
+      "rights": "third_party_exam",
+      "description": "2017–2026 年期中/期末公共题、各班回忆版及 2023 秦敢期中样题（15 套）"
+    },
+    {
+      "id": "em1_quiz",
+      "count": 4,
+      "rights": "third_party_notes",
+      "description": "电磁学A课堂练习/小测题（4 题）"
+    },
+    {
+      "id": "em1_drill",
+      "count": 10,
+      "rights": "third_party_notes",
+      "description": "电磁学A磁场习题课讲稿例题（10 题）"
+    }
+  ],
+  "known_notes": [
+    "2017/2018/2021 期末公共题、2023 秦敢期中样题及磁场习题课讲稿例题采用原卷/讲稿解答（43 题，origin=official）；其余真题与回忆版由模型独立求解（78 题，origin=ai）。",
+    "全库共 7 道回忆版缺问、图数冲突或模型存在歧义的低置信度题标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。",
+    "原讲稿/样题存在少量印刷笔误（如 2023 秦敢样题填空 4、磁场习题课第 6 题积分系数等），正文按原貌收录并在 quality.note 标注正确结论。",
+    "全部 58 道带图题（共 59 张配图）已提取为灰度 WebP（印刷真题）或矢量化重绘 SVG（2021 扫描卷、课堂拍照课件及手绘回忆图），存入 courses/PHYS1004A/assets/。"
+  ],
+  "files": {
+    "questions": "courses/PHYS1004A/questions.jsonl",
+    "taxonomy": "courses/PHYS1004A/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "92625b59d9c7c026ce32d4281904a059d0dccefeb73f1908b046f43f3a04918d",
+    "taxonomy": "dc37a23b0987cc00d11ab727700b3a1584ffb3419853a2e9698e15a9c361de92"
+  }
+}

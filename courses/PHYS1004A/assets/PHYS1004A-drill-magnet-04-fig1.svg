@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 205" width="250" height="205" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif">
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 1 1.5 L 8.5 5 L 1 8.5 z" fill="#111827"/>
+  </marker>
+  <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 1 1.5 L 8.5 5 L 1 8.5 z" fill="#2563eb"/>
+  </marker>
+  <pattern id="hatch" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="0" y2="8" stroke="#64748b" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="125" y1="18" x2="125" y2="192" stroke="#111827" stroke-width="1.3" stroke-dasharray="5,3" marker-start="url(#arr)"/>
+<circle cx="125" cy="108" r="56" fill="#eff6ff" stroke="#111827" stroke-width="1.9"/>
+<ellipse cx="125" cy="108" rx="56" ry="18" fill="none" stroke="#64748b" stroke-width="1.2" stroke-dasharray="4,3"/>
+<path d="M 105 32 C 105 40 145 40 145 32" fill="none" stroke="#111827" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="125" y1="108" x2="166" y2="70" stroke="#111827" stroke-width="1.4" marker-end="url(#arr)"/>
+<text x="152" y="34" font-size="15" text-anchor="middle" fill="#111827" font-style="italic">ω</text>
+<text x="154" y="70" font-size="14" text-anchor="middle" fill="#111827" font-style="italic">a</text>
+<text x="92" y="86" font-size="14" text-anchor="middle" fill="#111827" font-style="italic">Q</text>
+</svg>

@@ -1,0 +1,328 @@
+{
+  "schema_version": "1.0",
+  "course_code": "210070",
+  "nodes": [
+    {
+      "id": "ds1.intro",
+      "parent_id": null,
+      "level": 1,
+      "name": "绪论与算法分析",
+      "chapter_ref": "第1章"
+    },
+    {
+      "id": "ds1.intro.concept",
+      "parent_id": "ds1.intro",
+      "level": 2,
+      "name": "数据结构基本概念与逻辑/存储结构",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.intro.complexity",
+      "parent_id": "ds1.intro",
+      "level": 2,
+      "name": "时间复杂度与空间复杂度",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.intro.adt",
+      "parent_id": "ds1.intro",
+      "level": 2,
+      "name": "抽象数据类型与算法特性",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.linear",
+      "parent_id": null,
+      "level": 1,
+      "name": "线性表",
+      "chapter_ref": "第2章"
+    },
+    {
+      "id": "ds1.linear.seqlist",
+      "parent_id": "ds1.linear",
+      "level": 2,
+      "name": "顺序表及其操作",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.linear.linkedlist",
+      "parent_id": "ds1.linear",
+      "level": 2,
+      "name": "单链表与双链表",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.linear.circular",
+      "parent_id": "ds1.linear",
+      "level": 2,
+      "name": "循环链表与静态链表",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.linear.application",
+      "parent_id": "ds1.linear",
+      "level": 2,
+      "name": "线性表应用与算法设计",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.stack_queue",
+      "parent_id": null,
+      "level": 1,
+      "name": "栈与队列",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "ds1.stack_queue.stack",
+      "parent_id": "ds1.stack_queue",
+      "level": 2,
+      "name": "栈及其应用",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.stack_queue.queue",
+      "parent_id": "ds1.stack_queue",
+      "level": 2,
+      "name": "队列与循环队列",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.stack_queue.recursion",
+      "parent_id": "ds1.stack_queue",
+      "level": 2,
+      "name": "递归与栈",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.stack_queue.expression",
+      "parent_id": "ds1.stack_queue",
+      "level": 2,
+      "name": "表达式求值与括号匹配",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.string",
+      "parent_id": null,
+      "level": 1,
+      "name": "串",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "ds1.string.storage",
+      "parent_id": "ds1.string",
+      "level": 2,
+      "name": "串的存储与基本操作",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.string.kmp",
+      "parent_id": "ds1.string",
+      "level": 2,
+      "name": "模式匹配与 KMP 算法",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.array",
+      "parent_id": null,
+      "level": 1,
+      "name": "数组与广义表",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "ds1.array.address",
+      "parent_id": "ds1.array",
+      "level": 2,
+      "name": "多维数组的存储与地址计算",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.array.compress",
+      "parent_id": "ds1.array",
+      "level": 2,
+      "name": "特殊矩阵压缩存储",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.array.glist",
+      "parent_id": "ds1.array",
+      "level": 2,
+      "name": "广义表",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.tree",
+      "parent_id": null,
+      "level": 1,
+      "name": "树与二叉树",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "ds1.tree.binary",
+      "parent_id": "ds1.tree",
+      "level": 2,
+      "name": "二叉树性质与存储结构",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.tree.traversal",
+      "parent_id": "ds1.tree",
+      "level": 2,
+      "name": "二叉树遍历与线索化",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.tree.huffman",
+      "parent_id": "ds1.tree",
+      "level": 2,
+      "name": "哈夫曼树与编码",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.tree.bst",
+      "parent_id": "ds1.tree",
+      "level": 2,
+      "name": "二叉排序树",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.tree.avl",
+      "parent_id": "ds1.tree",
+      "level": 2,
+      "name": "平衡二叉树（AVL）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.tree.btree",
+      "parent_id": "ds1.tree",
+      "level": 2,
+      "name": "B 树与 B+ 树",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.tree.forest",
+      "parent_id": "ds1.tree",
+      "level": 2,
+      "name": "树、森林与并查集",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.graph",
+      "parent_id": null,
+      "level": 1,
+      "name": "图",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "ds1.graph.storage",
+      "parent_id": "ds1.graph",
+      "level": 2,
+      "name": "图的存储（邻接矩阵/邻接表）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.graph.traversal",
+      "parent_id": "ds1.graph",
+      "level": 2,
+      "name": "图的遍历（DFS/BFS）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.graph.mst",
+      "parent_id": "ds1.graph",
+      "level": 2,
+      "name": "最小生成树（Prim/Kruskal）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.graph.shortest",
+      "parent_id": "ds1.graph",
+      "level": 2,
+      "name": "最短路径（Dijkstra/Floyd）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.graph.topo",
+      "parent_id": "ds1.graph",
+      "level": 2,
+      "name": "拓扑排序",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.graph.critical",
+      "parent_id": "ds1.graph",
+      "level": 2,
+      "name": "关键路径（AOE 网）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.search",
+      "parent_id": null,
+      "level": 1,
+      "name": "查找",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "ds1.search.sequential",
+      "parent_id": "ds1.search",
+      "level": 2,
+      "name": "顺序查找与分块查找",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.search.binary",
+      "parent_id": "ds1.search",
+      "level": 2,
+      "name": "折半查找与判定树",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.search.hash",
+      "parent_id": "ds1.search",
+      "level": 2,
+      "name": "哈希表与冲突处理",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.sort",
+      "parent_id": null,
+      "level": 1,
+      "name": "排序",
+      "chapter_ref": "第9章"
+    },
+    {
+      "id": "ds1.sort.insertion",
+      "parent_id": "ds1.sort",
+      "level": 2,
+      "name": "插入排序与希尔排序",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.sort.exchange",
+      "parent_id": "ds1.sort",
+      "level": 2,
+      "name": "交换排序（冒泡/快速）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.sort.selection",
+      "parent_id": "ds1.sort",
+      "level": 2,
+      "name": "选择排序与堆排序",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.sort.merge",
+      "parent_id": "ds1.sort",
+      "level": 2,
+      "name": "归并排序与基数排序",
+      "chapter_ref": null
+    },
+    {
+      "id": "ds1.sort.external",
+      "parent_id": "ds1.sort",
+      "level": 2,
+      "name": "外部排序",
+      "chapter_ref": null
+    }
+  ]
+}

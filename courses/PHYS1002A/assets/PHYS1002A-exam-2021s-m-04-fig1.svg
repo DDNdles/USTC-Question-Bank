@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 210" width="290" height="210" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif">
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 1 1.5 L 8.5 5 L 1 8.5 z" fill="#111827"/>
+  </marker>
+  <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 1 1.5 L 8.5 5 L 1 8.5 z" fill="#2563eb"/>
+  </marker>
+  <pattern id="hatch" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="0" y2="8" stroke="#64748b" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="45" y1="185" x2="265" y2="185" stroke="#111827" stroke-width="1.8" marker-end="url(#arr)"/>
+<line x1="45" y1="185" x2="45" y2="22" stroke="#111827" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="271" y="190" font-size="15" font-style="italic" fill="#111827">V</text>
+<text x="39" y="14" font-size="15" font-style="italic" text-anchor="middle" fill="#111827">p</text>
+<text x="33" y="200" font-size="14" font-style="italic" fill="#111827">O</text>
+<path d="M 75 45 Q 130 92 225 112" fill="none" stroke="#64748b" stroke-width="1.3" stroke-dasharray="5,3"/>
+<path d="M 72 82 Q 125 135 220 158" fill="none" stroke="#64748b" stroke-width="1.3" stroke-dasharray="5,3"/>
+<line x1="98" y1="35" x2="98" y2="185" stroke="#64748b" stroke-width="1.3" stroke-dasharray="5,3"/>
+<line x1="196" y1="35" x2="196" y2="185" stroke="#64748b" stroke-width="1.3" stroke-dasharray="5,3"/>
+<path d="M 98 98 C 98 78 135 76 155 88 C 178 100 196 105 196 122 C 196 138 158 144 136 136 C 112 128 98 115 98 98 Z" fill="none" stroke="#111827" stroke-width="1.9"/>
+<path d="M -5 -3.5 L 5 0 L -5 3.5 z" fill="#111827" transform="translate(140.0,84.0) rotate(14.9)"/>
+<path d="M -5 -3.5 L 5 0 L -5 3.5 z" fill="#111827" transform="translate(148.5,137.5) rotate(-168.0)"/>
+<circle cx="98" cy="98" r="2.8" fill="#111827"/><circle cx="155" cy="88" r="2.8" fill="#111827"/><circle cx="196" cy="122" r="2.8" fill="#111827"/><circle cx="136" cy="136" r="2.8" fill="#111827"/>
+<text x="88" y="102" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">a</text>
+<text x="158" y="76" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">b</text>
+<text x="207" y="126" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">c</text>
+<text x="132" y="152" font-size="13" text-anchor="middle" fill="#111827" font-style="italic">d</text>
+</svg>

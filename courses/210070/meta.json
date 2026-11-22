@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "code": "210070",
+  "name": "数据结构及其算法",
+  "name_en": "Data Structures and Algorithms",
+  "department": "计算机科学与技术学院",
+  "category": "common",
+  "description": "中国科学技术大学《数据结构及其算法》（课号 210070 / CS2502A）结构化题库，收录 2008–2024 年期末真题、《数据结构》试卷A、三位助教习题课讲义及六次课程作业共 347 题，包含 C/C++ 代码围栏与 17 张树/图/AOE 网/存储结构配图。",
+  "stats": {
+    "total": 347,
+    "quarantined": 0,
+    "taxonomy_nodes": 46,
+    "by_origin": {
+      "official": 71,
+      "community": 145,
+      "ai": 131
+    },
+    "by_type": {
+      "blank": 51,
+      "proof": 1,
+      "single": 153,
+      "solve": 142
+    },
+    "by_difficulty": {
+      "1": 38,
+      "2": 116,
+      "3": 127,
+      "4": 55,
+      "5": 11
+    },
+    "exam_years": [
+      2008,
+      2009,
+      2017,
+      2018,
+      2024
+    ]
+  },
+  "batches": [
+    {
+      "id": "ds1_exams",
+      "count": 174,
+      "rights": "third_party_exam",
+      "description": "四学年期末真题（2008–2010、2017–2019）、2024 秋期末及《数据结构》试卷A（6 套）"
+    },
+    {
+      "id": "ds1_drill",
+      "count": 173,
+      "rights": "third_party_notes",
+      "description": "2-4-6-8 / 3-5-7-9 / 10.24 三份习题课讲义及於俊班六次课程作业（9 组）"
+    }
+  ],
+  "known_notes": [
+    "四学年期末真题（2008–2010、2017–2019）主要采用开源四学年答案汇编（origin=community）；《数据结构》试卷A 采用卷面手写批注（origin=community）；习题课讲义采用讲稿自带解答（origin=official）；2024 秋期末与六次作业由模型独立求解（origin=ai）。",
+    "图与树类题目已将节点、有向/无向边及邻接表/邻接矩阵结构化转录为 Markdown 文本或表格；对 17 道含关键图示的真题与作业（含 100~119 链表存储映像、哈夫曼树选项及二分图判定），额外配齐灰度 WebP 或矢量化 SVG 存入 courses/210070/assets/。",
+    "2008-2009 期末第二-4 题原卷图 1 与邻接矩阵及参考答案 DFS 序列存在局部冲突，已在 quality.note 如实注明。"
+  ],
+  "files": {
+    "questions": "courses/210070/questions.jsonl",
+    "taxonomy": "courses/210070/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "48c9f911c27e274c34a1f432b8d3b46073ae48badf6ae8c6c5bb5b4da8ca7363",
+    "taxonomy": "5d92b032f29625b74fc8a9dda1caaf389906e180c742a7f7f8d33f5d46c3be70"
+  }
+}

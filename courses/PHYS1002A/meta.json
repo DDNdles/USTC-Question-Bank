@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "code": "PHYS1002A",
+  "name": "热学A",
+  "name_en": "Thermal Physics (A)",
+  "department": "物理学院",
+  "category": "common",
+  "description": "中国科学技术大学《热学A》（课号 PHYS1002A）结构化题库，收录 2004–2026 年期中/期末/预考/免修考与三次小测真题、热学历年真题合订本及清华大学《大学物理》热学选择题库，并附 48 张灰度 WebP 与矢量化重绘 SVG 配图。",
+  "stats": {
+    "total": 352,
+    "quarantined": 10,
+    "taxonomy_nodes": 45,
+    "by_origin": {
+      "official": 219,
+      "community": 13,
+      "ai": 120
+    },
+    "by_type": {
+      "blank": 45,
+      "multi": 2,
+      "proof": 22,
+      "single": 91,
+      "solve": 192
+    },
+    "by_difficulty": {
+      "1": 13,
+      "2": 101,
+      "3": 128,
+      "4": 102,
+      "5": 8
+    },
+    "exam_years": [
+      2004,
+      2009,
+      2012,
+      2015,
+      2016,
+      2017,
+      2021,
+      2022,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "therm1_exams",
+      "count": 105,
+      "rights": "third_party_exam",
+      "description": "2016–2026 年期中/期末、2017 公共题及 2026 朱弘预考/免修考（10 套）"
+    },
+    {
+      "id": "therm1_quiz",
+      "count": 233,
+      "rights": "third_party_textbook_and_community",
+      "description": "热学历年真题合订本（10 卷）+ 2021 三次小测 + 清华大学《大学物理》热学选择题库"
+    },
+    {
+      "id": "therm1_drill",
+      "count": 14,
+      "rights": "third_party_notes",
+      "description": "2023 春 wxf 班热学参考题"
+    }
+  ],
+  "known_notes": [
+    "2016 秋「力学与热学」期末卷热学部分（9 题）、2021 春邵明班期中/期末与三次小测、2017 公共题及 2022/2026 期末卷等采用原卷/公开参考答案（232 题，origin=official 或 community）；无标答卷与回忆版由模型独立求解（120 题，origin=ai）。",
+    "全库共 10 道回忆版或条件存在歧义的低置信度题标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。",
+    "2004 期末第三题、热学期终（第一套）第二题、物理系期中（第一套）第六题与 2026 春期末第一-5题原扫描件/回忆版缺失插图，未挂图；其余 48 道带图题已提取为灰度 WebP 或矢量化重绘 SVG 存入 courses/PHYS1002A/assets/。",
+    "回忆版试卷（2021 期末、2024/2025/2026 期末、2026 朱弘预考及免修考）措辞可能与原始印卷略有出入，已在 source.ref 与 quality.note 标注。"
+  ],
+  "files": {
+    "questions": "courses/PHYS1002A/questions.jsonl",
+    "taxonomy": "courses/PHYS1002A/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "65080b3615752578449d782841046160aa2a55fa4771313106dff29777cb3cc6",
+    "taxonomy": "ca7a25046ae104c333b10a82b6d4e55e409ce1330f0cbcd318dfc7d6d282fbbe"
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "schema_version": "1.0",
+  "course_code": "PHYS1002A",
+  "nodes": [
+    {
+      "id": "therm1.state",
+      "parent_id": null,
+      "level": 1,
+      "name": "温度与状态方程",
+      "chapter_ref": "第1章"
+    },
+    {
+      "id": "therm1.state.temp",
+      "parent_id": "therm1.state",
+      "level": 2,
+      "name": "温度与温标",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.state.ideal",
+      "parent_id": "therm1.state",
+      "level": 2,
+      "name": "理想气体状态方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.state.real",
+      "parent_id": "therm1.state",
+      "level": 2,
+      "name": "范德瓦尔斯气与昂尼斯方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.state.coef",
+      "parent_id": "therm1.state",
+      "level": 2,
+      "name": "膨胀系数与压缩系数",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.state.crit",
+      "parent_id": "therm1.state",
+      "level": 2,
+      "name": "临界现象与对应态",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.kinetic",
+      "parent_id": null,
+      "level": 1,
+      "name": "气体分子动理论",
+      "chapter_ref": "第2章"
+    },
+    {
+      "id": "therm1.kinetic.press",
+      "parent_id": "therm1.kinetic",
+      "level": 2,
+      "name": "压强与温度的微观意义",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.kinetic.mb",
+      "parent_id": "therm1.kinetic",
+      "level": 2,
+      "name": "麦克斯韦速度分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.kinetic.speed",
+      "parent_id": "therm1.kinetic",
+      "level": 2,
+      "name": "速率分布与特征速率",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.kinetic.eq",
+      "parent_id": "therm1.kinetic",
+      "level": 2,
+      "name": "能量均分与热容",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.kinetic.mfp",
+      "parent_id": "therm1.kinetic",
+      "level": 2,
+      "name": "平均自由程与碰撞频率",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.kinetic.effusion",
+      "parent_id": "therm1.kinetic",
+      "level": 2,
+      "name": "泻流与分子束",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.first",
+      "parent_id": null,
+      "level": 1,
+      "name": "热力学第一定律",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "therm1.first.work",
+      "parent_id": "therm1.first",
+      "level": 2,
+      "name": "功、热量与内能",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.first.process",
+      "parent_id": "therm1.first",
+      "level": 2,
+      "name": "理想气体典型过程",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.first.poly",
+      "parent_id": "therm1.first",
+      "level": 2,
+      "name": "多方过程",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.first.cycle",
+      "parent_id": "therm1.first",
+      "level": 2,
+      "name": "循环与热机效率",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.first.throttle",
+      "parent_id": "therm1.first",
+      "level": 2,
+      "name": "节流与焦耳-汤姆孙效应",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.first.general",
+      "parent_id": "therm1.first",
+      "level": 2,
+      "name": "磁介质等广义功",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.second",
+      "parent_id": null,
+      "level": 1,
+      "name": "热力学第二定律与熵",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "therm1.second.carnot",
+      "parent_id": "therm1.second",
+      "level": 2,
+      "name": "卡诺循环与卡诺定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.second.entropy",
+      "parent_id": "therm1.second",
+      "level": 2,
+      "name": "熵与熵变计算",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.second.incr",
+      "parent_id": "therm1.second",
+      "level": 2,
+      "name": "熵增原理与不可逆过程",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.second.potential",
+      "parent_id": "therm1.second",
+      "level": 2,
+      "name": "热力学势与自由能",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.second.maxwell",
+      "parent_id": "therm1.second",
+      "level": 2,
+      "name": "麦克斯韦关系与热力学恒等式",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.second.third",
+      "parent_id": "therm1.second",
+      "level": 2,
+      "name": "热力学第三定律与低温",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.stat",
+      "parent_id": null,
+      "level": 1,
+      "name": "统计物理基础",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "therm1.stat.boltzmann",
+      "parent_id": "therm1.stat",
+      "level": 2,
+      "name": "玻尔兹曼分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.stat.partition",
+      "parent_id": "therm1.stat",
+      "level": 2,
+      "name": "配分函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.stat.classical",
+      "parent_id": "therm1.stat",
+      "level": 2,
+      "name": "经典统计与相空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.stat.quantum",
+      "parent_id": "therm1.stat",
+      "level": 2,
+      "name": "量子统计（费米与玻色）",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.stat.photon",
+      "parent_id": "therm1.stat",
+      "level": 2,
+      "name": "光子气体与热辐射",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.stat.solid",
+      "parent_id": "therm1.stat",
+      "level": 2,
+      "name": "固体热容与声子",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.transport",
+      "parent_id": null,
+      "level": 1,
+      "name": "输运过程",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "therm1.transport.visc",
+      "parent_id": "therm1.transport",
+      "level": 2,
+      "name": "黏性",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.transport.cond",
+      "parent_id": "therm1.transport",
+      "level": 2,
+      "name": "热传导",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.transport.diff",
+      "parent_id": "therm1.transport",
+      "level": 2,
+      "name": "扩散",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.transport.brown",
+      "parent_id": "therm1.transport",
+      "level": 2,
+      "name": "布朗运动与涨落",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.phase",
+      "parent_id": null,
+      "level": 1,
+      "name": "相变与表面",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "therm1.phase.clap",
+      "parent_id": "therm1.phase",
+      "level": 2,
+      "name": "克拉珀龙方程与相平衡",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.phase.vapor",
+      "parent_id": "therm1.phase",
+      "level": 2,
+      "name": "饱和蒸气压与沸腾",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.phase.diagram",
+      "parent_id": "therm1.phase",
+      "level": 2,
+      "name": "相图与三相点",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.phase.surface",
+      "parent_id": "therm1.phase",
+      "level": 2,
+      "name": "表面张力与曲面附加压强",
+      "chapter_ref": null
+    },
+    {
+      "id": "therm1.phase.meta",
+      "parent_id": "therm1.phase",
+      "level": 2,
+      "name": "亚稳态与成核",
+      "chapter_ref": null
+    }
+  ]
+}

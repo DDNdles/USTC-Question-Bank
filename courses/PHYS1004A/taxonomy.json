@@ -1,0 +1,335 @@
+{
+  "schema_version": "1.0",
+  "course_code": "PHYS1004A",
+  "nodes": [
+    {
+      "id": "em1.electrostatics",
+      "parent_id": null,
+      "level": 1,
+      "name": "静电场",
+      "chapter_ref": "第1章"
+    },
+    {
+      "id": "em1.electrostatics.charge",
+      "parent_id": "em1.electrostatics",
+      "level": 2,
+      "name": "电荷与库仑定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.electrostatics.field",
+      "parent_id": "em1.electrostatics",
+      "level": 2,
+      "name": "电场强度与场强叠加",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.electrostatics.gauss",
+      "parent_id": "em1.electrostatics",
+      "level": 2,
+      "name": "高斯定理及其应用",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.electrostatics.potential",
+      "parent_id": "em1.electrostatics",
+      "level": 2,
+      "name": "电势与电势能",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.electrostatics.dipole",
+      "parent_id": "em1.electrostatics",
+      "level": 2,
+      "name": "电偶极子与多极展开",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.conductor",
+      "parent_id": null,
+      "level": 1,
+      "name": "导体与电介质",
+      "chapter_ref": "第2章"
+    },
+    {
+      "id": "em1.conductor.equilibrium",
+      "parent_id": "em1.conductor",
+      "level": 2,
+      "name": "导体静电平衡与电荷分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.conductor.capacitance",
+      "parent_id": "em1.conductor",
+      "level": 2,
+      "name": "电容与电容器",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.conductor.dielectric",
+      "parent_id": "em1.conductor",
+      "level": 2,
+      "name": "电介质极化与极化电荷",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.conductor.boundary",
+      "parent_id": "em1.conductor",
+      "level": 2,
+      "name": "边界条件与唯一性定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.conductor.image",
+      "parent_id": "em1.conductor",
+      "level": 2,
+      "name": "镜像法",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.conductor.energy",
+      "parent_id": "em1.conductor",
+      "level": 2,
+      "name": "静电能与电场能量密度",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.current",
+      "parent_id": null,
+      "level": 1,
+      "name": "恒定电流",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "em1.current.ohm",
+      "parent_id": "em1.current",
+      "level": 2,
+      "name": "欧姆定律与电阻",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.current.continuity",
+      "parent_id": "em1.current",
+      "level": 2,
+      "name": "电流连续性方程与稳恒条件",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.current.circuit",
+      "parent_id": "em1.current",
+      "level": 2,
+      "name": "电路与基尔霍夫定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.current.power",
+      "parent_id": "em1.current",
+      "level": 2,
+      "name": "焦耳定律与电功率",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.magnetostatics",
+      "parent_id": null,
+      "level": 1,
+      "name": "恒定磁场",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "em1.magnetostatics.biot",
+      "parent_id": "em1.magnetostatics",
+      "level": 2,
+      "name": "毕奥-萨伐尔定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.magnetostatics.ampere",
+      "parent_id": "em1.magnetostatics",
+      "level": 2,
+      "name": "安培环路定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.magnetostatics.force",
+      "parent_id": "em1.magnetostatics",
+      "level": 2,
+      "name": "洛伦兹力与安培力",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.magnetostatics.dipole",
+      "parent_id": "em1.magnetostatics",
+      "level": 2,
+      "name": "磁偶极子与磁矩",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.magnetostatics.vector_potential",
+      "parent_id": "em1.magnetostatics",
+      "level": 2,
+      "name": "矢势与磁通量",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.induction",
+      "parent_id": null,
+      "level": 1,
+      "name": "电磁感应",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "em1.induction.faraday",
+      "parent_id": "em1.induction",
+      "level": 2,
+      "name": "法拉第电磁感应定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.induction.motional",
+      "parent_id": "em1.induction",
+      "level": 2,
+      "name": "动生电动势与感生电动势",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.induction.selfmutual",
+      "parent_id": "em1.induction",
+      "level": 2,
+      "name": "自感与互感",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.induction.transient",
+      "parent_id": "em1.induction",
+      "level": 2,
+      "name": "RL/RC 暂态过程",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.induction.energy",
+      "parent_id": "em1.induction",
+      "level": 2,
+      "name": "磁场能量",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.magnetic_material",
+      "parent_id": null,
+      "level": 1,
+      "name": "磁介质",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "em1.magnetic_material.magnetization",
+      "parent_id": "em1.magnetic_material",
+      "level": 2,
+      "name": "磁化强度与磁化电流",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.magnetic_material.boundary",
+      "parent_id": "em1.magnetic_material",
+      "level": 2,
+      "name": "磁介质边界条件",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.magnetic_material.ferromagnet",
+      "parent_id": "em1.magnetic_material",
+      "level": 2,
+      "name": "铁磁质与磁滞回线",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.magnetic_material.circuit",
+      "parent_id": "em1.magnetic_material",
+      "level": 2,
+      "name": "磁路",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.maxwell",
+      "parent_id": null,
+      "level": 1,
+      "name": "麦克斯韦方程与电磁波",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "em1.maxwell.displacement",
+      "parent_id": "em1.maxwell",
+      "level": 2,
+      "name": "位移电流",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.maxwell.equations",
+      "parent_id": "em1.maxwell",
+      "level": 2,
+      "name": "麦克斯韦方程组",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.maxwell.wave",
+      "parent_id": "em1.maxwell",
+      "level": 2,
+      "name": "电磁波的产生与传播",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.maxwell.poynting",
+      "parent_id": "em1.maxwell",
+      "level": 2,
+      "name": "坡印廷矢量与电磁能量流",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.maxwell.radiation",
+      "parent_id": "em1.maxwell",
+      "level": 2,
+      "name": "电磁辐射",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.ac",
+      "parent_id": null,
+      "level": 1,
+      "name": "交流电路",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "em1.ac.phasor",
+      "parent_id": "em1.ac",
+      "level": 2,
+      "name": "相量法与交流欧姆定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.ac.rlc",
+      "parent_id": "em1.ac",
+      "level": 2,
+      "name": "RLC 串联与并联",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.ac.resonance",
+      "parent_id": "em1.ac",
+      "level": 2,
+      "name": "谐振与品质因数",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.ac.power",
+      "parent_id": "em1.ac",
+      "level": 2,
+      "name": "交流功率与功率因数",
+      "chapter_ref": null
+    },
+    {
+      "id": "em1.ac.transformer",
+      "parent_id": "em1.ac",
+      "level": 2,
+      "name": "变压器与互感耦合",
+      "chapter_ref": null
+    }
+  ]
+}
