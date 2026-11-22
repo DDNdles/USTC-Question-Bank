@@ -29,6 +29,7 @@ jobs:
             exit 0
           fi
           AUTH=$(printf "oauth2:%s" "$USTC_GITLAB_TOKEN" | base64 -w 0)
+          git fetch origin +refs/heads/main:refs/remotes/origin/main
           git -c "http.https://git.ustc.edu.cn/.extraHeader=Authorization: Basic ${AUTH}" \
             push https://git.ustc.edu.cn/zzl_stella05/USTC-Question-Bank.git \
-            refs/heads/main:refs/heads/main --tags
+            refs/remotes/origin/main:refs/heads/main --tags
