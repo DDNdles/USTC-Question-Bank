@@ -49,10 +49,10 @@ class TestQuestionBank(unittest.TestCase):
         self.assertEqual(len(self.bank["210070"]), 347)
         self.assertEqual(len(self.bank["STAT2002"]), 431)
         self.assertEqual(len(self.bank["PHYS1003A"]), 228)
-        self.assertEqual(len(self.bank["210050"]), 92)
+        self.assertEqual(len(self.bank["210050"]), 512)
         self.assertEqual(len(self.bank["023181"]), 407)
-        self.assertEqual(len(self.bank.all_questions()), 6234)
-        self.assertEqual(len(self.bank.all_questions(exclude_quarantined=True)), 6212)
+        self.assertEqual(len(self.bank.all_questions()), 6654)
+        self.assertEqual(len(self.bank.all_questions(exclude_quarantined=True)), 6632)
 
     def test_lookup_by_id(self) -> None:
         q = self.bank.get("MATH1006-tb-1.1.1")
@@ -104,6 +104,12 @@ class TestQuestionBank(unittest.TestCase):
         self.assertEqual(q_dl.course_code, "210050")
         self.assertEqual(q_dl.answer_origin, "official")
         self.assertEqual(len(q_dl.stem_figures), 1)
+
+        q_dl_book = self.bank.get("210050-tb-hw-4.10")
+        self.assertEqual(q_dl_book.course_code, "210050")
+        self.assertEqual(q_dl_book.answer_origin, "official")
+        self.assertEqual(len(q_dl_book.stem_figures), 1)
+        self.assertEqual(len(q_dl_book.solution_figures), 1)
 
         q_le = self.bank.get("023181-tb-ex-1.3.5")
         self.assertEqual(q_le.course_code, "023181")
@@ -163,7 +169,7 @@ class TestQuestionBank(unittest.TestCase):
             ("210070", 17, 17),
             ("STAT2002", 1, 1),
             ("PHYS1003A", 20, 19),
-            ("210050", 58, 58),
+            ("210050", 362, 362),
             ("023181", 319, 319),
         ]:
             cb = self.bank[code_check]
@@ -180,7 +186,7 @@ class TestQuestionBank(unittest.TestCase):
             conn = sqlite3.connect(db_path)
             try:
                 count = conn.execute("SELECT COUNT(*) FROM questions").fetchone()[0]
-                self.assertEqual(count, 6234)
+                self.assertEqual(count, 6654)
                 hits = conn.execute(
                     "SELECT id FROM questions_fts WHERE questions_fts MATCH 'Laurent' LIMIT 5"
                 ).fetchall()
