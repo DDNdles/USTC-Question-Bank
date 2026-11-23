@@ -1,0 +1,377 @@
+{
+  "schema_version": "1.0",
+  "course_code": "EE2003",
+  "nodes": [
+    {
+      "id": "ce1.c1",
+      "parent_id": null,
+      "level": 1,
+      "name": "概述与数的表示",
+      "chapter_ref": "第1章"
+    },
+    {
+      "id": "ce1.c1.history",
+      "parent_id": "ce1.c1",
+      "level": 2,
+      "name": "计算机发展简史与摩尔定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c1.system",
+      "parent_id": "ce1.c1",
+      "level": 2,
+      "name": "计算机系统的组成（硬件/软件）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c1.numrep",
+      "parent_id": "ce1.c1",
+      "level": 2,
+      "name": "计算机中数的表示（进制、原反补、定点浮点）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c1.embedded",
+      "parent_id": "ce1.c1",
+      "level": 2,
+      "name": "嵌入式系统简介",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c2",
+      "parent_id": null,
+      "level": 1,
+      "name": "计算机系统基本结构与工作原理",
+      "chapter_ref": "第2章"
+    },
+    {
+      "id": "ce1.c2.arch",
+      "parent_id": "ce1.c2",
+      "level": 2,
+      "name": "计算机系统的基本结构与组成",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c2.mem",
+      "parent_id": "ce1.c2",
+      "level": 2,
+      "name": "模型机存储器子系统",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c2.cpu",
+      "parent_id": "ce1.c2",
+      "level": 2,
+      "name": "模型机 CPU 子系统",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c2.isa",
+      "parent_id": "ce1.c2",
+      "level": 2,
+      "name": "模型机指令集与指令执行过程",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c2.adv",
+      "parent_id": "ce1.c2",
+      "level": 2,
+      "name": "计算机体系结构的改进（流水线/超标量/多核）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c2.x86",
+      "parent_id": "ce1.c2",
+      "level": 2,
+      "name": "Intel x86 典型微处理器",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c2.armintro",
+      "parent_id": "ce1.c2",
+      "level": 2,
+      "name": "ARM 嵌入式处理器简介",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c2.perf",
+      "parent_id": "ce1.c2",
+      "level": 2,
+      "name": "计算机性能评测",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c3",
+      "parent_id": null,
+      "level": 1,
+      "name": "存储器系统",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "ce1.c3.overview",
+      "parent_id": "ce1.c3",
+      "level": 2,
+      "name": "存储器概述与层次结构",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c3.rom",
+      "parent_id": "ce1.c3",
+      "level": 2,
+      "name": "只读存储器 ROM",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c3.ram",
+      "parent_id": "ce1.c3",
+      "level": 2,
+      "name": "随机存取存储器 RAM（SRAM/DRAM）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c3.connect",
+      "parent_id": "ce1.c3",
+      "level": 2,
+      "name": "存储器与 CPU 的连接（位/字扩展）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c3.cache",
+      "parent_id": "ce1.c3",
+      "level": 2,
+      "name": "高速缓存 Cache（映射、替换、写策略）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c3.vm",
+      "parent_id": "ce1.c3",
+      "level": 2,
+      "name": "虚拟存储器（段式/页式/段页式）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c4",
+      "parent_id": null,
+      "level": 1,
+      "name": "总线和接口",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "ce1.c4.bus",
+      "parent_id": "ce1.c4",
+      "level": 2,
+      "name": "总线技术（分类、仲裁、时序、性能）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c4.amba",
+      "parent_id": "ce1.c4",
+      "level": 2,
+      "name": "片上总线 AMBA（AHB/APB）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c4.sysbus",
+      "parent_id": "ce1.c4",
+      "level": 2,
+      "name": "系统总线和外部总线（PCIe/串行/RS-232C）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c4.io",
+      "parent_id": "ce1.c4",
+      "level": 2,
+      "name": "输入/输出接口与 I/O 端口",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c5",
+      "parent_id": null,
+      "level": 1,
+      "name": "ARM 处理器体系结构和编程模型",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "ce1.c5.armarch",
+      "parent_id": "ce1.c5",
+      "level": 2,
+      "name": "ARM 体系结构与处理器概述",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c5.cmstruct",
+      "parent_id": "ce1.c5",
+      "level": 2,
+      "name": "Cortex-M3/M4 处理器结构",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c5.progmodel",
+      "parent_id": "ce1.c5",
+      "level": 2,
+      "name": "编程模型（寄存器、工作模式、堆栈）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c5.mpu",
+      "parent_id": "ce1.c5",
+      "level": 2,
+      "name": "Cortex-M 处理器存储系统（位带/MPU）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c5.exception",
+      "parent_id": "ce1.c5",
+      "level": 2,
+      "name": "Cortex-M 处理器的异常处理",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c6",
+      "parent_id": null,
+      "level": 1,
+      "name": "ARM 处理器的指令系统",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "ce1.c6.overview",
+      "parent_id": "ce1.c6",
+      "level": 2,
+      "name": "ARM 指令集概述（RISC/CISC、Thumb）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c6.format",
+      "parent_id": "ce1.c6",
+      "level": 2,
+      "name": "T32 指令格式与编码",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c6.addr",
+      "parent_id": "ce1.c6",
+      "level": 2,
+      "name": "T32 指令集寻址方式",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c6.isa",
+      "parent_id": "ce1.c6",
+      "level": 2,
+      "name": "Cortex-M3/M4 指令集（数据/分支/访存）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c7",
+      "parent_id": null,
+      "level": 1,
+      "name": "ARM 程序设计",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "ce1.c7.env",
+      "parent_id": "ce1.c7",
+      "level": 2,
+      "name": "ARM 程序开发环境与工程结构",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c7.pseudo",
+      "parent_id": "ce1.c7",
+      "level": 2,
+      "name": "ARM 汇编伪指令",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c7.asm",
+      "parent_id": "ce1.c7",
+      "level": 2,
+      "name": "ARM 汇编语言程序设计",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c7.mixed",
+      "parent_id": "ce1.c7",
+      "level": 2,
+      "name": "汇编与 C/C++ 混合编程",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c8",
+      "parent_id": null,
+      "level": 1,
+      "name": "基于 ARM 的硬件与软件系统设计",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "ce1.c8.design",
+      "parent_id": "ce1.c8",
+      "level": 2,
+      "name": "嵌入式系统设计与开发综述",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c8.process",
+      "parent_id": "ce1.c8",
+      "level": 2,
+      "name": "嵌入式系统开发过程",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c8.mcu",
+      "parent_id": "ce1.c8",
+      "level": 2,
+      "name": "典型 ARM 微处理器（STM32）简介",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c8.minhw",
+      "parent_id": "ce1.c8",
+      "level": 2,
+      "name": "ARM 微处理器最小硬件系统（时钟/复位/供电）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c8.soft",
+      "parent_id": "ce1.c8",
+      "level": 2,
+      "name": "嵌入式软件系统设计（启动、固件库）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c8.gpio",
+      "parent_id": "ce1.c8",
+      "level": 2,
+      "name": "GPIO 工作原理与配置",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c8.timer",
+      "parent_id": "ce1.c8",
+      "level": 2,
+      "name": "定时器（TIM 基本/通用/高级、PWM）",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c8.nvic",
+      "parent_id": "ce1.c8",
+      "level": 2,
+      "name": "中断控制器 NVIC 与 EXTI",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c8.usart",
+      "parent_id": "ce1.c8",
+      "level": 2,
+      "name": "USART 串口通信",
+      "chapter_ref": null
+    },
+    {
+      "id": "ce1.c8.spii2c",
+      "parent_id": "ce1.c8",
+      "level": 2,
+      "name": "SPI 与 I2C 总线接口",
+      "chapter_ref": null
+    }
+  ]
+}

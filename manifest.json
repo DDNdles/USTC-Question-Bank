@@ -1,7 +1,7 @@
 {
   "name": "USTC-Question-Bank",
   "schema_version": "1.0",
-  "data_version": "0.8.0",
+  "data_version": "0.9.0",
   "updated_at": "2026-11-23",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
   "asset_base_url": null,
@@ -11,13 +11,13 @@
     "question_content": "Third-party rights retained by original authors and publishers; see NOTICE.md"
   },
   "stats": {
-    "courses": 13,
-    "questions": 6654,
-    "quarantined": 22,
+    "courses": 14,
+    "questions": 7159,
+    "quarantined": 35,
     "by_origin": {
-      "official": 3975,
+      "official": 4097,
       "community": 1423,
-      "ai": 1256
+      "ai": 1639
     }
   },
   "courses": [
@@ -485,6 +485,34 @@
         "meta": "e09cd13594ae660da5e4949e18974734aa3c005f650b1ed1e90184c041f20be1",
         "taxonomy": "13b82f2c1c3797fac4df33f21bb080ddc0b0e2a336ea7a512f4f0c1e291b689a",
         "questions": "d0cf34bad68a9e85a09c343250ac0226e44963d05366b1d2c6b968fce626ae6b"
+      }
+    },
+    {
+      "code": "EE2003",
+      "name": "计算机原理与嵌入式系统",
+      "name_en": "Principles of Computers and Embedded Systems",
+      "department": "信息科学技术学院",
+      "category": "professional",
+      "total": 505,
+      "quarantined": 13,
+      "by_origin": {
+        "official": 122,
+        "community": 0,
+        "ai": 383
+      },
+      "exam_years": [
+        2020,
+        2024
+      ],
+      "paths": {
+        "meta": "courses/EE2003/meta.json",
+        "taxonomy": "courses/EE2003/taxonomy.json",
+        "questions": "courses/EE2003/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "6c0c8e018e8f1aa1dc3d4fc44d66f8467e37a827abd025704eb163b2b5c1a51a",
+        "taxonomy": "dfde976ca54c9c51f5dc6d9ccec5579918d851afde72c676b37d918d7f1a3e77",
+        "questions": "f75c6b2b03d85b7729b28d56d14d1a6f7c04b926602a2dffc91a50d68ac26def"
       }
     }
   ]

@@ -44,6 +44,9 @@ This repository does **not** host scanned textbook PDFs, raw exam PDFs, or full-
 | `210050` 数字逻辑电路 | `dl2_book`, `dl2_papers` | `third_party_textbook` | 《数字电子技术基础（第六版）学习辅导与习题解答》（阎石、王红编，高等教育出版社，2016）第二至第四部分第 1–8 章例题（66 题）、教材习题解答（227 题）与 7 套自测试卷及答案（127 题） |
 | `023181` 线性电子线路 | `le1_book` | `third_party_textbook` | 《模拟电子技术基础（第五版）全程辅导与习题全解》（童诗白、华成英主编，清华大学电子学教研组编，高等教育出版社）第 1–10 章全部 342 道例题、自测题与课后习题（部分随文插图补自原教材第五版） |
 | `023181` 线性电子线路 | `le1_exams` | `third_party_exam` | 中国科学技术大学《线性电子线路》（023181）2014–2019 年等 6 套期末真题/回忆版及 B 课样卷/模拟卷；来源包括 [USTC_Study_Materials_Navigation](https://github.com/TwinJades/USTC_Study_Materials_Navigation)、[`EpiHio/USTC_Automation`](https://github.com/EpiHio/USTC_Automation)、[`Mr-Philo/USTC_EEIS_Courses`](https://github.com/Mr-Philo/USTC_EEIS_Courses) 与 [`li-qi-lin/USTC-Course-Materials-Sharing`](https://github.com/li-qi-lin/USTC-Course-Materials-Sharing) |
+| `EE2003` 计算机原理与嵌入式系统 | `ce_book` | `third_party_textbook` | 胡访宇主编、王嵩/陈晓辉副主编《计算机原理与嵌入式系统》（中国科学技术大学出版社）第 1–8 章全部 295 道章末习题；部分题附 2025 版及旧版 52 页课程作业参考答案、第 8 章解析与第 1–5 章习题课讲义解答 |
+| `EE2003` 计算机原理与嵌入式系统 | `ce_supp` | `third_party_notes` | 《计算机原理与嵌入式系统》课程作业参考答案教师加编补充选择题（24 题，源自 [`EpiHio/USTC_Automation`](https://github.com/EpiHio/USTC_Automation) 与 [share.feixu.site](https://share.feixu.site/)） |
+| `EE2003` 计算机原理与嵌入式系统 | `ce_papers` | `third_party_exam` | 中国科学技术大学《计算机原理与嵌入式系统》（EE2003）2019–2020 A 卷、2023–2024 期末、2024 A 卷及 2023–2024 题型示意卷共 4 套；来源包括 [USTC_Study_Materials_Navigation](https://github.com/TwinJades/USTC_Study_Materials_Navigation)、[`EpiHio/USTC_Automation`](https://github.com/EpiHio/USTC_Automation)、[share.feixu.site](https://share.feixu.site/) 与 [评课社区](https://icourse.club/) |
 
 ## 3. Downstream Usage Responsibility
 
