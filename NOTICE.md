@@ -41,6 +41,8 @@ This repository does **not** host scanned textbook PDFs, raw exam PDFs, or full-
 | `PHYS1003A` 光学A | `opt1_exams` | `third_party_exam` | 中国科学技术大学《光学A》（PHYS1003A）2020–2026 学年 6 套期末/模拟试卷（含 2023 秋卷面手写批注答案版，按 `origin: "community"` 标注），来源包括 [USTC_Study_Materials_Navigation](https://github.com/TwinJades/USTC_Study_Materials_Navigation)、[ustcphyexam](https://ustcphyexam.github.io/)、[feixu 镜像](https://share.feixu.site/) 与 [评课社区](https://icourse.club/) |
 | `PHYS1003A` 光学A | `opt1_drills`, `opt1_sets` | `third_party_textbook` | 《光学复习指导》（第 1–7 章例题与作业题）及《光学A习题集》（源自 [评课社区](https://icourse.club/)） |
 | `210050` 数字逻辑电路 | `dl1_exams` | `third_party_exam` | 中国科学技术大学《数字逻辑电路》（210050）2015–2023 学年 7 套期末真题与 2020 秋 06 班模拟卷（含 2019–2020 与 2020–2021 助教手写答案版，按 `origin: "community"` 标注）；来源包括 [USTC_Study_Materials_Navigation](https://github.com/TwinJades/USTC_Study_Materials_Navigation)、[`guch8017/USTC_CS_EXAM`](https://github.com/guch8017/USTC_CS_EXAM)、[`li-qi-lin/USTC-Course-Materials-Sharing`](https://github.com/li-qi-lin/USTC-Course-Materials-Sharing) 与 [feixu 镜像](https://share.feixu.site/) |
+| `023181` 线性电子线路 | `le1_book` | `third_party_textbook` | 《模拟电子技术基础（第五版）全程辅导与习题全解》（童诗白、华成英主编，清华大学电子学教研组编，高等教育出版社）第 1–10 章全部 342 道例题、自测题与课后习题（部分随文插图补自原教材第五版） |
+| `023181` 线性电子线路 | `le1_exams` | `third_party_exam` | 中国科学技术大学《线性电子线路》（023181）2014–2019 年等 6 套期末真题/回忆版及 B 课样卷/模拟卷；来源包括 [USTC_Study_Materials_Navigation](https://github.com/TwinJades/USTC_Study_Materials_Navigation)、[`EpiHio/USTC_Automation`](https://github.com/EpiHio/USTC_Automation)、[`Mr-Philo/USTC_EEIS_Courses`](https://github.com/Mr-Philo/USTC_EEIS_Courses) 与 [`li-qi-lin/USTC-Course-Materials-Sharing`](https://github.com/li-qi-lin/USTC-Course-Materials-Sharing) |
 
 ## 3. Downstream Usage Responsibility
 

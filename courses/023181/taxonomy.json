@@ -1,0 +1,503 @@
+{
+  "schema_version": "1.0",
+  "course_code": "023181",
+  "nodes": [
+    {
+      "id": "le1.dev",
+      "parent_id": null,
+      "level": 1,
+      "name": "常用半导体器件",
+      "chapter_ref": "第1章"
+    },
+    {
+      "id": "le1.dev.pn",
+      "parent_id": "le1.dev",
+      "level": 2,
+      "name": "PN 结与二极管伏安特性",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.dev.diode",
+      "parent_id": "le1.dev",
+      "level": 2,
+      "name": "二极管电路分析（理想/恒压降/小信号）",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.dev.zener",
+      "parent_id": "le1.dev",
+      "level": 2,
+      "name": "稳压二极管与限幅电路",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.dev.bjt",
+      "parent_id": "le1.dev",
+      "level": 2,
+      "name": "BJT 结构与电流分配关系",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.dev.bjt_region",
+      "parent_id": "le1.dev",
+      "level": 2,
+      "name": "BJT 工作区判断与电极判别",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.dev.fet",
+      "parent_id": "le1.dev",
+      "level": 2,
+      "name": "JFET/MOSFET 特性曲线与参数",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.dev.fet_region",
+      "parent_id": "le1.dev",
+      "level": 2,
+      "name": "场效应管工作区判断与偏置",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.dev.photo",
+      "parent_id": "le1.dev",
+      "level": 2,
+      "name": "光电/发光二极管与特殊器件",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.basic",
+      "parent_id": null,
+      "level": 1,
+      "name": "基本放大电路",
+      "chapter_ref": "第2章"
+    },
+    {
+      "id": "le1.basic.ce",
+      "parent_id": "le1.basic",
+      "level": 2,
+      "name": "共射放大电路",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.basic.cc",
+      "parent_id": "le1.basic",
+      "level": 2,
+      "name": "共集（射极跟随器）",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.basic.cb",
+      "parent_id": "le1.basic",
+      "level": 2,
+      "name": "共基放大电路",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.basic.qpoint",
+      "parent_id": "le1.basic",
+      "level": 2,
+      "name": "静态工作点估算与偏置电路",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.basic.smallsignal",
+      "parent_id": "le1.basic",
+      "level": 2,
+      "name": "微变等效电路与 h 参数",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.basic.gain",
+      "parent_id": "le1.basic",
+      "level": 2,
+      "name": "电压增益、输入/输出电阻",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.basic.fetamp",
+      "parent_id": "le1.basic",
+      "level": 2,
+      "name": "场效应管放大电路",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.basic.distortion",
+      "parent_id": "le1.basic",
+      "level": 2,
+      "name": "非线性失真与工作点偏移",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.basic.swing",
+      "parent_id": "le1.basic",
+      "level": 2,
+      "name": "最大不失真输出电压与动态范围",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.multi",
+      "parent_id": null,
+      "level": 1,
+      "name": "集成运算放大电路",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "le1.multi.couple",
+      "parent_id": "le1.multi",
+      "level": 2,
+      "name": "级间耦合方式与增益分配",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.multi.diff",
+      "parent_id": "le1.multi",
+      "level": 2,
+      "name": "差分放大电路（长尾/恒流源）",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.multi.cmrr",
+      "parent_id": "le1.multi",
+      "level": 2,
+      "name": "共模抑制比与失调",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.multi.currentsrc",
+      "parent_id": "le1.multi",
+      "level": 2,
+      "name": "电流源电路与有源负载",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.multi.opamp",
+      "parent_id": "le1.multi",
+      "level": 2,
+      "name": "集成运放组成与典型参数",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.multi.analysis",
+      "parent_id": "le1.multi",
+      "level": 2,
+      "name": "多级电路静态/动态分析",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.freq",
+      "parent_id": null,
+      "level": 1,
+      "name": "放大电路的频率响应",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "le1.freq.bode",
+      "parent_id": "le1.freq",
+      "level": 2,
+      "name": "波特图与渐近线绘制",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.freq.hfmodel",
+      "parent_id": "le1.freq",
+      "level": 2,
+      "name": "高频等效模型与 fT、fβ",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.freq.lowfreq",
+      "parent_id": "le1.freq",
+      "level": 2,
+      "name": "低频响应与耦合/旁路电容",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.freq.single",
+      "parent_id": "le1.freq",
+      "level": 2,
+      "name": "单管放大电路频率响应",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.freq.multi",
+      "parent_id": "le1.freq",
+      "level": 2,
+      "name": "多级放大电路频响与主极点",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.freq.bandwidth",
+      "parent_id": "le1.freq",
+      "level": 2,
+      "name": "通频带、增益带宽积与阶跃响应",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.fb",
+      "parent_id": null,
+      "level": 1,
+      "name": "放大电路中的反馈",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "le1.fb.judge",
+      "parent_id": "le1.fb",
+      "level": 2,
+      "name": "反馈存在性与正负判断",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.fb.type",
+      "parent_id": "le1.fb",
+      "level": 2,
+      "name": "四种组态（电压/电流、串联/并联）",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.fb.deep",
+      "parent_id": "le1.fb",
+      "level": 2,
+      "name": "深度负反馈近似计算",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.fb.effect",
+      "parent_id": "le1.fb",
+      "level": 2,
+      "name": "负反馈对增益/阻抗/带宽的影响",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.fb.stability",
+      "parent_id": "le1.fb",
+      "level": 2,
+      "name": "稳定性判别与相位裕度",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.fb.comp",
+      "parent_id": "le1.fb",
+      "level": 2,
+      "name": "频率补偿与滞后/超前补偿",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.oa",
+      "parent_id": null,
+      "level": 1,
+      "name": "信号的运算和处理",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "le1.oa.ideal",
+      "parent_id": "le1.oa",
+      "level": 2,
+      "name": "理想运放与虚短虚断",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.oa.linear",
+      "parent_id": "le1.oa",
+      "level": 2,
+      "name": "比例/加减/积分/微分运算电路",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.oa.log",
+      "parent_id": "le1.oa",
+      "level": 2,
+      "name": "对数/指数运算与模拟乘法器",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.oa.filter",
+      "parent_id": "le1.oa",
+      "level": 2,
+      "name": "有源滤波器（低通/高通/带通）",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.oa.instr",
+      "parent_id": "le1.oa",
+      "level": 2,
+      "name": "仪表放大器与工程应用电路",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.wave",
+      "parent_id": null,
+      "level": 1,
+      "name": "波形的发生和信号的处理",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "le1.wave.rc",
+      "parent_id": "le1.wave",
+      "level": 2,
+      "name": "RC 桥式正弦波振荡电路",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.wave.lc",
+      "parent_id": "le1.wave",
+      "level": 2,
+      "name": "LC 振荡与石英晶体振荡",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.wave.compare",
+      "parent_id": "le1.wave",
+      "level": 2,
+      "name": "电压比较器与传输特性",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.wave.schmitt",
+      "parent_id": "le1.wave",
+      "level": 2,
+      "name": "施密特触发器与滞回比较",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.wave.gen",
+      "parent_id": "le1.wave",
+      "level": 2,
+      "name": "方波/三角波发生器",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.wave.convert",
+      "parent_id": "le1.wave",
+      "level": 2,
+      "name": "波形变换与压频转换",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.power",
+      "parent_id": null,
+      "level": 1,
+      "name": "功率放大电路",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "le1.power.class",
+      "parent_id": "le1.power",
+      "level": 2,
+      "name": "甲类/乙类/甲乙类工作状态",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.power.ocl",
+      "parent_id": "le1.power",
+      "level": 2,
+      "name": "OCL/OTL 互补对称电路",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.power.eff",
+      "parent_id": "le1.power",
+      "level": 2,
+      "name": "输出功率与效率计算",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.power.xover",
+      "parent_id": "le1.power",
+      "level": 2,
+      "name": "交越失真与消除",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.power.device",
+      "parent_id": "le1.power",
+      "level": 2,
+      "name": "功率管选择与散热",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.power.ic",
+      "parent_id": "le1.power",
+      "level": 2,
+      "name": "集成功率放大器",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.psu",
+      "parent_id": null,
+      "level": 1,
+      "name": "直流电源",
+      "chapter_ref": "第9章"
+    },
+    {
+      "id": "le1.psu.rect",
+      "parent_id": "le1.psu",
+      "level": 2,
+      "name": "整流电路与参数计算",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.psu.filter",
+      "parent_id": "le1.psu",
+      "level": 2,
+      "name": "电容滤波与纹波",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.psu.zener",
+      "parent_id": "le1.psu",
+      "level": 2,
+      "name": "稳压管稳压电路",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.psu.series",
+      "parent_id": "le1.psu",
+      "level": 2,
+      "name": "串联型稳压电路",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.psu.regulator",
+      "parent_id": "le1.psu",
+      "level": 2,
+      "name": "三端集成稳压器（78xx/79xx/317）",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.psu.switch",
+      "parent_id": "le1.psu",
+      "level": 2,
+      "name": "开关型稳压电路",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.psu.protect",
+      "parent_id": "le1.psu",
+      "level": 2,
+      "name": "过流/过热保护",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.read",
+      "parent_id": null,
+      "level": 1,
+      "name": "模拟电子电路读图",
+      "chapter_ref": "第10章"
+    },
+    {
+      "id": "le1.read.method",
+      "parent_id": "le1.read",
+      "level": 2,
+      "name": "读图步骤与方框图分解",
+      "chapter_ref": null
+    },
+    {
+      "id": "le1.read.system",
+      "parent_id": "le1.read",
+      "level": 2,
+      "name": "典型电子系统综合分析",
+      "chapter_ref": null
+    }
+  ]
+}

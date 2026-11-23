@@ -8,7 +8,7 @@
   "description": "中国科学技术大学《电磁学A》（课号 PHYS1004A）结构化题库，收录 2017–2026 年期中/期末公共题、各班期中期末回忆版、秦敢班期中样题及磁场习题课讲稿例题，并附 59 张灰度 WebP 与矢量化重绘 SVG 配图。",
   "stats": {
     "total": 121,
-    "quarantined": 7,
+    "quarantined": 5,
     "taxonomy_nodes": 47,
     "by_origin": {
       "official": 43,
@@ -59,7 +59,7 @@
   ],
   "known_notes": [
     "2017/2018/2021 期末公共题、2023 秦敢期中样题及磁场习题课讲稿例题采用原卷/讲稿解答（43 题，origin=official）；其余真题与回忆版由模型独立求解（78 题，origin=ai）。",
-    "全库共 7 道回忆版缺问、图数冲突或模型存在歧义的低置信度题标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。",
+    "全库共 5 道原卷/回忆版缺条件或模型存在冲突的低置信度题标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。",
     "原讲稿/样题存在少量印刷笔误（如 2023 秦敢样题填空 4、磁场习题课第 6 题积分系数等），正文按原貌收录并在 quality.note 标注正确结论。",
     "全部 58 道带图题（共 59 张配图）已提取为灰度 WebP（印刷真题）或矢量化重绘 SVG（2021 扫描卷、课堂拍照课件及手绘回忆图），存入 courses/PHYS1004A/assets/。"
   ],
@@ -68,7 +68,7 @@
     "taxonomy": "courses/PHYS1004A/taxonomy.json"
   },
   "sha256": {
-    "questions": "84eff912c7d16bd941b6ad9217bc54bc8aea0a79cfa7d0c36705392065d38802",
+    "questions": "06595e603f987866bd49bd5ea06bc2c494cb99c231b1e8f61bdd09a36fda5912",
     "taxonomy": "dc37a23b0987cc00d11ab727700b3a1584ffb3419853a2e9698e15a9c361de92"
   }
 }

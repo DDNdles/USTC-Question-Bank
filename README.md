@@ -31,19 +31,20 @@
 
 | 课号 | 课程 | 总题数 | `official` | `community` | `ai` | 隔离 | 真题年份 | 知识点 |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | --- | ---: |
-| `001548` | 复变函数B | 571 | 229 | 26 | 316 | 7 | 2003–2025 | 35 |
+| `001548` | 复变函数B | 571 | 229 | 26 | 316 | 3 | 2003–2025 | 35 |
 | `MATH1006` | 数学分析(B1) | 445 | 133 | 300 | 12 | 0 | 2016–2025 | 31 |
 | `MATH1007` | 数学分析(B2) | 569 | 131 | 438 | 0 | 0 | 2018–2026 | 28 |
 | `MATH1009` | 线性代数(B1) | 885 | 611 | 273 | 1 | 0 | 2011–2026 | 41 |
 | `CS1003` | 计算机程序设计 | 1,533 | 1,231 | 188 | 114 | 0 | 2018–2025 | 31 |
-| `PHYS1001A` | 力学A（含 91 张配图） | 253 | 49 | 1 | 203 | 14 | 2006–2025 | 46 |
-| `PHYS1002A` | 热学A（含 48 张配图） | 352 | 219 | 13 | 120 | 10 | 2004–2026 | 45 |
-| `PHYS1004A` | 电磁学A（含 59 张配图） | 121 | 43 | 0 | 78 | 7 | 2017–2026 | 47 |
+| `PHYS1001A` | 力学A（含 91 张配图） | 253 | 49 | 1 | 203 | 5 | 2006–2025 | 46 |
+| `PHYS1002A` | 热学A（含 48 张配图） | 352 | 219 | 13 | 120 | 3 | 2004–2026 | 45 |
+| `PHYS1004A` | 电磁学A（含 59 张配图） | 121 | 43 | 0 | 78 | 5 | 2017–2026 | 47 |
 | `210070` | 数据结构及其算法（含 17 张配图） | 347 | 71 | 145 | 131 | 0 | 2008–2024 | 46 |
 | `STAT2002` | 概率论与数理统计（含 1 张配图） | 431 | 327 | 0 | 104 | 3 | 2003–2025 | 48 |
-| `PHYS1003A` | 光学A（含 17 张配图） | 228 | 121 | 16 | 91 | 10 | 2020–2025 | 51 |
+| `PHYS1003A` | 光学A（含 20 张配图） | 228 | 121 | 16 | 91 | 3 | 2020–2025 | 51 |
 | `210050` | 数字逻辑电路（含 72 张配图） | 92 | 29 | 23 | 40 | 0 | 2015–2022 | 51 |
-| **合计** | **12 门课程** | **5,827** | **3,194** | **1,423** | **1,210** | **51** | — | **500** |
+| `023181` | 线性电子线路（含 340 张配图） | 407 | 361 | 0 | 46 | 0 | 2014–2019 | 61 |
+| **合计** | **13 门课程** | **6,234** | **3,555** | **1,423** | **1,256** | **22** | — | **561** |
 
 - **100% 含答案与分步解析**。`official` 为原卷/书末标答，`community` 为非官方书面详解，`ai` 为模型或独立推导。
 
@@ -60,8 +61,9 @@
 - **`PHYS1004A` 电磁学A**：`em1_exams` (107，2017–2026 期中/期末公共题、各班回忆版与 2023 秦敢期中样题)、`em1_quiz` (4，课堂练习/小测)、`em1_drill` (10，磁场习题课讲稿例题)；58 道带图题共附 59 张配图（`courses/PHYS1004A/assets/`，33 张灰度 WebP + 26 张矢量重绘 SVG，合计 212.2 KB）。
 - **`210070` 数据结构及其算法**：`ds1_exams` (174，2008–2019 四学年期末、2024 秋期末及《数据结构》试卷A)、`ds1_drill` (173，2-4-6-8 / 3-5-7-9 / 10.24 习题课讲义与六次课程作业)；17 道含关键图例题附配图（`courses/210070/assets/`，14 张灰度 WebP + 3 张矢量重绘 SVG，合计 102.1 KB）。
 - **`STAT2002` 概率论与数理统计**：`stat1_exams` (431，2002–2026 学年共 36 套期末/期中真题，含 327 题原卷/合集标答与 104 题独立解析，3 题因缺表或设问不严隔离)；`2002–2003` 期末第一题附五开关桥式电路矢量 SVG 配图（`courses/STAT2002/assets/STAT2002-exam-2003s-f-01-fig1.svg`）。
-- **`PHYS1003A` 光学A**：`opt1_exams` (98，2020–2026 学年 6 套期末与模拟试卷，含 2023 秋卷面手写批注答案版)、`opt1_drills` (107，《光学复习指导》第 1–7 章例题与作业题)、`opt1_sets` (23，《光学A习题集》)；17 道真题带图题附经去边与均衡增强的灰度 WebP 配图（`courses/PHYS1003A/assets/`，合计 155.6 KB）。
+- **`PHYS1003A` 光学A**：`opt1_exams` (98，2020–2026 学年 6 套期末与模拟试卷，含 2023 秋卷面手写批注答案版)、`opt1_drills` (107，《光学复习指导》第 1–7 章例题与作业题)、`opt1_sets` (23，《光学A习题集》)；20 道带图题（17 道真题 + 3 道复习指导例题）附经去边与均衡增强的灰度 WebP 配图（`courses/PHYS1003A/assets/`）。
 - **`210050` 数字逻辑电路**：`dl1_exams` (92，2015–2023 学年 7 套期末真题与 2020 秋 06 班模拟卷，含 2019–2020 与 2020–2021 助教手写答案版)；58 道带图题附按题精裁 WebP 与去手写空白矢量 SVG（`courses/210050/assets/`，69 张灰度 WebP + 3 张 SVG，合计 526.8 KB）。
+- **`023181` 线性电子线路**：`le1_book` (342，童诗白、华成英版配套《模拟电子技术基础（第五版）全程辅导与习题全解》第 1–10 章全部 100 道例题、40 道自测题与 202 道课后习题)、`le1_exams` (65，2014–2019 年期末真题/回忆版及 B 课样卷/模拟卷共 6 套)；319 道带图题共 340 张灰度 WebP 配图（`courses/023181/assets/`，含 7 幅补自原教材第五版的随文插图与 16 幅典型解图，去红水印与光照均衡后合计 5.04 MB）。
 - 详细勘误与局限见各课程 `courses/<课号>/meta.json` 的 `known_notes`。
 
 </details>
@@ -179,7 +181,7 @@ paper = bank["001548"].sample(12, seed=2026, exclude_batches=["yan_mp_part1"])
 | 《数学分析讲义》非官方习题详解 | 数分 B1/B2 教材第 1–13 章详解底本（`origin=community`） | [DongYaoZe/math-analysis-lectures-solutions-USTC](https://github.com/DongYaoZe/math-analysis-lectures-solutions-USTC) |
 | 复变函数期末复习题库 | 复变 40 题复习题集（`github_workbook`） | [jieyou520/-](https://github.com/jieyou520/-) |
 | 数学分析历年真题汇编与讲义 | 补充卷面与课程范围核对 | [Passiflora-sago/Passiflora-sago.github.io](https://github.com/Passiflora-sago/Passiflora-sago.github.io) |
-| 线代 / 计科公开课程资料归档 | 线代 B1、计算机程序设计及数据结构历年真题、答案汇编与习题课 | [fandahao17/USTC-CS-Courses-Resource](https://github.com/fandahao17/USTC-CS-Courses-Resource) · [Wloner0809/ustc-course-resource](https://github.com/Wloner0809/ustc-course-resource) · [guch8017/USTC_CS_EXAM](https://github.com/guch8017/USTC_CS_EXAM) · [duxiaoyang/USTC-Course-Materials](https://github.com/duxiaoyang/USTC-Course-Materials) · [ly382965/USTC_learning_materials](https://github.com/ly382965/USTC_learning_materials) · [li-qi-lin/USTC-Course-Materials-Sharing](https://github.com/li-qi-lin/USTC-Course-Materials-Sharing) |
+| 专业课 / 电子信息工程与计科公开资料 | 线代 B1、计科、数据结构与线性电子线路历年真题、样卷及习题课资料 | [fandahao17/USTC-CS-Courses-Resource](https://github.com/fandahao17/USTC-CS-Courses-Resource) · [Wloner0809/ustc-course-resource](https://github.com/Wloner0809/ustc-course-resource) · [guch8017/USTC_CS_EXAM](https://github.com/guch8017/USTC_CS_EXAM) · [duxiaoyang/USTC-Course-Materials](https://github.com/duxiaoyang/USTC-Course-Materials) · [ly382965/USTC_learning_materials](https://github.com/ly382965/USTC_learning_materials) · [li-qi-lin/USTC-Course-Materials-Sharing](https://github.com/li-qi-lin/USTC-Course-Materials-Sharing) · [EpiHio/USTC_Automation](https://github.com/EpiHio/USTC_Automation) · [Mr-Philo/USTC_EEIS_Courses](https://github.com/Mr-Philo/USTC_EEIS_Courses) |
 
 完整版权归属与侵删渠道见 [NOTICE.md](NOTICE.md)。
 

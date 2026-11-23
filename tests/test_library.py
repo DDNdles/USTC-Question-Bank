@@ -35,6 +35,7 @@ class TestQuestionBank(unittest.TestCase):
                 "STAT2002",
                 "PHYS1003A",
                 "210050",
+                "023181",
             ],
         )
         self.assertEqual(len(self.bank["001548"]), 571)
@@ -49,8 +50,9 @@ class TestQuestionBank(unittest.TestCase):
         self.assertEqual(len(self.bank["STAT2002"]), 431)
         self.assertEqual(len(self.bank["PHYS1003A"]), 228)
         self.assertEqual(len(self.bank["210050"]), 92)
-        self.assertEqual(len(self.bank.all_questions()), 5827)
-        self.assertEqual(len(self.bank.all_questions(exclude_quarantined=True)), 5776)
+        self.assertEqual(len(self.bank["023181"]), 407)
+        self.assertEqual(len(self.bank.all_questions()), 6234)
+        self.assertEqual(len(self.bank.all_questions(exclude_quarantined=True)), 6212)
 
     def test_lookup_by_id(self) -> None:
         q = self.bank.get("MATH1006-tb-1.1.1")
@@ -103,6 +105,12 @@ class TestQuestionBank(unittest.TestCase):
         self.assertEqual(q_dl.answer_origin, "official")
         self.assertEqual(len(q_dl.stem_figures), 1)
 
+        q_le = self.bank.get("023181-tb-ex-1.3.5")
+        self.assertEqual(q_le.course_code, "023181")
+        self.assertEqual(q_le.answer_origin, "official")
+        self.assertEqual(len(q_le.stem_figures), 1)
+        self.assertEqual(len(q_le.solution_figures), 1)
+
     def test_taxonomy_subtree_query(self) -> None:
         c = self.bank["MATH1006"]
         lim_qs = c.query(kp="ma1.lim")
@@ -144,18 +152,19 @@ class TestQuestionBank(unittest.TestCase):
         phys = self.bank["PHYS1001A"]
         with_figs = phys.query(has_figures=True, exclude_quarantined=False)
         self.assertEqual(len(with_figs), 86)
-        self.assertEqual(len(phys.query(has_figures=True)), 78)
+        self.assertEqual(len(phys.query(has_figures=True)), 84)
         for q in with_figs:
             for fg in (*q.stem_figures, *q.solution_figures):
                 self.assertTrue(pathlib.Path(phys.resolve_asset(fg.path)).is_file())
 
         for code_check, exp_all, exp_clean in [
-            ("PHYS1002A", 48, 47),
-            ("PHYS1004A", 58, 52),
+            ("PHYS1002A", 48, 48),
+            ("PHYS1004A", 58, 54),
             ("210070", 17, 17),
             ("STAT2002", 1, 1),
-            ("PHYS1003A", 17, 16),
+            ("PHYS1003A", 20, 19),
             ("210050", 58, 58),
+            ("023181", 319, 319),
         ]:
             cb = self.bank[code_check]
             wf = cb.query(has_figures=True, exclude_quarantined=False)
@@ -171,7 +180,7 @@ class TestQuestionBank(unittest.TestCase):
             conn = sqlite3.connect(db_path)
             try:
                 count = conn.execute("SELECT COUNT(*) FROM questions").fetchone()[0]
-                self.assertEqual(count, 5827)
+                self.assertEqual(count, 6234)
                 hits = conn.execute(
                     "SELECT id FROM questions_fts WHERE questions_fts MATCH 'Laurent' LIMIT 5"
                 ).fetchall()

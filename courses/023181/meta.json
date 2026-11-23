@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "code": "023181",
+  "name": "线性电子线路",
+  "name_en": "Linear Electronic Circuits",
+  "department": "信息科学技术学院",
+  "category": "professional",
+  "description": "中国科学技术大学《线性电子线路》（课号 023181）结构化题库，收录《模拟电子技术基础（第五版）全程辅导与习题全解》第 1–10 章全部 342 道例题/自测题/课后习题与 2014–2019 年等 6 套期末/样卷/模拟试卷共 407 题，覆盖 61 个二级知识点，其中 361 题附原书/原卷参考解答（origin=official）、46 题由模型独立求解并配分步解析。",
+  "stats": {
+    "total": 407,
+    "quarantined": 0,
+    "taxonomy_nodes": 71,
+    "by_origin": {
+      "official": 361,
+      "community": 0,
+      "ai": 46
+    },
+    "by_type": {
+      "blank": 79,
+      "solve": 328
+    },
+    "by_difficulty": {
+      "1": 10,
+      "2": 64,
+      "3": 154,
+      "4": 143,
+      "5": 36
+    },
+    "exam_years": [
+      2014,
+      2016,
+      2019
+    ]
+  },
+  "batches": [
+    {
+      "id": "le1_book",
+      "count": 342,
+      "rights": "third_party_textbook",
+      "description": "童诗白、华成英版配套《模拟电子技术基础（第五版）全程辅导与习题全解》第 1–10 章（100 例题 + 40 自测题 + 202 习题）"
+    },
+    {
+      "id": "le1_exams",
+      "count": 65,
+      "rights": "third_party_exam",
+      "description": "2014–2019 年期末真题/回忆版及 B 课样卷/模拟卷（6 套）"
+    }
+  ],
+  "known_notes": [
+    "全库涉及电路原理图、工作点负载线、波特图与信号波形的 319 道题目共 340 次引图（含 288 幅去重原图）均经逐页精裁、去红水印与背景均衡后以紧凑灰度 WebP 随题导出（含 7 幅补自清华大学童诗白、华成英原教材第 5 版的随文插图与 16 幅典型解图）。",
+    "2019 春期末回忆版、B 课样卷 A 卷、模拟卷 2 与 2016–2017 秋 A 卷仅存无解答原卷（或仅个别填空含铅笔痕迹），其参考答案与分步解析均由模型独立推导并经原卷图面复核。",
+    "个别原书数据/型号或卷面印刷存疑的题目（如第 4.10 题、第 5.19 题、第 9.3 题及 2016–2017 第一-6 题）已在对应题目的 quality.note 中标注勘误说明。"
+  ],
+  "files": {
+    "questions": "courses/023181/questions.jsonl",
+    "taxonomy": "courses/023181/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "d0cf34bad68a9e85a09c343250ac0226e44963d05366b1d2c6b968fce626ae6b",
+    "taxonomy": "13b82f2c1c3797fac4df33f21bb080ddc0b0e2a336ea7a512f4f0c1e291b689a"
+  }
+}

@@ -8,7 +8,7 @@
   "description": "中国科学技术大学《复变函数B》（课号 001548）结构化题库，收录 2003–2026 年历年期末/期中真题、复习讲义例题、公开复习题库，以及严镇军《复变函数》（第 2 版）与《数学物理方法》书末习题。",
   "stats": {
     "total": 571,
-    "quarantined": 7,
+    "quarantined": 3,
     "taxonomy_nodes": 35,
     "by_origin": {
       "official": 229,
@@ -92,14 +92,14 @@
     "2022-2023 期末为手写回忆版，部分题干存在符号歧义，低置信题已标记 quality.quarantined=true。",
     "《数学物理方法》第一篇（yan_mp_part1）与《复变函数》（yan_complex）内容存在重叠；如需去重可排除 batch='yan_mp_part1'。",
     "《复变函数》第 9 章习题 3、5 与《数学物理方法》第 7 章习题 4 依赖原书插图，未收录。",
-    "全库共 7 道低置信题标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+    "全库共 3 道原卷/社区底本题面缺陷题标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
   ],
   "files": {
     "questions": "courses/001548/questions.jsonl",
     "taxonomy": "courses/001548/taxonomy.json"
   },
   "sha256": {
-    "questions": "8f1cf960605db27249fd592a63431255a8287ce3318cc2d8f5bd5ee338b1b87e",
+    "questions": "82b4cb147e6c32e6003e313a673467c8adbff49c018b39d341d1466fec5e1cb3",
     "taxonomy": "3ad9d35e865c3c994901b9c4a25ad066f68a968c7924cbbd456bcdb7f07e6fcf"
   }
 }
