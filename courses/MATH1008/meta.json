@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH1008",
+  "name": "数学分析(B3)",
+  "name_en": "Mathematical Analysis (B3)",
+  "department": "数学科学学院",
+  "category": "common",
+  "description": "中国科学技术大学《数学分析(B3)》（课号 MATH1008）结构化题库，收录 2016–2025 年12 套 B3 期中/期末真题（171 题）、2026 小测（4 题）及《数学分析(B)历年真题汇编》13 套试卷（95 题）共 270 题，覆盖 14 个二级知识点，其中 102 题附原卷参考答案（origin=official）、168 题由模型独立求解。",
+  "stats": {
+    "total": 270,
+    "quarantined": 2,
+    "taxonomy_nodes": 24,
+    "by_origin": {
+      "official": 102,
+      "community": 0,
+      "ai": 168
+    },
+    "by_type": {
+      "blank": 34,
+      "proof": 145,
+      "solve": 91
+    },
+    "by_difficulty": {
+      "1": 9,
+      "2": 28,
+      "3": 98,
+      "4": 98,
+      "5": 37
+    },
+    "exam_years": [
+      2007,
+      2012,
+      2013,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "mb3_paper",
+      "count": 171,
+      "rights": "third_party_exam",
+      "description": "2016–2025 年数学分析(B3) 12 套期中/期末真题（171 题）"
+    },
+    {
+      "id": "mb3_solved",
+      "count": 95,
+      "rights": "third_party_exam",
+      "description": "《数学分析(B)历年真题汇编》13 套试卷及 XeLaTeX 重建解析（95 题）"
+    },
+    {
+      "id": "mb3_drill",
+      "count": 4,
+      "rights": "third_party_exam",
+      "description": "2026 数学分析(B3)第 15 章课堂小测（4 题）"
+    }
+  ],
+  "known_notes": [
+    "《数学分析(B)历年真题汇编》（mb3_solved，95 题）收录了 2018B3 期末、2020B3 期中及课程分段改革前的 2007–2020 学年第二学期真题（覆盖多元微积分、重积分、曲线曲面积分与 Fourier 级数等 B3 核心章节），全量 95 道题干已对照原 XeLaTeX PDF 页图逐题重建为标准 LaTeX 并重新核验解答。",
+    "全库仅 2 道原卷题面条件缺失题（2016 期末 B.4 题非标准核形式、2020 期末第 6(2) 题未给出可微条件）标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+  ],
+  "files": {
+    "questions": "courses/MATH1008/questions.jsonl",
+    "taxonomy": "courses/MATH1008/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "6c49d792254ad630f5e408a91bd02f576f5ba7353e01a5a08e09366e8095db04",
+    "taxonomy": "424f36e7a67e502a3290d925259e6047ab7758b124c7c0b5f3d1c30ef41a6130"
+  }
+}

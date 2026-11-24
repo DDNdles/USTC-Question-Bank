@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH1008",
+  "nodes": [
+    {
+      "id": "ma3.series",
+      "parent_id": null,
+      "level": 1,
+      "name": "级数与函数项级数",
+      "chapter_ref": "第8-9章"
+    },
+    {
+      "id": "ma3.series.num",
+      "parent_id": "ma3.series",
+      "level": 2,
+      "name": "数项级数收敛判别",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma3.series.func",
+      "parent_id": "ma3.series",
+      "level": 2,
+      "name": "函数项级数与一致收敛",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma3.series.power",
+      "parent_id": "ma3.series",
+      "level": 2,
+      "name": "幂级数与展开",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma3.series.fourier",
+      "parent_id": "ma3.series",
+      "level": 2,
+      "name": "傅里叶级数",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma3.multivar",
+      "parent_id": null,
+      "level": 1,
+      "name": "多元函数微分学",
+      "chapter_ref": "第10-11章"
+    },
+    {
+      "id": "ma3.multivar.partial",
+      "parent_id": "ma3.multivar",
+      "level": 2,
+      "name": "偏导数、全微分与链式法则",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma3.multivar.implicit",
+      "parent_id": "ma3.multivar",
+      "level": 2,
+      "name": "隐函数与反函数定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma3.multivar.extreme",
+      "parent_id": "ma3.multivar",
+      "level": 2,
+      "name": "极值、条件极值与最值问题",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma3.integral",
+      "parent_id": null,
+      "level": 1,
+      "name": "重积分与曲线曲面积分",
+      "chapter_ref": "第12-14章"
+    },
+    {
+      "id": "ma3.integral.double",
+      "parent_id": "ma3.integral",
+      "level": 2,
+      "name": "二重积分",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma3.integral.triple",
+      "parent_id": "ma3.integral",
+      "level": 2,
+      "name": "三重积分与坐标变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma3.integral.line",
+      "parent_id": "ma3.integral",
+      "level": 2,
+      "name": "曲线积分与格林公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma3.integral.surface",
+      "parent_id": "ma3.integral",
+      "level": 2,
+      "name": "曲面积分与高斯公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma3.field",
+      "parent_id": null,
+      "level": 1,
+      "name": "场论与积分公式",
+      "chapter_ref": "第14章"
+    },
+    {
+      "id": "ma3.field.grad",
+      "parent_id": "ma3.field",
+      "level": 2,
+      "name": "梯度、散度与旋度",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma3.field.gauss_stokes",
+      "parent_id": "ma3.field",
+      "level": 2,
+      "name": "高斯公式与斯托克斯公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma3.ode",
+      "parent_id": null,
+      "level": 1,
+      "name": "常微分方程",
+      "chapter_ref": "第15-16章"
+    },
+    {
+      "id": "ma3.ode.first",
+      "parent_id": "ma3.ode",
+      "level": 2,
+      "name": "一阶微分方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma3.ode.linear",
+      "parent_id": "ma3.ode",
+      "level": 2,
+      "name": "线性微分方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma3.ode.system",
+      "parent_id": "ma3.ode",
+      "level": 2,
+      "name": "微分方程组与定性初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma3.special",
+      "parent_id": null,
+      "level": 1,
+      "name": "重积分应用与综合",
+      "chapter_ref": "综合"
+    },
+    {
+      "id": "ma3.special.physics",
+      "parent_id": "ma3.special",
+      "level": 2,
+      "name": "积分的物理应用",
+      "chapter_ref": null
+    },
+    {
+      "id": "ma3.special.proof",
+      "parent_id": "ma3.special",
+      "level": 2,
+      "name": "不等式与证明题",
+      "chapter_ref": null
+    }
+  ]
+}

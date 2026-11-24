@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MARX1010",
+  "nodes": [
+    {
+      "id": "mch.late_qing",
+      "parent_id": null,
+      "level": 1,
+      "name": "列强侵略与晚清危机",
+      "chapter_ref": "第一章"
+    },
+    {
+      "id": "mch.late_qing.war",
+      "parent_id": "mch.late_qing",
+      "level": 2,
+      "name": "鸦片战争与半殖民地化",
+      "chapter_ref": null
+    },
+    {
+      "id": "mch.late_qing.movement",
+      "parent_id": "mch.late_qing",
+      "level": 2,
+      "name": "太平天国与洋务运动",
+      "chapter_ref": null
+    },
+    {
+      "id": "mch.late_qing.reform",
+      "parent_id": "mch.late_qing",
+      "level": 2,
+      "name": "戊戌变法与义和团",
+      "chapter_ref": null
+    },
+    {
+      "id": "mch.revolution1911",
+      "parent_id": null,
+      "level": 1,
+      "name": "辛亥革命与民国初年",
+      "chapter_ref": "第二章"
+    },
+    {
+      "id": "mch.revolution1911.xinhai",
+      "parent_id": "mch.revolution1911",
+      "level": 2,
+      "name": "辛亥革命与三民主义",
+      "chapter_ref": null
+    },
+    {
+      "id": "mch.revolution1911.newculture",
+      "parent_id": "mch.revolution1911",
+      "level": 2,
+      "name": "新文化运动与五四运动",
+      "chapter_ref": null
+    },
+    {
+      "id": "mch.newdem",
+      "parent_id": null,
+      "level": 1,
+      "name": "新民主主义革命",
+      "chapter_ref": "第三章"
+    },
+    {
+      "id": "mch.newdem.party",
+      "parent_id": "mch.newdem",
+      "level": 2,
+      "name": "中国共产党成立与革命道路",
+      "chapter_ref": null
+    },
+    {
+      "id": "mch.newdem.war",
+      "parent_id": "mch.newdem",
+      "level": 2,
+      "name": "土地革命与抗日战争",
+      "chapter_ref": null
+    },
+    {
+      "id": "mch.newdem.victory",
+      "parent_id": "mch.newdem",
+      "level": 2,
+      "name": "解放战争与新中国成立",
+      "chapter_ref": null
+    },
+    {
+      "id": "mch.socialist",
+      "parent_id": null,
+      "level": 1,
+      "name": "社会主义革命与建设",
+      "chapter_ref": "第四章"
+    },
+    {
+      "id": "mch.socialist.transition",
+      "parent_id": "mch.socialist",
+      "level": 2,
+      "name": "社会主义改造",
+      "chapter_ref": null
+    },
+    {
+      "id": "mch.socialist.explore",
+      "parent_id": "mch.socialist",
+      "level": 2,
+      "name": "社会主义建设探索与成就",
+      "chapter_ref": null
+    },
+    {
+      "id": "mch.reform",
+      "parent_id": null,
+      "level": 1,
+      "name": "改革开放与中国特色社会主义",
+      "chapter_ref": "第五章"
+    },
+    {
+      "id": "mch.reform.start",
+      "parent_id": "mch.reform",
+      "level": 2,
+      "name": "改革开放的开启",
+      "chapter_ref": null
+    },
+    {
+      "id": "mch.reform.system",
+      "parent_id": "mch.reform",
+      "level": 2,
+      "name": "社会主义市场经济与一国两制",
+      "chapter_ref": null
+    },
+    {
+      "id": "mch.newera",
+      "parent_id": null,
+      "level": 1,
+      "name": "新时代与中国梦",
+      "chapter_ref": "第六章"
+    },
+    {
+      "id": "mch.newera.thought",
+      "parent_id": "mch.newera",
+      "level": 2,
+      "name": "习近平新时代中国特色社会主义思想",
+      "chapter_ref": null
+    },
+    {
+      "id": "mch.newera.goal",
+      "parent_id": "mch.newera",
+      "level": 2,
+      "name": "中华民族伟大复兴",
+      "chapter_ref": null
+    }
+  ]
+}

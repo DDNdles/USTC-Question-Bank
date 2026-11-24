@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "code": "PHYS1005B",
+  "name": "原子物理B",
+  "name_en": "Atomic Physics (B)",
+  "department": "物理学院",
+  "category": "common",
+  "description": "中国科学技术大学《原子物理B》（课号 PHYS1005B）结构化题库，收录 2015–2025 年期中/期末真题与习题集共 7 卷（99 题）及分章讲义与五次习题课例题（57 题）共 156 题，覆盖 13 个二级知识点，其中 85 题附原卷/讲义解答（origin=official）、71 题由模型独立求解，并附 3 幅能级分裂与精细结构参考解图。",
+  "stats": {
+    "total": 156,
+    "quarantined": 3,
+    "taxonomy_nodes": 20,
+    "by_origin": {
+      "official": 85,
+      "community": 0,
+      "ai": 71
+    },
+    "by_type": {
+      "blank": 36,
+      "proof": 3,
+      "single": 37,
+      "solve": 80
+    },
+    "by_difficulty": {
+      "1": 5,
+      "2": 37,
+      "3": 64,
+      "4": 41,
+      "5": 9
+    },
+    "exam_years": [
+      2016,
+      2017,
+      2018,
+      2022,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "apb_solved",
+      "count": 73,
+      "rights": "third_party_exam",
+      "description": "2015–2018 原子物理(B)期末真题及 2016 前期末合集（73 题）"
+    },
+    {
+      "id": "apb_paper",
+      "count": 26,
+      "rights": "third_party_exam",
+      "description": "2021–2022/2025 原子物理(B)期末卷与课后习题（26 题）"
+    },
+    {
+      "id": "apb_drill",
+      "count": 57,
+      "rights": "third_party_notes",
+      "description": "原子物理(B)分章讲义、概念公式集与五次习题课（57 题）"
+    }
+  ],
+  "known_notes": [
+    "2015–2018 期末及 2016 前期末合集（73 题）与部分讲义例题共 85 题标记为 origin=official（多处原卷答案表印刷笔误已在 quality.note 注明）；2021–2022/2025 卷、原子物理习题与无答案讲义 71 题由模型独立求解（origin=ai）。",
+    "2015–2016 期末第三-2 题已随题内联 Na 原子能级空白填空表格（Markdown Table），方便完整作答；第三-4 题、2016–2017 期末第四-3 题与 2017–2018 期末第三-4 题附带原卷参考能级/塞曼分裂解图（3 幅灰度 WebP 存入 courses/PHYS1005B/assets/）。",
+    "全库共 3 道回忆版/讲义表意缺失题（2021–2022 期末第 4、7 题与多电子原子讲义一第 3 题）标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+  ],
+  "files": {
+    "questions": "courses/PHYS1005B/questions.jsonl",
+    "taxonomy": "courses/PHYS1005B/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "7d50a093af29dd0f014d331bb3ef5fb3b3381ff2959e67f9554ace887971d0ca",
+    "taxonomy": "977f2a7220db2d4636f786bd42bb7826c1c194782b84f07a94622f1c2d7e0704"
+  }
+}

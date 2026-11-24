@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "code": "MARX1010",
+  "name": "中国近现代史纲要",
+  "name_en": "Outline of Modern and Contemporary Chinese History",
+  "department": "马克思主义学院",
+  "category": "common",
+  "description": "中国科学技术大学《中国近现代史纲要》（课号 MARX1010）结构化题库，收录 2022 春与 2026 年史纲机考题库（762 题）、人名/会议/期刊/著作/论战等专题练习与书本例题（254 题）以及史纲简记与问题总结（90 题）共 1,106 题，覆盖 14 个二级知识点，其中 1,075 题附题库标准答案（origin=official）、31 题由模型补充作答。",
+  "stats": {
+    "total": 1106,
+    "quarantined": 0,
+    "taxonomy_nodes": 20,
+    "by_origin": {
+      "official": 1075,
+      "community": 0,
+      "ai": 31
+    },
+    "by_type": {
+      "blank": 21,
+      "multi": 309,
+      "single": 626,
+      "solve": 150
+    },
+    "by_difficulty": {
+      "1": 535,
+      "2": 0,
+      "3": 320,
+      "4": 124,
+      "5": 127
+    },
+    "exam_years": []
+  },
+  "batches": [
+    {
+      "id": "mch_solved",
+      "count": 1016,
+      "rights": "third_party_community",
+      "description": "2022 春/2026 史纲机考题库、人名会议期刊专题练习与书本例题（1,016 题）"
+    },
+    {
+      "id": "mch_drill",
+      "count": 90,
+      "rights": "third_party_notes",
+      "description": "《史纲简记》与《中国近现代史纲要问题总结》（90 题）"
+    }
+  ],
+  "known_notes": [
+    "2026 题库、2022 春题库（PDF 版）、专题练习与书本例题共 1,075 题附标准答案（origin=official）；《史纲简记》与《问题总结》中仅列设问未附答的 31 题由模型依据教材标准表述整理（origin=ai）。",
+    "全库零低置信度隔离题（quarantined=0），全部选择题选项及答案字母均通过结构化完整性体检。"
+  ],
+  "files": {
+    "questions": "courses/MARX1010/questions.jsonl",
+    "taxonomy": "courses/MARX1010/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "c53ffe1c856d162f2f3daf24376d8c114f469a89bdd8fa312f997b75a7049b11",
+    "taxonomy": "3d574d04a227e5e130b55f2e754dcc3c55d10ebc0ca43f221f662b0b9dc39332"
+  }
+}

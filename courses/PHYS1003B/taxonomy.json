@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "course_code": "PHYS1003B",
+  "nodes": [
+    {
+      "id": "optb.geom",
+      "parent_id": null,
+      "level": 1,
+      "name": "几何光学",
+      "chapter_ref": "第1-2章"
+    },
+    {
+      "id": "optb.geom.law",
+      "parent_id": "optb.geom",
+      "level": 2,
+      "name": "光的反射、折射与全反射",
+      "chapter_ref": null
+    },
+    {
+      "id": "optb.geom.matrix",
+      "parent_id": "optb.geom",
+      "level": 2,
+      "name": "近轴光学与矩阵方法",
+      "chapter_ref": null
+    },
+    {
+      "id": "optb.geom.lens",
+      "parent_id": "optb.geom",
+      "level": 2,
+      "name": "透镜、成像与像差",
+      "chapter_ref": null
+    },
+    {
+      "id": "optb.geom.instrument",
+      "parent_id": "optb.geom",
+      "level": 2,
+      "name": "光学仪器",
+      "chapter_ref": null
+    },
+    {
+      "id": "optb.interference",
+      "parent_id": null,
+      "level": 1,
+      "name": "光的干涉",
+      "chapter_ref": "第3-4章"
+    },
+    {
+      "id": "optb.interference.young",
+      "parent_id": "optb.interference",
+      "level": 2,
+      "name": "杨氏干涉与光程差",
+      "chapter_ref": null
+    },
+    {
+      "id": "optb.interference.thin",
+      "parent_id": "optb.interference",
+      "level": 2,
+      "name": "薄膜干涉与等倾等厚",
+      "chapter_ref": null
+    },
+    {
+      "id": "optb.interference.multiple",
+      "parent_id": "optb.interference",
+      "level": 2,
+      "name": "多光束干涉与干涉仪",
+      "chapter_ref": null
+    },
+    {
+      "id": "optb.diffraction",
+      "parent_id": null,
+      "level": 1,
+      "name": "光的衍射",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "optb.diffraction.single",
+      "parent_id": "optb.diffraction",
+      "level": 2,
+      "name": "单缝与夫琅禾费衍射",
+      "chapter_ref": null
+    },
+    {
+      "id": "optb.diffraction.grating",
+      "parent_id": "optb.diffraction",
+      "level": 2,
+      "name": "光栅衍射",
+      "chapter_ref": null
+    },
+    {
+      "id": "optb.diffraction.circle",
+      "parent_id": "optb.diffraction",
+      "level": 2,
+      "name": "圆孔衍射与分辨本领",
+      "chapter_ref": null
+    },
+    {
+      "id": "optb.polarization",
+      "parent_id": null,
+      "level": 1,
+      "name": "光的偏振",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "optb.polarization.states",
+      "parent_id": "optb.polarization",
+      "level": 2,
+      "name": "偏振态与自然光",
+      "chapter_ref": null
+    },
+    {
+      "id": "optb.polarization.brewster",
+      "parent_id": "optb.polarization",
+      "level": 2,
+      "name": "起偏、检偏与布儒斯特定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "optb.polarization.crystal",
+      "parent_id": "optb.polarization",
+      "level": 2,
+      "name": "晶体双折射与波片",
+      "chapter_ref": null
+    },
+    {
+      "id": "optb.em",
+      "parent_id": null,
+      "level": 1,
+      "name": "光的电磁理论",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "optb.em.wave_eq",
+      "parent_id": "optb.em",
+      "level": 2,
+      "name": "电磁波与折射率",
+      "chapter_ref": null
+    },
+    {
+      "id": "optb.em.dispersion",
+      "parent_id": "optb.em",
+      "level": 2,
+      "name": "色散与吸收",
+      "chapter_ref": null
+    },
+    {
+      "id": "optb.quantum",
+      "parent_id": null,
+      "level": 1,
+      "name": "光的量子性",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "optb.quantum.photo",
+      "parent_id": "optb.quantum",
+      "level": 2,
+      "name": "光电效应与光子",
+      "chapter_ref": null
+    },
+    {
+      "id": "optb.quantum.compton",
+      "parent_id": "optb.quantum",
+      "level": 2,
+      "name": "康普顿散射",
+      "chapter_ref": null
+    }
+  ]
+}

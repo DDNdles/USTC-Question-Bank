@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "code": "229001",
+  "name": "离散数学",
+  "name_en": "Discrete Mathematics",
+  "department": "计算机科学与技术学院",
+  "category": "common",
+  "description": "中国科学技术大学《离散数学》（课号 229001）结构化题库，收录 2021–2025 学年期中/期末真题（69 题）与 2024 秋七次课程作业（102 题）、《离散数学教程》及《组合数学引论》配套例题习题（203 题）、专题讲义（57 题）共 431 题，覆盖 23 个二级知识点，并附图 2.4.1 网格路径与正方体顶点置换群配图。",
+  "stats": {
+    "total": 431,
+    "quarantined": 22,
+    "taxonomy_nodes": 33,
+    "by_origin": {
+      "official": 255,
+      "community": 0,
+      "ai": 176
+    },
+    "by_type": {
+      "blank": 2,
+      "proof": 219,
+      "solve": 210
+    },
+    "by_difficulty": {
+      "1": 13,
+      "2": 110,
+      "3": 164,
+      "4": 111,
+      "5": 33
+    },
+    "exam_years": [
+      2021,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "dmath_paper",
+      "count": 171,
+      "rights": "third_party_exam",
+      "description": "2021–2025 学年期中/期末真题（69 题）与 2024 秋七次课程作业（102 题）"
+    },
+    {
+      "id": "dmath_solved",
+      "count": 203,
+      "rights": "third_party_textbook",
+      "description": "《离散数学教程》与《组合数学》配套解答、开放教材及专题讲义习题（203 题）"
+    },
+    {
+      "id": "dmath_drill",
+      "count": 57,
+      "rights": "third_party_notes",
+      "description": "数理逻辑、代数结构与图论组合 22 份专题讲义及复习提纲（57 题）"
+    }
+  ],
+  "known_notes": [
+    "《离散数学教程》配套解答与《组合数学》第 1–10 章解答、开放教材及期末标答合计 255 题标记为 origin=official；无标答期中/期末、2024 秋作业与专题讲义由模型独立求解（176 题，origin=ai）。",
+    "《离散数学教程》习题解答中 11 道题（第 9.9、10.1(a/b)、10.2、10.4、14.1、14.2、14.8、14.9、15.6、19.1 题）因原解答手册未附原教材输入图/函数表，已如实给出解答摘要并标记为 quality.quarantined=true；连同 11 道回忆版缺参题共 22 题隔离，下游组卷/评测建议默认过滤。",
+    "全库第 10.3 题（K_4 关联矩阵）及全部 58 处双反斜杠 LaTeX 转义均已结构化修复，并裁剪导出《组合数学引论》图 2.4.1 与代数结构讲义 14 正方体示意图（2 张 WebP 存入 courses/229001/assets/）。"
+  ],
+  "files": {
+    "questions": "courses/229001/questions.jsonl",
+    "taxonomy": "courses/229001/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "f33c51a0bef9f4fc7227651f48d56ba56894de830bfcfa758e6e03ad7c4b504d",
+    "taxonomy": "257eced17d4eb1c72f16678da6e1137dfa1737bfb918abc296355df57e87f91d"
+  }
+}

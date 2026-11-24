@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.0",
+  "course_code": "229001",
+  "nodes": [
+    {
+      "id": "dm.logic",
+      "parent_id": null,
+      "level": 1,
+      "name": "命题逻辑与谓词逻辑",
+      "chapter_ref": "第1章"
+    },
+    {
+      "id": "dm.logic.prop",
+      "parent_id": "dm.logic",
+      "level": 2,
+      "name": "命题、联结词与真值表",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.logic.equiv",
+      "parent_id": "dm.logic",
+      "level": 2,
+      "name": "逻辑等价与范式",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.logic.infer",
+      "parent_id": "dm.logic",
+      "level": 2,
+      "name": "推理规则与证明",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.logic.pred",
+      "parent_id": "dm.logic",
+      "level": 2,
+      "name": "谓词、量词与谓词公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.set",
+      "parent_id": null,
+      "level": 1,
+      "name": "集合论基础",
+      "chapter_ref": "第2章"
+    },
+    {
+      "id": "dm.set.basic",
+      "parent_id": "dm.set",
+      "level": 2,
+      "name": "集合运算与文氏图",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.set.count",
+      "parent_id": "dm.set",
+      "level": 2,
+      "name": "有限集计数与容斥原理",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.set.multiset",
+      "parent_id": "dm.set",
+      "level": 2,
+      "name": "多重集与有序元组",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.relation",
+      "parent_id": null,
+      "level": 1,
+      "name": "关系与函数",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "dm.relation.binary",
+      "parent_id": "dm.relation",
+      "level": 2,
+      "name": "二元关系与关系矩阵",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.relation.prop_rel",
+      "parent_id": "dm.relation",
+      "level": 2,
+      "name": "关系的性质",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.relation.closure",
+      "parent_id": "dm.relation",
+      "level": 2,
+      "name": "关系的闭包",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.relation.equiv_part",
+      "parent_id": "dm.relation",
+      "level": 2,
+      "name": "等价关系与划分",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.relation.partial",
+      "parent_id": "dm.relation",
+      "level": 2,
+      "name": "偏序关系与哈斯图",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.relation.function",
+      "parent_id": "dm.relation",
+      "level": 2,
+      "name": "函数、复合与逆函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.algebra",
+      "parent_id": null,
+      "level": 1,
+      "name": "代数结构",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "dm.algebra.semigroup",
+      "parent_id": "dm.algebra",
+      "level": 2,
+      "name": "半群、独异点与群",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.algebra.subgroup",
+      "parent_id": "dm.algebra",
+      "level": 2,
+      "name": "子群、陪集与拉格朗日定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.algebra.ring",
+      "parent_id": "dm.algebra",
+      "level": 2,
+      "name": "环与域",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.algebra.lattice",
+      "parent_id": "dm.algebra",
+      "level": 2,
+      "name": "格与布尔代数",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.graph",
+      "parent_id": null,
+      "level": 1,
+      "name": "图论",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "dm.graph.basic",
+      "parent_id": "dm.graph",
+      "level": 2,
+      "name": "图的基本概念与度数",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.graph.connect",
+      "parent_id": "dm.graph",
+      "level": 2,
+      "name": "连通性与欧拉图/哈密顿图",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.graph.tree",
+      "parent_id": "dm.graph",
+      "level": 2,
+      "name": "树与生成树",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.graph.planar",
+      "parent_id": "dm.graph",
+      "level": 2,
+      "name": "平面图与图着色",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.graph.matching",
+      "parent_id": "dm.graph",
+      "level": 2,
+      "name": "匹配与网络流",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.graph.matrix",
+      "parent_id": "dm.graph",
+      "level": 2,
+      "name": "图的矩阵表示",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.combi",
+      "parent_id": null,
+      "level": 1,
+      "name": "组合数学",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "dm.combi.rule",
+      "parent_id": "dm.combi",
+      "level": 2,
+      "name": "加法乘法原理与排列组合",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.combi.inclusion",
+      "parent_id": "dm.combi",
+      "level": 2,
+      "name": "容斥原理与错位排列",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.combi.recurrence",
+      "parent_id": "dm.combi",
+      "level": 2,
+      "name": "递推关系与生成函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "dm.combi.pigeon",
+      "parent_id": "dm.combi",
+      "level": 2,
+      "name": "鸽巢原理",
+      "chapter_ref": null
+    }
+  ]
+}

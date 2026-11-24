@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "code": "MARX1011",
+  "name": "马克思主义基本原理",
+  "name_en": "Basic Principles of Marxism",
+  "department": "马克思主义学院",
+  "category": "common",
+  "description": "中国科学技术大学《马克思主义基本原理》（课号 MARX1011）结构化题库，收录期末样题（6 题）、教材课后习题解答/复习题库与考研辨析材料题（399 题）及教材与重点整理（106 题）共 511 题，覆盖 21 个二级知识点，其中 439 题附原卷/教材/题库参考答案（origin=official）、72 题由模型独立求解。",
+  "stats": {
+    "total": 511,
+    "quarantined": 1,
+    "taxonomy_nodes": 27,
+    "by_origin": {
+      "official": 439,
+      "community": 0,
+      "ai": 72
+    },
+    "by_type": {
+      "multi": 7,
+      "single": 18,
+      "solve": 486
+    },
+    "by_difficulty": {
+      "1": 8,
+      "2": 257,
+      "3": 155,
+      "4": 89,
+      "5": 2
+    },
+    "exam_years": []
+  },
+  "batches": [
+    {
+      "id": "marxp_paper",
+      "count": 6,
+      "rights": "third_party_exam",
+      "description": "马克思主义基本原理期末考试回忆试题（6 题）"
+    },
+    {
+      "id": "marxp_solved",
+      "count": 399,
+      "rights": "third_party_community",
+      "description": "2023 版教材课后习题解答、复习题库与考研辨析/材料分析题（399 题）"
+    },
+    {
+      "id": "marxp_drill",
+      "count": 106,
+      "rights": "third_party_notes",
+      "description": "2023 版教材要点、教学提纲、索引与重点整理（106 题）"
+    }
+  ],
+  "known_notes": [
+    "2023 版教材课后习题解答、新版复习题库答案、第三六七章复习题及考研辨析/材料分析题库共 439 题标记为 origin=official；无答案复习重点与某年期末试题 72 题由模型结合教材线索求解（origin=ai）。",
+    "全库仅某年期末试题第二-2 题因原卷回忆稿缺失「材料 1」标记为 quality.quarantined=true，其余 510 题均完整可用。"
+  ],
+  "files": {
+    "questions": "courses/MARX1011/questions.jsonl",
+    "taxonomy": "courses/MARX1011/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "b8a5a2c874f811a057400a94c44ca85dd4e8fc103d1a34193c0449504ee50b4d",
+    "taxonomy": "067546b1fae52a3f94da1c1e9aaa1f31d2e443e856924f52eba540749d4d8e0f"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "course_code": "PHYS1005B",
+  "nodes": [
+    {
+      "id": "apb.model",
+      "parent_id": null,
+      "level": 1,
+      "name": "原子结构模型",
+      "chapter_ref": "第1-3章"
+    },
+    {
+      "id": "apb.model.discovery",
+      "parent_id": "apb.model",
+      "level": 2,
+      "name": "电子发现与原子核式结构",
+      "chapter_ref": null
+    },
+    {
+      "id": "apb.model.bohr",
+      "parent_id": "apb.model",
+      "level": 2,
+      "name": "玻尔理论",
+      "chapter_ref": null
+    },
+    {
+      "id": "apb.model.quantum",
+      "parent_id": "apb.model",
+      "level": 2,
+      "name": "量子化条件与对应原理",
+      "chapter_ref": null
+    },
+    {
+      "id": "apb.hydrogen",
+      "parent_id": null,
+      "level": 1,
+      "name": "氢原子光谱",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "apb.hydrogen.series",
+      "parent_id": "apb.hydrogen",
+      "level": 2,
+      "name": "氢光谱线系与里德伯公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "apb.hydrogen.level",
+      "parent_id": "apb.hydrogen",
+      "level": 2,
+      "name": "能级与跃迁",
+      "chapter_ref": null
+    },
+    {
+      "id": "apb.wave",
+      "parent_id": null,
+      "level": 1,
+      "name": "量子力学初步",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "apb.wave.wave_particle",
+      "parent_id": "apb.wave",
+      "level": 2,
+      "name": "波粒二象性",
+      "chapter_ref": null
+    },
+    {
+      "id": "apb.wave.uncertainty",
+      "parent_id": "apb.wave",
+      "level": 2,
+      "name": "不确定关系",
+      "chapter_ref": null
+    },
+    {
+      "id": "apb.wave.equation",
+      "parent_id": "apb.wave",
+      "level": 2,
+      "name": "薛定谔方程与势阱",
+      "chapter_ref": null
+    },
+    {
+      "id": "apb.multi",
+      "parent_id": null,
+      "level": 1,
+      "name": "多电子原子与周期表",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "apb.multi.shell",
+      "parent_id": "apb.multi",
+      "level": 2,
+      "name": "电子壳层与泡利原理",
+      "chapter_ref": null
+    },
+    {
+      "id": "apb.multi.period",
+      "parent_id": "apb.multi",
+      "level": 2,
+      "name": "元素周期律",
+      "chapter_ref": null
+    },
+    {
+      "id": "apb.magnetic",
+      "parent_id": null,
+      "level": 1,
+      "name": "原子磁性与光谱",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "apb.magnetic.moment",
+      "parent_id": "apb.magnetic",
+      "level": 2,
+      "name": "原子磁矩",
+      "chapter_ref": null
+    },
+    {
+      "id": "apb.magnetic.zeeman",
+      "parent_id": "apb.magnetic",
+      "level": 2,
+      "name": "塞曼效应",
+      "chapter_ref": null
+    },
+    {
+      "id": "apb.xray_nuclear",
+      "parent_id": null,
+      "level": 1,
+      "name": "X 射线与原子核",
+      "chapter_ref": "第8-9章"
+    },
+    {
+      "id": "apb.xray_nuclear.xray",
+      "parent_id": "apb.xray_nuclear",
+      "level": 2,
+      "name": "X 射线的产生与光谱",
+      "chapter_ref": null
+    },
+    {
+      "id": "apb.xray_nuclear.nuclear",
+      "parent_id": "apb.xray_nuclear",
+      "level": 2,
+      "name": "原子核与放射性",
+      "chapter_ref": null
+    }
+  ]
+}

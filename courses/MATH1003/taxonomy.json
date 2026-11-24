@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH1003",
+  "nodes": [
+    {
+      "id": "aa3.limit",
+      "parent_id": null,
+      "level": 1,
+      "name": "极限与连续进阶",
+      "chapter_ref": "上册续"
+    },
+    {
+      "id": "aa3.limit.seq",
+      "parent_id": "aa3.limit",
+      "level": 2,
+      "name": "数列极限与柯西准则",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.limit.func",
+      "parent_id": "aa3.limit",
+      "level": 2,
+      "name": "函数极限与连续性",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.limit.uniform",
+      "parent_id": "aa3.limit",
+      "level": 2,
+      "name": "一致连续与一致收敛",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.multidiff",
+      "parent_id": null,
+      "level": 1,
+      "name": "多元函数微分学",
+      "chapter_ref": "第14-16章"
+    },
+    {
+      "id": "aa3.multidiff.partial",
+      "parent_id": "aa3.multidiff",
+      "level": 2,
+      "name": "偏导数与全微分",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.multidiff.chain",
+      "parent_id": "aa3.multidiff",
+      "level": 2,
+      "name": "复合函数与隐函数定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.multidiff.extreme",
+      "parent_id": "aa3.multidiff",
+      "level": 2,
+      "name": "多元极值、条件极值与拉格朗日乘数",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.multidiff.taylor",
+      "parent_id": "aa3.multidiff",
+      "level": 2,
+      "name": "多元泰勒公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.multint",
+      "parent_id": null,
+      "level": 1,
+      "name": "重积分",
+      "chapter_ref": "第17-18章"
+    },
+    {
+      "id": "aa3.multint.double",
+      "parent_id": "aa3.multint",
+      "level": 2,
+      "name": "二重积分与变量代换",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.multint.triple",
+      "parent_id": "aa3.multint",
+      "level": 2,
+      "name": "三重积分与柱球坐标",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.multint.apply",
+      "parent_id": "aa3.multint",
+      "level": 2,
+      "name": "重积分的几何与物理应用",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.curve",
+      "parent_id": null,
+      "level": 1,
+      "name": "曲线积分与曲面积分",
+      "chapter_ref": "第19-20章"
+    },
+    {
+      "id": "aa3.curve.line1",
+      "parent_id": "aa3.curve",
+      "level": 2,
+      "name": "第一型曲线积分",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.curve.line2",
+      "parent_id": "aa3.curve",
+      "level": 2,
+      "name": "第二型曲线积分与格林公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.curve.surf1",
+      "parent_id": "aa3.curve",
+      "level": 2,
+      "name": "第一型曲面积分",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.curve.surf2",
+      "parent_id": "aa3.curve",
+      "level": 2,
+      "name": "第二型曲面积分与高斯公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.curve.stokes",
+      "parent_id": "aa3.curve",
+      "level": 2,
+      "name": "斯托克斯公式与场论初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.series",
+      "parent_id": null,
+      "level": 1,
+      "name": "无穷级数",
+      "chapter_ref": "第11-13章"
+    },
+    {
+      "id": "aa3.series.num",
+      "parent_id": "aa3.series",
+      "level": 2,
+      "name": "数项级数与敛散判别",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.series.power",
+      "parent_id": "aa3.series",
+      "level": 2,
+      "name": "幂级数与收敛半径",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.series.fourier",
+      "parent_id": "aa3.series",
+      "level": 2,
+      "name": "傅里叶级数",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.param",
+      "parent_id": null,
+      "level": 1,
+      "name": "含参变量积分与反常积分",
+      "chapter_ref": "第21章"
+    },
+    {
+      "id": "aa3.param.improper",
+      "parent_id": "aa3.param",
+      "level": 2,
+      "name": "反常积分敛散与计算",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.param.paramint",
+      "parent_id": "aa3.param",
+      "level": 2,
+      "name": "含参变量积分与一致收敛",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa3.param.gamma",
+      "parent_id": "aa3.param",
+      "level": 2,
+      "name": "Gamma/Beta 函数",
+      "chapter_ref": null
+    }
+  ]
+}

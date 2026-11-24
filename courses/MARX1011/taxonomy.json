@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MARX1011",
+  "nodes": [
+    {
+      "id": "mks.materialism",
+      "parent_id": null,
+      "level": 1,
+      "name": "辩证唯物主义的物质观",
+      "chapter_ref": "第一章"
+    },
+    {
+      "id": "mks.materialism.matter",
+      "parent_id": "mks.materialism",
+      "level": 2,
+      "name": "物质与意识",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.materialism.practice",
+      "parent_id": "mks.materialism",
+      "level": 2,
+      "name": "实践与认识",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.materialism.law",
+      "parent_id": "mks.materialism",
+      "level": 2,
+      "name": "世界的物质统一性",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.dialectics",
+      "parent_id": null,
+      "level": 1,
+      "name": "唯物辩证法",
+      "chapter_ref": "第一章"
+    },
+    {
+      "id": "mks.dialectics.connection",
+      "parent_id": "mks.dialectics",
+      "level": 2,
+      "name": "普遍联系与永恒发展",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.dialectics.contradiction",
+      "parent_id": "mks.dialectics",
+      "level": 2,
+      "name": "对立统一规律",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.dialectics.quality",
+      "parent_id": "mks.dialectics",
+      "level": 2,
+      "name": "质量互变与否定之否定",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.dialectics.thought",
+      "parent_id": "mks.dialectics",
+      "level": 2,
+      "name": "辩证思维方法",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.epistemology",
+      "parent_id": null,
+      "level": 1,
+      "name": "认识论与真理观",
+      "chapter_ref": "第二章"
+    },
+    {
+      "id": "mks.epistemology.cognition",
+      "parent_id": "mks.epistemology",
+      "level": 2,
+      "name": "认识的来源与发展",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.epistemology.truth",
+      "parent_id": "mks.epistemology",
+      "level": 2,
+      "name": "真理的客观性与检验标准",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.epistemology.value",
+      "parent_id": "mks.epistemology",
+      "level": 2,
+      "name": "价值评价与真理尺度",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.history",
+      "parent_id": null,
+      "level": 1,
+      "name": "历史唯物主义",
+      "chapter_ref": "第三章"
+    },
+    {
+      "id": "mks.history.basis",
+      "parent_id": "mks.history",
+      "level": 2,
+      "name": "社会存在与社会意识",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.history.forces",
+      "parent_id": "mks.history",
+      "level": 2,
+      "name": "生产力与生产关系",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.history.structure",
+      "parent_id": "mks.history",
+      "level": 2,
+      "name": "经济基础与上层建筑",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.history.people",
+      "parent_id": "mks.history",
+      "level": 2,
+      "name": "人民群众与历史人物",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.political_econ",
+      "parent_id": null,
+      "level": 1,
+      "name": "马克思主义政治经济学",
+      "chapter_ref": "第四章"
+    },
+    {
+      "id": "mks.political_econ.commodity",
+      "parent_id": "mks.political_econ",
+      "level": 2,
+      "name": "商品二因素与劳动二重性",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.political_econ.surplus",
+      "parent_id": "mks.political_econ",
+      "level": 2,
+      "name": "剩余价值与资本剥削",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.political_econ.accumulation",
+      "parent_id": "mks.political_econ",
+      "level": 2,
+      "name": "资本积累与资本循环",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.political_econ.monopoly",
+      "parent_id": "mks.political_econ",
+      "level": 2,
+      "name": "垄断资本主义",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.socialism",
+      "parent_id": null,
+      "level": 1,
+      "name": "科学社会主义",
+      "chapter_ref": "第五章"
+    },
+    {
+      "id": "mks.socialism.theory",
+      "parent_id": "mks.socialism",
+      "level": 2,
+      "name": "科学社会主义基本原则",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.socialism.development",
+      "parent_id": "mks.socialism",
+      "level": 2,
+      "name": "社会主义发展阶段",
+      "chapter_ref": null
+    },
+    {
+      "id": "mks.socialism.party",
+      "parent_id": "mks.socialism",
+      "level": 2,
+      "name": "无产阶级政党与人的自由全面发展",
+      "chapter_ref": null
+    }
+  ]
+}

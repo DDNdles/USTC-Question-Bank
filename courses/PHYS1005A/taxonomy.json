@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "course_code": "PHYS1005A",
+  "nodes": [
+    {
+      "id": "apa.model",
+      "parent_id": null,
+      "level": 1,
+      "name": "原子模型与量子论基础",
+      "chapter_ref": "第1-3章"
+    },
+    {
+      "id": "apa.model.discovery",
+      "parent_id": "apa.model",
+      "level": 2,
+      "name": "电子、原子核与原子模型",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.model.bohr",
+      "parent_id": "apa.model",
+      "level": 2,
+      "name": "玻尔氢原子理论",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.model.wave",
+      "parent_id": "apa.model",
+      "level": 2,
+      "name": "波粒二象性与德布罗意波",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.model.schrodinger",
+      "parent_id": "apa.model",
+      "level": 2,
+      "name": "薛定谔方程初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.hydrogen",
+      "parent_id": null,
+      "level": 1,
+      "name": "氢原子与类氢离子",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "apa.hydrogen.solution",
+      "parent_id": "apa.hydrogen",
+      "level": 2,
+      "name": "定态薛定谔方程求解",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.hydrogen.quantum_num",
+      "parent_id": "apa.hydrogen",
+      "level": 2,
+      "name": "量子数与波函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.hydrogen.spectrum",
+      "parent_id": "apa.hydrogen",
+      "level": 2,
+      "name": "氢原子光谱与选择定则",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.hydrogen.fine",
+      "parent_id": "apa.hydrogen",
+      "level": 2,
+      "name": "精细结构与相对论修正",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.multi",
+      "parent_id": null,
+      "level": 1,
+      "name": "多电子原子",
+      "chapter_ref": "第5-6章"
+    },
+    {
+      "id": "apa.multi.helium",
+      "parent_id": "apa.multi",
+      "level": 2,
+      "name": "氦原子与电子关联",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.multi.approx",
+      "parent_id": "apa.multi",
+      "level": 2,
+      "name": "自洽场与中心力场近似",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.multi.period",
+      "parent_id": "apa.multi",
+      "level": 2,
+      "name": "元素周期表与电子壳层",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.multi.hund",
+      "parent_id": "apa.multi",
+      "level": 2,
+      "name": "洪特规则与原子基态",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.alkali",
+      "parent_id": null,
+      "level": 1,
+      "name": "碱金属原子",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "apa.alkali.term",
+      "parent_id": "apa.alkali",
+      "level": 2,
+      "name": "碱金属光谱项",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.alkali.spin_orbit",
+      "parent_id": "apa.alkali",
+      "level": 2,
+      "name": "自旋-轨道耦合",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.alkali.zeeman",
+      "parent_id": "apa.alkali",
+      "level": 2,
+      "name": "塞曼效应与斯特恩-盖拉赫实验",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.xray",
+      "parent_id": null,
+      "level": 1,
+      "name": "X 射线与内层电子",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "apa.xray.spectrum_x",
+      "parent_id": "apa.xray",
+      "level": 2,
+      "name": "X 射线光谱与莫塞莱定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.xray.interact",
+      "parent_id": "apa.xray",
+      "level": 2,
+      "name": "X 射线吸收与散射",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.nucleus",
+      "parent_id": null,
+      "level": 1,
+      "name": "原子核基础",
+      "chapter_ref": "第9章"
+    },
+    {
+      "id": "apa.nucleus.structure",
+      "parent_id": "apa.nucleus",
+      "level": 2,
+      "name": "原子核的组成与结合能",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.nucleus.radio",
+      "parent_id": "apa.nucleus",
+      "level": 2,
+      "name": "放射性衰变",
+      "chapter_ref": null
+    },
+    {
+      "id": "apa.nucleus.reaction",
+      "parent_id": "apa.nucleus",
+      "level": 2,
+      "name": "核反应与核裂变",
+      "chapter_ref": null
+    }
+  ]
+}

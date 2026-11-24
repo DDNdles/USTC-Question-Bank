@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH1003",
+  "name": "数学分析(A3)",
+  "name_en": "Mathematical Analysis (A3)",
+  "department": "数学科学学院",
+  "category": "common",
+  "description": "中国科学技术大学《数学分析(A3)》（课号 MATH1003）结构化题库，收录 2016–2026 年15 份期中/期末真题与整理卷（157 题）及第 1/3/5/7 次习题课与 2022 秋课堂笔记例题（90 题）共 247 题，覆盖 19 个二级知识点，其中 139 题附原卷/讲义参考解答（origin=official）、108 题由模型独立求解并配分步解析。",
+  "stats": {
+    "total": 247,
+    "quarantined": 2,
+    "taxonomy_nodes": 27,
+    "by_origin": {
+      "official": 139,
+      "community": 0,
+      "ai": 108
+    },
+    "by_type": {
+      "proof": 91,
+      "solve": 156
+    },
+    "by_difficulty": {
+      "1": 0,
+      "2": 10,
+      "3": 48,
+      "4": 131,
+      "5": 58
+    },
+    "exam_years": [
+      2016,
+      2017,
+      2019,
+      2020,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "ma3_paper",
+      "count": 157,
+      "rights": "third_party_exam",
+      "description": "2016–2026 年数学分析(A3)期中/期末真题与整理卷（15 份，157 题）"
+    },
+    {
+      "id": "ma3_drill",
+      "count": 90,
+      "rights": "third_party_notes",
+      "description": "2022 秋课堂笔记及第 1/3/5/7 次习题课讲义例题（90 题）"
+    }
+  ],
+  "known_notes": [
+    "课堂笔记、四次习题课讲义及带官方参考解答的近年真题合计 139 题标记为 origin=official；其余无标答期中/期末真题由模型独立推导（108 题，origin=ai）。",
+    "2017 期末两份同源归档分别收录原卷第 7.2 题积分下限 0 版本（已标记 quality.quarantined=true，解析中给出下限为 1 的正确论证）及独立归档的修正版本；2016 期末第 2 题因要求用幂级数求无初等闭式的 Lambert 型级数，亦标为 quarantined=true（全库共 2 题）。"
+  ],
+  "files": {
+    "questions": "courses/MATH1003/questions.jsonl",
+    "taxonomy": "courses/MATH1003/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "9f319f685b38d3214b511ff0973d2a4b9a8db5b999606ca7242b09f587786b4a",
+    "taxonomy": "df0b909035a5334b7ce74f7814e35f49230d4b6c704f97f9cd8c0ab0bb890132"
+  }
+}

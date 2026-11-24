@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "code": "PHYS1003B",
+  "name": "光学B",
+  "name_en": "Optics (B)",
+  "department": "物理学院",
+  "category": "common",
+  "description": "中国科学技术大学《光学B》（课号 PHYS1003B）结构化题库，收录《交叉学科基础物理教程·光学》教材习题与杨又维《光学B习题解答》（75 题）、《Optics 光学讲义》与复习讲义（62 题）及2022 春光学B 期末真题（10 题）共 147 题，覆盖 17 个二级知识点，其中 102 题附原书/讲义解答（origin=official）、45 题由模型独立求解，并附 23 题次（18 幅去重）灰度 WebP 配图。",
+  "stats": {
+    "total": 147,
+    "quarantined": 1,
+    "taxonomy_nodes": 23,
+    "by_origin": {
+      "official": 102,
+      "community": 0,
+      "ai": 45
+    },
+    "by_type": {
+      "blank": 4,
+      "proof": 7,
+      "single": 10,
+      "solve": 126
+    },
+    "by_difficulty": {
+      "1": 7,
+      "2": 44,
+      "3": 58,
+      "4": 35,
+      "5": 3
+    },
+    "exam_years": [
+      2022
+    ]
+  },
+  "batches": [
+    {
+      "id": "ob_paper",
+      "count": 25,
+      "rights": "third_party_exam",
+      "description": "2022 春光学(B)期末真题及《交叉学科光学习题》（25 题）"
+    },
+    {
+      "id": "ob_solved",
+      "count": 60,
+      "rights": "third_party_textbook",
+      "description": "《交叉学科基础物理教程·光学》课后习题及《光学B习题解答》（60 题）"
+    },
+    {
+      "id": "ob_drill",
+      "count": 62,
+      "rights": "third_party_notes",
+      "description": "《Optics 光学讲义》与光学(B)复习讲义（62 题）"
+    }
+  ],
+  "known_notes": [
+    "《交叉学科基础物理教程·光学》与《交叉学科光学习题》存在 5 道同源交叉题（第 1.5、3.1、3.8、3.14、5.1 题，分别收录教材解答版 origin=official 与无答案习题版 origin=ai），双方均保留并共用清晰矢量裁剪配图。",
+    "全库 23 道含图题（18 幅去重灰度 WebP）已全部随题导出至 courses/PHYS1003B/assets/，原缺图的 4 道题（教材第 2.4 题、习题第 1.8/3.14 题与 2022 春期末二-7 题）已据配图与惠更斯作图法完整求解校验并解除隔离；仅 2022 春期末二-3 题因波带片总带数未定保持 quarantined=true。"
+  ],
+  "files": {
+    "questions": "courses/PHYS1003B/questions.jsonl",
+    "taxonomy": "courses/PHYS1003B/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "b2a9d8e6751dff2417c6ecfb570b569f21a2a6798f331e8ea1938750b40c75b9",
+    "taxonomy": "56b3cd9617c49bfeafe8a24a54ebb2fd7a07e827f21484433cfe6460954504f0"
+  }
+}

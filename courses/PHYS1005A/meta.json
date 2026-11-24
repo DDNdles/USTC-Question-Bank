@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "code": "PHYS1005A",
+  "name": "原子物理A",
+  "name_en": "Atomic Physics (A)",
+  "department": "物理学院",
+  "category": "common",
+  "description": "中国科学技术大学《原子物理A》（课号 PHYS1005A）结构化题库，收录 2016–2026 年期中/期末/章节小测共 8 卷（125 题）及原子物理讲义/笔记/两次习题课例题（40 题）共 165 题，覆盖 17 个二级知识点，其中 145 题附原卷/讲义参考答案（origin=official）、20 题由模型独立求解。",
+  "stats": {
+    "total": 165,
+    "quarantined": 0,
+    "taxonomy_nodes": 26,
+    "by_origin": {
+      "official": 145,
+      "community": 0,
+      "ai": 20
+    },
+    "by_type": {
+      "blank": 49,
+      "proof": 6,
+      "single": 61,
+      "solve": 49
+    },
+    "by_difficulty": {
+      "1": 2,
+      "2": 37,
+      "3": 60,
+      "4": 55,
+      "5": 11
+    },
+    "exam_years": [
+      2016,
+      2018,
+      2022,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "apa_solved",
+      "count": 95,
+      "rights": "third_party_exam",
+      "description": "2016–2025 原子物理(A)期末/综合卷及第二、四章小测含答案版（95 题）"
+    },
+    {
+      "id": "apa_paper",
+      "count": 30,
+      "rights": "third_party_exam",
+      "description": "2026 原子物理(A)期末卷与第二章小测无答案扫描件（30 题）"
+    },
+    {
+      "id": "apa_drill",
+      "count": 40,
+      "rights": "third_party_notes",
+      "description": "原子物理讲义、笔记与第一、二次习题课例题（40 题）"
+    }
+  ],
+  "known_notes": [
+    "2016/2018/2022/2025 期末/综合卷、第二/四章小测含答案版、讲义与两次习题课合计 145 题标记为 origin=official；2026 期末（扫描）与第二章小测无答案卷 20 题由模型独立求解（origin=ai）。",
+    "全库零低置信度隔离题（quarantined=0），原文本转义控制符与小测题干杂符均已复核修正。"
+  ],
+  "files": {
+    "questions": "courses/PHYS1005A/questions.jsonl",
+    "taxonomy": "courses/PHYS1005A/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "9a4149dd04e50b87b82e9de8ca75b2374979edc3e173055adabf8e4d139d3c20",
+    "taxonomy": "d449d7de820c21bec4624905a76a405d7cde14630fcba68c5d77ba63d60fbdd9"
+  }
+}
