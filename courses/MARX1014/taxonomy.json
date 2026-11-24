@@ -1,0 +1,342 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MARX1014",
+  "nodes": [
+    {
+      "id": "xg.overview",
+      "parent_id": null,
+      "level": 1,
+      "name": "习近平新时代中国特色社会主义思想总论",
+      "chapter_ref": "导论"
+    },
+    {
+      "id": "xg.overview.era",
+      "parent_id": "xg.overview",
+      "level": 2,
+      "name": "新时代的历史方位",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.overview.system",
+      "parent_id": "xg.overview",
+      "level": 2,
+      "name": "理论体系的科学内涵",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.overview.method",
+      "parent_id": "xg.overview",
+      "level": 2,
+      "name": "六个必须坚持",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.overview.position",
+      "parent_id": "xg.overview",
+      "level": 2,
+      "name": "指导地位与意义",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.party",
+      "parent_id": null,
+      "level": 1,
+      "name": "坚持党的全面领导",
+      "chapter_ref": "第一章"
+    },
+    {
+      "id": "xg.party.core",
+      "parent_id": "xg.party",
+      "level": 2,
+      "name": "党中央集中统一领导",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.party.system",
+      "parent_id": "xg.party",
+      "level": 2,
+      "name": "党的领导制度体系",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.party.selfrevolution",
+      "parent_id": "xg.party",
+      "level": 2,
+      "name": "党的自我革命",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.party.governance",
+      "parent_id": "xg.party",
+      "level": 2,
+      "name": "科学执政民主执政依法执政",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.people",
+      "parent_id": null,
+      "level": 1,
+      "name": "坚持以人民为中心",
+      "chapter_ref": "第二章"
+    },
+    {
+      "id": "xg.people.standpoint",
+      "parent_id": "xg.people",
+      "level": 2,
+      "name": "人民立场",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.people.commonprosperity",
+      "parent_id": "xg.people",
+      "level": 2,
+      "name": "共同富裕",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.people.democracy",
+      "parent_id": "xg.people",
+      "level": 2,
+      "name": "全过程人民民主",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.people.development",
+      "parent_id": "xg.people",
+      "level": 2,
+      "name": "以人民为中心的发展思想",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.reform",
+      "parent_id": null,
+      "level": 1,
+      "name": "全面深化改革与高质量发展",
+      "chapter_ref": "第三至五章"
+    },
+    {
+      "id": "xg.reform.reform",
+      "parent_id": "xg.reform",
+      "level": 2,
+      "name": "全面深化改革的总目标",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.reform.newdev",
+      "parent_id": "xg.reform",
+      "level": 2,
+      "name": "新发展理念",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.reform.pattern",
+      "parent_id": "xg.reform",
+      "level": 2,
+      "name": "新发展格局",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.reform.highquality",
+      "parent_id": "xg.reform",
+      "level": 2,
+      "name": "高质量发展",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.reform.innovation",
+      "parent_id": "xg.reform",
+      "level": 2,
+      "name": "科技自立自强与创新驱动",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.law",
+      "parent_id": null,
+      "level": 1,
+      "name": "全面依法治国",
+      "chapter_ref": "第六章"
+    },
+    {
+      "id": "xg.law.path",
+      "parent_id": "xg.law",
+      "level": 2,
+      "name": "中国特色社会主义法治道路",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.law.system",
+      "parent_id": "xg.law",
+      "level": 2,
+      "name": "法治体系与法治国家",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.law.rule",
+      "parent_id": "xg.law",
+      "level": 2,
+      "name": "科学立法严格执法公正司法全民守法",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.culture",
+      "parent_id": null,
+      "level": 1,
+      "name": "文化自信与意识形态",
+      "chapter_ref": "第七至八章"
+    },
+    {
+      "id": "xg.culture.culture",
+      "parent_id": "xg.culture",
+      "level": 2,
+      "name": "中国特色社会主义文化",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.culture.corevalue",
+      "parent_id": "xg.culture",
+      "level": 2,
+      "name": "社会主义核心价值观",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.culture.ideology",
+      "parent_id": "xg.culture",
+      "level": 2,
+      "name": "意识形态工作",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.culture.communication",
+      "parent_id": "xg.culture",
+      "level": 2,
+      "name": "文化传播与国际话语权",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.society",
+      "parent_id": null,
+      "level": 1,
+      "name": "社会建设与国家安全",
+      "chapter_ref": "第九至十章"
+    },
+    {
+      "id": "xg.society.livelihood",
+      "parent_id": "xg.society",
+      "level": 2,
+      "name": "民生保障与社会治理",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.society.common",
+      "parent_id": "xg.society",
+      "level": 2,
+      "name": "共同富裕与社会公平",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.society.security",
+      "parent_id": "xg.society",
+      "level": 2,
+      "name": "总体国家安全观",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.society.peace",
+      "parent_id": "xg.society",
+      "level": 2,
+      "name": "社会稳定与长治久安",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.eco",
+      "parent_id": null,
+      "level": 1,
+      "name": "生态文明建设",
+      "chapter_ref": "第十一章"
+    },
+    {
+      "id": "xg.eco.concept",
+      "parent_id": "xg.eco",
+      "level": 2,
+      "name": "绿水青山就是金山银山",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.eco.system",
+      "parent_id": "xg.eco",
+      "level": 2,
+      "name": "生态文明制度体系",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.eco.practice",
+      "parent_id": "xg.eco",
+      "level": 2,
+      "name": "绿色发展与双碳目标",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.military",
+      "parent_id": null,
+      "level": 1,
+      "name": "国防军队与祖国统一",
+      "chapter_ref": "第十二至十三章"
+    },
+    {
+      "id": "xg.military.army",
+      "parent_id": "xg.military",
+      "level": 2,
+      "name": "强军目标与国防现代化",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.military.taiwan",
+      "parent_id": "xg.military",
+      "level": 2,
+      "name": "台湾问题与祖国统一",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.military.one_country",
+      "parent_id": "xg.military",
+      "level": 2,
+      "name": "一国两制与港澳治理",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.world",
+      "parent_id": null,
+      "level": 1,
+      "name": "外交与人类命运共同体",
+      "chapter_ref": "第十四至十五章"
+    },
+    {
+      "id": "xg.world.diplomacy",
+      "parent_id": "xg.world",
+      "level": 2,
+      "name": "中国特色大国外交",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.world.community",
+      "parent_id": "xg.world",
+      "level": 2,
+      "name": "人类命运共同体",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.world.global",
+      "parent_id": "xg.world",
+      "level": 2,
+      "name": "全球治理与国际秩序",
+      "chapter_ref": null
+    },
+    {
+      "id": "xg.world.beltroad",
+      "parent_id": "xg.world",
+      "level": 2,
+      "name": "一带一路与开放合作",
+      "chapter_ref": null
+    }
+  ]
+}

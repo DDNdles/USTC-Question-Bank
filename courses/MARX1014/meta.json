@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "code": "MARX1014",
+  "name": "习近平新时代中国特色社会主义思想概论",
+  "name_en": "Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era",
+  "department": "马克思主义学院",
+  "category": "common",
+  "description": "中国科学技术大学《习近平新时代中国特色社会主义思想概论》（课号 MARX1014）结构化题库，收录 2022 秋期末真题（10 题）及教材思考题、课程笔记、知识点总结、复习提纲与课本索引等 8 份学习材料（275 题）共 285 题，覆盖 38 个二级知识点，其中 212 题附教材/讲义参考答案（origin=official）、73 题由模型整理补充。",
+  "stats": {
+    "total": 285,
+    "quarantined": 1,
+    "taxonomy_nodes": 48,
+    "by_origin": {
+      "official": 212,
+      "community": 0,
+      "ai": 73
+    },
+    "by_type": {
+      "blank": 15,
+      "solve": 270
+    },
+    "by_difficulty": {
+      "1": 15,
+      "2": 0,
+      "3": 218,
+      "4": 52,
+      "5": 0
+    },
+    "exam_years": [
+      2022
+    ]
+  },
+  "batches": [
+    {
+      "id": "xg_paper",
+      "count": 10,
+      "rights": "third_party_exam",
+      "description": "2022 秋习近平新时代中国特色社会主义思想概论期末试题（10 题）"
+    },
+    {
+      "id": "xg_drill",
+      "count": 275,
+      "rights": "third_party_notes",
+      "description": "习概教材、课程笔记、知识点总结、复习提纲与课本索引（275 题）"
+    }
+  ],
+  "known_notes": [
+    "《习概教材》、课程笔记、知识点总结、钱学森班复习提纲及林毅夫讲座整理等共 212 题标记为 origin=official；2022 秋期末真题（10 题）及无答案复习汇总共 73 题由模型依据教材理论体系补全（origin=ai）。",
+    "全库仅 2022 秋期末第二-1 题（原回忆版题干记录为“（没记下来）”仅作知识点重构示例）标记为 quality.quarantined=true，其余 284 题均完整可用。"
+  ],
+  "files": {
+    "questions": "courses/MARX1014/questions.jsonl",
+    "taxonomy": "courses/MARX1014/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "2de4f1999da84d3b255c5867bbf3aa9ad1c9ec686ce2bdb7b6113eabe6522357",
+    "taxonomy": "ce9c284dbefbddc5de6ed7ee3ea3d0a41f81e4951fc93dc4ea90a3e949c13553"
+  }
+}

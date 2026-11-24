@@ -1,0 +1,349 @@
+{
+  "schema_version": "1.0",
+  "course_code": "009501",
+  "nodes": [
+    {
+      "id": "ed.basic",
+      "parent_id": null,
+      "level": 1,
+      "name": "制图基础与国家标准",
+      "chapter_ref": "第1章"
+    },
+    {
+      "id": "ed.basic.standard",
+      "parent_id": "ed.basic",
+      "level": 2,
+      "name": "图纸幅面、比例、字体与图线",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.basic.dimension",
+      "parent_id": "ed.basic",
+      "level": 2,
+      "name": "尺寸标注规则",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.basic.tools",
+      "parent_id": "ed.basic",
+      "level": 2,
+      "name": "绘图工具与手工绘图",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.basic.cadintro",
+      "parent_id": "ed.basic",
+      "level": 2,
+      "name": "计算机绘图基础",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.projection",
+      "parent_id": null,
+      "level": 1,
+      "name": "投影基础与三视图",
+      "chapter_ref": "第2章"
+    },
+    {
+      "id": "ed.projection.central",
+      "parent_id": "ed.projection",
+      "level": 2,
+      "name": "中心投影与平行投影",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.projection.orthographic",
+      "parent_id": "ed.projection",
+      "level": 2,
+      "name": "正投影与三面投影体系",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.projection.views",
+      "parent_id": "ed.projection",
+      "level": 2,
+      "name": "三视图的形成及对应关系",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.projection.direction",
+      "parent_id": "ed.projection",
+      "level": 2,
+      "name": "视图方向与方位关系",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.elements",
+      "parent_id": null,
+      "level": 1,
+      "name": "点、直线、平面的投影",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "ed.elements.point",
+      "parent_id": "ed.elements",
+      "level": 2,
+      "name": "点的投影",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.elements.line",
+      "parent_id": "ed.elements",
+      "level": 2,
+      "name": "直线的投影与可见性",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.elements.plane",
+      "parent_id": "ed.elements",
+      "level": 2,
+      "name": "平面的投影与迹线",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.elements.relation",
+      "parent_id": "ed.elements",
+      "level": 2,
+      "name": "点线面从属关系",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.solids",
+      "parent_id": null,
+      "level": 1,
+      "name": "基本体与截切体",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "ed.solids.polyhedron",
+      "parent_id": "ed.solids",
+      "level": 2,
+      "name": "平面立体",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.solids.rotation",
+      "parent_id": "ed.solids",
+      "level": 2,
+      "name": "回转体",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.solids.cut",
+      "parent_id": "ed.solids",
+      "level": 2,
+      "name": "截切体与截交线",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.solids.intersection",
+      "parent_id": "ed.solids",
+      "level": 2,
+      "name": "相贯线与两立体相交",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.assembly",
+      "parent_id": null,
+      "level": 1,
+      "name": "组合体",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "ed.assembly.analyze",
+      "parent_id": "ed.assembly",
+      "level": 2,
+      "name": "组合体形体分析",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.assembly.view_draw",
+      "parent_id": "ed.assembly",
+      "level": 2,
+      "name": "组合体三视图绘制",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.assembly.read",
+      "parent_id": "ed.assembly",
+      "level": 2,
+      "name": "组合体读图",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.assembly.dimension",
+      "parent_id": "ed.assembly",
+      "level": 2,
+      "name": "组合体尺寸标注",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.axonometric",
+      "parent_id": null,
+      "level": 1,
+      "name": "轴测图",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "ed.axonometric.isometric",
+      "parent_id": "ed.axonometric",
+      "level": 2,
+      "name": "正等轴测图",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.axonometric.dimetric",
+      "parent_id": "ed.axonometric",
+      "level": 2,
+      "name": "斜二轴测图",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.axonometric.application",
+      "parent_id": "ed.axonometric",
+      "level": 2,
+      "name": "轴测图的应用与选择",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.methods",
+      "parent_id": null,
+      "level": 1,
+      "name": "机件表达方法",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "ed.methods.view",
+      "parent_id": "ed.methods",
+      "level": 2,
+      "name": "基本视图与向视图",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.methods.section",
+      "parent_id": "ed.methods",
+      "level": 2,
+      "name": "剖视图",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.methods.cut_section",
+      "parent_id": "ed.methods",
+      "level": 2,
+      "name": "断面图",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.methods.local",
+      "parent_id": "ed.methods",
+      "level": 2,
+      "name": "局部视图与斜视图",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.part",
+      "parent_id": null,
+      "level": 1,
+      "name": "零件图",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "ed.part.content",
+      "parent_id": "ed.part",
+      "level": 2,
+      "name": "零件图的内容与视图选择",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.part.dimension",
+      "parent_id": "ed.part",
+      "level": 2,
+      "name": "零件图尺寸标注",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.part.tech",
+      "parent_id": "ed.part",
+      "level": 2,
+      "name": "技术要求与表面粗糙度",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.part.tolerance",
+      "parent_id": "ed.part",
+      "level": 2,
+      "name": "公差与配合",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.assembly_draw",
+      "parent_id": null,
+      "level": 1,
+      "name": "装配图",
+      "chapter_ref": "第9章"
+    },
+    {
+      "id": "ed.assembly_draw.content",
+      "parent_id": "ed.assembly_draw",
+      "level": 2,
+      "name": "装配图的内容与表达方法",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.assembly_draw.dimension",
+      "parent_id": "ed.assembly_draw",
+      "level": 2,
+      "name": "装配图尺寸与技术要求",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.assembly_draw.parts",
+      "parent_id": "ed.assembly_draw",
+      "level": 2,
+      "name": "零件序号与明细栏",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.assembly_draw.read",
+      "parent_id": "ed.assembly_draw",
+      "level": 2,
+      "name": "读装配图与拆画零件图",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.cad",
+      "parent_id": null,
+      "level": 1,
+      "name": "CAD 绘图技能",
+      "chapter_ref": "第10章"
+    },
+    {
+      "id": "ed.cad.commands",
+      "parent_id": "ed.cad",
+      "level": 2,
+      "name": "常用绘图与编辑命令",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.cad.layer",
+      "parent_id": "ed.cad",
+      "level": 2,
+      "name": "图层、线型与颜色",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.cad.block",
+      "parent_id": "ed.cad",
+      "level": 2,
+      "name": "块与属性",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.cad.output",
+      "parent_id": "ed.cad",
+      "level": 2,
+      "name": "打印输出与文件管理",
+      "chapter_ref": null
+    }
+  ]
+}

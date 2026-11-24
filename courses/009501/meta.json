@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "code": "009501",
+  "name": "工程制图",
+  "name_en": "Engineering Drawing and CAD",
+  "department": "工程科学学院",
+  "category": "professional",
+  "description": "中国科学技术大学《工程制图》（课号 009501《机械制图及CAD基础》/ 009171《机械制图及CAD(B)》）结构化题库，收录机械制图及 CAD 模拟考题（8 题）、《制图与CAD》第 0–8 讲课件例题（86 题）及《机械制图多媒体教程》分章课件习题（142 题）共 236 题，覆盖 39 个二级知识点，并附 70 题次（86 张）精裁 CAD 题图与参考解图。",
+  "stats": {
+    "total": 236,
+    "quarantined": 9,
+    "taxonomy_nodes": 49,
+    "by_origin": {
+      "official": 94,
+      "community": 0,
+      "ai": 142
+    },
+    "by_type": {
+      "blank": 1,
+      "solve": 235
+    },
+    "by_difficulty": {
+      "1": 15,
+      "2": 70,
+      "3": 100,
+      "4": 40,
+      "5": 11
+    },
+    "exam_years": []
+  },
+  "batches": [
+    {
+      "id": "ed_paper",
+      "count": 8,
+      "rights": "third_party_exam",
+      "description": "机械制图及 CAD 模拟考题（含三视图补画、半剖、公差标注与三维建模，8 题）"
+    },
+    {
+      "id": "ed_drill",
+      "count": 228,
+      "rights": "third_party_notes",
+      "description": "《制图与CAD》第 0–8 讲课件例题与《机械制图多媒体教程》分章课件（228 题）"
+    }
+  ],
+  "known_notes": [
+    "本库合并收录 USTC 工程制图/机械制图与 CAD 双课号（009501 / 009171）公开课程资源；模拟考题与《制图与CAD》课件 94 题附原卷/讲义参考解答（origin=official），多媒体分章课件 142 题由模型依据国标制图规范作答（origin=ai）。",
+    "已从原课件与模拟考题矢量 PDF 精裁 86 张（70 题次）投影、截交线、相贯线、三视图与三维建模对比 WebP 配图（模拟考题原图按黄色已知线/绿色解答线双色剥离为题图与答案图）；入库文本中 6 道齿轮/弹簧题的 LaTeX 控制符转义错误亦已一并修复。",
+    "全库共 9 道依赖未随课件文本附图的装配图读图与零件拆画例题（第 6.2.2.8、6.5、7.6.4、8.4.5 及第 9.7.2/9.7.3 节）标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+  ],
+  "files": {
+    "questions": "courses/009501/questions.jsonl",
+    "taxonomy": "courses/009501/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "a0c4f2034429393f1204f7beca8401447327499651550b7657ae022bb13a7d4c",
+    "taxonomy": "703437c399ba98a2b947d8e5dd0f68b67807ea99202978179b792357b78273bb"
+  }
+}

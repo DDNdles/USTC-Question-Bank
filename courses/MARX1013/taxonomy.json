@@ -1,0 +1,307 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MARX1013",
+  "nodes": [
+    {
+      "id": "mg.sinicization",
+      "parent_id": null,
+      "level": 1,
+      "name": "马克思主义中国化时代化",
+      "chapter_ref": "第一章"
+    },
+    {
+      "id": "mg.sinicization.process",
+      "parent_id": "mg.sinicization",
+      "level": 2,
+      "name": "马克思主义中国化的历史进程",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.sinicization.theory",
+      "parent_id": "mg.sinicization",
+      "level": 2,
+      "name": "中国化时代化的理论成果",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.sinicization.essence",
+      "parent_id": "mg.sinicization",
+      "level": 2,
+      "name": "实事求是思想路线",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.sinicization.significance",
+      "parent_id": "mg.sinicization",
+      "level": 2,
+      "name": "马克思主义中国化的意义",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.mao",
+      "parent_id": null,
+      "level": 1,
+      "name": "毛泽东思想",
+      "chapter_ref": "第二章"
+    },
+    {
+      "id": "mg.mao.formation",
+      "parent_id": "mg.mao",
+      "level": 2,
+      "name": "毛泽东思想的形成与发展",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.mao.content",
+      "parent_id": "mg.mao",
+      "level": 2,
+      "name": "毛泽东思想的主要内容",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.mao.soul",
+      "parent_id": "mg.mao",
+      "level": 2,
+      "name": "毛泽东思想的活的灵魂",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.mao.status",
+      "parent_id": "mg.mao",
+      "level": 2,
+      "name": "毛泽东思想的历史地位",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.newdem",
+      "parent_id": null,
+      "level": 1,
+      "name": "新民主主义革命理论",
+      "chapter_ref": "第三章"
+    },
+    {
+      "id": "mg.newdem.road",
+      "parent_id": "mg.newdem",
+      "level": 2,
+      "name": "革命道路与统一战线",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.newdem.three_magic",
+      "parent_id": "mg.newdem",
+      "level": 2,
+      "name": "三大法宝",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.newdem.state",
+      "parent_id": "mg.newdem",
+      "level": 2,
+      "name": "新民主主义国家构想",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.newdem.transition",
+      "parent_id": "mg.newdem",
+      "level": 2,
+      "name": "新民主主义向社会主义转变",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.socialist",
+      "parent_id": null,
+      "level": 1,
+      "name": "社会主义改造与建设",
+      "chapter_ref": "第四章"
+    },
+    {
+      "id": "mg.socialist.transition",
+      "parent_id": "mg.socialist",
+      "level": 2,
+      "name": "社会主义改造道路",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.socialist.system",
+      "parent_id": "mg.socialist",
+      "level": 2,
+      "name": "社会主义制度确立",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.socialist.explore",
+      "parent_id": "mg.socialist",
+      "level": 2,
+      "name": "社会主义建设探索",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.socialist.achievement",
+      "parent_id": "mg.socialist",
+      "level": 2,
+      "name": "建设成就与经验教训",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.reform",
+      "parent_id": null,
+      "level": 1,
+      "name": "改革开放与中国特色社会主义",
+      "chapter_ref": "第五章"
+    },
+    {
+      "id": "mg.reform.start",
+      "parent_id": "mg.reform",
+      "level": 2,
+      "name": "改革开放的开启",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.reform.theory",
+      "parent_id": "mg.reform",
+      "level": 2,
+      "name": "中国特色社会主义理论体系",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.reform.market",
+      "parent_id": "mg.reform",
+      "level": 2,
+      "name": "社会主义市场经济",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.reform.open",
+      "parent_id": "mg.reform",
+      "level": 2,
+      "name": "对外开放与现代化建设",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.xithought",
+      "parent_id": null,
+      "level": 1,
+      "name": "习近平新时代中国特色社会主义思想",
+      "chapter_ref": "第六章"
+    },
+    {
+      "id": "mg.xithought.origin",
+      "parent_id": "mg.xithought",
+      "level": 2,
+      "name": "习近平新时代中国特色社会主义思想的形成",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.xithought.core",
+      "parent_id": "mg.xithought",
+      "level": 2,
+      "name": "核心内容与实践要求",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.xithought.method",
+      "parent_id": "mg.xithought",
+      "level": 2,
+      "name": "世界观与方法论",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.xithought.mission",
+      "parent_id": "mg.xithought",
+      "level": 2,
+      "name": "中华民族伟大复兴中国梦",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.layout",
+      "parent_id": null,
+      "level": 1,
+      "name": "五位一体与四个全面",
+      "chapter_ref": "第七至九章"
+    },
+    {
+      "id": "mg.layout.economy",
+      "parent_id": "mg.layout",
+      "level": 2,
+      "name": "经济建设与新发展理念",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.layout.politics",
+      "parent_id": "mg.layout",
+      "level": 2,
+      "name": "政治建设与全过程人民民主",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.layout.culture",
+      "parent_id": "mg.layout",
+      "level": 2,
+      "name": "文化建设与文化自信",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.layout.society",
+      "parent_id": "mg.layout",
+      "level": 2,
+      "name": "社会建设与民生",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.layout.eco",
+      "parent_id": "mg.layout",
+      "level": 2,
+      "name": "生态文明建设",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.layout.fourcomprehensive",
+      "parent_id": "mg.layout",
+      "level": 2,
+      "name": "四个全面战略布局",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.guarantee",
+      "parent_id": null,
+      "level": 1,
+      "name": "国家治理与党建",
+      "chapter_ref": "第十至十四章"
+    },
+    {
+      "id": "mg.guarantee.military",
+      "parent_id": "mg.guarantee",
+      "level": 2,
+      "name": "国防和军队现代化",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.guarantee.country",
+      "parent_id": "mg.guarantee",
+      "level": 2,
+      "name": "祖国统一与一国两制",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.guarantee.diplomacy",
+      "parent_id": "mg.guarantee",
+      "level": 2,
+      "name": "外交政策与人类命运共同体",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.guarantee.party",
+      "parent_id": "mg.guarantee",
+      "level": 2,
+      "name": "党的领导和党的建设",
+      "chapter_ref": null
+    },
+    {
+      "id": "mg.guarantee.selfrevolution",
+      "parent_id": "mg.guarantee",
+      "level": 2,
+      "name": "党的自我革命",
+      "chapter_ref": null
+    }
+  ]
+}

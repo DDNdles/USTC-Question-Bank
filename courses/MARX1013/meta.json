@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "code": "MARX1013",
+  "name": "毛泽东思想和中国特色社会主义理论体系概论",
+  "name_en": "Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics",
+  "department": "马克思主义学院",
+  "category": "common",
+  "description": "中国科学技术大学《毛泽东思想和中国特色社会主义理论体系概论》（课号 MARX1013）结构化题库，收录 2021 年版教材笔记与课后习题（含考研真题）详解（342 题）、毛概简答题题库（123 题）、2022 春期末考场抄写版试题（17 题）及开卷资料与课程整理讲义（199 题）共 681 题，覆盖 35 个二级知识点，其中 636 题附教材/题库标准答案（origin=official）、45 题由模型整理作答。",
+  "stats": {
+    "total": 681,
+    "quarantined": 0,
+    "taxonomy_nodes": 43,
+    "by_origin": {
+      "official": 636,
+      "community": 0,
+      "ai": 45
+    },
+    "by_type": {
+      "single": 5,
+      "solve": 676
+    },
+    "by_difficulty": {
+      "1": 5,
+      "2": 191,
+      "3": 381,
+      "4": 104,
+      "5": 0
+    },
+    "exam_years": [
+      2022
+    ]
+  },
+  "batches": [
+    {
+      "id": "mg_paper",
+      "count": 482,
+      "rights": "third_party_textbook_and_community",
+      "description": "《毛概（2021年版）》笔记与课后习题详解、简答题题库及 2022 春期末考场抄写版（482 题）"
+    },
+    {
+      "id": "mg_drill",
+      "count": 199,
+      "rights": "third_party_notes",
+      "description": "毛概开卷资料、课程提纲与整理讲义（199 题）"
+    }
+  ],
+  "known_notes": [
+    "2021 版教材笔记与课后习题详解、简答题题库及复习讲义共 636 题标记为 origin=official；2022 春期末考场抄写版（kobe）等无标答开卷与提纲题共 45 题由模型依据教材与课程材料推导（origin=ai）。",
+    "已修复原库中 5 道单选题 value_normalized 缺失问题并同步磁盘镜像，全库零低置信度隔离题（quarantined=0）。"
+  ],
+  "files": {
+    "questions": "courses/MARX1013/questions.jsonl",
+    "taxonomy": "courses/MARX1013/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "f2e0dd3dc8073c52d8f97a5da8d5ad45f000b2aaeb27123eb42aeafc085dbe06",
+    "taxonomy": "ecef5f1bb033a580543ad199468bbe0ab15f33666ba086c716251c13728e9935"
+  }
+}
