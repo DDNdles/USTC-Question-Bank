@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="320" height="220">
+  <rect width="320" height="220" fill="#ffffff"/>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#111"/>
+    </marker>
+  </defs>
+  <!-- Axes -->
+  <line x1="45" y1="175" x2="295" y2="175" stroke="#111" stroke-width="1.8" marker-end="url(#arr)"/>
+  <line x1="45" y1="175" x2="45" y2="20" stroke="#111" stroke-width="1.8" marker-end="url(#arr)"/>
+  <text x="28" y="34" font-family="serif" font-style="italic" font-size="18" fill="#111">p</text>
+  <text x="298" y="182" font-family="serif" font-style="italic" font-size="18" fill="#111">V</text>
+  <text x="30" y="190" font-family="serif" font-style="italic" font-size="15" fill="#111">O</text>
+  <!-- Ticks -->
+  <line x1="125" y1="175" x2="125" y2="169" stroke="#111" stroke-width="1.5"/>
+  <line x1="235" y1="175" x2="235" y2="169" stroke="#111" stroke-width="1.5"/>
+  <line x1="125" y1="168" x2="125" y2="130" stroke="#666" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="235" y1="168" x2="235" y2="130" stroke="#666" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="120" y="196" font-family="serif" font-size="16" fill="#111">3</text>
+  <text x="230" y="196" font-family="serif" font-size="16" fill="#111">6</text>
+  <!-- Cycle A(125,50) -> B(235,130) isotherm -> C(125,130) isobaric -> A(125,50) isochoric -->
+  <path d="M 125 50 Q 170 105 235 130" fill="none" stroke="#111" stroke-width="2.2"/>
+  <line x1="235" y1="130" x2="125" y2="130" stroke="#111" stroke-width="2.2"/>
+  <line x1="125" y1="130" x2="125" y2="50" stroke="#111" stroke-width="2.2"/>
+  <!-- Mid-segment direction arrows -->
+  <polygon points="175,93 166,93 171,85" fill="#111" transform="rotate(32 175 93)"/>
+  <polygon points="175,130 183,126 183,134" fill="#111"/>
+  <polygon points="125,86 121,95 129,95" fill="#111"/>
+  <!-- Labels -->
+  <circle cx="125" cy="50" r="2.5" fill="#111"/>
+  <circle cx="235" cy="130" r="2.5" fill="#111"/>
+  <circle cx="125" cy="130" r="2.5" fill="#111"/>
+  <text x="108" y="48" font-family="serif" font-size="17" fill="#111">A</text>
+  <text x="242" y="135" font-family="serif" font-size="17" fill="#111">B</text>
+  <text x="106" y="136" font-family="serif" font-size="17" fill="#111">C</text>
+</svg>

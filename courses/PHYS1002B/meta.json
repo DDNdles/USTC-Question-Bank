@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "code": "PHYS1002B",
+  "name": "热学B",
+  "name_en": "Thermal Physics (B)",
+  "department": "物理学院",
+  "category": "common",
+  "description": "中国科学技术大学《热学B》（课号 PHYS1002B）结构化题库，收录 2004–2025 学年 24 套期中/期末真题及热学历年真题合集（含 136 道与热学A同源按 B 树重标知识点复用题）与 2025 春习题课讲稿共 277 题，覆盖 32 个二级知识点，并附 32 张（28 幅去重）灰度 WebP 与矢量重绘 SVG 配图。",
+  "stats": {
+    "total": 277,
+    "quarantined": 1,
+    "taxonomy_nodes": 45,
+    "by_origin": {
+      "official": 176,
+      "community": 0,
+      "ai": 101
+    },
+    "by_type": {
+      "blank": 2,
+      "multi": 1,
+      "proof": 28,
+      "single": 37,
+      "solve": 209
+    },
+    "by_difficulty": {
+      "1": 8,
+      "2": 76,
+      "3": 108,
+      "4": 77,
+      "5": 8
+    },
+    "exam_years": [
+      2004,
+      2009,
+      2012,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "thermb1_exams",
+      "count": 131,
+      "rights": "third_party_exam",
+      "description": "2018–2025 学年 9 套热学B 期末真题及合卷热学部分（131 题）"
+    },
+    {
+      "id": "thermb1_quiz",
+      "count": 123,
+      "rights": "third_party_exam",
+      "description": "热学历年真题合集（2004–2015 年 12 套期中/期末试卷，123 题，与 PHYS1002A 同源按 B 树重标）"
+    },
+    {
+      "id": "thermb1_reuse",
+      "count": 13,
+      "rights": "third_party_exam",
+      "description": "2016 秋力学与热学期末热学部分及 2017 年公共题（2 套，13 题，与 PHYS1002A 同源按 B 树重标）"
+    },
+    {
+      "id": "thermb1_drill",
+      "count": 10,
+      "rights": "third_party_notes",
+      "description": "2025 春热学B 习题课讲稿（10 题）"
+    }
+  ],
+  "known_notes": [
+    "2016–2025 期中/期末参考答案、习题课讲义及历年合集含讲评解答条目标记为 origin=official（176 题）；其余 2018 秋、2019 春、2020 春合卷热学部分、2021 卷 4 道缺解证明题及早年无答案合集由模型独立求解（101 题，origin=ai）。",
+    "全库共 1 道题面设问残缺的低置信度题（热学期中考试试卷〔年份待考〕第 4 题）标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。",
+    "2021 春热学B期末（试卷）原配解答存在部分题号错位，公开版已按内容逐题配对；2021 卷 1(2)、2023 卷 3(5) 与 2025 卷 3-4 原卷答案局部数值或单位换算疏漏已按正确结论订正并在 quality.note 注明。",
+    "全库涉及循环 p-V/T-S 图、实验装置与速率分布图线的 30 道含图题目共附 32 张配图（含 28 幅去重 SVG/WebP 原图：10 张复用自 PHYS1002A 与 18 幅新提取/重绘配图）已随题导出至 courses/PHYS1002B/assets/。"
+  ],
+  "files": {
+    "questions": "courses/PHYS1002B/questions.jsonl",
+    "taxonomy": "courses/PHYS1002B/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "7b37e5bef6263136db29b7ef5480dc7c972c1a015bb3900d9cf2e818d883913a",
+    "taxonomy": "30625b0fff90371308944f1a4d84f81f4c81de5911ca0ef389f333f86a25e4ca"
+  }
+}

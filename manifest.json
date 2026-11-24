@@ -1,7 +1,7 @@
 {
   "name": "USTC-Question-Bank",
   "schema_version": "1.0",
-  "data_version": "0.10.0",
+  "data_version": "0.11.0",
   "updated_at": "2026-11-24",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
   "asset_base_url": null,
@@ -11,13 +11,13 @@
     "question_content": "Third-party rights retained by original authors and publishers; see NOTICE.md"
   },
   "stats": {
-    "courses": 16,
-    "questions": 7627,
-    "quarantined": 41,
+    "courses": 18,
+    "questions": 8283,
+    "quarantined": 49,
     "by_origin": {
-      "official": 4173,
-      "community": 1468,
-      "ai": 1986
+      "official": 4510,
+      "community": 1480,
+      "ai": 2293
     }
   },
   "courses": [
@@ -584,6 +584,87 @@
         "meta": "17952d249c09a39399c63e34e62f1e70ac0a6d8528ea1f30a410a69358575588",
         "taxonomy": "656acad64bf4b5745a2133863d64f1ecd01760dde29a0b0d6edec280269aa825",
         "questions": "fbd085f5fdcdbd25819abb1680d8203991a890ee4b70e52f72f7493a8fb3ddf3"
+      }
+    },
+    {
+      "code": "PHYS1001B",
+      "name": "力学B",
+      "name_en": "Mechanics (B)",
+      "department": "物理学院",
+      "category": "common",
+      "total": 379,
+      "quarantined": 7,
+      "by_origin": {
+        "official": 161,
+        "community": 12,
+        "ai": 206
+      },
+      "exam_years": [
+        2006,
+        2008,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "paths": {
+        "meta": "courses/PHYS1001B/meta.json",
+        "taxonomy": "courses/PHYS1001B/taxonomy.json",
+        "questions": "courses/PHYS1001B/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "e68ff0b9a292fef88de298e2757f0dd534f9c783b7d0a8403c582c1565c9cffc",
+        "taxonomy": "15eed523d72c7a377f71cdc1b5059cb2c63c768ff72343971d4ff5feb214d5ca",
+        "questions": "07ca9932aa4c0278f297df4e0af1753e4a865f34c86f0382e3f905a1fdac22e8"
+      }
+    },
+    {
+      "code": "PHYS1002B",
+      "name": "热学B",
+      "name_en": "Thermal Physics (B)",
+      "department": "物理学院",
+      "category": "common",
+      "total": 277,
+      "quarantined": 1,
+      "by_origin": {
+        "official": 176,
+        "community": 0,
+        "ai": 101
+      },
+      "exam_years": [
+        2004,
+        2009,
+        2012,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2025
+      ],
+      "paths": {
+        "meta": "courses/PHYS1002B/meta.json",
+        "taxonomy": "courses/PHYS1002B/taxonomy.json",
+        "questions": "courses/PHYS1002B/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "7eb156e34ee0c448c4762f7ef73ef83fbd631dca1c17f541d7aa9b51565839c9",
+        "taxonomy": "30625b0fff90371308944f1a4d84f81f4c81de5911ca0ef389f333f86a25e4ca",
+        "questions": "7b37e5bef6263136db29b7ef5480dc7c972c1a015bb3900d9cf2e818d883913a"
       }
     }
   ]
