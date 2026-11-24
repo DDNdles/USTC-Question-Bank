@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "code": "019163",
+  "name": "化学原理B",
+  "name_en": "Principles of Chemistry (B)",
+  "department": "化学与材料科学学院",
+  "category": "common",
+  "description": "中国科学技术大学《化学原理B》（课号 019163）结构化题库，收录第 2–14 章分章习题解析（37 题）与习题课一至六及专题讲义（49 题）共 86 题，覆盖 24 个二级知识点，其中 49 题附教材解析或习题课课件红字参考解答（origin=official）、37 题由模型独立推导并配分步解析。",
+  "stats": {
+    "total": 86,
+    "quarantined": 0,
+    "taxonomy_nodes": 49,
+    "by_origin": {
+      "official": 49,
+      "community": 0,
+      "ai": 37
+    },
+    "by_type": {
+      "blank": 23,
+      "proof": 3,
+      "single": 9,
+      "solve": 51
+    },
+    "by_difficulty": {
+      "1": 0,
+      "2": 23,
+      "3": 46,
+      "4": 14,
+      "5": 3
+    },
+    "exam_years": []
+  },
+  "batches": [
+    {
+      "id": "cpb_solved",
+      "count": 37,
+      "rights": "third_party_textbook",
+      "description": "化学原理B第 2–14 章分章习题解析（37 题）"
+    },
+    {
+      "id": "cpb_drills",
+      "count": 49,
+      "rights": "third_party_notes",
+      "description": "化学原理B习题课一至六及配位化合物/缓冲计算讲义（49 题）"
+    }
+  ],
+  "known_notes": [
+    "分章习题解析（37 题）与习题课一（带答案版）等 49 题标记为 origin=official（含习题课四第 2 题据原课件第 2 页红字答案增补的选项 D 与物理化学判定解析）；其余无答案习题课讲义题目由模型独立求解（37 题，origin=ai）。",
+    "公开源以分章习题解析及习题课讲义为主，暂未含成套带年份期中/期末整卷，全库无低置信度隔离题。"
+  ],
+  "files": {
+    "questions": "courses/019163/questions.jsonl",
+    "taxonomy": "courses/019163/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "4572cc16f3e7b64fe5d309e6e8c4240d5b9b0b509f0bee3e0c8f24714e8be209",
+    "taxonomy": "ed83576978f1939c1444fbdd32e71bb1f9938b8d40ef9d3f1e0aac89f93f4a07"
+  }
+}

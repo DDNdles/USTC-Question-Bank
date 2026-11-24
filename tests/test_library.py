@@ -48,6 +48,13 @@ class TestQuestionBank(unittest.TestCase):
                 "PHYS1004C",
                 "PHYS1004B",
                 "PHYS1001H",
+                "019161",
+                "019163",
+                "019165",
+                "019166",
+                "CS1003L",
+                "CS1002A",
+                "MARX1012",
             ],
         )
         self.assertEqual(len(self.bank["001548"]), 571)
@@ -75,8 +82,15 @@ class TestQuestionBank(unittest.TestCase):
         self.assertEqual(len(self.bank["PHYS1004C"]), 151)
         self.assertEqual(len(self.bank["PHYS1004B"]), 151)
         self.assertEqual(len(self.bank["PHYS1001H"]), 78)
-        self.assertEqual(len(self.bank.all_questions()), 9262)
-        self.assertEqual(len(self.bank.all_questions(exclude_quarantined=True)), 9189)
+        self.assertEqual(len(self.bank["019161"]), 132)
+        self.assertEqual(len(self.bank["019163"]), 86)
+        self.assertEqual(len(self.bank["019165"]), 328)
+        self.assertEqual(len(self.bank["019166"]), 252)
+        self.assertEqual(len(self.bank["CS1003L"]), 191)
+        self.assertEqual(len(self.bank["CS1002A"]), 232)
+        self.assertEqual(len(self.bank["MARX1012"]), 1227)
+        self.assertEqual(len(self.bank.all_questions()), 11710)
+        self.assertEqual(len(self.bank.all_questions(exclude_quarantined=True)), 11637)
 
     def test_lookup_by_id(self) -> None:
         q = self.bank.get("MATH1006-tb-1.1.1")
@@ -225,6 +239,37 @@ class TestQuestionBank(unittest.TestCase):
         self.assertEqual(q_mh.answer_origin, "official")
         self.assertEqual(len(q_mh.stem_figures), 1)
 
+        q_cpa = self.bank.get("019161-exam-2024f-f-32")
+        self.assertEqual(q_cpa.course_code, "019161")
+        self.assertEqual(len(q_cpa.stem_figures), 1)
+
+        q_cpb = self.bank.get("019163-sol-c1014-01")
+        self.assertEqual(q_cpb.course_code, "019163")
+        self.assertEqual(q_cpb.answer_origin, "official")
+
+        q_gnc = self.bank.get("019165-ex-13.16")
+        self.assertEqual(q_gnc.course_code, "019165")
+        self.assertEqual(q_gnc.answer_origin, "official")
+        self.assertEqual(len(q_gnc.stem_figures), 1)
+        self.assertEqual(len(q_gnc.solution_figures), 1)
+
+        q_ino = self.bank.get("019166-drill-tut1-08")
+        self.assertEqual(q_ino.course_code, "019166")
+        self.assertEqual(len(q_ino.stem_figures), 1)
+
+        q_cpl = self.bank.get("CS1003L-exam-2025f-quiz-01")
+        self.assertEqual(q_cpl.course_code, "CS1003L")
+        self.assertEqual(q_cpl.answer_origin, "official")
+
+        q_csa = self.bank.get("CS1002A-exam-2020f-m-11")
+        self.assertEqual(q_csa.course_code, "CS1002A")
+        self.assertEqual(q_csa.answer_origin, "ai")
+        self.assertEqual(len(q_csa.stem_figures), 1)
+
+        q_marx = self.bank.get("MARX1012-exam-2022-f-01")
+        self.assertEqual(q_marx.course_code, "MARX1012")
+        self.assertEqual(q_marx.answer_origin, "community")
+
     def test_taxonomy_subtree_query(self) -> None:
         c = self.bank["MATH1006"]
         lim_qs = c.query(kp="ma1.lim")
@@ -286,6 +331,10 @@ class TestQuestionBank(unittest.TestCase):
             ("PHYS1004C", 98, 92),
             ("PHYS1004B", 64, 64),
             ("PHYS1001H", 14, 13),
+            ("019161", 4, 4),
+            ("019165", 5, 5),
+            ("019166", 1, 1),
+            ("CS1002A", 32, 32),
         ]:
             cb = self.bank[code_check]
             wf = cb.query(has_figures=True, exclude_quarantined=False)
@@ -301,7 +350,7 @@ class TestQuestionBank(unittest.TestCase):
             conn = sqlite3.connect(db_path)
             try:
                 count = conn.execute("SELECT COUNT(*) FROM questions").fetchone()[0]
-                self.assertEqual(count, 9262)
+                self.assertEqual(count, 11710)
                 hits = conn.execute(
                     "SELECT id FROM questions_fts WHERE questions_fts MATCH 'Laurent' LIMIT 5"
                 ).fetchall()

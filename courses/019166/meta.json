@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "code": "019166",
+  "name": "无机化学I",
+  "name_en": "Inorganic Chemistry (I)",
+  "department": "化学与材料科学学院",
+  "category": "common",
+  "description": "中国科学技术大学《无机化学I》（课号 019166）结构化题库，收录元素/专题习题课讲义与习题课一至四（143 题）、往年参考资料汇编（60 题）及模拟习题与 2004–2005 期中试题（49 题）共 252 题，覆盖 16 个二级知识点，其中 218 题附讲义/原卷解答（origin=official）、34 题由模型独立求解，并附习题课一第 8 题双核配离子配图。",
+  "stats": {
+    "total": 252,
+    "quarantined": 0,
+    "taxonomy_nodes": 50,
+    "by_origin": {
+      "official": 218,
+      "community": 0,
+      "ai": 34
+    },
+    "by_type": {
+      "blank": 112,
+      "single": 58,
+      "solve": 82
+    },
+    "by_difficulty": {
+      "1": 0,
+      "2": 34,
+      "3": 153,
+      "4": 52,
+      "5": 13
+    },
+    "exam_years": [
+      2004
+    ]
+  },
+  "batches": [
+    {
+      "id": "ino_exams",
+      "count": 49,
+      "rights": "third_party_exam",
+      "description": "无机化学I四套模拟习题与 2004–2005 期中试题（49 题）"
+    },
+    {
+      "id": "ino_solved",
+      "count": 60,
+      "rights": "third_party_community",
+      "description": "无机化学I往年参考资料汇编（60 题）"
+    },
+    {
+      "id": "ino_drills",
+      "count": 143,
+      "rights": "third_party_notes",
+      "description": "无机化学I各族元素专题讲义及习题课一至四（143 题）"
+    }
+  ],
+  "known_notes": [
+    "《无机化学模拟习题.docx》原稿用下划线标注的待命名分子/物种及选择题答案Letters（含期中 0405 等 11 道错位单选标答）已回溯原文档 XML 完整还原修正；习题课一第 8 题 10 个配合物与双核配离子图示已对照原 PDF 补全并附灰度 WebP 配图（ino_tut1_q8.webp）。",
+    "元素讲义（BN/C-O-F/ds-df 区）第 42 题等原 LaTeX 控制字符已修复，全库共 218 题 origin=official、34 题 origin=ai，零隔离题。"
+  ],
+  "files": {
+    "questions": "courses/019166/questions.jsonl",
+    "taxonomy": "courses/019166/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "3988a7a4f99124730ca45cab5fafe852fa1aa09a6ff9e6bbca1f1c9cb0c8f764",
+    "taxonomy": "0bdd2406db0990393127460f0cf312cdc738414aa15955cb3e0141d7bff1c53e"
+  }
+}

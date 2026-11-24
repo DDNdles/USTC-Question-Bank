@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "code": "019165",
+  "name": "普通化学",
+  "name_en": "General Chemistry",
+  "department": "化学与材料科学学院",
+  "category": "common",
+  "description": "中国科学技术大学《普通化学》（课号 019165）结构化题库，全量收录《普通化学原理（第 4 版）习题解析》第 2–15 章全部课后习题（313 题）与 2024 秋课堂笔记例题（15 题）共 328 题，完整覆盖知识点树全部 28 个二级知识点，其中 327 题附原书/笔记参考解析（origin=official）、1 题开放论述题由模型补充要点提纲（origin=ai），并附 5 题次 7 幅灰度 WebP 原书配图。",
+  "stats": {
+    "total": 328,
+    "quarantined": 0,
+    "taxonomy_nodes": 41,
+    "by_origin": {
+      "official": 327,
+      "community": 0,
+      "ai": 1
+    },
+    "by_type": {
+      "proof": 3,
+      "solve": 325
+    },
+    "by_difficulty": {
+      "1": 3,
+      "2": 104,
+      "3": 173,
+      "4": 46,
+      "5": 2
+    },
+    "exam_years": []
+  },
+  "batches": [
+    {
+      "id": "gnc_solved",
+      "count": 313,
+      "rights": "third_party_textbook",
+      "description": "《普通化学原理（第 4 版）习题解析》第 2–15 章全量课后习题（313 题）"
+    },
+    {
+      "id": "gnc_drills",
+      "count": 15,
+      "rights": "third_party_notes",
+      "description": "2024 秋普通化学课堂笔记随堂例题（15 题）"
+    }
+  ],
+  "known_notes": [
+    "相比初版仅转录部分章节扫描页，本版已完成《普通化学原理（第 4 版）习题解析》第 2–15 章全部 313 道课后习题的逐页核校与 LaTeX 结构化录入，100% 覆盖普通化学全部 28 个二级知识点；其中第 15.30 题因原书答案印「略」，由模型补写铜元素化学要点提纲（origin=ai）。",
+    "第 6.24、10.20、12.11、13.5 与 13.16 题涉及热力学线图、E-pH 图、多肽键单元、钛酸钡立方晶胞与 NaCl 窗孔扩散几何图示，已裁剪为 7 幅紧凑灰度 WebP 随题导出至 courses/019165/assets/。"
+  ],
+  "files": {
+    "questions": "courses/019165/questions.jsonl",
+    "taxonomy": "courses/019165/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "69c111303aee4bfdc832476dc13605fbd0e568656eaf267326217c85b7c98534",
+    "taxonomy": "e6bcd7ce23e7271d57c9c9587b5be7ebc3bea51a95e86a427766c2bdb1bcde1a"
+  }
+}

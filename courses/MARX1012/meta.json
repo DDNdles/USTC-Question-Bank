@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "code": "MARX1012",
+  "name": "思想道德与法治",
+  "name_en": "Ideology, Morality and Rule of Law",
+  "department": "马克思主义学院",
+  "category": "common",
+  "description": "中国科学技术大学《思想道德与法治》（课号 MARX1012）结构化题库，全量收录 2021 秋 / 2024 秋 / 2025 年德法机考题库（1,137 题）、2022–2025 思政与无纸化考试试题（29 题）、2023 版复习与教材提纲（38 题）及课后思考题（23 题）共 1,227 题，覆盖 18 个二级知识点，其中 1,195 题附题库/教材标准答案（origin=official）、9 题为社区整理参考解答（origin=community）、23 题由模型独立推导。",
+  "stats": {
+    "total": 1227,
+    "quarantined": 0,
+    "taxonomy_nodes": 25,
+    "by_origin": {
+      "official": 1195,
+      "community": 9,
+      "ai": 23
+    },
+    "by_type": {
+      "blank": 72,
+      "multi": 557,
+      "single": 518,
+      "solve": 80
+    },
+    "by_difficulty": {
+      "1": 295,
+      "2": 847,
+      "3": 72,
+      "4": 13,
+      "5": 0
+    },
+    "exam_years": [
+      2022,
+      2023,
+      2024
+    ]
+  },
+  "batches": [
+    {
+      "id": "ide_exams",
+      "count": 29,
+      "rights": "third_party_exam",
+      "description": "2022–2025 思想道德与法治期末/期中及无纸化考试试题（29 题）"
+    },
+    {
+      "id": "ide_qbank",
+      "count": 1137,
+      "rights": "third_party_community",
+      "description": "2021 秋、2024 秋、2025 年德法机考去重题库（1,137 题）"
+    },
+    {
+      "id": "ide_drills",
+      "count": 38,
+      "rights": "third_party_notes",
+      "description": "2023 版复习提纲、教材提纲及思考题（38 题）"
+    },
+    {
+      "id": "ide_solved",
+      "count": 23,
+      "rights": "third_party_textbook",
+      "description": "思想道德与法治教材课后思考题（23 题）"
+    }
+  ],
+  "known_notes": [
+    "公开版已解除初版 XLSX 导入脚本的每章 5 题截断限制并补全填空题与难度字段，全量录入 2021/2024/2025 三届德法机考原始题库共 2,019 题并经 MD5 精准去重，最终保留 1,137 道独立机考题。",
+    "2022–2023 思政试卷（9 题）底本源自「22、23思政答案chatgpt版.docx」，公开版将其客观归类为 origin=community；其余无纸化试题、2023/2024-2025 期末论述题及思考题由模型独立求解（23 题，origin=ai）。"
+  ],
+  "files": {
+    "questions": "courses/MARX1012/questions.jsonl",
+    "taxonomy": "courses/MARX1012/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "3d9d3460634a633b13a8a7cadf3fe0e23008b5cba91a2fbaae92dd2b8de281f0",
+    "taxonomy": "03db05ace11fc72ca97e50ac6f8a29e47b0a57a3a47a58490de03a467eab872e"
+  }
+}

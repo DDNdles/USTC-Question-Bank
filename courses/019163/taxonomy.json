@@ -1,0 +1,349 @@
+{
+  "schema_version": "1.0",
+  "course_code": "019163",
+  "nodes": [
+    {
+      "id": "cpb.gas_liquid",
+      "parent_id": null,
+      "level": 1,
+      "name": "气体、液体与相变",
+      "chapter_ref": "第2章"
+    },
+    {
+      "id": "cpb.gas_liquid.ideal_gas",
+      "parent_id": "cpb.gas_liquid",
+      "level": 2,
+      "name": "理想气体状态方程与分压",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.gas_liquid.real_gas",
+      "parent_id": "cpb.gas_liquid",
+      "level": 2,
+      "name": "真实气体与范德华方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.gas_liquid.phase",
+      "parent_id": "cpb.gas_liquid",
+      "level": 2,
+      "name": "相变、相图与克拉佩龙方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.solution",
+      "parent_id": null,
+      "level": 1,
+      "name": "溶液与胶体",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "cpb.solution.concentration",
+      "parent_id": "cpb.solution",
+      "level": 2,
+      "name": "溶液浓度与依数性",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.solution.electrolyte",
+      "parent_id": "cpb.solution",
+      "level": 2,
+      "name": "电解质溶液与离子强度",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.solution.colloid",
+      "parent_id": "cpb.solution",
+      "level": 2,
+      "name": "胶体与表面现象",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.thermo",
+      "parent_id": null,
+      "level": 1,
+      "name": "化学热力学基础",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "cpb.thermo.thermo_first",
+      "parent_id": "cpb.thermo",
+      "level": 2,
+      "name": "热力学第一定律与焓",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.thermo.thermo_second",
+      "parent_id": "cpb.thermo",
+      "level": 2,
+      "name": "热力学第二定律与熵/自由能",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.thermo.thermochemistry",
+      "parent_id": "cpb.thermo",
+      "level": 2,
+      "name": "反应热与盖斯定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.equilibrium",
+      "parent_id": null,
+      "level": 1,
+      "name": "化学平衡",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "cpb.equilibrium.eq_constant",
+      "parent_id": "cpb.equilibrium",
+      "level": 2,
+      "name": "平衡常数与平衡移动",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.equilibrium.eq_calc",
+      "parent_id": "cpb.equilibrium",
+      "level": 2,
+      "name": "化学平衡计算",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.kinetics",
+      "parent_id": null,
+      "level": 1,
+      "name": "化学动力学",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "cpb.kinetics.rate",
+      "parent_id": "cpb.kinetics",
+      "level": 2,
+      "name": "反应速率与速率方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.kinetics.mechanism",
+      "parent_id": "cpb.kinetics",
+      "level": 2,
+      "name": "反应机理与活化能",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.kinetics.catalysis",
+      "parent_id": "cpb.kinetics",
+      "level": 2,
+      "name": "催化与温度影响",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.acid_base",
+      "parent_id": null,
+      "level": 1,
+      "name": "酸碱电离平衡",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "cpb.acid_base.acid_base_theory",
+      "parent_id": "cpb.acid_base",
+      "level": 2,
+      "name": "酸碱理论与pH计算",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.acid_base.buffer",
+      "parent_id": "cpb.acid_base",
+      "level": 2,
+      "name": "缓冲溶液",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.acid_base.hydrolysis",
+      "parent_id": "cpb.acid_base",
+      "level": 2,
+      "name": "盐类水解",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.precipitation",
+      "parent_id": null,
+      "level": 1,
+      "name": "沉淀溶解与多相离子平衡",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "cpb.precipitation.ksp",
+      "parent_id": "cpb.precipitation",
+      "level": 2,
+      "name": "溶度积与沉淀生成溶解",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.precipitation.multiphase",
+      "parent_id": "cpb.precipitation",
+      "level": 2,
+      "name": "多相离子平衡与分离",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.redox",
+      "parent_id": null,
+      "level": 1,
+      "name": "氧化还原与电化学",
+      "chapter_ref": "第9章"
+    },
+    {
+      "id": "cpb.redox.redox_balance",
+      "parent_id": "cpb.redox",
+      "level": 2,
+      "name": "氧化还原反应配平",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.redox.electrode",
+      "parent_id": "cpb.redox",
+      "level": 2,
+      "name": "电极电势与能斯特方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.redox.battery",
+      "parent_id": "cpb.redox",
+      "level": 2,
+      "name": "原电池与电解",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.atomic",
+      "parent_id": null,
+      "level": 1,
+      "name": "原子结构与元素周期律",
+      "chapter_ref": "第10章"
+    },
+    {
+      "id": "cpb.atomic.quantum",
+      "parent_id": "cpb.atomic",
+      "level": 2,
+      "name": "量子数与电子排布",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.atomic.periodic",
+      "parent_id": "cpb.atomic",
+      "level": 2,
+      "name": "元素周期律与周期性",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.bond",
+      "parent_id": null,
+      "level": 1,
+      "name": "化学键与分子结构",
+      "chapter_ref": "第11章"
+    },
+    {
+      "id": "cpb.bond.ionic_covalent",
+      "parent_id": "cpb.bond",
+      "level": 2,
+      "name": "离子键与共价键",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.bond.hybrid",
+      "parent_id": "cpb.bond",
+      "level": 2,
+      "name": "杂化轨道与分子构型",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.bond.intermolecular",
+      "parent_id": "cpb.bond",
+      "level": 2,
+      "name": "分子间力与氢键",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.crystal",
+      "parent_id": null,
+      "level": 1,
+      "name": "晶体与固体结构",
+      "chapter_ref": "第12章"
+    },
+    {
+      "id": "cpb.crystal.lattice",
+      "parent_id": "cpb.crystal",
+      "level": 2,
+      "name": "晶格类型与晶胞",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.crystal.solid",
+      "parent_id": "cpb.crystal",
+      "level": 2,
+      "name": "固体结构与性质",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.coordination",
+      "parent_id": null,
+      "level": 1,
+      "name": "配位化合物",
+      "chapter_ref": "第13章"
+    },
+    {
+      "id": "cpb.coordination.coord_bond",
+      "parent_id": "cpb.coordination",
+      "level": 2,
+      "name": "配合物组成与命名",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.coordination.coord_theory",
+      "parent_id": "cpb.coordination",
+      "level": 2,
+      "name": "配位键理论与磁性",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.coordination.coord_equil",
+      "parent_id": "cpb.coordination",
+      "level": 2,
+      "name": "配位平衡与稳定常数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.element",
+      "parent_id": null,
+      "level": 1,
+      "name": "元素化学",
+      "chapter_ref": "第14章"
+    },
+    {
+      "id": "cpb.element.s_block",
+      "parent_id": "cpb.element",
+      "level": 2,
+      "name": "s区元素",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.element.p_block",
+      "parent_id": "cpb.element",
+      "level": 2,
+      "name": "p区元素",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.element.ds_block",
+      "parent_id": "cpb.element",
+      "level": 2,
+      "name": "ds区与d区过渡元素",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpb.element.f_block",
+      "parent_id": "cpb.element",
+      "level": 2,
+      "name": "f区镧系锕系",
+      "chapter_ref": null
+    }
+  ]
+}

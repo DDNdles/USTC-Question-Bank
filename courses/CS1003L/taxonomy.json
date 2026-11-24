@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "course_code": "CS1003L",
+  "nodes": [
+    {
+      "id": "cpl.basic",
+      "parent_id": null,
+      "level": 1,
+      "name": "C 语言基础",
+      "chapter_ref": "第1-2章"
+    },
+    {
+      "id": "cpl.basic.type",
+      "parent_id": "cpl.basic",
+      "level": 2,
+      "name": "数据类型、运算符与表达式",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpl.basic.io",
+      "parent_id": "cpl.basic",
+      "level": 2,
+      "name": "输入输出与格式控制",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpl.control",
+      "parent_id": null,
+      "level": 1,
+      "name": "控制结构",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "cpl.control.branch",
+      "parent_id": "cpl.control",
+      "level": 2,
+      "name": "分支与条件判断",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpl.control.loop",
+      "parent_id": "cpl.control",
+      "level": 2,
+      "name": "循环与嵌套",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpl.array",
+      "parent_id": null,
+      "level": 1,
+      "name": "数组与字符串",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "cpl.array.array1d",
+      "parent_id": "cpl.array",
+      "level": 2,
+      "name": "一维数组与排序查找",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpl.array.array2d",
+      "parent_id": "cpl.array",
+      "level": 2,
+      "name": "二维数组与矩阵",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpl.array.string",
+      "parent_id": "cpl.array",
+      "level": 2,
+      "name": "字符数组与字符串处理",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpl.func",
+      "parent_id": null,
+      "level": 1,
+      "name": "函数",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "cpl.func.define",
+      "parent_id": "cpl.func",
+      "level": 2,
+      "name": "函数定义与参数传递",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpl.func.recursion",
+      "parent_id": "cpl.func",
+      "level": 2,
+      "name": "递归与嵌套调用",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpl.pointer",
+      "parent_id": null,
+      "level": 1,
+      "name": "指针",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "cpl.pointer.basic",
+      "parent_id": "cpl.pointer",
+      "level": 2,
+      "name": "指针 basics 与地址运算",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpl.pointer.arrptr",
+      "parent_id": "cpl.pointer",
+      "level": 2,
+      "name": "指针与数组/字符串",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpl.struct",
+      "parent_id": null,
+      "level": 1,
+      "name": "结构体与链表",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "cpl.struct.struct",
+      "parent_id": "cpl.struct",
+      "level": 2,
+      "name": "结构体与联合体",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpl.struct.linked",
+      "parent_id": "cpl.struct",
+      "level": 2,
+      "name": "链表与动态内存",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpl.file",
+      "parent_id": null,
+      "level": 1,
+      "name": "文件与综合设计",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "cpl.file.io",
+      "parent_id": "cpl.file",
+      "level": 2,
+      "name": "文件读写",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpl.file.design",
+      "parent_id": "cpl.file",
+      "level": 2,
+      "name": "综合程序设计与流程图",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpl.algo",
+      "parent_id": null,
+      "level": 1,
+      "name": "算法与机考题型",
+      "chapter_ref": "机考"
+    },
+    {
+      "id": "cpl.algo.enum",
+      "parent_id": "cpl.algo",
+      "level": 2,
+      "name": "枚举与暴力搜索",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpl.algo.number",
+      "parent_id": "cpl.algo",
+      "level": 2,
+      "name": "数位处理与数学问题",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpl.algo.sort",
+      "parent_id": "cpl.algo",
+      "level": 2,
+      "name": "排序算法应用",
+      "chapter_ref": null
+    }
+  ]
+}

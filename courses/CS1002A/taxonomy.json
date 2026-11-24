@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "course_code": "CS1002A",
+  "nodes": [
+    {
+      "id": "csa.data",
+      "parent_id": null,
+      "level": 1,
+      "name": "信息表示与数据运算",
+      "chapter_ref": "第2-3章"
+    },
+    {
+      "id": "csa.data.binary",
+      "parent_id": "csa.data",
+      "level": 2,
+      "name": "数制与二进制转换",
+      "chapter_ref": null
+    },
+    {
+      "id": "csa.data.signed",
+      "parent_id": "csa.data",
+      "level": 2,
+      "name": "有符号数与补码运算",
+      "chapter_ref": null
+    },
+    {
+      "id": "csa.data.char",
+      "parent_id": "csa.data",
+      "level": 2,
+      "name": "字符编码与ASCII",
+      "chapter_ref": null
+    },
+    {
+      "id": "csa.data.bitwise",
+      "parent_id": "csa.data",
+      "level": 2,
+      "name": "位运算与逻辑运算",
+      "chapter_ref": null
+    },
+    {
+      "id": "csa.lc3",
+      "parent_id": null,
+      "level": 1,
+      "name": "LC-3 体系结构",
+      "chapter_ref": "第4-5章"
+    },
+    {
+      "id": "csa.lc3.isa",
+      "parent_id": "csa.lc3",
+      "level": 2,
+      "name": "LC-3 指令集与寻址方式",
+      "chapter_ref": null
+    },
+    {
+      "id": "csa.lc3.memory",
+      "parent_id": "csa.lc3",
+      "level": 2,
+      "name": "存储器组织与内存映射",
+      "chapter_ref": null
+    },
+    {
+      "id": "csa.asm",
+      "parent_id": null,
+      "level": 1,
+      "name": "LC-3 汇编程序设计",
+      "chapter_ref": "第6-7章"
+    },
+    {
+      "id": "csa.asm.basic",
+      "parent_id": "csa.asm",
+      "level": 2,
+      "name": "汇编指令与顺序结构",
+      "chapter_ref": null
+    },
+    {
+      "id": "csa.asm.branch",
+      "parent_id": "csa.asm",
+      "level": 2,
+      "name": "分支、循环与子程序",
+      "chapter_ref": null
+    },
+    {
+      "id": "csa.asm.io",
+      "parent_id": "csa.asm",
+      "level": 2,
+      "name": "汇编I/O与TRAP",
+      "chapter_ref": null
+    },
+    {
+      "id": "csa.c",
+      "parent_id": null,
+      "level": 1,
+      "name": "C 语言与机器级映射",
+      "chapter_ref": "第8-9章"
+    },
+    {
+      "id": "csa.c.pointer",
+      "parent_id": "csa.c",
+      "level": 2,
+      "name": "指针与数组",
+      "chapter_ref": null
+    },
+    {
+      "id": "csa.c.stack",
+      "parent_id": "csa.c",
+      "level": 2,
+      "name": "函数调用、栈与递归",
+      "chapter_ref": null
+    },
+    {
+      "id": "csa.io",
+      "parent_id": null,
+      "level": 1,
+      "name": "输入输出系统",
+      "chapter_ref": "第10章"
+    },
+    {
+      "id": "csa.io.poll",
+      "parent_id": "csa.io",
+      "level": 2,
+      "name": "轮询、中断与设备寄存器",
+      "chapter_ref": null
+    },
+    {
+      "id": "csa.memory",
+      "parent_id": null,
+      "level": 1,
+      "name": "存储层次",
+      "chapter_ref": "第11章"
+    },
+    {
+      "id": "csa.memory.cache",
+      "parent_id": "csa.memory",
+      "level": 2,
+      "name": "高速缓存与局部性",
+      "chapter_ref": null
+    },
+    {
+      "id": "csa.memory.virtual",
+      "parent_id": "csa.memory",
+      "level": 2,
+      "name": "虚拟内存与TLB",
+      "chapter_ref": null
+    },
+    {
+      "id": "csa.os",
+      "parent_id": null,
+      "level": 1,
+      "name": "操作系统与网络基础",
+      "chapter_ref": "第12-13章"
+    },
+    {
+      "id": "csa.os.process",
+      "parent_id": "csa.os",
+      "level": 2,
+      "name": "进程与调度",
+      "chapter_ref": null
+    },
+    {
+      "id": "csa.os.vm",
+      "parent_id": "csa.os",
+      "level": 2,
+      "name": "内存管理与保护",
+      "chapter_ref": null
+    },
+    {
+      "id": "csa.net",
+      "parent_id": "csa.os",
+      "level": 2,
+      "name": "网络基础与协议分层",
+      "chapter_ref": null
+    }
+  ]
+}

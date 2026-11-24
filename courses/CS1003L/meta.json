@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "code": "CS1003L",
+  "name": "计算机程序设计(L)",
+  "name_en": "Computer Programming (L)",
+  "department": "计算机科学与技术学院",
+  "category": "common",
+  "description": "中国科学技术大学《计算机程序设计(L)》（课号 CS1003L）结构化题库，收录 2024 秋《模拟测试与答案》四套综合 C 语言测试（151 题）、2025 秋两次机考题（10 题）及习题课/复习用测试题（30 题）共 191 题，覆盖 18 个二级知识点，其中 189 题附原卷/讲义参考答案（origin=official）、2 题由模型独立求解。",
+  "stats": {
+    "total": 191,
+    "quarantined": 0,
+    "taxonomy_nodes": 26,
+    "by_origin": {
+      "official": 189,
+      "community": 0,
+      "ai": 2
+    },
+    "by_type": {
+      "blank": 37,
+      "multi": 13,
+      "single": 79,
+      "solve": 62
+    },
+    "by_difficulty": {
+      "1": 1,
+      "2": 39,
+      "3": 114,
+      "4": 29,
+      "5": 8
+    },
+    "exam_years": [
+      2024,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "cpl_exams",
+      "count": 10,
+      "rights": "third_party_exam",
+      "description": "2025 秋计算机程序设计(L)机考一（含答案）与机考二（10 题）"
+    },
+    {
+      "id": "cpl_solved",
+      "count": 151,
+      "rights": "third_party_textbook",
+      "description": "2024 秋计算机程序设计模拟测试与答案四套综合卷（151 题）"
+    },
+    {
+      "id": "cpl_drills",
+      "count": 30,
+      "rights": "third_party_notes",
+      "description": "12 月 14/22 日习题课及 2023 秋/2025 版复习测试题（30 题）"
+    }
+  ],
+  "known_notes": [
+    "CS1003L 与本库已收录的 CS1003（计算机程序设计）存在 53 题题干同源重叠（主要来自 2024 秋模拟测试与 12-14/12-22 习题课课件）；公开版按培养方案选课分类保留 CS1003L 独立成库，联合使用两库时可按题干或批次去重。",
+    "2025 秋机考一已采用「含答案」官方版本替换无答案初稿（仅第 2 题无官方解答由模型补全，连同 2025 版复习测试某题共 2 题 origin=ai）；2024 秋模拟测试综合二第五-2 题已据原 PDF 第 13 页补全完整 main() 源码。"
+  ],
+  "files": {
+    "questions": "courses/CS1003L/questions.jsonl",
+    "taxonomy": "courses/CS1003L/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "68647c2879d28318ccecd0838a7b8bf934056042a4a406dcb9dfcb4dba45f94a",
+    "taxonomy": "dcb08aae1b98c1570785dfebc2c82b6a91f54b8cc6791caa67bdcc4ac92c0a08"
+  }
+}

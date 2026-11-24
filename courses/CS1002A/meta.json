@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "code": "CS1002A",
+  "name": "计算系统概论A",
+  "name_en": "Introduction to Computing Systems (A)",
+  "department": "计算机科学与技术学院",
+  "category": "common",
+  "description": "中国科学技术大学《计算系统概论A》（课号 CS1002A）结构化题库，收录 2020–2024 学年四套 ICS 期中真题（82 题）、ICS 作业 1/3/4/5/6（89 题）、复习笔记与 2021 期中重点（35 题）及教材课后题解答（26 题）共 232 题，覆盖 11 个二级知识点，并附 32 题次（20 幅去重）CMOS/状态机/LC-3 电路与内存快照灰度 WebP 配图。",
+  "stats": {
+    "total": 232,
+    "quarantined": 0,
+    "taxonomy_nodes": 24,
+    "by_origin": {
+      "official": 76,
+      "community": 0,
+      "ai": 156
+    },
+    "by_type": {
+      "blank": 29,
+      "solve": 203
+    },
+    "by_difficulty": {
+      "1": 28,
+      "2": 54,
+      "3": 65,
+      "4": 47,
+      "5": 38
+    },
+    "exam_years": [
+      2020,
+      2021,
+      2022,
+      2023
+    ]
+  },
+  "batches": [
+    {
+      "id": "csa_exams",
+      "count": 82,
+      "rights": "third_party_exam",
+      "description": "2020–2024 学年四套计算系统概论(A)期中真题（82 题）"
+    },
+    {
+      "id": "csa_homework",
+      "count": 89,
+      "rights": "third_party_notes",
+      "description": "ICS 课程作业 1、3、4、5、6（含部分官方 hw_solution 标答，89 题）"
+    },
+    {
+      "id": "csa_solved",
+      "count": 26,
+      "rights": "third_party_textbook",
+      "description": "《计算系统概论》教材课后习题解答（26 题）"
+    },
+    {
+      "id": "csa_drills",
+      "count": 35,
+      "rights": "third_party_notes",
+      "description": "ICS 复习笔记与 2021 期中重点整理（35 题）"
+    }
+  ],
+  "known_notes": [
+    "已剔除原「期末考试.pdf」仅作考纲范围提示的 5 条伪题，并移除重复件；作业 1 第 T6/T8/T9 题与作业 6 第 T10 题已采用 2021 秋助教官方解答 PDF（hw02..hw06_solution.pdf）升级为 origin=official（连同复习笔记与教材习题共 76 题 official）。",
+    "全库原 36 道缺图题及 82 道无官方答案期中真题均已由原卷 PDF 精裁 CMOS/逻辑电路/FSM/LC-3 内存快照（32 题次、20 幅去重灰度 WebP）并通过 LC-3 汇编与逻辑电路逐态仿真完成严谨推导与校验（156 题 origin=ai），全库零隔离题。"
+  ],
+  "files": {
+    "questions": "courses/CS1002A/questions.jsonl",
+    "taxonomy": "courses/CS1002A/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "d823ab90c5f1b00f79ba60d396743de501ce83ccd89804ebbc3931a982fa8bf9",
+    "taxonomy": "fefae4e8fb1e8aa91b666663c238b981c99627ccc118acce919fef95afb6cf67"
+  }
+}

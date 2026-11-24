@@ -1,0 +1,293 @@
+{
+  "schema_version": "1.0",
+  "course_code": "019165",
+  "nodes": [
+    {
+      "id": "gnc.gas_liquid",
+      "parent_id": null,
+      "level": 1,
+      "name": "气体、液体与相变",
+      "chapter_ref": "第2章"
+    },
+    {
+      "id": "gnc.gas_liquid.ideal_gas",
+      "parent_id": "gnc.gas_liquid",
+      "level": 2,
+      "name": "理想气体状态方程与分压",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.gas_liquid.phase",
+      "parent_id": "gnc.gas_liquid",
+      "level": 2,
+      "name": "相变、相图与克拉佩龙方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.solution",
+      "parent_id": null,
+      "level": 1,
+      "name": "溶液与胶体",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "gnc.solution.concentration",
+      "parent_id": "gnc.solution",
+      "level": 2,
+      "name": "溶液浓度与依数性",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.solution.electrolyte",
+      "parent_id": "gnc.solution",
+      "level": 2,
+      "name": "电解质溶液与离子强度",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.thermo",
+      "parent_id": null,
+      "level": 1,
+      "name": "化学热力学基础",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "gnc.thermo.thermo_first",
+      "parent_id": "gnc.thermo",
+      "level": 2,
+      "name": "热力学第一定律与焓",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.thermo.thermochemistry",
+      "parent_id": "gnc.thermo",
+      "level": 2,
+      "name": "反应热与盖斯定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.equilibrium",
+      "parent_id": null,
+      "level": 1,
+      "name": "化学平衡",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "gnc.equilibrium.eq_constant",
+      "parent_id": "gnc.equilibrium",
+      "level": 2,
+      "name": "平衡常数与平衡移动",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.equilibrium.eq_calc",
+      "parent_id": "gnc.equilibrium",
+      "level": 2,
+      "name": "化学平衡计算",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.kinetics",
+      "parent_id": null,
+      "level": 1,
+      "name": "化学动力学",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "gnc.kinetics.rate",
+      "parent_id": "gnc.kinetics",
+      "level": 2,
+      "name": "反应速率与速率方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.kinetics.catalysis",
+      "parent_id": "gnc.kinetics",
+      "level": 2,
+      "name": "催化与温度影响",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.acid_base",
+      "parent_id": null,
+      "level": 1,
+      "name": "酸碱电离平衡",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "gnc.acid_base.acid_base_theory",
+      "parent_id": "gnc.acid_base",
+      "level": 2,
+      "name": "酸碱理论与pH计算",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.acid_base.buffer",
+      "parent_id": "gnc.acid_base",
+      "level": 2,
+      "name": "缓冲溶液",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.acid_base.hydrolysis",
+      "parent_id": "gnc.acid_base",
+      "level": 2,
+      "name": "盐类水解",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.precipitation",
+      "parent_id": null,
+      "level": 1,
+      "name": "沉淀溶解与多相离子平衡",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "gnc.precipitation.ksp",
+      "parent_id": "gnc.precipitation",
+      "level": 2,
+      "name": "溶度积与沉淀生成溶解",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.precipitation.multiphase",
+      "parent_id": "gnc.precipitation",
+      "level": 2,
+      "name": "多相离子平衡与分离",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.redox",
+      "parent_id": null,
+      "level": 1,
+      "name": "氧化还原与电化学",
+      "chapter_ref": "第9章"
+    },
+    {
+      "id": "gnc.redox.redox_balance",
+      "parent_id": "gnc.redox",
+      "level": 2,
+      "name": "氧化还原反应配平",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.redox.electrode",
+      "parent_id": "gnc.redox",
+      "level": 2,
+      "name": "电极电势与能斯特方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.redox.battery",
+      "parent_id": "gnc.redox",
+      "level": 2,
+      "name": "原电池与电解",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.atomic",
+      "parent_id": null,
+      "level": 1,
+      "name": "原子结构与元素周期律",
+      "chapter_ref": "第10章"
+    },
+    {
+      "id": "gnc.atomic.quantum",
+      "parent_id": "gnc.atomic",
+      "level": 2,
+      "name": "量子数与电子排布",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.atomic.periodic",
+      "parent_id": "gnc.atomic",
+      "level": 2,
+      "name": "元素周期律与周期性",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.bond",
+      "parent_id": null,
+      "level": 1,
+      "name": "化学键与分子结构",
+      "chapter_ref": "第11章"
+    },
+    {
+      "id": "gnc.bond.ionic_covalent",
+      "parent_id": "gnc.bond",
+      "level": 2,
+      "name": "离子键与共价键",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.bond.hybrid",
+      "parent_id": "gnc.bond",
+      "level": 2,
+      "name": "杂化轨道与分子构型",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.bond.intermolecular",
+      "parent_id": "gnc.bond",
+      "level": 2,
+      "name": "分子间力与氢键",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.crystal",
+      "parent_id": null,
+      "level": 1,
+      "name": "晶体与固体结构",
+      "chapter_ref": "第12章"
+    },
+    {
+      "id": "gnc.crystal.solid",
+      "parent_id": "gnc.crystal",
+      "level": 2,
+      "name": "固体结构与性质",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.coordination",
+      "parent_id": null,
+      "level": 1,
+      "name": "配位化合物",
+      "chapter_ref": "第13章"
+    },
+    {
+      "id": "gnc.coordination.coord_bond",
+      "parent_id": "gnc.coordination",
+      "level": 2,
+      "name": "配合物组成与命名",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.coordination.coord_equil",
+      "parent_id": "gnc.coordination",
+      "level": 2,
+      "name": "配位平衡与稳定常数",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.element",
+      "parent_id": null,
+      "level": 1,
+      "name": "元素化学",
+      "chapter_ref": "第14章"
+    },
+    {
+      "id": "gnc.element.s_block",
+      "parent_id": "gnc.element",
+      "level": 2,
+      "name": "s区元素",
+      "chapter_ref": null
+    },
+    {
+      "id": "gnc.element.p_block",
+      "parent_id": "gnc.element",
+      "level": 2,
+      "name": "p区元素",
+      "chapter_ref": null
+    }
+  ]
+}

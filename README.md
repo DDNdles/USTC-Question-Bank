@@ -56,7 +56,14 @@
 | `PHYS1004C` | 电磁学C（含 100 张配图） | 151 | 42 | 40 | 69 | 9 | 2017–2025 | 46 |
 | `PHYS1004B` | 电磁学B（含 65 张配图） | 151 | 96 | 0 | 55 | 1 | 2020–2021 | 40 |
 | `PHYS1001H` | 力学(H)（含 14 张配图） | 78 | 53 | 0 | 25 | 5 | 2023–2026 | 39 |
-| **合计** | **25 门课程** | **9,262** | **4,984** | **1,594** | **2,684** | **73** | — | **1,082** |
+| `019161` | 化学原理A（含 4 张配图） | 132 | 92 | 0 | 40 | 0 | 2024 | 47 |
+| `019163` | 化学原理B | 86 | 49 | 0 | 37 | 0 | — | 49 |
+| `019165` | 普通化学（含 7 张配图） | 328 | 327 | 0 | 1 | 0 | — | 41 |
+| `019166` | 无机化学I（含 1 张配图） | 252 | 218 | 0 | 34 | 0 | 2004 | 50 |
+| `CS1003L` | 计算机程序设计(L) | 191 | 189 | 0 | 2 | 0 | 2024–2025 | 26 |
+| `CS1002A` | 计算系统概论A（含 33 张配图） | 232 | 76 | 0 | 156 | 0 | 2020–2023 | 24 |
+| `MARX1012` | 思想道德与法治 | 1,227 | 1,195 | 9 | 23 | 0 | 2022–2024 | 25 |
+| **合计** | **32 门课程** | **11,710** | **7,130** | **1,603** | **2,977** | **73** | — | **1,344** |
 
 - **100% 含答案与分步解析**。`official` 为原卷/书末标答，`community` 为非官方书面详解，`ai` 为模型或独立推导。
 
@@ -88,6 +95,13 @@
 - **`PHYS1004C` 电磁学C**：`emc_exams` (151，2017–2025 学年 11 卷期中/期末与公共题，含 42 题原卷/评分细则、40 题 feixu 公开学生整理版含解与 69 题独立求解，9 题因回忆版缺参缺图隔离)；98 道含图题共附 100 张（39 幅去重）灰度 WebP 配图（`courses/PHYS1004C/assets/`，含 9 幅复用自 `PHYS1004A` 与 2 幅波形/边值解图，合计 774.7 KB）。
 - **`PHYS1004B` 电磁学B**：`emb_exams` (46，2019–2021 期中/期末与公共真题)、`emb_drills` (105，2024 春第 1/2/4 次习题课讲稿例题与习题，1 题隔离)；64 道含图题共附 65 张（42 幅去重）灰度 WebP 配图（`courses/PHYS1004B/assets/`，含 9 幅复用自 `PHYS1004A` 与 1 幅高斯面解图，合计 566.7 KB）。
 - **`PHYS1001H` 力学(H)**：`mh_exams` (78，2023–2026 学年秋 3 套 H 班期中与 3 套 A&H 共用期末真题，含 53 题参考答案与 25 题独立求解，5 题低置信度隔离)；14 道含图题共附 14 张（13 幅去重）灰度 WebP 配图（`courses/PHYS1001H/assets/`，10 幅复用自 `PHYS1001A` + 3 幅 2024 秋期中手绘题图，合计 54.6 KB）。
+- **`019161` 化学原理A**：`cpa_exams` (116，2024 秋期末真题 35 题 + 化学原理历年真题汇编 81 题)、`cpa_drills` (16，2022 秋第三次习题课讲义)；4 道附加题附 4 张（1 幅去重）钾-石墨插层化合物晶胞灰度 WebP 配图（`courses/019161/assets/`，合计 46.6 KB）。
+- **`019163` 化学原理B**：`cpb_solved` (37，第 2–14 章分章习题解析)、`cpb_drills` (49，习题课一至六及配位化合物/缓冲计算讲义，含 49 题原书/课件红字标答与 37 题模型独立推导)。
+- **`019165` 普通化学**：`gnc_solved` (313，《普通化学原理（第 4 版）习题解析》第 2–15 章全量课后习题，含 312 题原书解析与第 15.30 题模型补写提纲)、`gnc_drills` (15，2024 秋课堂笔记随堂例题)，100% 覆盖 28 个二级知识点；5 道带图题共附 7 张灰度 WebP 原书配图（`courses/019165/assets/`，合计 54.9 KB）。
+- **`019166` 无机化学I**：`ino_exams` (49，四套模拟习题与 2004–2005 期中试题，已据原 DOCX XML 还原下划线物种并校正 11 题单选标答)、`ino_solved` (60，往年参考资料汇编)、`ino_drills` (143，BN/C-O-F/ds-df 族元素讲义及习题课一至四)；习题课一第 8 题附双核配离子灰度 WebP 配图（`courses/019166/assets/`，21.3 KB）。
+- **`CS1003L` 计算机程序设计(L)**：`cpl_exams` (10，2025 秋机考一含答案版 + 机考二)、`cpl_solved` (151，2024 秋模拟测试与答案四套综合卷，已补全综合二第五-2 题完整源码)、`cpl_drills` (30，12-14/12-22 习题课与 2023/2025 复习测试题)；按选课体例独立成库（与 `CS1003` 有 53 题同源重叠，联合使用时可按题干去重）。
+- **`CS1002A` 计算系统概论A**：`csa_exams` (82，2020–2024 四套期中真题，全量无答案经模型求解并配图)、`csa_homework` (89，ICS 作业 1/3/4/5/6，含 `hw02..hw06_solution.pdf` 官方标答升级)、`csa_solved` (26，教材课后题解答)、`csa_drills` (35，复习笔记与 2021 期中重点；原假纲 5 题已剔除)；32 道带图题共附 33 张灰度 WebP 配图（`courses/CS1002A/assets/`，合计 518.9 KB）。
+- **`MARX1012` 思想道德与法治**：`ide_exams` (29，2022–2025 思政试题与无纸化考试题，含 9 题 `22、23思政答案chatgpt版` 归为 `origin=community`)、`ide_qbank` (1,137，2021 秋/2024 秋/2025 德法机考全量去重题库)、`ide_drills` (38，复习与教材提纲)、`ide_solved` (23，课后思考题)。
 - 详细勘误与局限见各课程 `courses/<课号>/meta.json` 的 `known_notes`。
 
 </details>
@@ -187,7 +201,7 @@ paper = bank["001548"].sample(12, seed=2026, exclude_batches=["yan_mp_part1"])
 | 环节 | 模型 / 工具 | 说明 |
 | --- | --- | --- |
 | 仓库架构与工程设计 | <img src="https://cdn.simpleicons.org/googlegemini/4285F4" width="16" height="16" align="absmiddle" alt="Gemini" /> [**Gemini 4 Neon**](https://deepmind.google/technologies/gemini/) | 数据契约、Schema、Python/TS 库、SQLite FTS5 与 CI 校验架构 |
-| 题目分析、标注与无答案题解析 | <img src="https://avatars.githubusercontent.com/u/148330874?s=64&v=4" width="16" height="16" align="absmiddle" alt="DeepSeek" /> [**DeepSeek-v4.1-flash-1017**](https://github.com/deepseek-ai) · <img src="https://avatars.githubusercontent.com/u/223098841?s=64&v=4" width="16" height="16" align="absmiddle" alt="GLM" /> [**GLM-5.3-Flash**](https://github.com/zai-org) · <img src="https://avatars.githubusercontent.com/u/210980732?s=64&v=4" width="16" height="16" align="absmiddle" alt="Hunyuan" /> [**hy4flash**](https://github.com/Tencent-Hunyuan) | 题目切分结构化、知识点与难度标注、勘误复核及无答案题独立求解 |
+| 题目分析、标注与无答案题解析 | <img src="https://cdn.simpleicons.org/googlegemini/4285F4" width="16" height="16" align="absmiddle" alt="Gemini" /> [**Gemini 4 Hydrogen**](https://deepmind.google/technologies/gemini/) · <img src="https://avatars.githubusercontent.com/u/148330874?s=64&v=4" width="16" height="16" align="absmiddle" alt="DeepSeek" /> [**DeepSeek-v4.1-flash-1017**](https://github.com/deepseek-ai) · <img src="https://avatars.githubusercontent.com/u/223098841?s=64&v=4" width="16" height="16" align="absmiddle" alt="GLM" /> [**GLM-5.3-Flash**](https://github.com/zai-org) · <img src="https://avatars.githubusercontent.com/u/210980732?s=64&v=4" width="16" height="16" align="absmiddle" alt="Hunyuan" /> [**hy4flash**](https://github.com/Tencent-Hunyuan) | 题目切分结构化、知识点与难度标注、勘误复核及无答案题独立求解 |
 | 数分教材详解上游底本 | <img src="https://cdn.simpleicons.org/googlegemini/4285F4" width="16" height="16" align="absmiddle" alt="Gemini" /> [**Gemini Pro**](https://deepmind.google/technologies/gemini/)（[`DongYaoZe`](https://github.com/DongYaoZe/math-analysis-lectures-solutions-USTC) 上游） | 原作者前言注明以 Gemini Pro 会员起草初稿并经多轮人工校订（未注明具体小版本），入库时已二次复核 |
 | 试卷与教材 PDF OCR | <a href="https://github.com/opendatalab/MinerU"><img src="https://raw.githubusercontent.com/opendatalab/MinerU/master/docs/images/MinerU-logo.png" height="16" align="absmiddle" alt="MinerU" /></a> / PaddleOCR-VL @ <img src=".github/assets/ustc-107.svg" width="16" height="16" align="absmiddle" alt="USTC 107" /> [**107.ustc.edu.cn**](https://107.ustc.edu.cn/) | 在中科大 107 平台自部署 MinerU / PaddleOCR-VL GPU 作业完成版面、公式与插图裁剪 |
 

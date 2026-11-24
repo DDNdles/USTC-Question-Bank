@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MARX1012",
+  "nodes": [
+    {
+      "id": "ideol.intro",
+      "parent_id": null,
+      "level": 1,
+      "name": "绪论：新时代与青年使命",
+      "chapter_ref": "绪论"
+    },
+    {
+      "id": "ideol.intro.era",
+      "parent_id": "ideol.intro",
+      "level": 2,
+      "name": "中国特色社会主义新时代",
+      "chapter_ref": null
+    },
+    {
+      "id": "ideol.intro.youth",
+      "parent_id": "ideol.intro",
+      "level": 2,
+      "name": "青年责任与历史使命",
+      "chapter_ref": null
+    },
+    {
+      "id": "ideol.life",
+      "parent_id": null,
+      "level": 1,
+      "name": "人生的价值与理想",
+      "chapter_ref": "第一章"
+    },
+    {
+      "id": "ideol.life.outlook",
+      "parent_id": "ideol.life",
+      "level": 2,
+      "name": "人生观与人生目的",
+      "chapter_ref": null
+    },
+    {
+      "id": "ideol.life.value",
+      "parent_id": "ideol.life",
+      "level": 2,
+      "name": "人生价值评价与实现",
+      "chapter_ref": null
+    },
+    {
+      "id": "ideol.ideal",
+      "parent_id": null,
+      "level": 1,
+      "name": "理想信念与中国精神",
+      "chapter_ref": "第二章"
+    },
+    {
+      "id": "ideol.ideal.belief",
+      "parent_id": "ideol.ideal",
+      "level": 2,
+      "name": "理想信念的内涵与作用",
+      "chapter_ref": null
+    },
+    {
+      "id": "ideol.ideal.spirit",
+      "parent_id": "ideol.ideal",
+      "level": 2,
+      "name": "中国精神与爱国主义",
+      "chapter_ref": null
+    },
+    {
+      "id": "ideol.core",
+      "parent_id": null,
+      "level": 1,
+      "name": "社会主义核心价值观",
+      "chapter_ref": "第三章"
+    },
+    {
+      "id": "ideol.core.value",
+      "parent_id": "ideol.core",
+      "level": 2,
+      "name": "核心价值体系与核心价值观",
+      "chapter_ref": null
+    },
+    {
+      "id": "ideol.core.confidence",
+      "parent_id": "ideol.core",
+      "level": 2,
+      "name": "文化自信与价值观践行",
+      "chapter_ref": null
+    },
+    {
+      "id": "ideol.moral",
+      "parent_id": null,
+      "level": 1,
+      "name": "道德观与道德建设",
+      "chapter_ref": "第四章"
+    },
+    {
+      "id": "ideol.moral.origin",
+      "parent_id": "ideol.moral",
+      "level": 2,
+      "name": "道德的起源、本质与功能",
+      "chapter_ref": null
+    },
+    {
+      "id": "ideol.moral.field",
+      "parent_id": "ideol.moral",
+      "level": 2,
+      "name": "社会公德、职业道德、家庭美德、个人品德",
+      "chapter_ref": null
+    },
+    {
+      "id": "ideol.moral.cultivate",
+      "parent_id": "ideol.moral",
+      "level": 2,
+      "name": "道德修养与道德实践",
+      "chapter_ref": null
+    },
+    {
+      "id": "ideol.law",
+      "parent_id": null,
+      "level": 1,
+      "name": "法治观与法律体系",
+      "chapter_ref": "第五章"
+    },
+    {
+      "id": "ideol.law.concept",
+      "parent_id": "ideol.law",
+      "level": 2,
+      "name": "法治的概念、原则与思维",
+      "chapter_ref": null
+    },
+    {
+      "id": "ideol.law.constitution",
+      "parent_id": "ideol.law",
+      "level": 2,
+      "name": "宪法与我国基本制度",
+      "chapter_ref": null
+    },
+    {
+      "id": "ideol.law.system",
+      "parent_id": "ideol.law",
+      "level": 2,
+      "name": "中国特色社会主义法律体系",
+      "chapter_ref": null
+    },
+    {
+      "id": "ideol.rights",
+      "parent_id": null,
+      "level": 1,
+      "name": "权利义务与部门法",
+      "chapter_ref": "第六章"
+    },
+    {
+      "id": "ideol.rights.basic",
+      "parent_id": "ideol.rights",
+      "level": 2,
+      "name": "公民权利与义务",
+      "chapter_ref": null
+    },
+    {
+      "id": "ideol.rights.civil",
+      "parent_id": "ideol.rights",
+      "level": 2,
+      "name": "民法典与民事权利",
+      "chapter_ref": null
+    },
+    {
+      "id": "ideol.rights.criminal",
+      "parent_id": "ideol.rights",
+      "level": 2,
+      "name": "刑法与刑事责任",
+      "chapter_ref": null
+    },
+    {
+      "id": "ideol.rights.procedure",
+      "parent_id": "ideol.rights",
+      "level": 2,
+      "name": "诉讼程序与法律责任",
+      "chapter_ref": null
+    }
+  ]
+}

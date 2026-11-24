@@ -1,0 +1,356 @@
+{
+  "schema_version": "1.0",
+  "course_code": "019166",
+  "nodes": [
+    {
+      "id": "ino.gas_liquid",
+      "parent_id": null,
+      "level": 1,
+      "name": "气体、液体与相变",
+      "chapter_ref": "第2章"
+    },
+    {
+      "id": "ino.gas_liquid.ideal_gas",
+      "parent_id": "ino.gas_liquid",
+      "level": 2,
+      "name": "理想气体状态方程与分压",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.gas_liquid.real_gas",
+      "parent_id": "ino.gas_liquid",
+      "level": 2,
+      "name": "真实气体与范德华方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.gas_liquid.phase",
+      "parent_id": "ino.gas_liquid",
+      "level": 2,
+      "name": "相变、相图与克拉佩龙方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.solution",
+      "parent_id": null,
+      "level": 1,
+      "name": "溶液与胶体",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "ino.solution.concentration",
+      "parent_id": "ino.solution",
+      "level": 2,
+      "name": "溶液浓度与依数性",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.solution.electrolyte",
+      "parent_id": "ino.solution",
+      "level": 2,
+      "name": "电解质溶液与离子强度",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.solution.colloid",
+      "parent_id": "ino.solution",
+      "level": 2,
+      "name": "胶体与表面现象",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.thermo",
+      "parent_id": null,
+      "level": 1,
+      "name": "化学热力学基础",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "ino.thermo.thermo_first",
+      "parent_id": "ino.thermo",
+      "level": 2,
+      "name": "热力学第一定律与焓",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.thermo.thermochemistry",
+      "parent_id": "ino.thermo",
+      "level": 2,
+      "name": "反应热与盖斯定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.equilibrium",
+      "parent_id": null,
+      "level": 1,
+      "name": "化学平衡",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "ino.equilibrium.eq_constant",
+      "parent_id": "ino.equilibrium",
+      "level": 2,
+      "name": "平衡常数与平衡移动",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.kinetics",
+      "parent_id": null,
+      "level": 1,
+      "name": "化学动力学",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "ino.kinetics.rate",
+      "parent_id": "ino.kinetics",
+      "level": 2,
+      "name": "反应速率与速率方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.kinetics.mechanism",
+      "parent_id": "ino.kinetics",
+      "level": 2,
+      "name": "反应机理与活化能",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.kinetics.catalysis",
+      "parent_id": "ino.kinetics",
+      "level": 2,
+      "name": "催化与温度影响",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.acid_base",
+      "parent_id": null,
+      "level": 1,
+      "name": "酸碱电离平衡",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "ino.acid_base.acid_base_theory",
+      "parent_id": "ino.acid_base",
+      "level": 2,
+      "name": "酸碱理论与pH计算",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.acid_base.buffer",
+      "parent_id": "ino.acid_base",
+      "level": 2,
+      "name": "缓冲溶液",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.acid_base.hydrolysis",
+      "parent_id": "ino.acid_base",
+      "level": 2,
+      "name": "盐类水解",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.precipitation",
+      "parent_id": null,
+      "level": 1,
+      "name": "沉淀溶解与多相离子平衡",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "ino.precipitation.ksp",
+      "parent_id": "ino.precipitation",
+      "level": 2,
+      "name": "溶度积与沉淀生成溶解",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.precipitation.multiphase",
+      "parent_id": "ino.precipitation",
+      "level": 2,
+      "name": "多相离子平衡与分离",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.redox",
+      "parent_id": null,
+      "level": 1,
+      "name": "氧化还原与电化学",
+      "chapter_ref": "第9章"
+    },
+    {
+      "id": "ino.redox.redox_balance",
+      "parent_id": "ino.redox",
+      "level": 2,
+      "name": "氧化还原反应配平",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.redox.electrode",
+      "parent_id": "ino.redox",
+      "level": 2,
+      "name": "电极电势与能斯特方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.redox.battery",
+      "parent_id": "ino.redox",
+      "level": 2,
+      "name": "原电池与电解",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.atomic",
+      "parent_id": null,
+      "level": 1,
+      "name": "原子结构与元素周期律",
+      "chapter_ref": "第10章"
+    },
+    {
+      "id": "ino.atomic.quantum",
+      "parent_id": "ino.atomic",
+      "level": 2,
+      "name": "量子数与电子排布",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.atomic.periodic",
+      "parent_id": "ino.atomic",
+      "level": 2,
+      "name": "元素周期律与周期性",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.bond",
+      "parent_id": null,
+      "level": 1,
+      "name": "化学键与分子结构",
+      "chapter_ref": "第11章"
+    },
+    {
+      "id": "ino.bond.ionic_covalent",
+      "parent_id": "ino.bond",
+      "level": 2,
+      "name": "离子键与共价键",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.bond.hybrid",
+      "parent_id": "ino.bond",
+      "level": 2,
+      "name": "杂化轨道与分子构型",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.bond.intermolecular",
+      "parent_id": "ino.bond",
+      "level": 2,
+      "name": "分子间力与氢键",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.crystal",
+      "parent_id": null,
+      "level": 1,
+      "name": "晶体与固体结构",
+      "chapter_ref": "第12章"
+    },
+    {
+      "id": "ino.crystal.lattice",
+      "parent_id": "ino.crystal",
+      "level": 2,
+      "name": "晶格类型与晶胞",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.crystal.solid",
+      "parent_id": "ino.crystal",
+      "level": 2,
+      "name": "固体结构与性质",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.coordination",
+      "parent_id": null,
+      "level": 1,
+      "name": "配位化合物",
+      "chapter_ref": "第13章"
+    },
+    {
+      "id": "ino.coordination.coord_bond",
+      "parent_id": "ino.coordination",
+      "level": 2,
+      "name": "配合物组成与命名",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.coordination.coord_theory",
+      "parent_id": "ino.coordination",
+      "level": 2,
+      "name": "配位键理论与磁性",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.coordination.coord_equil",
+      "parent_id": "ino.coordination",
+      "level": 2,
+      "name": "配位平衡与稳定常数",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.element",
+      "parent_id": null,
+      "level": 1,
+      "name": "元素化学",
+      "chapter_ref": "第14章"
+    },
+    {
+      "id": "ino.element.s_block",
+      "parent_id": "ino.element",
+      "level": 2,
+      "name": "s区元素",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.element.p_block",
+      "parent_id": "ino.element",
+      "level": 2,
+      "name": "p区元素",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.element.ds_block",
+      "parent_id": "ino.element",
+      "level": 2,
+      "name": "ds区与d区过渡元素",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.element.f_block",
+      "parent_id": "ino.element",
+      "level": 2,
+      "name": "f区镧系锕系",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.element.cof",
+      "parent_id": "ino.element",
+      "level": 2,
+      "name": "C/O/F 族元素",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.element.bn",
+      "parent_id": "ino.element",
+      "level": 2,
+      "name": "硼族与氮族元素",
+      "chapter_ref": null
+    },
+    {
+      "id": "ino.element.df",
+      "parent_id": "ino.element",
+      "level": 2,
+      "name": "ds/df 区金属",
+      "chapter_ref": null
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "code": "019161",
+  "name": "化学原理A",
+  "name_en": "Principles of Chemistry (A)",
+  "department": "化学与材料科学学院",
+  "category": "common",
+  "description": "中国科学技术大学《化学原理A》（课号 019161）结构化题库，收录 2024 秋期末真题（35 题）、化学原理历年真题汇编（热学小测/期中/期末/选择题 81 题）及 2022 秋第三次习题课例题（16 题）共 132 题，覆盖 29 个二级知识点，其中 92 题附原卷参考解答（origin=official）、40 题由模型独立求解，并附 4 题次（1 幅去重）灰度 WebP 晶胞配图。",
+  "stats": {
+    "total": 132,
+    "quarantined": 0,
+    "taxonomy_nodes": 47,
+    "by_origin": {
+      "official": 92,
+      "community": 0,
+      "ai": 40
+    },
+    "by_type": {
+      "blank": 25,
+      "proof": 2,
+      "single": 36,
+      "solve": 69
+    },
+    "by_difficulty": {
+      "1": 0,
+      "2": 19,
+      "3": 47,
+      "4": 39,
+      "5": 27
+    },
+    "exam_years": [
+      2024
+    ]
+  },
+  "batches": [
+    {
+      "id": "cpa_exams",
+      "count": 116,
+      "rights": "third_party_exam",
+      "description": "2024 秋化学原理A期末真题与化学原理历年真题汇编（116 题）"
+    },
+    {
+      "id": "cpa_drills",
+      "count": 16,
+      "rights": "third_party_notes",
+      "description": "2022 秋化学原理A第三次习题课讲义例题（16 题）"
+    }
+  ],
+  "known_notes": [
+    "全库共 92 题采用原卷/讲义参考答案（origin=official），40 题无官方解答由模型独立求解（origin=ai）；入库阶段多处单选答案字母错乱与 raw LaTeX 转义破损已完成校订，2024 秋期末附加题 1–4 附钾-石墨插层化合物晶胞灰度 WebP 配图（cpa_f24_kc8.webp）。",
+    "全库无低置信度隔离题（quarantined=0），经人工与程序复核后所有公式与选择题答案均通过严格校验。"
+  ],
+  "files": {
+    "questions": "courses/019161/questions.jsonl",
+    "taxonomy": "courses/019161/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "2901b70a9c0d93a03bac54cec607602638e6d4b7d8910e5f952050110ebb9eb5",
+    "taxonomy": "3b96aca15743ebf5d1f95f1cabb674338e2d5d564d7beb1a91f8a035ffb4ea25"
+  }
+}
