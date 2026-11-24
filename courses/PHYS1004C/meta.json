@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "code": "PHYS1004C",
+  "name": "电磁学C",
+  "name_en": "Electromagnetism (C)",
+  "department": "物理学院",
+  "category": "common",
+  "description": "中国科学技术大学《电磁学C》（课号 PHYS1004C）结构化题库，收录 2017–2025 学年期中、期末与公共题共 11 卷 151 题，覆盖 32 个二级知识点，其中 42 题附原卷/评分细则（origin=official）、40 题来自公开学生整理含解本（origin=community）、69 题由模型独立求解，并附 98 题次（39 幅去重）灰度 WebP 配图。",
+  "stats": {
+    "total": 151,
+    "quarantined": 9,
+    "taxonomy_nodes": 46,
+    "by_origin": {
+      "official": 42,
+      "community": 40,
+      "ai": 69
+    },
+    "by_type": {
+      "blank": 2,
+      "proof": 10,
+      "solve": 139
+    },
+    "by_difficulty": {
+      "1": 2,
+      "2": 24,
+      "3": 72,
+      "4": 46,
+      "5": 7
+    },
+    "exam_years": [
+      2017,
+      2018,
+      2021,
+      2022,
+      2023,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "emc_exams",
+      "count": 151,
+      "rights": "third_party_exam",
+      "description": "2017–2025 学年 11 卷电磁学(C)期中/期末真题及公共题（151 题）"
+    }
+  ],
+  "known_notes": [
+    "2017/2018 春公共卷、2021 秋公共题原卷及 2023 秋期中评分细则标记为 origin=official（42 题）；feixu 公开学生整理版（2021 秋公共题另一排版、2022 秋期末及 2023 秋期末，共 40 题参考解答）标记为 origin=community；无标答卷与回忆版由模型独立求解（69 题，origin=ai）。",
+    "2021 秋期末两版公共题（7+7 题）与 2022 秋期末正式整理稿/扫描回忆版（18+18 题）均各自保留，方便对照题解差异或按卷去重；错标归档的常微分方程讲稿已剔除。",
+    "全库共 9 道回忆版缺磁导率、缺矢量图或条件不足的低置信度题标记为 quality.quarantined=true；涉及磁场、电路与感应的 98 题次（39 幅去重，含 9 幅复用自 PHYS1004A 与 2 幅波形/边值解图）已随题导出至 courses/PHYS1004C/assets/。"
+  ],
+  "files": {
+    "questions": "courses/PHYS1004C/questions.jsonl",
+    "taxonomy": "courses/PHYS1004C/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "48808e9eff8d941c46d467d3effa480c37a0251a8d214c49c8fb571a976ab36e",
+    "taxonomy": "fbee754f07cd08cd5f0ddfdd4c8f312dcf17ba76de258fad058114043406329b"
+  }
+}

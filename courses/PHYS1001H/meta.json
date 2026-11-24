@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "code": "PHYS1001H",
+  "name": "力学(H)",
+  "name_en": "Mechanics (H)",
+  "department": "物理学院",
+  "category": "common",
+  "description": "中国科学技术大学《力学(H)》（课号 PHYS1001H）结构化题库，收录 2023–2026 学年 3 套 H 班期中与 3 套 A&H 共用期末真题共 78 题，覆盖 26 个二级知识点，其中 53 题附原卷/公开参考答案（origin=official）、25 题由模型独立推导并配分步解析，并附 14 题次（13 幅去重）灰度 WebP 配图。",
+  "stats": {
+    "total": 78,
+    "quarantined": 5,
+    "taxonomy_nodes": 39,
+    "by_origin": {
+      "official": 53,
+      "community": 0,
+      "ai": 25
+    },
+    "by_type": {
+      "proof": 2,
+      "solve": 76
+    },
+    "by_difficulty": {
+      "1": 0,
+      "2": 19,
+      "3": 34,
+      "4": 19,
+      "5": 6
+    },
+    "exam_years": [
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "mh_exams",
+      "count": 78,
+      "rights": "third_party_exam",
+      "description": "2023–2026 学年秋 6 卷力学(H)期中与 A&H 共用期末真题（78 题）"
+    }
+  ],
+  "known_notes": [
+    "2023–2025 秋三套期末为 A&H 共用期末卷（与 PHYS1001A 同源跨库保留），采用 feixu 公开参考答案（33 题 origin=official，6 题未覆盖小问由模型补解）；2026 秋期中卷内自带参考答案（20 题 origin=official）；2024/2025 秋 H 班期中由模型独立求解（19 题 origin=ai）。",
+    "全库共 5 道低置信度题标记为 quality.quarantined=true（2024 秋期中缺参数构型第 3 题与 2025 秋期中回忆版缺参题 4/5/8(1)/8(2)）；2026 秋期中及 2023/2024 期末原答案多处量纲或符号笔误已按正确物理修正并在 quality.note 说明。",
+    "全库 14 道含图题目共附 13 幅去重灰度 WebP 配图（10 幅复用自 PHYS1001A 期末题图 + 3 幅 2024 秋 H 班期中手绘题图提取件）已随题导出至 courses/PHYS1001H/assets/。"
+  ],
+  "files": {
+    "questions": "courses/PHYS1001H/questions.jsonl",
+    "taxonomy": "courses/PHYS1001H/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "bfacb635d1c5bd7fe5b0b08e5b4bdb913d1f4fd402cd65db2cf25bd8914b8b18",
+    "taxonomy": "7db83ab52e70b99b0ab0219d05f4db66fd43667914c15d687e71b6c0e3818818"
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "schema_version": "1.0",
+  "course_code": "PHYS1001H",
+  "nodes": [
+    {
+      "id": "mh.kin",
+      "parent_id": null,
+      "level": 1,
+      "name": "质点运动学",
+      "chapter_ref": "第1章"
+    },
+    {
+      "id": "mh.kin.line",
+      "parent_id": "mh.kin",
+      "level": 2,
+      "name": "直线运动与积分法",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.kin.proj",
+      "parent_id": "mh.kin",
+      "level": 2,
+      "name": "抛体运动与相对运动",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.kin.circle",
+      "parent_id": "mh.kin",
+      "level": 2,
+      "name": "圆周运动与自然坐标",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.kin.polar",
+      "parent_id": "mh.kin",
+      "level": 2,
+      "name": "极坐标与曲线运动",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.newton",
+      "parent_id": null,
+      "level": 1,
+      "name": "牛顿运动定律",
+      "chapter_ref": "第2章"
+    },
+    {
+      "id": "mh.newton.laws",
+      "parent_id": "mh.newton",
+      "level": 2,
+      "name": "牛顿定律应用与受力分析",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.newton.constraint",
+      "parent_id": "mh.newton",
+      "level": 2,
+      "name": "约束、连接体与绳杆",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.newton.noninertial",
+      "parent_id": "mh.newton",
+      "level": 2,
+      "name": "非惯性系与惯性力",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.newton.drag",
+      "parent_id": "mh.newton",
+      "level": 2,
+      "name": "阻力介质中的运动",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.momentum",
+      "parent_id": null,
+      "level": 1,
+      "name": "动量与质点组",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "mh.momentum.impulse",
+      "parent_id": "mh.momentum",
+      "level": 2,
+      "name": "冲量与动量定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.momentum.com",
+      "parent_id": "mh.momentum",
+      "level": 2,
+      "name": "质心运动与质点组动量",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.momentum.coll",
+      "parent_id": "mh.momentum",
+      "level": 2,
+      "name": "碰撞",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.momentum.varmass",
+      "parent_id": "mh.momentum",
+      "level": 2,
+      "name": "变质量与火箭",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.energy",
+      "parent_id": null,
+      "level": 1,
+      "name": "功与能",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "mh.energy.work",
+      "parent_id": "mh.energy",
+      "level": 2,
+      "name": "功与动能定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.energy.pot",
+      "parent_id": "mh.energy",
+      "level": 2,
+      "name": "势能与机械能守恒",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.energy.field",
+      "parent_id": "mh.energy",
+      "level": 2,
+      "name": "势能曲线与平衡",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.ang",
+      "parent_id": null,
+      "level": 1,
+      "name": "角动量与万有引力",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "mh.ang.cons",
+      "parent_id": "mh.ang",
+      "level": 2,
+      "name": "角动量定理及守恒",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.ang.grav",
+      "parent_id": "mh.ang",
+      "level": 2,
+      "name": "万有引力与开普勒定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.ang.orbit",
+      "parent_id": "mh.ang",
+      "level": 2,
+      "name": "轨道能量与宇宙速度",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.ang.scatter",
+      "parent_id": "mh.ang",
+      "level": 2,
+      "name": "散射与卢瑟福公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.rigid",
+      "parent_id": null,
+      "level": 1,
+      "name": "刚体力学",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "mh.rigid.inertia",
+      "parent_id": "mh.rigid",
+      "level": 2,
+      "name": "转动惯量计算",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.rigid.law",
+      "parent_id": "mh.rigid",
+      "level": 2,
+      "name": "转动定律与定轴转动",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.rigid.planar",
+      "parent_id": "mh.rigid",
+      "level": 2,
+      "name": "平面平行运动",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.rigid.three_d",
+      "parent_id": "mh.rigid",
+      "level": 2,
+      "name": "定点转动与欧拉方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.osc",
+      "parent_id": null,
+      "level": 1,
+      "name": "振动",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "mh.osc.shm",
+      "parent_id": "mh.osc",
+      "level": 2,
+      "name": "简谐振动",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.osc.damped",
+      "parent_id": "mh.osc",
+      "level": 2,
+      "name": "阻尼与受迫振动",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.osc.coupled",
+      "parent_id": "mh.osc",
+      "level": 2,
+      "name": "耦合振动与简正模",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.rel",
+      "parent_id": null,
+      "level": 1,
+      "name": "狭义相对论",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "mh.rel.kinematics",
+      "parent_id": "mh.rel",
+      "level": 2,
+      "name": "洛伦兹变换与相对论运动学",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.rel.dynamics",
+      "parent_id": "mh.rel",
+      "level": 2,
+      "name": "相对论动量与能量",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.fluid",
+      "parent_id": null,
+      "level": 1,
+      "name": "连续介质与流体",
+      "chapter_ref": "第9章"
+    },
+    {
+      "id": "mh.fluid.statics",
+      "parent_id": "mh.fluid",
+      "level": 2,
+      "name": "流体静力学",
+      "chapter_ref": null
+    },
+    {
+      "id": "mh.fluid.dynamics",
+      "parent_id": "mh.fluid",
+      "level": 2,
+      "name": "理想流体与伯努利方程",
+      "chapter_ref": null
+    }
+  ]
+}

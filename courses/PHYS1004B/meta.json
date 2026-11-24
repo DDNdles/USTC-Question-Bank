@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "code": "PHYS1004B",
+  "name": "电磁学B",
+  "name_en": "Electromagnetism (B)",
+  "department": "物理学院",
+  "category": "common",
+  "description": "中国科学技术大学《电磁学B》（课号 PHYS1004B）结构化题库，收录 2019–2024 年 4 套真题（含 2019-2020 春季及 2021 秋 A/B/C 公共题）与 3 份春季习题课讲稿共 151 题，覆盖 28 个二级知识点，其中 96 题附原卷/讲义参考解答（origin=official）、55 题由模型独立求解，并附 64 题次（42 幅去重）灰度 WebP 配图。",
+  "stats": {
+    "total": 151,
+    "quarantined": 1,
+    "taxonomy_nodes": 40,
+    "by_origin": {
+      "official": 96,
+      "community": 0,
+      "ai": 55
+    },
+    "by_type": {
+      "blank": 8,
+      "proof": 12,
+      "solve": 131
+    },
+    "by_difficulty": {
+      "1": 0,
+      "2": 30,
+      "3": 66,
+      "4": 49,
+      "5": 6
+    },
+    "exam_years": [
+      2020,
+      2021
+    ]
+  },
+  "batches": [
+    {
+      "id": "emb_exams",
+      "count": 46,
+      "rights": "third_party_exam",
+      "description": "2019–2021 年 4 套电磁学(B)期中/期末及公共真题（46 题）"
+    },
+    {
+      "id": "emb_drills",
+      "count": 105,
+      "rights": "third_party_notes",
+      "description": "2024 春电磁学(B)第 1/2/4 次习题课讲稿例题与习题（105 题）"
+    }
+  ],
+  "known_notes": [
+    "电磁学B 公开单套真题源较少，主干体量由 2024 春三次习题课（105 题）与 4 套期末/期中真题（46 题）构成；2020 春期末原件仅存第 3 页（第 6 题 4 小问），2019-2020 春季与 2021 秋公共题同 PHYS1004A/PHYS1004C 同源跨库保留。",
+    "全库仅习题课二第 1.119 题（讲稿仅留电容与静电能两式，构型参数须反推）标记为 quality.quarantined=true；原卷与讲稿少量符号印刷笔误已订正并在 quality.note 说明。",
+    "全库涉及静电场、直流电路、磁路及电磁感应的 64 题次（42 幅去重原图，含 9 幅复用自 PHYS1004A 与 1 幅高斯面解图）已精裁并随题导出至 courses/PHYS1004B/assets/。"
+  ],
+  "files": {
+    "questions": "courses/PHYS1004B/questions.jsonl",
+    "taxonomy": "courses/PHYS1004B/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "ae3bd8aebb12f9ec5194b0b3430cb8b3e926d7e2402d2ee84c21a7ca3b2b4676",
+    "taxonomy": "3128dce431cbb28e9aadf20665a863b662aaab9d9056a133ea3269e1aed50621"
+  }
+}

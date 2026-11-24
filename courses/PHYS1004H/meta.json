@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "code": "PHYS1004H",
+  "name": "电磁学(H)",
+  "name_en": "Electromagnetism (H)",
+  "department": "物理学院",
+  "category": "common",
+  "description": "中国科学技术大学《电磁学(H)》（课号 PHYS1004H，严济慈物理科技英才班）结构化题库，收录 2024–2026 春共 6 卷期中/期末真题与解答 131 题，覆盖 38 个二级知识点，其中 42 题附 LaTeX 源码或官方解答扫描件（origin=official）、89 题由模型独立推导并配分步解析，并附 37 题次（11 幅去重）灰度 WebP 题图与镜像法解图。",
+  "stats": {
+    "total": 131,
+    "quarantined": 1,
+    "taxonomy_nodes": 53,
+    "by_origin": {
+      "official": 42,
+      "community": 0,
+      "ai": 89
+    },
+    "by_type": {
+      "proof": 9,
+      "solve": 122
+    },
+    "by_difficulty": {
+      "1": 1,
+      "2": 13,
+      "3": 62,
+      "4": 46,
+      "5": 9
+    },
+    "exam_years": [
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "emh_exams",
+      "count": 131,
+      "rights": "third_party_exam",
+      "description": "2024–2026 年春 6 卷电磁学(H)期中/期末真题及参考解答（131 题）"
+    }
+  ],
+  "known_notes": [
+    "2025 春合卷基于原卷 LaTeX 源码直接转写，原卷解答 8 处笔误与第 6 题折射率定义矛盾均已订正并在 quality.note 注明；2024 春期中同时收录回忆版卷面（19 题 origin=ai）与叶邦角/廖昭亮班试题解答扫描件（19 题 origin=official，4 处原解勘误已修正），可按需去重。",
+    "全库仅 2024 春期末第六.2 题（螺线管内总位移电流积分面未指明，同时给出横截面与含轴纵截面两种读法）标记为 quality.quarantined=true。",
+    "全库涉及同轴分扇介质、巴克球磁球链、STM 探头与两液面导体球等几何图示的 37 道题次（11 幅去重原图，含 1 幅溶液介质镜像法解图）均已精裁为紧凑灰度 WebP 随题导出。"
+  ],
+  "files": {
+    "questions": "courses/PHYS1004H/questions.jsonl",
+    "taxonomy": "courses/PHYS1004H/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "c071488cbb5d7da6779b0fe867b1bca2563423f8fb2de253e6b922480b98b832",
+    "taxonomy": "767ad79ce6a76b44b0ad0ed1bb4e1f0ac279ce288455cf6a61820e9ab50a3f64"
+  }
+}

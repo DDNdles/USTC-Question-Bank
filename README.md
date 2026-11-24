@@ -52,7 +52,11 @@
 | `MATH1004` | 线性代数(A1) | 171 | 113 | 23 | 35 | 1 | 2014–2026 | 47 |
 | `MATH1005` | 线性代数(A2) | 166 | 118 | 0 | 48 | 2 | 2014–2026 | 44 |
 | `MATH1010` | 线性代数(B2) | 131 | 10 | 51 | 70 | 5 | 2021–2025 | 45 |
-| **合计** | **21 门课程** | **8,751** | **4,751** | **1,554** | **2,446** | **57** | — | **904** |
+| `PHYS1004H` | 电磁学(H)（含 38 张配图） | 131 | 42 | 0 | 89 | 1 | 2024–2026 | 53 |
+| `PHYS1004C` | 电磁学C（含 100 张配图） | 151 | 42 | 40 | 69 | 9 | 2017–2025 | 46 |
+| `PHYS1004B` | 电磁学B（含 65 张配图） | 151 | 96 | 0 | 55 | 1 | 2020–2021 | 40 |
+| `PHYS1001H` | 力学(H)（含 14 张配图） | 78 | 53 | 0 | 25 | 5 | 2023–2026 | 39 |
+| **合计** | **25 门课程** | **9,262** | **4,984** | **1,594** | **2,684** | **73** | — | **1,082** |
 
 - **100% 含答案与分步解析**。`official` 为原卷/书末标答，`community` 为非官方书面详解，`ai` 为模型或独立推导。
 
@@ -80,6 +84,10 @@
 - **`MATH1004` 线性代数(A1)**：`laa1_exams` (171，2014–2026 年 13 套期中/期末真题含合集 B 套，其中 113 题原卷参考解答、23 题来自 2023/2024 期末学生整理版解答、35 题独立推导；2014 期中第 2 题因缺向量组定义隔离，合集重复 A 套已去重)。
 - **`MATH1005` 线性代数(A2)**：`laa2_exams` (166，2014–2026 学年 14 套期中/期末真题，其中 118 题原卷参考答案与评分标准、48 题含三套早期手写扫描卷由模型独立推导；2 题因疑似手抄笔误或题干缺限定隔离)。
 - **`MATH1010` 线性代数(B2)**：`lab2_exams` (131，2021–2025 学年 12 份期中/期末真题与整理卷，含 2021–2022 秋期中参考解答 10 题、NULIOUS 整理版 2021–2024 期末与 2024 期中手写解答 51 题及 70 题独立求解；错标重复件 `2023LAB2mid` 已去重，5 题因缺题干或区间条件缺失隔离)。
+- **`PHYS1004H` 电磁学(H)**：`emh_exams` (131，2024–2026 春共 6 卷期中/期末真题与解答，含 2025 春合卷 LaTeX 源码与 2024 春期中解答扫描件 42 题、89 题独立求解，1 题因积分面未指明隔离)；37 道含图题共附 38 张（11 幅去重）灰度 WebP 配图（`courses/PHYS1004H/assets/`，含 1 幅镜像法解图，合计 697.9 KB）。
+- **`PHYS1004C` 电磁学C**：`emc_exams` (151，2017–2025 学年 11 卷期中/期末与公共题，含 42 题原卷/评分细则、40 题 feixu 公开学生整理版含解与 69 题独立求解，9 题因回忆版缺参缺图隔离)；98 道含图题共附 100 张（39 幅去重）灰度 WebP 配图（`courses/PHYS1004C/assets/`，含 9 幅复用自 `PHYS1004A` 与 2 幅波形/边值解图，合计 774.7 KB）。
+- **`PHYS1004B` 电磁学B**：`emb_exams` (46，2019–2021 期中/期末与公共真题)、`emb_drills` (105，2024 春第 1/2/4 次习题课讲稿例题与习题，1 题隔离)；64 道含图题共附 65 张（42 幅去重）灰度 WebP 配图（`courses/PHYS1004B/assets/`，含 9 幅复用自 `PHYS1004A` 与 1 幅高斯面解图，合计 566.7 KB）。
+- **`PHYS1001H` 力学(H)**：`mh_exams` (78，2023–2026 学年秋 3 套 H 班期中与 3 套 A&H 共用期末真题，含 53 题参考答案与 25 题独立求解，5 题低置信度隔离)；14 道含图题共附 14 张（13 幅去重）灰度 WebP 配图（`courses/PHYS1001H/assets/`，10 幅复用自 `PHYS1001A` + 3 幅 2024 秋期中手绘题图，合计 54.6 KB）。
 - 详细勘误与局限见各课程 `courses/<课号>/meta.json` 的 `known_notes`。
 
 </details>
@@ -179,7 +187,7 @@ paper = bank["001548"].sample(12, seed=2026, exclude_batches=["yan_mp_part1"])
 | 环节 | 模型 / 工具 | 说明 |
 | --- | --- | --- |
 | 仓库架构与工程设计 | <img src="https://cdn.simpleicons.org/googlegemini/4285F4" width="16" height="16" align="absmiddle" alt="Gemini" /> [**Gemini 4 Neon**](https://deepmind.google/technologies/gemini/) | 数据契约、Schema、Python/TS 库、SQLite FTS5 与 CI 校验架构 |
-| 题目分析、标注与无答案题解析 | <img src="https://avatars.githubusercontent.com/u/148330874?s=64&v=4" width="16" height="16" align="absmiddle" alt="DeepSeek" /> [**DeepSeek-v4.1-flash-1017**](https://github.com/deepseek-ai) · <img src="https://avatars.githubusercontent.com/u/223098841?s=64&v=4" width="16" height="16" align="absmiddle" alt="GLM" /> [**GLM-5.3-Flash**](https://github.com/zai-org) | 题目切分结构化、知识点与难度标注、勘误复核及无答案题独立求解 |
+| 题目分析、标注与无答案题解析 | <img src="https://avatars.githubusercontent.com/u/148330874?s=64&v=4" width="16" height="16" align="absmiddle" alt="DeepSeek" /> [**DeepSeek-v4.1-flash-1017**](https://github.com/deepseek-ai) · <img src="https://avatars.githubusercontent.com/u/223098841?s=64&v=4" width="16" height="16" align="absmiddle" alt="GLM" /> [**GLM-5.3-Flash**](https://github.com/zai-org) · **hy4flash** | 题目切分结构化、知识点与难度标注、勘误复核及无答案题独立求解 |
 | 数分教材详解上游底本 | <img src="https://cdn.simpleicons.org/googlegemini/4285F4" width="16" height="16" align="absmiddle" alt="Gemini" /> [**Gemini Pro**](https://deepmind.google/technologies/gemini/)（[`DongYaoZe`](https://github.com/DongYaoZe/math-analysis-lectures-solutions-USTC) 上游） | 原作者前言注明以 Gemini Pro 会员起草初稿并经多轮人工校订（未注明具体小版本），入库时已二次复核 |
 | 试卷与教材 PDF OCR | <a href="https://github.com/opendatalab/MinerU"><img src="https://raw.githubusercontent.com/opendatalab/MinerU/master/docs/images/MinerU-logo.png" height="16" align="absmiddle" alt="MinerU" /></a> / PaddleOCR-VL @ <img src=".github/assets/ustc-107.svg" width="16" height="16" align="absmiddle" alt="USTC 107" /> [**107.ustc.edu.cn**](https://107.ustc.edu.cn/) | 在中科大 107 平台自部署 MinerU / PaddleOCR-VL GPU 作业完成版面、公式与插图裁剪 |
 
@@ -187,9 +195,11 @@ paper = bank["001548"].sample(12, seed=2026, exclude_batches=["yan_mp_part1"])
 
 ## 上游来源
 
+> **特别鸣谢**：本仓库各门课程资料的系统收集与目录索引得益于 [`TwinJades/USTC_Study_Materials_Navigation`](https://github.com/TwinJades/USTC_Study_Materials_Navigation) 的整理与开源分享，特此致谢。
+
 | 上游项目 / 站点 | 对应内容 | 链接 |
 | --- | --- | --- |
-| 中科大本科课程资料导航 | 课程资料总索引入口 | [TwinJades/USTC_Study_Materials_Navigation](https://github.com/TwinJades/USTC_Study_Materials_Navigation) |
+| 中科大本科课程资料导航 | 课程资料总索引入口（特别鸣谢） | [TwinJades/USTC_Study_Materials_Navigation](https://github.com/TwinJades/USTC_Study_Materials_Navigation) |
 | feixu 镜像站 | 数学/物理/计算机历年真题、题库、参考解答与复习讲义 | [share.feixu.site](https://share.feixu.site/) |
 | USTC Math Exam | 复变/数分/线代近年真题卷面 PDF | [ustcmathexam.github.io](https://ustcmathexam.github.io/) |
 | USTC Physics Exam | 力学A / 热学A / 电磁学A 历年真题卷面 PDF | [ustcphyexam.github.io](https://ustcphyexam.github.io/) |

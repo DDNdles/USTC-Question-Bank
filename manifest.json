@@ -1,7 +1,7 @@
 {
   "name": "USTC-Question-Bank",
   "schema_version": "1.0",
-  "data_version": "0.12.0",
+  "data_version": "0.13.0",
   "updated_at": "2026-11-24",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
   "asset_base_url": null,
@@ -11,13 +11,13 @@
     "question_content": "Third-party rights retained by original authors and publishers; see NOTICE.md"
   },
   "stats": {
-    "courses": 21,
-    "questions": 8751,
-    "quarantined": 57,
+    "courses": 25,
+    "questions": 9262,
+    "quarantined": 73,
     "by_origin": {
-      "official": 4751,
-      "community": 1554,
-      "ai": 2446
+      "official": 4984,
+      "community": 1594,
+      "ai": 2684
     }
   },
   "courses": [
@@ -764,6 +764,125 @@
         "meta": "18289f80e71d1af3ce3d7d48cc2603973051aeef8235e602b1169cab51373b33",
         "taxonomy": "3e73aa3af0b17d77ac86a83503b3eb6e026cf163976c4a26899ad05e28e8ccc3",
         "questions": "8e5b07145c38bca164f659f31ed84224a7d9906d1451d88232212c7395c5f353"
+      }
+    },
+    {
+      "code": "PHYS1004H",
+      "name": "电磁学(H)",
+      "name_en": "Electromagnetism (H)",
+      "department": "物理学院",
+      "category": "common",
+      "total": 131,
+      "quarantined": 1,
+      "by_origin": {
+        "official": 42,
+        "community": 0,
+        "ai": 89
+      },
+      "exam_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/PHYS1004H/meta.json",
+        "taxonomy": "courses/PHYS1004H/taxonomy.json",
+        "questions": "courses/PHYS1004H/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "f637234994466204b419125d3c2ec381d7a821fb310815df903806a30e654a9b",
+        "taxonomy": "767ad79ce6a76b44b0ad0ed1bb4e1f0ac279ce288455cf6a61820e9ab50a3f64",
+        "questions": "c071488cbb5d7da6779b0fe867b1bca2563423f8fb2de253e6b922480b98b832"
+      }
+    },
+    {
+      "code": "PHYS1004C",
+      "name": "电磁学C",
+      "name_en": "Electromagnetism (C)",
+      "department": "物理学院",
+      "category": "common",
+      "total": 151,
+      "quarantined": 9,
+      "by_origin": {
+        "official": 42,
+        "community": 40,
+        "ai": 69
+      },
+      "exam_years": [
+        2017,
+        2018,
+        2021,
+        2022,
+        2023,
+        2025
+      ],
+      "paths": {
+        "meta": "courses/PHYS1004C/meta.json",
+        "taxonomy": "courses/PHYS1004C/taxonomy.json",
+        "questions": "courses/PHYS1004C/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "5c0592cf520af9f6c2443080027deb1f5ead371115c687cd4907a50eac1279cc",
+        "taxonomy": "fbee754f07cd08cd5f0ddfdd4c8f312dcf17ba76de258fad058114043406329b",
+        "questions": "48808e9eff8d941c46d467d3effa480c37a0251a8d214c49c8fb571a976ab36e"
+      }
+    },
+    {
+      "code": "PHYS1004B",
+      "name": "电磁学B",
+      "name_en": "Electromagnetism (B)",
+      "department": "物理学院",
+      "category": "common",
+      "total": 151,
+      "quarantined": 1,
+      "by_origin": {
+        "official": 96,
+        "community": 0,
+        "ai": 55
+      },
+      "exam_years": [
+        2020,
+        2021
+      ],
+      "paths": {
+        "meta": "courses/PHYS1004B/meta.json",
+        "taxonomy": "courses/PHYS1004B/taxonomy.json",
+        "questions": "courses/PHYS1004B/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "107d41f66aa06118a4d671836fa3745ca67a69eebb3f66757cb35fe4ab906290",
+        "taxonomy": "3128dce431cbb28e9aadf20665a863b662aaab9d9056a133ea3269e1aed50621",
+        "questions": "ae3bd8aebb12f9ec5194b0b3430cb8b3e926d7e2402d2ee84c21a7ca3b2b4676"
+      }
+    },
+    {
+      "code": "PHYS1001H",
+      "name": "力学(H)",
+      "name_en": "Mechanics (H)",
+      "department": "物理学院",
+      "category": "common",
+      "total": 78,
+      "quarantined": 5,
+      "by_origin": {
+        "official": 53,
+        "community": 0,
+        "ai": 25
+      },
+      "exam_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/PHYS1001H/meta.json",
+        "taxonomy": "courses/PHYS1001H/taxonomy.json",
+        "questions": "courses/PHYS1001H/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "24d30b101e38923e385c68927e1cb5b26d18fcb9cebf715841b3a483b8176ef3",
+        "taxonomy": "7db83ab52e70b99b0ab0219d05f4db66fd43667914c15d687e71b6c0e3818818",
+        "questions": "bfacb635d1c5bd7fe5b0b08e5b4bdb913d1f4fd402cd65db2cf25bd8914b8b18"
       }
     }
   ]
