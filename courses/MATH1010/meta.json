@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH1010",
+  "name": "线性代数(B2)",
+  "name_en": "Linear Algebra (B2)",
+  "department": "数学科学学院",
+  "category": "common",
+  "description": "中国科学技术大学《线性代数(B2)》（课号 MATH1010）结构化题库，收录 2021–2025 学年期中/期末真题与整理卷共 12 份 131 题，覆盖 30 个二级知识点，其中 10 题附课程参考解答（origin=official）、51 题来自学生整理与手写解答（origin=community）、70 题由模型独立推导。",
+  "stats": {
+    "total": 131,
+    "quarantined": 5,
+    "taxonomy_nodes": 45,
+    "by_origin": {
+      "official": 10,
+      "community": 51,
+      "ai": 70
+    },
+    "by_type": {
+      "blank": 32,
+      "proof": 55,
+      "single": 2,
+      "solve": 42
+    },
+    "by_difficulty": {
+      "1": 0,
+      "2": 10,
+      "3": 56,
+      "4": 52,
+      "5": 13
+    },
+    "exam_years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "lab2_exams",
+      "count": 131,
+      "rights": "third_party_exam",
+      "description": "2021–2025 学年 12 份线性代数(B2)期中/期末真题与学生整理含解卷（131 题）"
+    }
+  ],
+  "known_notes": [
+    "公开站点的 `2023LAB2mid.pdf` 与 `2023B2期末.pdf` 为同一份 2023 期末扫描件错标文件名归档，公开版已跳过错标的重复件仅保留 2023 期末各版本；`2021`/`2022`/`2023`/`2024` 期末同时收录 NULIOUS 学生整理含解版（origin=community）与同卷独立拆题版（origin=ai），可按需去重。",
+    "评课社区所附「2023 秋期中参考答案」实为 2021–2022 第一学期期中试卷与手写解答，已按真实学期归入 2021 秋期中（origin=official）；2024 期中手写解答与 NULIOUS 四届期末整理版归为 origin=community。",
+    "全库共 5 道原卷缺题干、页边裁断或内积区间缺失的低置信度题（含 2025 期中回忆版缺题第 1 题等）标记为 quality.quarantined=true；2021–2024 期中/期末多处原答案计算笔误已订正并在 quality.note 说明。"
+  ],
+  "files": {
+    "questions": "courses/MATH1010/questions.jsonl",
+    "taxonomy": "courses/MATH1010/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "8e5b07145c38bca164f659f31ed84224a7d9906d1451d88232212c7395c5f353",
+    "taxonomy": "3e73aa3af0b17d77ac86a83503b3eb6e026cf163976c4a26899ad05e28e8ccc3"
+  }
+}

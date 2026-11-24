@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH1005",
+  "name": "线性代数(A2)",
+  "name_en": "Linear Algebra (A2)",
+  "department": "数学科学学院",
+  "category": "common",
+  "description": "中国科学技术大学《线性代数(A2)》（课号 MATH1005）结构化题库，收录 2014–2026 学年共 14 套期中/期末真题 166 题，覆盖 32 个二级知识点，其中 118 题附原卷参考答案与评分标准（origin=official）、48 题由模型独立推导并配分步解析。",
+  "stats": {
+    "total": 166,
+    "quarantined": 2,
+    "taxonomy_nodes": 44,
+    "by_origin": {
+      "official": 118,
+      "community": 0,
+      "ai": 48
+    },
+    "by_type": {
+      "blank": 37,
+      "multi": 1,
+      "proof": 53,
+      "solve": 75
+    },
+    "by_difficulty": {
+      "1": 2,
+      "2": 20,
+      "3": 84,
+      "4": 49,
+      "5": 11
+    },
+    "exam_years": [
+      2014,
+      2017,
+      2020,
+      2021,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "laa2_exams",
+      "count": 166,
+      "rights": "third_party_exam",
+      "description": "2014–2026 学年 14 套线性代数(A2)期中/期末真题（166 题）"
+    }
+  ],
+  "known_notes": [
+    "2014 期中、2017 期末与 2024 期中（第一套）为无印刷文字层的学生手写作答扫描卷，题干按页面图像逐题判读；2021 期中第 2(1) 题原卷答案只写「略」，已由模型补全（origin=ai）。",
+    "2014 期中第一.4 题（疑似手抄笔误致矩阵迹不相等）与 2024 期中第一套第 4 题（题干疑漏「3 阶」限定导致前后矛盾）标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。",
+    "2021 期末（特征向量左下符号）、2023 期末第 3 题、2024 期末填空 3 与 2025 期末（奇异值补零）等原卷答案微瑕已按正确结论订正并在 quality.note 注明。"
+  ],
+  "files": {
+    "questions": "courses/MATH1005/questions.jsonl",
+    "taxonomy": "courses/MATH1005/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "abdf212130f891284a3f324c55721eec42e121465a881bb5af5037babc063c35",
+    "taxonomy": "90711d7c43a16a0da93019f8ab6e30b18bb4ca2f6d03171b3fb6bdcd8e0e1797"
+  }
+}

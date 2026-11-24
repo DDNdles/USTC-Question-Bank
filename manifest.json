@@ -1,7 +1,7 @@
 {
   "name": "USTC-Question-Bank",
   "schema_version": "1.0",
-  "data_version": "0.11.0",
+  "data_version": "0.12.0",
   "updated_at": "2026-11-24",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
   "asset_base_url": null,
@@ -11,13 +11,13 @@
     "question_content": "Third-party rights retained by original authors and publishers; see NOTICE.md"
   },
   "stats": {
-    "courses": 18,
-    "questions": 8283,
-    "quarantined": 49,
+    "courses": 21,
+    "questions": 8751,
+    "quarantined": 57,
     "by_origin": {
-      "official": 4510,
-      "community": 1480,
-      "ai": 2293
+      "official": 4751,
+      "community": 1554,
+      "ai": 2446
     }
   },
   "courses": [
@@ -665,6 +665,105 @@
         "meta": "7eb156e34ee0c448c4762f7ef73ef83fbd631dca1c17f541d7aa9b51565839c9",
         "taxonomy": "30625b0fff90371308944f1a4d84f81f4c81de5911ca0ef389f333f86a25e4ca",
         "questions": "7b37e5bef6263136db29b7ef5480dc7c972c1a015bb3900d9cf2e818d883913a"
+      }
+    },
+    {
+      "code": "MATH1004",
+      "name": "线性代数(A1)",
+      "name_en": "Linear Algebra (A1)",
+      "department": "数学科学学院",
+      "category": "common",
+      "total": 171,
+      "quarantined": 1,
+      "by_origin": {
+        "official": 113,
+        "community": 23,
+        "ai": 35
+      },
+      "exam_years": [
+        2014,
+        2018,
+        2019,
+        2021,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/MATH1004/meta.json",
+        "taxonomy": "courses/MATH1004/taxonomy.json",
+        "questions": "courses/MATH1004/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "84d4bc28aeb691489b686c35a043e3b2deb1d1860cb4a1eff8cd65bb5aa07e5f",
+        "taxonomy": "1ae57c0bb8bda78daef4a225c99f15a94a6cae6b46180d85273458b5f794f82e",
+        "questions": "e56ee94cfbeb1e075bd9f64e3a6930332b1f5e15aaa8904ab6d62494288a40cb"
+      }
+    },
+    {
+      "code": "MATH1005",
+      "name": "线性代数(A2)",
+      "name_en": "Linear Algebra (A2)",
+      "department": "数学科学学院",
+      "category": "common",
+      "total": 166,
+      "quarantined": 2,
+      "by_origin": {
+        "official": 118,
+        "community": 0,
+        "ai": 48
+      },
+      "exam_years": [
+        2014,
+        2017,
+        2020,
+        2021,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/MATH1005/meta.json",
+        "taxonomy": "courses/MATH1005/taxonomy.json",
+        "questions": "courses/MATH1005/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "18f1337d2fde8fdb5ebea52e11db7ddd9b715eeb75dacf7d99f03ab85daa4e6b",
+        "taxonomy": "90711d7c43a16a0da93019f8ab6e30b18bb4ca2f6d03171b3fb6bdcd8e0e1797",
+        "questions": "abdf212130f891284a3f324c55721eec42e121465a881bb5af5037babc063c35"
+      }
+    },
+    {
+      "code": "MATH1010",
+      "name": "线性代数(B2)",
+      "name_en": "Linear Algebra (B2)",
+      "department": "数学科学学院",
+      "category": "common",
+      "total": 131,
+      "quarantined": 5,
+      "by_origin": {
+        "official": 10,
+        "community": 51,
+        "ai": 70
+      },
+      "exam_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "paths": {
+        "meta": "courses/MATH1010/meta.json",
+        "taxonomy": "courses/MATH1010/taxonomy.json",
+        "questions": "courses/MATH1010/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "18289f80e71d1af3ce3d7d48cc2603973051aeef8235e602b1169cab51373b33",
+        "taxonomy": "3e73aa3af0b17d77ac86a83503b3eb6e026cf163976c4a26899ad05e28e8ccc3",
+        "questions": "8e5b07145c38bca164f659f31ed84224a7d9906d1451d88232212c7395c5f353"
       }
     }
   ]

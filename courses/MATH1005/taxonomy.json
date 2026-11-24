@@ -1,0 +1,314 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH1005",
+  "nodes": [
+    {
+      "id": "laa2.poly",
+      "parent_id": null,
+      "level": 1,
+      "name": "多项式与矩阵多项式",
+      "chapter_ref": null
+    },
+    {
+      "id": "laa2.poly.gcd",
+      "parent_id": "laa2.poly",
+      "level": 2,
+      "name": "互素、Bezout 定理与重根",
+      "chapter_ref": "讲义·多项式"
+    },
+    {
+      "id": "laa2.poly.minpoly",
+      "parent_id": "laa2.poly",
+      "level": 2,
+      "name": "零化多项式与最小多项式",
+      "chapter_ref": "讲义·多项式"
+    },
+    {
+      "id": "laa2.poly.func",
+      "parent_id": "laa2.poly",
+      "level": 2,
+      "name": "矩阵多项式与矩阵幂",
+      "chapter_ref": "讲义·多项式"
+    },
+    {
+      "id": "laa2.space",
+      "parent_id": null,
+      "level": 1,
+      "name": "线性空间进阶",
+      "chapter_ref": null
+    },
+    {
+      "id": "laa2.space.dep",
+      "parent_id": "laa2.space",
+      "level": 2,
+      "name": "线性相关与线性无关",
+      "chapter_ref": "讲义·线性空间"
+    },
+    {
+      "id": "laa2.space.basis",
+      "parent_id": "laa2.space",
+      "level": 2,
+      "name": "基、维数与坐标",
+      "chapter_ref": "讲义·线性空间"
+    },
+    {
+      "id": "laa2.space.sum",
+      "parent_id": "laa2.space",
+      "level": 2,
+      "name": "直和、补空间与投影",
+      "chapter_ref": "讲义·线性空间"
+    },
+    {
+      "id": "laa2.space.invariant",
+      "parent_id": "laa2.space",
+      "level": 2,
+      "name": "不变子空间",
+      "chapter_ref": "讲义·线性空间"
+    },
+    {
+      "id": "laa2.space.cyclic",
+      "parent_id": "laa2.space",
+      "level": 2,
+      "name": "循环子空间与友方阵",
+      "chapter_ref": "讲义·线性空间"
+    },
+    {
+      "id": "laa2.space.quotient",
+      "parent_id": "laa2.space",
+      "level": 2,
+      "name": "商空间与同构定理",
+      "chapter_ref": "讲义·线性空间"
+    },
+    {
+      "id": "laa2.space.trans",
+      "parent_id": "laa2.space",
+      "level": 2,
+      "name": "过渡矩阵与坐标变换",
+      "chapter_ref": "讲义·线性空间"
+    },
+    {
+      "id": "laa2.map",
+      "parent_id": null,
+      "level": 1,
+      "name": "线性变换进阶",
+      "chapter_ref": null
+    },
+    {
+      "id": "laa2.map.matrix",
+      "parent_id": "laa2.map",
+      "level": 2,
+      "name": "线性变换的矩阵表示与相似",
+      "chapter_ref": "讲义·线性变换"
+    },
+    {
+      "id": "laa2.map.kernel",
+      "parent_id": "laa2.map",
+      "level": 2,
+      "name": "核、像与维数公式",
+      "chapter_ref": "讲义·线性变换"
+    },
+    {
+      "id": "laa2.map.dual",
+      "parent_id": "laa2.map",
+      "level": 2,
+      "name": "对偶空间与对偶映射",
+      "chapter_ref": "讲义·线性变换"
+    },
+    {
+      "id": "laa2.eigen",
+      "parent_id": null,
+      "level": 1,
+      "name": "特征值与 Jordan 标准形",
+      "chapter_ref": null
+    },
+    {
+      "id": "laa2.eigen.eig",
+      "parent_id": "laa2.eigen",
+      "level": 2,
+      "name": "特征值与特征向量",
+      "chapter_ref": "讲义·特征值"
+    },
+    {
+      "id": "laa2.eigen.char",
+      "parent_id": "laa2.eigen",
+      "level": 2,
+      "name": "特征多项式与最小多项式",
+      "chapter_ref": "讲义·特征值"
+    },
+    {
+      "id": "laa2.eigen.decomp",
+      "parent_id": "laa2.eigen",
+      "level": 2,
+      "name": "根子空间分解",
+      "chapter_ref": "讲义·特征值"
+    },
+    {
+      "id": "laa2.eigen.jordan",
+      "parent_id": "laa2.eigen",
+      "level": 2,
+      "name": "Jordan 标准形与 Weyr 特征",
+      "chapter_ref": "讲义·特征值"
+    },
+    {
+      "id": "laa2.eigen.similar",
+      "parent_id": "laa2.eigen",
+      "level": 2,
+      "name": "相似分类与相似不变量",
+      "chapter_ref": "讲义·特征值"
+    },
+    {
+      "id": "laa2.inner",
+      "parent_id": null,
+      "level": 1,
+      "name": "内积空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "laa2.inner.gram",
+      "parent_id": "laa2.inner",
+      "level": 2,
+      "name": "内积与 Gram-Schmidt 正交化",
+      "chapter_ref": "讲义·内积空间"
+    },
+    {
+      "id": "laa2.inner.orth",
+      "parent_id": "laa2.inner",
+      "level": 2,
+      "name": "正交补与正交投影",
+      "chapter_ref": "讲义·内积空间"
+    },
+    {
+      "id": "laa2.inner.ls",
+      "parent_id": "laa2.inner",
+      "level": 2,
+      "name": "最小二乘与 QR 分解",
+      "chapter_ref": "讲义·内积空间"
+    },
+    {
+      "id": "laa2.inner.adj",
+      "parent_id": "laa2.inner",
+      "level": 2,
+      "name": "伴随算子",
+      "chapter_ref": "讲义·内积空间"
+    },
+    {
+      "id": "laa2.unitary",
+      "parent_id": null,
+      "level": 1,
+      "name": "酉空间与规范矩阵",
+      "chapter_ref": null
+    },
+    {
+      "id": "laa2.unitary.def",
+      "parent_id": "laa2.unitary",
+      "level": 2,
+      "name": "酉空间、酉矩阵与 Hermite 矩阵",
+      "chapter_ref": "讲义·酉空间"
+    },
+    {
+      "id": "laa2.unitary.normal",
+      "parent_id": "laa2.unitary",
+      "level": 2,
+      "name": "规范矩阵与谱定理",
+      "chapter_ref": "讲义·酉空间"
+    },
+    {
+      "id": "laa2.unitary.hermite",
+      "parent_id": "laa2.unitary",
+      "level": 2,
+      "name": "Hermite 型与正定性",
+      "chapter_ref": "讲义·酉空间"
+    },
+    {
+      "id": "laa2.bilinear",
+      "parent_id": null,
+      "level": 1,
+      "name": "双线性型",
+      "chapter_ref": null
+    },
+    {
+      "id": "laa2.bilinear.def",
+      "parent_id": "laa2.bilinear",
+      "level": 2,
+      "name": "双线性函数及其矩阵",
+      "chapter_ref": "讲义·双线性型"
+    },
+    {
+      "id": "laa2.bilinear.canon",
+      "parent_id": "laa2.bilinear",
+      "level": 2,
+      "name": "双线性型的标准形与合同",
+      "chapter_ref": "讲义·双线性型"
+    },
+    {
+      "id": "laa2.quad",
+      "parent_id": null,
+      "level": 1,
+      "name": "二次型",
+      "chapter_ref": null
+    },
+    {
+      "id": "laa2.quad.std",
+      "parent_id": "laa2.quad",
+      "level": 2,
+      "name": "二次型的标准形与配方法",
+      "chapter_ref": "讲义·二次型"
+    },
+    {
+      "id": "laa2.quad.congruent",
+      "parent_id": "laa2.quad",
+      "level": 2,
+      "name": "合同与惯性定理",
+      "chapter_ref": "讲义·二次型"
+    },
+    {
+      "id": "laa2.quad.definite",
+      "parent_id": "laa2.quad",
+      "level": 2,
+      "name": "正定、半正定与判定",
+      "chapter_ref": "讲义·二次型"
+    },
+    {
+      "id": "laa2.tensor",
+      "parent_id": null,
+      "level": 1,
+      "name": "张量积",
+      "chapter_ref": null
+    },
+    {
+      "id": "laa2.tensor.def",
+      "parent_id": "laa2.tensor",
+      "level": 2,
+      "name": "张量积空间与维数",
+      "chapter_ref": "讲义·张量积"
+    },
+    {
+      "id": "laa2.tensor.rank",
+      "parent_id": "laa2.tensor",
+      "level": 2,
+      "name": "张量的秩与分解",
+      "chapter_ref": "讲义·张量积"
+    },
+    {
+      "id": "laa2.svd",
+      "parent_id": null,
+      "level": 1,
+      "name": "奇异值分解",
+      "chapter_ref": null
+    },
+    {
+      "id": "laa2.svd.def",
+      "parent_id": "laa2.svd",
+      "level": 2,
+      "name": "奇异值与奇异值分解",
+      "chapter_ref": "讲义·奇异值"
+    },
+    {
+      "id": "laa2.svd.app",
+      "parent_id": "laa2.svd",
+      "level": 2,
+      "name": "极分解与低秩逼近",
+      "chapter_ref": "讲义·奇异值"
+    }
+  ]
+}

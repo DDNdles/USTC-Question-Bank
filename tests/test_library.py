@@ -41,6 +41,9 @@ class TestQuestionBank(unittest.TestCase):
                 "MATH1002",
                 "PHYS1001B",
                 "PHYS1002B",
+                "MATH1004",
+                "MATH1005",
+                "MATH1010",
             ],
         )
         self.assertEqual(len(self.bank["001548"]), 571)
@@ -61,8 +64,11 @@ class TestQuestionBank(unittest.TestCase):
         self.assertEqual(len(self.bank["MATH1002"]), 299)
         self.assertEqual(len(self.bank["PHYS1001B"]), 379)
         self.assertEqual(len(self.bank["PHYS1002B"]), 277)
-        self.assertEqual(len(self.bank.all_questions()), 8283)
-        self.assertEqual(len(self.bank.all_questions(exclude_quarantined=True)), 8234)
+        self.assertEqual(len(self.bank["MATH1004"]), 171)
+        self.assertEqual(len(self.bank["MATH1005"]), 166)
+        self.assertEqual(len(self.bank["MATH1010"]), 131)
+        self.assertEqual(len(self.bank.all_questions()), 8751)
+        self.assertEqual(len(self.bank.all_questions(exclude_quarantined=True)), 8694)
 
     def test_lookup_by_id(self) -> None:
         q = self.bank.get("MATH1006-tb-1.1.1")
@@ -168,6 +174,26 @@ class TestQuestionBank(unittest.TestCase):
         self.assertEqual(len(q_tb.stem_figures), 1)
         self.assertEqual(len(q_tb.solution_figures), 1)
 
+        q_laa1 = self.bank.get("MATH1004-exam-2018s-m-01")
+        self.assertEqual(q_laa1.course_code, "MATH1004")
+        self.assertEqual(q_laa1.answer_origin, "ai")
+        self.assertEqual(q_laa1.source_term, "2017-2018-2")
+
+        q_laa2 = self.bank.get("MATH1005-exam-2025f-f-01")
+        self.assertEqual(q_laa2.course_code, "MATH1005")
+        self.assertEqual(q_laa2.type, "multi")
+        self.assertEqual(q_laa2.answer_origin, "official")
+        self.assertGreaterEqual(len(q_laa2.options), 4)
+
+        q_lab2 = self.bank.get("MATH1010-exam-2021f-m-01")
+        self.assertEqual(q_lab2.course_code, "MATH1010")
+        self.assertEqual(q_lab2.answer_origin, "official")
+        self.assertEqual(q_lab2.source_term, "2021-2022-1")
+
+        q_lab2_c = self.bank.get("MATH1010-exam-2024f-f2-01")
+        self.assertEqual(q_lab2_c.course_code, "MATH1010")
+        self.assertEqual(q_lab2_c.answer_origin, "community")
+
     def test_taxonomy_subtree_query(self) -> None:
         c = self.bank["MATH1006"]
         lim_qs = c.query(kp="ma1.lim")
@@ -240,7 +266,7 @@ class TestQuestionBank(unittest.TestCase):
             conn = sqlite3.connect(db_path)
             try:
                 count = conn.execute("SELECT COUNT(*) FROM questions").fetchone()[0]
-                self.assertEqual(count, 8283)
+                self.assertEqual(count, 8751)
                 hits = conn.execute(
                     "SELECT id FROM questions_fts WHERE questions_fts MATCH 'Laurent' LIMIT 5"
                 ).fetchall()

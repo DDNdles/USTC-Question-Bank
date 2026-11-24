@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH1004",
+  "name": "线性代数(A1)",
+  "name_en": "Linear Algebra (A1)",
+  "department": "数学科学学院",
+  "category": "common",
+  "description": "中国科学技术大学《线性代数(A1)》（课号 MATH1004）结构化题库，收录 2014–2026 年共 13 套期中/期末真题（含《线性代数(A)历年真题》合集 2018 春期中 B 套）171 题，覆盖 36 个二级知识点，其中 113 题附原卷参考答案（origin=official）、23 题来自公开学生整理参考解答（origin=community）、35 题由模型独立推导并配分步解析。",
+  "stats": {
+    "total": 171,
+    "quarantined": 1,
+    "taxonomy_nodes": 47,
+    "by_origin": {
+      "official": 113,
+      "community": 23,
+      "ai": 35
+    },
+    "by_type": {
+      "blank": 34,
+      "proof": 50,
+      "solve": 87
+    },
+    "by_difficulty": {
+      "1": 1,
+      "2": 29,
+      "3": 74,
+      "4": 56,
+      "5": 11
+    },
+    "exam_years": [
+      2014,
+      2018,
+      2019,
+      2021,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "laa1_exams",
+      "count": 171,
+      "rights": "third_party_exam",
+      "description": "2014–2026 年 13 套线性代数(A1)期中/期末真题（171 题）"
+    }
+  ],
+  "known_notes": [
+    "《线性代数(A)历年真题》合集中的 A 套（2013-2014 第二学期期中）、C 套（2019 期中）与 D 套（2019 期末）分别与单卷真题重复，公开版已去重仅保留单卷及合集 B 套（2017-2018 第二学期期中）。",
+    "2023 期末学生整理版答案（zyx）与 2024 期末评课社区整理解答按 origin=community 标注；2023 期末为 a/b 选做卷，两版题目分别独立入库并在 quality.note 注明选做关系。",
+    "全库仅 2014 期中第 2 题原卷缺向量组 S 定义无法确定数值，标记为 quality.quarantined=true；其余 2023–2026 期末原答案个别笔误已按正确结论订正并在 quality.note 说明。"
+  ],
+  "files": {
+    "questions": "courses/MATH1004/questions.jsonl",
+    "taxonomy": "courses/MATH1004/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "e56ee94cfbeb1e075bd9f64e3a6930332b1f5e15aaa8904ab6d62494288a40cb",
+    "taxonomy": "1ae57c0bb8bda78daef4a225c99f15a94a6cae6b46180d85273458b5f794f82e"
+  }
+}
