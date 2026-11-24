@@ -47,6 +47,8 @@ This repository does **not** host scanned textbook PDFs, raw exam PDFs, or full-
 | `EE2003` 计算机原理与嵌入式系统 | `ce_book` | `third_party_textbook` | 胡访宇主编、王嵩/陈晓辉副主编《计算机原理与嵌入式系统》（中国科学技术大学出版社）第 1–8 章全部 295 道章末习题；部分题附 2025 版及旧版 52 页课程作业参考答案、第 8 章解析与第 1–5 章习题课讲义解答 |
 | `EE2003` 计算机原理与嵌入式系统 | `ce_supp` | `third_party_notes` | 《计算机原理与嵌入式系统》课程作业参考答案教师加编补充选择题（24 题，源自 [`EpiHio/USTC_Automation`](https://github.com/EpiHio/USTC_Automation) 与 [share.feixu.site](https://share.feixu.site/)） |
 | `EE2003` 计算机原理与嵌入式系统 | `ce_papers` | `third_party_exam` | 中国科学技术大学《计算机原理与嵌入式系统》（EE2003）2019–2020 A 卷、2023–2024 期末、2024 A 卷及 2023–2024 题型示意卷共 4 套；来源包括 [USTC_Study_Materials_Navigation](https://github.com/TwinJades/USTC_Study_Materials_Navigation)、[`EpiHio/USTC_Automation`](https://github.com/EpiHio/USTC_Automation)、[share.feixu.site](https://share.feixu.site/) 与 [评课社区](https://icourse.club/) |
+| `MATH1001` 数学分析(A1) | `maa1_exams` | `third_party_exam` | 中国科学技术大学《数学分析(A1)》（MATH1001）2018–2026 学年 15 套期中/期末真题及公开参考答案；2018 期末学生手写作答与 2025 期末非官方整理卷附解答按 `origin: "community"` 标注；来源包括 [USTC_Study_Materials_Navigation](https://github.com/TwinJades/USTC_Study_Materials_Navigation)、[ustcmathexam](https://ustcmathexam.github.io/) 与 [feixu 镜像](https://share.feixu.site/) |
+| `MATH1002` 数学分析(A2) | `maa2_exams` | `third_party_exam` | 中国科学技术大学《数学分析(A2)》（MATH1002）2016–2026 年 30 套期中/期末与单元测试/小测真题及参考答案；2018 期末与 2021 小测三扫描手写解答及 2025 期末非官方整理卷附解答按 `origin: "community"` 标注；来源包括 [USTC_Study_Materials_Navigation](https://github.com/TwinJades/USTC_Study_Materials_Navigation)、[ustcmathexam](https://ustcmathexam.github.io/)、[feixu 镜像](https://share.feixu.site/) 与 [评课社区](https://icourse.club/) |
 
 ## 3. Downstream Usage Responsibility
 

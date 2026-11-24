@@ -1,8 +1,8 @@
 {
   "name": "USTC-Question-Bank",
   "schema_version": "1.0",
-  "data_version": "0.9.0",
-  "updated_at": "2026-11-23",
+  "data_version": "0.10.0",
+  "updated_at": "2026-11-24",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
   "asset_base_url": null,
   "feedback_endpoint": "https://dsh-study-feedback-relay.ddndles.workers.dev/",
@@ -11,13 +11,13 @@
     "question_content": "Third-party rights retained by original authors and publishers; see NOTICE.md"
   },
   "stats": {
-    "courses": 14,
-    "questions": 7159,
-    "quarantined": 35,
+    "courses": 16,
+    "questions": 7627,
+    "quarantined": 41,
     "by_origin": {
-      "official": 4097,
-      "community": 1423,
-      "ai": 1639
+      "official": 4173,
+      "community": 1468,
+      "ai": 1986
     }
   },
   "courses": [
@@ -513,6 +513,77 @@
         "meta": "6c0c8e018e8f1aa1dc3d4fc44d66f8467e37a827abd025704eb163b2b5c1a51a",
         "taxonomy": "dfde976ca54c9c51f5dc6d9ccec5579918d851afde72c676b37d918d7f1a3e77",
         "questions": "f75c6b2b03d85b7729b28d56d14d1a6f7c04b926602a2dffc91a50d68ac26def"
+      }
+    },
+    {
+      "code": "MATH1001",
+      "name": "数学分析(A1)",
+      "name_en": "Mathematical Analysis (A1)",
+      "department": "数学科学学院",
+      "category": "common",
+      "total": 169,
+      "quarantined": 2,
+      "by_origin": {
+        "official": 42,
+        "community": 18,
+        "ai": 109
+      },
+      "exam_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/MATH1001/meta.json",
+        "taxonomy": "courses/MATH1001/taxonomy.json",
+        "questions": "courses/MATH1001/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "1f7b98f904ce56bb0af5022396b306b1ce74146d0d1e4fc60ac3e4ca2b355c8b",
+        "taxonomy": "35105be87d67191ce4ebb4db4eff8cb9bdf44e7d196b9aa52ecbba12b4e76e89",
+        "questions": "341d5e2b8f4e6638c943cd9ae337a3b531bdebc1e117b0eb0a55e3f17dbb6c4e"
+      }
+    },
+    {
+      "code": "MATH1002",
+      "name": "数学分析(A2)",
+      "name_en": "Mathematical Analysis (A2)",
+      "department": "数学科学学院",
+      "category": "common",
+      "total": 299,
+      "quarantined": 4,
+      "by_origin": {
+        "official": 34,
+        "community": 27,
+        "ai": 238
+      },
+      "exam_years": [
+        2016,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/MATH1002/meta.json",
+        "taxonomy": "courses/MATH1002/taxonomy.json",
+        "questions": "courses/MATH1002/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "17952d249c09a39399c63e34e62f1e70ac0a6d8528ea1f30a410a69358575588",
+        "taxonomy": "656acad64bf4b5745a2133863d64f1ecd01760dde29a0b0d6edec280269aa825",
+        "questions": "fbd085f5fdcdbd25819abb1680d8203991a890ee4b70e52f72f7493a8fb3ddf3"
       }
     }
   ]

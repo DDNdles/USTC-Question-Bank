@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH1001",
+  "name": "数学分析(A1)",
+  "name_en": "Mathematical Analysis (A1)",
+  "department": "数学科学学院",
+  "category": "common",
+  "description": "中国科学技术大学《数学分析(A1)》（课号 MATH1001）结构化题库，收录 2018–2026 学年 15 套期中与期末真题（共 169 题），覆盖 21 个二级知识点，其中 42 题附官方参考答案与评分标准、18 题附卷面手写/整理非官方解答、109 题由模型独立求解并配分步解析。",
+  "stats": {
+    "total": 169,
+    "quarantined": 2,
+    "taxonomy_nodes": 26,
+    "by_origin": {
+      "official": 42,
+      "community": 18,
+      "ai": 109
+    },
+    "by_type": {
+      "solve": 169
+    },
+    "by_difficulty": {
+      "1": 6,
+      "2": 34,
+      "3": 84,
+      "4": 35,
+      "5": 10
+    },
+    "exam_years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "maa1_exams",
+      "count": 169,
+      "rights": "third_party_exam",
+      "description": "2018–2026 学年 15 套期中与期末真题（169 题）"
+    }
+  ],
+  "known_notes": [
+    "2015 期末回忆版扫描件仅 1 页且题面严重残缺，2023 秋《数学分析A3》期末卷超出 A1 课程范围，二者均未收录。",
+    "2019 期末「简要解答」、2025 期中卷附解答与 2026 期中官方参考答案与评分标准标记为 origin=official（42 题）；2018 期末扫描件学生手写作答（带批改批注）与 2025 期末非官方整理卷附解答标记为 origin=community（18 题）；其余无标答真题由模型独立求解（109 题，origin=ai）。",
+    "2019 期末「简要解答」仅给出核心结论与评分点，公开版的分步推导及 2(a)、3(a) 等定义/展开细节由模型结合简要解答补全，并在 quality.note 注明。",
+    "全库共 2 道 2024 期中低置信度题（第 5 题字面条件弱于结论、第 8 题疑漏不等号导致与结论冲突）标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+  ],
+  "files": {
+    "questions": "courses/MATH1001/questions.jsonl",
+    "taxonomy": "courses/MATH1001/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "341d5e2b8f4e6638c943cd9ae337a3b531bdebc1e117b0eb0a55e3f17dbb6c4e",
+    "taxonomy": "35105be87d67191ce4ebb4db4eff8cb9bdf44e7d196b9aa52ecbba12b4e76e89"
+  }
+}

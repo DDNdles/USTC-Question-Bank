@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH1001",
+  "nodes": [
+    {
+      "id": "aa1.lim",
+      "parent_id": null,
+      "level": 1,
+      "name": "极限与连续",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa1.real",
+      "parent_id": "aa1.lim",
+      "level": 2,
+      "name": "实数系与确界原理",
+      "chapter_ref": "上册·第1章 实数和数列极限"
+    },
+    {
+      "id": "aa1.seq",
+      "parent_id": "aa1.lim",
+      "level": 2,
+      "name": "数列极限与上、下极限",
+      "chapter_ref": "上册·第1章 实数和数列极限"
+    },
+    {
+      "id": "aa1.fnlim",
+      "parent_id": "aa1.lim",
+      "level": 2,
+      "name": "函数极限与无穷小",
+      "chapter_ref": "上册·第2章 函数的连续性"
+    },
+    {
+      "id": "aa1.cont",
+      "parent_id": "aa1.lim",
+      "level": 2,
+      "name": "连续性与间断点",
+      "chapter_ref": "上册·第2章 函数的连续性"
+    },
+    {
+      "id": "aa1.cont.uniform",
+      "parent_id": "aa1.lim",
+      "level": 2,
+      "name": "一致连续",
+      "chapter_ref": "上册·第2章 函数的连续性"
+    },
+    {
+      "id": "aa1.cont.closed",
+      "parent_id": "aa1.lim",
+      "level": 2,
+      "name": "闭区间上连续函数的性质",
+      "chapter_ref": "上册·第2章 函数的连续性"
+    },
+    {
+      "id": "aa1.diff",
+      "parent_id": null,
+      "level": 1,
+      "name": "一元微分学",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa1.deriv",
+      "parent_id": "aa1.diff",
+      "level": 2,
+      "name": "导数与求导法则",
+      "chapter_ref": "上册·第3章 函数的导数"
+    },
+    {
+      "id": "aa1.deriv.higher",
+      "parent_id": "aa1.diff",
+      "level": 2,
+      "name": "高阶导数与隐函数、参数方程求导",
+      "chapter_ref": "上册·第3章 函数的导数"
+    },
+    {
+      "id": "aa1.mvt",
+      "parent_id": "aa1.diff",
+      "level": 2,
+      "name": "微分中值定理",
+      "chapter_ref": "上册·第4章 微分中值定理"
+    },
+    {
+      "id": "aa1.taylor",
+      "parent_id": "aa1.diff",
+      "level": 2,
+      "name": "泰勒公式",
+      "chapter_ref": "上册·第4章 微分中值定理"
+    },
+    {
+      "id": "aa1.lhopital",
+      "parent_id": "aa1.diff",
+      "level": 2,
+      "name": "洛必达法则与不定式极限",
+      "chapter_ref": "上册·第4章 微分中值定理"
+    },
+    {
+      "id": "aa1.mono",
+      "parent_id": "aa1.diff",
+      "level": 2,
+      "name": "单调性、极值与凹凸性",
+      "chapter_ref": "上册·第4章 微分中值定理"
+    },
+    {
+      "id": "aa1.geom",
+      "parent_id": "aa1.diff",
+      "level": 2,
+      "name": "微分学的几何应用",
+      "chapter_ref": "上册·第4章 微分中值定理"
+    },
+    {
+      "id": "aa1.int",
+      "parent_id": null,
+      "level": 1,
+      "name": "一元积分学",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa1.indef",
+      "parent_id": "aa1.int",
+      "level": 2,
+      "name": "不定积分与换元、分部积分",
+      "chapter_ref": "上册·第5章 不定积分"
+    },
+    {
+      "id": "aa1.defint",
+      "parent_id": "aa1.int",
+      "level": 2,
+      "name": "定积分的定义与性质",
+      "chapter_ref": "上册·第6章 定积分"
+    },
+    {
+      "id": "aa1.ftc",
+      "parent_id": "aa1.int",
+      "level": 2,
+      "name": "微积分基本定理",
+      "chapter_ref": "上册·第6章 定积分"
+    },
+    {
+      "id": "aa1.defint.calc",
+      "parent_id": "aa1.int",
+      "level": 2,
+      "name": "定积分计算",
+      "chapter_ref": "上册·第6章 定积分"
+    },
+    {
+      "id": "aa1.defint.app",
+      "parent_id": "aa1.int",
+      "level": 2,
+      "name": "定积分的几何与物理应用",
+      "chapter_ref": "上册·第7章 定积分的应用"
+    },
+    {
+      "id": "aa1.improper",
+      "parent_id": "aa1.int",
+      "level": 2,
+      "name": "反常积分",
+      "chapter_ref": "上册·第8章 反常积分"
+    },
+    {
+      "id": "aa1.ser",
+      "parent_id": null,
+      "level": 1,
+      "name": "无穷级数初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa1.ser.positive",
+      "parent_id": "aa1.ser",
+      "level": 2,
+      "name": "正项级数",
+      "chapter_ref": "上册·第9章（部分院系并入 A1）"
+    },
+    {
+      "id": "aa1.ser.any",
+      "parent_id": "aa1.ser",
+      "level": 2,
+      "name": "任意项级数与绝对收敛",
+      "chapter_ref": "上册·第9章（部分院系并入 A1）"
+    },
+    {
+      "id": "aa1.ser.power",
+      "parent_id": "aa1.ser",
+      "level": 2,
+      "name": "幂级数与 Maclaurin 级数",
+      "chapter_ref": "上册·第9章（部分院系并入 A1）"
+    }
+  ]
+}

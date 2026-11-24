@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH1002",
+  "nodes": [
+    {
+      "id": "aa2.ser",
+      "parent_id": null,
+      "level": 1,
+      "name": "无穷级数",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa2.ser.positive",
+      "parent_id": "aa2.ser",
+      "level": 2,
+      "name": "正项级数",
+      "chapter_ref": "下册·第9章 数项级数"
+    },
+    {
+      "id": "aa2.ser.any",
+      "parent_id": "aa2.ser",
+      "level": 2,
+      "name": "任意项级数与绝对收敛",
+      "chapter_ref": "下册·第9章 数项级数"
+    },
+    {
+      "id": "aa2.ser.func",
+      "parent_id": "aa2.ser",
+      "level": 2,
+      "name": "函数项级数与一致收敛",
+      "chapter_ref": "下册·第10章 函数项级数"
+    },
+    {
+      "id": "aa2.ser.power",
+      "parent_id": "aa2.ser",
+      "level": 2,
+      "name": "幂级数与泰勒级数",
+      "chapter_ref": "下册·第11章 幂级数"
+    },
+    {
+      "id": "aa2.ser.fourier",
+      "parent_id": "aa2.ser",
+      "level": 2,
+      "name": "Fourier 级数",
+      "chapter_ref": "下册·第12章 Fourier 级数"
+    },
+    {
+      "id": "aa2.diff",
+      "parent_id": null,
+      "level": 1,
+      "name": "多元函数微分学",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa2.diff.limit",
+      "parent_id": "aa2.diff",
+      "level": 2,
+      "name": "多元函数的极限与连续",
+      "chapter_ref": "下册·第13章 多元函数的极限与连续"
+    },
+    {
+      "id": "aa2.diff.partial",
+      "parent_id": "aa2.diff",
+      "level": 2,
+      "name": "偏导数与全微分",
+      "chapter_ref": "下册·第14章 多元函数的微分学"
+    },
+    {
+      "id": "aa2.diff.chain",
+      "parent_id": "aa2.diff",
+      "level": 2,
+      "name": "复合函数与隐函数求导",
+      "chapter_ref": "下册·第14章 多元函数的微分学"
+    },
+    {
+      "id": "aa2.diff.taylor",
+      "parent_id": "aa2.diff",
+      "level": 2,
+      "name": "多元泰勒公式与极值",
+      "chapter_ref": "下册·第14章 多元函数的微分学"
+    },
+    {
+      "id": "aa2.diff.geom",
+      "parent_id": "aa2.diff",
+      "level": 2,
+      "name": "切平面、法向量与方向导数",
+      "chapter_ref": "下册·第14章 多元函数的微分学"
+    },
+    {
+      "id": "aa2.multint",
+      "parent_id": null,
+      "level": 1,
+      "name": "重积分",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa2.multint.double",
+      "parent_id": "aa2.multint",
+      "level": 2,
+      "name": "二重积分",
+      "chapter_ref": "下册·第15章 重积分"
+    },
+    {
+      "id": "aa2.multint.triple",
+      "parent_id": "aa2.multint",
+      "level": 2,
+      "name": "三重积分",
+      "chapter_ref": "下册·第15章 重积分"
+    },
+    {
+      "id": "aa2.multint.change",
+      "parent_id": "aa2.multint",
+      "level": 2,
+      "name": "换元法与雅可比行列式",
+      "chapter_ref": "下册·第15章 重积分"
+    },
+    {
+      "id": "aa2.multint.app",
+      "parent_id": "aa2.multint",
+      "level": 2,
+      "name": "重积分的几何与物理应用",
+      "chapter_ref": "下册·第15章 重积分"
+    },
+    {
+      "id": "aa2.line",
+      "parent_id": null,
+      "level": 1,
+      "name": "曲线积分与曲面积分",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa2.line.first",
+      "parent_id": "aa2.line",
+      "level": 2,
+      "name": "第一型曲线与曲面积分",
+      "chapter_ref": "下册·第16章 曲线积分与曲面积分"
+    },
+    {
+      "id": "aa2.line.second",
+      "parent_id": "aa2.line",
+      "level": 2,
+      "name": "第二型曲线与曲面积分",
+      "chapter_ref": "下册·第16章 曲线积分与曲面积分"
+    },
+    {
+      "id": "aa2.line.green",
+      "parent_id": "aa2.line",
+      "level": 2,
+      "name": "格林公式与路径无关",
+      "chapter_ref": "下册·第16章 曲线积分与曲面积分"
+    },
+    {
+      "id": "aa2.line.gauss",
+      "parent_id": "aa2.line",
+      "level": 2,
+      "name": "高斯公式与斯托克斯公式",
+      "chapter_ref": "下册·第16章 曲线积分与曲面积分"
+    },
+    {
+      "id": "aa2.line.field",
+      "parent_id": "aa2.line",
+      "level": 2,
+      "name": "场论初步（散度、旋度）",
+      "chapter_ref": "下册·第16章 曲线积分与曲面积分"
+    },
+    {
+      "id": "aa2.imp",
+      "parent_id": null,
+      "level": 1,
+      "name": "反常积分与含参变量积分",
+      "chapter_ref": null
+    },
+    {
+      "id": "aa2.imp.improper",
+      "parent_id": "aa2.imp",
+      "level": 2,
+      "name": "反常积分",
+      "chapter_ref": "下册·第17章 反常积分与含参变量积分"
+    },
+    {
+      "id": "aa2.imp.param",
+      "parent_id": "aa2.imp",
+      "level": 2,
+      "name": "含参变量积分",
+      "chapter_ref": "下册·第17章 反常积分与含参变量积分"
+    },
+    {
+      "id": "aa2.imp.uniform",
+      "parent_id": "aa2.imp",
+      "level": 2,
+      "name": "含参积分的一致收敛与性质",
+      "chapter_ref": "下册·第17章 反常积分与含参变量积分"
+    }
+  ]
+}
