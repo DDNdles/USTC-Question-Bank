@@ -120,7 +120,7 @@ class TestQuestionBank(unittest.TestCase):
         self.assertEqual(len(self.bank["019012"]), 99)
         self.assertEqual(len(self.bank["019047"]), 193)
         self.assertEqual(len(self.bank.all_questions()), 18512)
-        self.assertEqual(len(self.bank.all_questions(exclude_quarantined=True)), 18155)
+        self.assertEqual(len(self.bank.all_questions(exclude_quarantined=True)), 18376)
 
     def test_lookup_by_id(self) -> None:
         q = self.bank.get("MATH1006-tb-1.1.1")
@@ -442,6 +442,7 @@ class TestQuestionBank(unittest.TestCase):
             ("PHYS1005B", 3, 3),
             ("PHYS1003B", 23, 23),
             ("009501", 70, 70),
+            ("019011", 186, 186),
         ]:
             cb = self.bank[code_check]
             wf = cb.query(has_figures=True, exclude_quarantined=False)
