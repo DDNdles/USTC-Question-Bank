@@ -1,0 +1,342 @@
+{
+  "schema_version": "1.0",
+  "course_code": "PHYS1010",
+  "nodes": [
+    {
+      "id": "qp.wave",
+      "parent_id": null,
+      "level": 1,
+      "name": "波粒二象性",
+      "chapter_ref": "第1章"
+    },
+    {
+      "id": "qp.wave.blackbody",
+      "parent_id": "qp.wave",
+      "level": 2,
+      "name": "黑体辐射与普朗克量子假说",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.wave.photoelectric",
+      "parent_id": "qp.wave",
+      "level": 2,
+      "name": "光电效应",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.wave.compton",
+      "parent_id": "qp.wave",
+      "level": 2,
+      "name": "康普顿散射",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.wave.spectrum",
+      "parent_id": "qp.wave",
+      "level": 2,
+      "name": "原子光谱与玻尔模型",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.wave.debroglie",
+      "parent_id": "qp.wave",
+      "level": 2,
+      "name": "德布罗意波与物质波",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.wave.uncertainty",
+      "parent_id": "qp.wave",
+      "level": 2,
+      "name": "不确定关系",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.wavefunc",
+      "parent_id": null,
+      "level": 1,
+      "name": "波函数与薛定谔方程",
+      "chapter_ref": "第2章"
+    },
+    {
+      "id": "qp.wavefunc.wavefunc",
+      "parent_id": "qp.wavefunc",
+      "level": 2,
+      "name": "波函数及其统计诠释",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.wavefunc.schrodinger",
+      "parent_id": "qp.wavefunc",
+      "level": 2,
+      "name": "薛定谔方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.wavefunc.stationary",
+      "parent_id": "qp.wavefunc",
+      "level": 2,
+      "name": "定态与能量本征值",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.wavefunc.probability",
+      "parent_id": "qp.wavefunc",
+      "level": 2,
+      "name": "概率密度与概率流",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.wavefunc.normalize",
+      "parent_id": "qp.wavefunc",
+      "level": 2,
+      "name": "归一化与正交性",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.onedim",
+      "parent_id": null,
+      "level": 1,
+      "name": "一维定态问题",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "qp.onedim.box",
+      "parent_id": "qp.onedim",
+      "level": 2,
+      "name": "一维无限深势阱",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.onedim.step",
+      "parent_id": "qp.onedim",
+      "level": 2,
+      "name": "势阶与势垒穿透",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.onedim.tunnel",
+      "parent_id": "qp.onedim",
+      "level": 2,
+      "name": "隧道效应",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.onedim.oscillator",
+      "parent_id": "qp.onedim",
+      "level": 2,
+      "name": "一维谐振子",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.onedim.delta",
+      "parent_id": "qp.onedim",
+      "level": 2,
+      "name": "δ势阱与束缚态",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.operator",
+      "parent_id": null,
+      "level": 1,
+      "name": "力学量与算符",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "qp.operator.operator",
+      "parent_id": "qp.operator",
+      "level": 2,
+      "name": "力学量算符与本征值",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.operator.commute",
+      "parent_id": "qp.operator",
+      "level": 2,
+      "name": "对易关系与不确定度",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.operator.momentum",
+      "parent_id": "qp.operator",
+      "level": 2,
+      "name": "动量算符",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.operator.energy",
+      "parent_id": "qp.operator",
+      "level": 2,
+      "name": "哈密顿算符与守恒量",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.operator.measurement",
+      "parent_id": "qp.operator",
+      "level": 2,
+      "name": "测量与坍缩",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.central",
+      "parent_id": null,
+      "level": 1,
+      "name": "中心力场与氢原子",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "qp.central.angular",
+      "parent_id": "qp.central",
+      "level": 2,
+      "name": "角动量算符与本征值",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.central.central",
+      "parent_id": "qp.central",
+      "level": 2,
+      "name": "中心力场径向方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.central.hydrogen",
+      "parent_id": "qp.central",
+      "level": 2,
+      "name": "氢原子能级与波函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.central.degeneracy",
+      "parent_id": "qp.central",
+      "level": 2,
+      "name": "简并与碱金属原子",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.central.sphere",
+      "parent_id": "qp.central",
+      "level": 2,
+      "name": "球谐函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.spin",
+      "parent_id": null,
+      "level": 1,
+      "name": "自旋与多电子原子",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "qp.spin.spin",
+      "parent_id": "qp.spin",
+      "level": 2,
+      "name": "自旋与自旋算符",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.spin.pauli",
+      "parent_id": "qp.spin",
+      "level": 2,
+      "name": "泡利原理与全同粒子",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.spin.coupling",
+      "parent_id": "qp.spin",
+      "level": 2,
+      "name": "角动量耦合",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.spin.periodic",
+      "parent_id": "qp.spin",
+      "level": 2,
+      "name": "元素周期表与壳层结构",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.spin.fine",
+      "parent_id": "qp.spin",
+      "level": 2,
+      "name": "精细结构与自旋轨道耦合",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.matrix",
+      "parent_id": null,
+      "level": 1,
+      "name": "矩阵力学与表象",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "qp.matrix.matrix",
+      "parent_id": "qp.matrix",
+      "level": 2,
+      "name": "矩阵力学基础",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.matrix.representation",
+      "parent_id": "qp.matrix",
+      "level": 2,
+      "name": "表象变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.matrix.spinmatrix",
+      "parent_id": "qp.matrix",
+      "level": 2,
+      "name": "自旋矩阵与二能级系统",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.matrix.density",
+      "parent_id": "qp.matrix",
+      "level": 2,
+      "name": "密度矩阵初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.perturb",
+      "parent_id": null,
+      "level": 1,
+      "name": "近似方法与量子跃迁",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "qp.perturb.time_ind",
+      "parent_id": "qp.perturb",
+      "level": 2,
+      "name": "定态微扰论",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.perturb.variational",
+      "parent_id": "qp.perturb",
+      "level": 2,
+      "name": "变分法",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.perturb.time_dep",
+      "parent_id": "qp.perturb",
+      "level": 2,
+      "name": "含时微扰与跃迁概率",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.perturb.radiation",
+      "parent_id": "qp.perturb",
+      "level": 2,
+      "name": "自发辐射与受激辐射",
+      "chapter_ref": null
+    },
+    {
+      "id": "qp.perturb.selection",
+      "parent_id": "qp.perturb",
+      "level": 2,
+      "name": "选择定则",
+      "chapter_ref": null
+    }
+  ]
+}

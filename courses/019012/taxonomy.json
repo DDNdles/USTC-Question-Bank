@@ -1,0 +1,314 @@
+{
+  "schema_version": "1.0",
+  "course_code": "019012",
+  "nodes": [
+    {
+      "id": "oca2.acid",
+      "parent_id": null,
+      "level": 1,
+      "name": "羧酸及其衍生物",
+      "chapter_ref": "第1章"
+    },
+    {
+      "id": "oca2.acid.acidity",
+      "parent_id": "oca2.acid",
+      "level": 2,
+      "name": "羧酸酸性",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.acid.derivative",
+      "parent_id": "oca2.acid",
+      "level": 2,
+      "name": "酰氯酸酐酯酰胺",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.acid.hydrolysis",
+      "parent_id": "oca2.acid",
+      "level": 2,
+      "name": "水解与酯交换",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.acid.condensation",
+      "parent_id": "oca2.acid",
+      "level": 2,
+      "name": "缩合反应",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.subacid",
+      "parent_id": null,
+      "level": 1,
+      "name": "取代羧酸与 β-二羰基",
+      "chapter_ref": "第2章"
+    },
+    {
+      "id": "oca2.subacid.hydroxyacid",
+      "parent_id": "oca2.subacid",
+      "level": 2,
+      "name": "羟基酸与乳酸",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.subacid.ketoacid",
+      "parent_id": "oca2.subacid",
+      "level": 2,
+      "name": "酮酸",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.subacid.malonic",
+      "parent_id": "oca2.subacid",
+      "level": 2,
+      "name": "丙二酸酯合成",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.subacid.acetoacetic",
+      "parent_id": "oca2.subacid",
+      "level": 2,
+      "name": "乙酰乙酸乙酯合成",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.nitrogen",
+      "parent_id": null,
+      "level": 1,
+      "name": "含氮化合物",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "oca2.nitrogen.amine",
+      "parent_id": "oca2.nitrogen",
+      "level": 2,
+      "name": "胺的制备与碱性",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.nitrogen.diazonium",
+      "parent_id": "oca2.nitrogen",
+      "level": 2,
+      "name": "重氮盐与偶联",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.nitrogen.nitro",
+      "parent_id": "oca2.nitrogen",
+      "level": 2,
+      "name": "硝基化合物",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.nitrogen.amide",
+      "parent_id": "oca2.nitrogen",
+      "level": 2,
+      "name": "酰胺与 Hofmann 降解",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.hetero",
+      "parent_id": null,
+      "level": 1,
+      "name": "杂环化合物",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "oca2.hetero.five",
+      "parent_id": "oca2.hetero",
+      "level": 2,
+      "name": "五元杂环",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.hetero.six",
+      "parent_id": "oca2.hetero",
+      "level": 2,
+      "name": "六元杂环",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.hetero.alkaloid",
+      "parent_id": "oca2.hetero",
+      "level": 2,
+      "name": "生物碱",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.hetero.reactivity",
+      "parent_id": "oca2.hetero",
+      "level": 2,
+      "name": "杂环反应活性",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.sugar",
+      "parent_id": null,
+      "level": 1,
+      "name": "糖类化合物",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "oca2.sugar.mono",
+      "parent_id": "oca2.sugar",
+      "level": 2,
+      "name": "单糖与变旋",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.sugar.glycoside",
+      "parent_id": "oca2.sugar",
+      "level": 2,
+      "name": "苷与糖苷键",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.sugar.di",
+      "parent_id": "oca2.sugar",
+      "level": 2,
+      "name": "二糖与多糖",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.sugar.structure",
+      "parent_id": "oca2.sugar",
+      "level": 2,
+      "name": "糖的结构测定",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.bio",
+      "parent_id": null,
+      "level": 1,
+      "name": "氨基酸蛋白质与生物分子",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "oca2.bio.amino",
+      "parent_id": "oca2.bio",
+      "level": 2,
+      "name": "氨基酸与肽",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.bio.protein",
+      "parent_id": "oca2.bio",
+      "level": 2,
+      "name": "蛋白质结构",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.bio.nucleotide",
+      "parent_id": "oca2.bio",
+      "level": 2,
+      "name": "核苷酸与核酸",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.bio.lipid",
+      "parent_id": "oca2.bio",
+      "level": 2,
+      "name": "脂类化合物",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.pericyclic",
+      "parent_id": null,
+      "level": 1,
+      "name": "周环反应",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "oca2.pericyclic.electrocyclic",
+      "parent_id": "oca2.pericyclic",
+      "level": 2,
+      "name": "电环化反应",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.pericyclic.sigmatropic",
+      "parent_id": "oca2.pericyclic",
+      "level": 2,
+      "name": "σ迁移反应",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.pericyclic.cycloaddition",
+      "parent_id": "oca2.pericyclic",
+      "level": 2,
+      "name": "环加成反应",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.pericyclic.woodward",
+      "parent_id": "oca2.pericyclic",
+      "level": 2,
+      "name": "Woodward-Hoffmann 规则",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.synthesis",
+      "parent_id": null,
+      "level": 1,
+      "name": "有机合成",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "oca2.synthesis.retro",
+      "parent_id": "oca2.synthesis",
+      "level": 2,
+      "name": "逆合成分析",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.synthesis.protecting",
+      "parent_id": "oca2.synthesis",
+      "level": 2,
+      "name": "保护基策略",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.synthesis.selectivity",
+      "parent_id": "oca2.synthesis",
+      "level": 2,
+      "name": "选择性与产率",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.synthesis.route",
+      "parent_id": "oca2.synthesis",
+      "level": 2,
+      "name": "合成路线设计",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.other",
+      "parent_id": null,
+      "level": 1,
+      "name": "含硫磷硅化合物",
+      "chapter_ref": "第9章"
+    },
+    {
+      "id": "oca2.other.sulfur",
+      "parent_id": "oca2.other",
+      "level": 2,
+      "name": "含硫化合物",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.other.phosphorus",
+      "parent_id": "oca2.other",
+      "level": 2,
+      "name": "含磷化合物",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca2.other.silicon",
+      "parent_id": "oca2.other",
+      "level": 2,
+      "name": "有机硅化合物",
+      "chapter_ref": null
+    }
+  ]
+}

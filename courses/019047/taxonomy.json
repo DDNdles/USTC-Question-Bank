@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "course_code": "019047",
+  "nodes": [
+    {
+      "id": "ocb.basic",
+      "parent_id": null,
+      "level": 1,
+      "name": "结构与成键基础",
+      "chapter_ref": "第1章"
+    },
+    {
+      "id": "ocb.basic.bond",
+      "parent_id": "ocb.basic",
+      "level": 2,
+      "name": "共价键杂化与分子结构",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.basic.acidbase",
+      "parent_id": "ocb.basic",
+      "level": 2,
+      "name": "酸碱与反应性",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.basic.nomenclature",
+      "parent_id": "ocb.basic",
+      "level": 2,
+      "name": "命名与异构",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.hydrocarbon",
+      "parent_id": null,
+      "level": 1,
+      "name": "烃类与立体化学",
+      "chapter_ref": "第2章"
+    },
+    {
+      "id": "ocb.hydrocarbon.alkane",
+      "parent_id": "ocb.hydrocarbon",
+      "level": 2,
+      "name": "烷烃与构象",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.hydrocarbon.alkene",
+      "parent_id": "ocb.hydrocarbon",
+      "level": 2,
+      "name": "烯烃与加成",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.hydrocarbon.alkyne",
+      "parent_id": "ocb.hydrocarbon",
+      "level": 2,
+      "name": "炔烃与二烯烃",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.hydrocarbon.aromatic",
+      "parent_id": "ocb.hydrocarbon",
+      "level": 2,
+      "name": "芳烃与芳香性",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.hydrocarbon.stereo",
+      "parent_id": "ocb.hydrocarbon",
+      "level": 2,
+      "name": "立体化学基础",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.halide",
+      "parent_id": null,
+      "level": 1,
+      "name": "卤代烃与醇酚醚",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "ocb.halide.sn",
+      "parent_id": "ocb.halide",
+      "level": 2,
+      "name": "亲核取代",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.halide.elimination",
+      "parent_id": "ocb.halide",
+      "level": 2,
+      "name": "消除反应",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.halide.alcohol",
+      "parent_id": "ocb.halide",
+      "level": 2,
+      "name": "醇酚醚",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.halide.grignard",
+      "parent_id": "ocb.halide",
+      "level": 2,
+      "name": "格氏试剂",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.carbonyl",
+      "parent_id": null,
+      "level": 1,
+      "name": "醛酮与羧酸",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "ocb.carbonyl.addition",
+      "parent_id": "ocb.carbonyl",
+      "level": 2,
+      "name": "羰基亲核加成",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.carbonyl.aldol",
+      "parent_id": "ocb.carbonyl",
+      "level": 2,
+      "name": "缩合反应",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.carbonyl.acid",
+      "parent_id": "ocb.carbonyl",
+      "level": 2,
+      "name": "羧酸及其衍生物",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.carbonyl.substitution",
+      "parent_id": "ocb.carbonyl",
+      "level": 2,
+      "name": "羧酸衍生物反应",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.nitrogen",
+      "parent_id": null,
+      "level": 1,
+      "name": "含氮化合物与杂环",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "ocb.nitrogen.amine",
+      "parent_id": "ocb.nitrogen",
+      "level": 2,
+      "name": "胺",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.nitrogen.diazonium",
+      "parent_id": "ocb.nitrogen",
+      "level": 2,
+      "name": "重氮盐",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.nitrogen.hetero",
+      "parent_id": "ocb.nitrogen",
+      "level": 2,
+      "name": "杂环化合物",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.bio",
+      "parent_id": null,
+      "level": 1,
+      "name": "糖类与生物分子",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "ocb.bio.sugar",
+      "parent_id": "ocb.bio",
+      "level": 2,
+      "name": "糖类",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.bio.amino",
+      "parent_id": "ocb.bio",
+      "level": 2,
+      "name": "氨基酸与蛋白质",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.advanced",
+      "parent_id": null,
+      "level": 1,
+      "name": "合成与周环",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "ocb.advanced.pericyclic",
+      "parent_id": "ocb.advanced",
+      "level": 2,
+      "name": "周环反应",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.advanced.synthesis",
+      "parent_id": "ocb.advanced",
+      "level": 2,
+      "name": "有机合成基础",
+      "chapter_ref": null
+    },
+    {
+      "id": "ocb.advanced.spectra",
+      "parent_id": "ocb.advanced",
+      "level": 2,
+      "name": "波谱分析初步",
+      "chapter_ref": null
+    }
+  ]
+}

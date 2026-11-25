@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "code": "019012",
+  "name": "有机化学A2",
+  "name_en": "Organic Chemistry (A2)",
+  "department": "化学与材料科学学院",
+  "category": "common",
+  "description": "中国科学技术大学《有机化学A2》（课号 019012）结构化题库，收录 2015–2019 学年期终 A 卷、英文期末卷、第一次单元测试题与第二/三次习题课练习题共 6 份材料 99 题，覆盖 35 个二级知识点，其中 51 题附原卷/习题课参考解答（origin=official）、48 题由模型作答。",
+  "stats": {
+    "total": 99,
+    "quarantined": 15,
+    "taxonomy_nodes": 44,
+    "by_origin": {
+      "official": 51,
+      "community": 0,
+      "ai": 48
+    },
+    "by_type": {
+      "blank": 9,
+      "multi": 2,
+      "single": 36,
+      "solve": 52
+    },
+    "by_difficulty": {
+      "1": 2,
+      "2": 11,
+      "3": 33,
+      "4": 19,
+      "5": 34
+    },
+    "exam_years": [
+      2016,
+      2017,
+      2019
+    ]
+  },
+  "batches": [
+    {
+      "id": "oca2_paper",
+      "count": 19,
+      "rights": "third_party_exam",
+      "description": "2016–2017 年有机化学(A2) 英文期末试卷（19 题）"
+    },
+    {
+      "id": "oca2_solved",
+      "count": 45,
+      "rights": "third_party_exam",
+      "description": "2015–2019 年有机化学(A2)期终 A 卷及第一次单元测试题与参考答案（45 题）"
+    },
+    {
+      "id": "oca2_answer",
+      "count": 35,
+      "rights": "third_party_notes",
+      "description": "2018–2019 学年有机化学(AII)第二、三次习题课练习题与参考答案（35 题）"
+    }
+  ],
+  "known_notes": [
+    "2015–2017 期终考试 A 卷参考答案、2018–2019 第一次单元测试参考答案与第二/三次习题课参考答案共 51 题标记为 origin=official；无答案英文期末卷与部分未附文字答案小问共 48 题为 AI 标注（origin=ai）。",
+    "公开版将 15 道因化学结构式仅存于原卷图像、无法在纯文本下唯一给出结构式答案的题目（标为需据原卷结构式作答者）标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+  ],
+  "files": {
+    "questions": "courses/019012/questions.jsonl",
+    "taxonomy": "courses/019012/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "33edb9849e1c3ce786b50be3eb4655829e9e13fb6f74a1fc5b8eeab8c5e0bd50",
+    "taxonomy": "1beb230b7c03e9c464fcad004a8728b20f37d938b9fcf8b7f9ace53a169b31f9"
+  }
+}

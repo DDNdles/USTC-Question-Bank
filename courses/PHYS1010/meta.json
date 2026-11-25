@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "code": "PHYS1010",
+  "name": "量子物理",
+  "name_en": "Quantum Physics",
+  "department": "物理学院",
+  "category": "common",
+  "description": "中国科学技术大学《量子物理》（课号 PHYS1010）结构化题库，收录 2023–2026 年期中/期末/样卷与回忆版试卷（295 题）、第 1–7 章与第 1–6 次作业及周世勋《量子力学教程》配套习题解答（207 题）、量子物理讲义与教程例题（214 题）共 716 题，覆盖 40 个二级知识点，其中 414 题附原卷/讲义/习题集参考解答（origin=official）、302 题由模型独立求解。",
+  "stats": {
+    "total": 716,
+    "quarantined": 5,
+    "taxonomy_nodes": 48,
+    "by_origin": {
+      "official": 414,
+      "community": 0,
+      "ai": 302
+    },
+    "by_type": {
+      "blank": 36,
+      "multi": 1,
+      "proof": 87,
+      "single": 22,
+      "solve": 570
+    },
+    "by_difficulty": {
+      "1": 56,
+      "2": 192,
+      "3": 259,
+      "4": 175,
+      "5": 34
+    },
+    "exam_years": [
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "qp_paper",
+      "count": 266,
+      "rights": "third_party_exam",
+      "description": "2023–2026 年量子物理期末卷、期中/期末样卷与回忆版及《量子力学习题集》（266 题）"
+    },
+    {
+      "id": "qp_solved",
+      "count": 29,
+      "rights": "third_party_exam",
+      "description": "量子物理期中/期末样卷参考答案与评分标准（29 题）"
+    },
+    {
+      "id": "qp_answer",
+      "count": 207,
+      "rights": "third_party_notes",
+      "description": "第 1–7 章及第 1–6 次作业答案、周世勋《量子力学教程》习题解答及习题答案集（207 题）"
+    },
+    {
+      "id": "qp_drill",
+      "count": 214,
+      "rights": "third_party_notes",
+      "description": "量子物理讲义、课程资料、《猴子都能懂的量子物理教程》、复习提纲与例题（214 题）"
+    }
+  ],
+  "known_notes": [
+    "42 份来源材料中，期中/期末样卷与参考评分标准、作业解答（1–6 次）、分章习题答案、周世勋教程解答与复习教程例题共 414 题标记为 origin=official；2023–2026 无答案期末卷、回忆版与讲义/课程资料共 302 题由模型独立推导（origin=ai）。",
+    "全库共 5 道低置信度题（2024 期末第 6(2) 题自旋列向量缺失、期中样卷第一.5 题棱镜光路缺图、回忆版与讲义缺公式/残缺设问 3 题）标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+  ],
+  "files": {
+    "questions": "courses/PHYS1010/questions.jsonl",
+    "taxonomy": "courses/PHYS1010/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "b650419b063d03f5b82126223e5c957dad5c1238e1f9013ccfa14c5f04263704",
+    "taxonomy": "30f60a2283695bd8fbd0406b53127fdd6a4c8d4f8f67c7a84ffc012df924fc27"
+  }
+}

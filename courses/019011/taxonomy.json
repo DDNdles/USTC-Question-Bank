@@ -1,0 +1,356 @@
+{
+  "schema_version": "1.0",
+  "course_code": "019011",
+  "nodes": [
+    {
+      "id": "oca1.intro",
+      "parent_id": null,
+      "level": 1,
+      "name": "绪论与结构成键",
+      "chapter_ref": "第1章"
+    },
+    {
+      "id": "oca1.intro.bond",
+      "parent_id": "oca1.intro",
+      "level": 2,
+      "name": "共价键与杂化轨道",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.intro.structure",
+      "parent_id": "oca1.intro",
+      "level": 2,
+      "name": "结构与路易斯式",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.intro.acidbase",
+      "parent_id": "oca1.intro",
+      "level": 2,
+      "name": "酸碱理论",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.intro.nomenclature",
+      "parent_id": "oca1.intro",
+      "level": 2,
+      "name": "命名与分类",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.alkane",
+      "parent_id": null,
+      "level": 1,
+      "name": "烷烃与自由基取代",
+      "chapter_ref": "第2章"
+    },
+    {
+      "id": "oca1.alkane.conformation",
+      "parent_id": "oca1.alkane",
+      "level": 2,
+      "name": "构象与构型",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.alkane.substitution",
+      "parent_id": "oca1.alkane",
+      "level": 2,
+      "name": "自由基取代反应",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.alkane.cycloalkane",
+      "parent_id": "oca1.alkane",
+      "level": 2,
+      "name": "环烷烃",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.alkane.stability",
+      "parent_id": "oca1.alkane",
+      "level": 2,
+      "name": "稳定性与反应活性",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.alkene",
+      "parent_id": null,
+      "level": 1,
+      "name": "烯烃与亲电加成",
+      "chapter_ref": "第3章"
+    },
+    {
+      "id": "oca1.alkene.addition",
+      "parent_id": "oca1.alkene",
+      "level": 2,
+      "name": "亲电加成机理",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.alkene.markov",
+      "parent_id": "oca1.alkene",
+      "level": 2,
+      "name": "马氏规则与重排",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.alkene.oxidation",
+      "parent_id": "oca1.alkene",
+      "level": 2,
+      "name": "烯烃氧化",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.alkene.polymer",
+      "parent_id": "oca1.alkene",
+      "level": 2,
+      "name": "聚合反应",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.alkyne",
+      "parent_id": null,
+      "level": 1,
+      "name": "炔烃、二烯烃与周环",
+      "chapter_ref": "第4章"
+    },
+    {
+      "id": "oca1.alkyne.alkyne",
+      "parent_id": "oca1.alkyne",
+      "level": 2,
+      "name": "炔烃反应",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.alkyne.conjugated",
+      "parent_id": "oca1.alkyne",
+      "level": 2,
+      "name": "共轭二烯烃",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.alkyne.diels",
+      "parent_id": "oca1.alkyne",
+      "level": 2,
+      "name": "Diels-Alder 反应",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.alkyne.pericyclic",
+      "parent_id": "oca1.alkyne",
+      "level": 2,
+      "name": "周环反应基础",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.stereo",
+      "parent_id": null,
+      "level": 1,
+      "name": "立体化学",
+      "chapter_ref": "第5章"
+    },
+    {
+      "id": "oca1.stereo.chiral",
+      "parent_id": "oca1.stereo",
+      "level": 2,
+      "name": "手性与对映异构",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.stereo.configuration",
+      "parent_id": "oca1.stereo",
+      "level": 2,
+      "name": "R/S 与顺反构型",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.stereo.resolution",
+      "parent_id": "oca1.stereo",
+      "level": 2,
+      "name": "外消旋与拆分",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.stereo.conformational",
+      "parent_id": "oca1.stereo",
+      "level": 2,
+      "name": "构象分析",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.aromatic",
+      "parent_id": null,
+      "level": 1,
+      "name": "芳烃与芳香性",
+      "chapter_ref": "第6章"
+    },
+    {
+      "id": "oca1.aromatic.aromaticity",
+      "parent_id": "oca1.aromatic",
+      "level": 2,
+      "name": "芳香性与休克尔规则",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.aromatic.e_as",
+      "parent_id": "oca1.aromatic",
+      "level": 2,
+      "name": "亲电取代反应",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.aromatic.n_as",
+      "parent_id": "oca1.aromatic",
+      "level": 2,
+      "name": "亲核取代与重氮盐",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.aromatic.orientation",
+      "parent_id": "oca1.aromatic",
+      "level": 2,
+      "name": "取代基定位效应",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.spectra",
+      "parent_id": null,
+      "level": 1,
+      "name": "波谱分析",
+      "chapter_ref": "第7章"
+    },
+    {
+      "id": "oca1.spectra.ir",
+      "parent_id": "oca1.spectra",
+      "level": 2,
+      "name": "红外光谱",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.spectra.nmr",
+      "parent_id": "oca1.spectra",
+      "level": 2,
+      "name": "核磁共振氢谱与碳谱",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.spectra.ms",
+      "parent_id": "oca1.spectra",
+      "level": 2,
+      "name": "质谱",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.spectra.uv",
+      "parent_id": "oca1.spectra",
+      "level": 2,
+      "name": "紫外光谱",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.halide",
+      "parent_id": null,
+      "level": 1,
+      "name": "卤代烃",
+      "chapter_ref": "第8章"
+    },
+    {
+      "id": "oca1.halide.sn",
+      "parent_id": "oca1.halide",
+      "level": 2,
+      "name": "亲核取代 SN1/SN2",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.halide.elimination",
+      "parent_id": "oca1.halide",
+      "level": 2,
+      "name": "消除反应 E1/E2",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.halide.grignard",
+      "parent_id": "oca1.halide",
+      "level": 2,
+      "name": "格氏试剂",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.halide.mechanism",
+      "parent_id": "oca1.halide",
+      "level": 2,
+      "name": "机理与竞争",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.alcohol",
+      "parent_id": null,
+      "level": 1,
+      "name": "醇酚醚",
+      "chapter_ref": "第9章"
+    },
+    {
+      "id": "oca1.alcohol.alcohol",
+      "parent_id": "oca1.alcohol",
+      "level": 2,
+      "name": "醇的制备与反应",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.alcohol.phenol",
+      "parent_id": "oca1.alcohol",
+      "level": 2,
+      "name": "酚的酸性与反应",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.alcohol.ether",
+      "parent_id": "oca1.alcohol",
+      "level": 2,
+      "name": "醚与环氧化合物",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.alcohol.oxidation",
+      "parent_id": "oca1.alcohol",
+      "level": 2,
+      "name": "醇的氧化",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.carbonyl",
+      "parent_id": null,
+      "level": 1,
+      "name": "醛酮醌",
+      "chapter_ref": "第10章"
+    },
+    {
+      "id": "oca1.carbonyl.nucleophilic",
+      "parent_id": "oca1.carbonyl",
+      "level": 2,
+      "name": "亲核加成",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.carbonyl.aldol",
+      "parent_id": "oca1.carbonyl",
+      "level": 2,
+      "name": "羟醛缩合",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.carbonyl.reduction",
+      "parent_id": "oca1.carbonyl",
+      "level": 2,
+      "name": "氧化还原与羰基还原",
+      "chapter_ref": null
+    },
+    {
+      "id": "oca1.carbonyl.quinone",
+      "parent_id": "oca1.carbonyl",
+      "level": 2,
+      "name": "醌与氧化还原",
+      "chapter_ref": null
+    }
+  ]
+}

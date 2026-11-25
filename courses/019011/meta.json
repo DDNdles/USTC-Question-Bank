@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "code": "019011",
+  "name": "有机化学A1",
+  "name_en": "Organic Chemistry (A1)",
+  "department": "化学与材料科学学院",
+  "category": "common",
+  "description": "中国科学技术大学《有机化学A1》（课号 019011）结构化题库，收录 2013–2025 学年24 套期中/期末/小测真题与参考解答（721 题）、《有机化学A1》分章课件与 2024 版讲义（584 题）、MOOC 第 1–13 讲单元作业（115 题）、《有机化学反应机理的书写艺术》中译习题与答案（53 题）等77 份来源共 1,559 题，覆盖 40 个二级知识点。",
+  "stats": {
+    "total": 1559,
+    "quarantined": 223,
+    "taxonomy_nodes": 50,
+    "by_origin": {
+      "official": 585,
+      "community": 0,
+      "ai": 974
+    },
+    "by_type": {
+      "blank": 191,
+      "multi": 15,
+      "single": 284,
+      "solve": 1069
+    },
+    "by_difficulty": {
+      "1": 24,
+      "2": 202,
+      "3": 665,
+      "4": 469,
+      "5": 199
+    },
+    "exam_years": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2024,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "oca1_paper",
+      "count": 250,
+      "rights": "third_party_exam",
+      "description": "2013–2025 年有机化学(A1)无答案期中/期末与小测原卷（250 题）"
+    },
+    {
+      "id": "oca1_solved",
+      "count": 471,
+      "rights": "third_party_exam",
+      "description": "2013–2025 年有机化学(A1)期中/期末、小测与 MOOC 期末测试参考解答（471 题）"
+    },
+    {
+      "id": "oca1_answer",
+      "count": 44,
+      "rights": "third_party_exam",
+      "description": "有机化学(A1)第二次小测答案与《有机化学反应机理的书写艺术》习题答案（44 题）"
+    },
+    {
+      "id": "oca1_drill",
+      "count": 794,
+      "rights": "third_party_notes",
+      "description": "分章讲义、2024 版有机化学课件、MOOC 单元作业 1–13 讲与反应机理练习（794 题）"
+    }
+  ],
+  "known_notes": [
+    "历年期中/期末与小测参考答案、MOOC 作业解析、小测/期末测试解析及《有机化学反应机理的书写艺术》附答共 585 题标记为 origin=official；无标答真题与分章课件习题共 974 题由模型独立推导（origin=ai）。",
+    "全库共 223 道题干/选项高度依赖原卷化学结构式图像、纯文本条件下无法唯一确定产物的题目已标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。",
+    "已修复原库中 1 道单选题（2017–2018 期末第一.11 题）因答案格式误被降级为概念题的问题并恢复 A–D 选项。"
+  ],
+  "files": {
+    "questions": "courses/019011/questions.jsonl",
+    "taxonomy": "courses/019011/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "a63363d8856b48af47e009746ee4855095344ad33cb6d588632fd93d3bc96482",
+    "taxonomy": "0dadf63d5ed2f1e1f1d999558e16d09f30f79aa435199dd2f6f3ac5b23c6fbef"
+  }
+}

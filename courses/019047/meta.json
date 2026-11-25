@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "code": "019047",
+  "name": "有机化学B",
+  "name_en": "Organic Chemistry (B)",
+  "department": "化学与材料科学学院",
+  "category": "common",
+  "description": "中国科学技术大学《有机化学B》（课号 019047）结构化题库，收录 2021–2022 秋期中试卷、四次阶段小测、10.24 习题课小测及有机化学B 第一/二/三次小测答案共 10 份材料 193 题，覆盖 24 个二级知识点，其中 131 题附原卷参考解答（origin=official）、62 题由模型独立求解。",
+  "stats": {
+    "total": 193,
+    "quarantined": 0,
+    "taxonomy_nodes": 31,
+    "by_origin": {
+      "official": 131,
+      "community": 0,
+      "ai": 62
+    },
+    "by_type": {
+      "blank": 19,
+      "multi": 1,
+      "single": 106,
+      "solve": 67
+    },
+    "by_difficulty": {
+      "1": 4,
+      "2": 23,
+      "3": 90,
+      "4": 36,
+      "5": 40
+    },
+    "exam_years": [
+      2021,
+      2022
+    ]
+  },
+  "batches": [
+    {
+      "id": "ocb_paper",
+      "count": 25,
+      "rights": "third_party_exam",
+      "description": "2021 年秋有机化学(B)第一次小测试卷（25 题）"
+    },
+    {
+      "id": "ocb_solved",
+      "count": 101,
+      "rights": "third_party_exam",
+      "description": "2021–2022 年秋有机化学(B)期中试卷与第二/三/四次小测试卷及答案（101 题）"
+    },
+    {
+      "id": "ocb_answer",
+      "count": 52,
+      "rights": "third_party_exam",
+      "description": "有机化学(B)第一/二/三次小测参考答案（52 题）"
+    },
+    {
+      "id": "ocb_drill",
+      "count": 15,
+      "rights": "third_party_notes",
+      "description": "10.24 有机化学(B)习题课小测 1（15 题）"
+    }
+  ],
+  "known_notes": [
+    "2021 秋第二/三/四次小测答案、2021/2022 秋期中试卷答案及有机化学B 第一/二/三次小测答案等共 131 题标记为 origin=official；无答案小测及卷面未附详答条目共 62 题由模型推导（origin=ai）。",
+    "已修复原归档 ZIP 文件名乱码（`10.24 习题课-小测 1`），全库零隔离题（quarantined=0）。"
+  ],
+  "files": {
+    "questions": "courses/019047/questions.jsonl",
+    "taxonomy": "courses/019047/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "3dac60f05896d1f2aecb85bc506877f16a0379ffc0639efd0390f662332bbba8",
+    "taxonomy": "48592dca178b6982a31073111ab4112c7fc34aecab9707c373196148e300af37"
+  }
+}

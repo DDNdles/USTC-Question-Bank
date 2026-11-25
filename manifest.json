@@ -1,8 +1,8 @@
 {
   "name": "USTC-Question-Bank",
   "schema_version": "1.0",
-  "data_version": "0.16.0",
-  "updated_at": "2026-11-24",
+  "data_version": "0.17.0",
+  "updated_at": "2026-11-25",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
   "asset_base_url": null,
   "feedback_endpoint": "https://dsh-study-feedback-relay.ddndles.workers.dev/",
@@ -11,13 +11,13 @@
     "question_content": "Third-party rights retained by original authors and publishers; see NOTICE.md"
   },
   "stats": {
-    "courses": 43,
-    "questions": 15945,
-    "quarantined": 114,
+    "courses": 47,
+    "questions": 18512,
+    "quarantined": 357,
     "by_origin": {
-      "official": 10414,
+      "official": 11595,
       "community": 1603,
-      "ai": 3928
+      "ai": 5314
     }
   },
   "courses": [
@@ -1364,14 +1364,14 @@
         2022
       ],
       "paths": {
-        "meta": "courses/MARX1014/meta.json",
+        "questions": "courses/MARX1014/questions.jsonl",
         "taxonomy": "courses/MARX1014/taxonomy.json",
-        "questions": "courses/MARX1014/questions.jsonl"
+        "meta": "courses/MARX1014/meta.json"
       },
       "sha256": {
-        "meta": "3afd91529f90e6de25bf6af6e9206d0cf1c4c4e60b947f088164e5f24516ef20",
+        "questions": "2de4f1999da84d3b255c5867bbf3aa9ad1c9ec686ce2bdb7b6113eabe6522357",
         "taxonomy": "ce9c284dbefbddc5de6ed7ee3ea3d0a41f81e4951fc93dc4ea90a3e949c13553",
-        "questions": "2de4f1999da84d3b255c5867bbf3aa9ad1c9ec686ce2bdb7b6113eabe6522357"
+        "meta": "3afd91529f90e6de25bf6af6e9206d0cf1c4c4e60b947f088164e5f24516ef20"
       }
     },
     {
@@ -1389,14 +1389,139 @@
       },
       "exam_years": [],
       "paths": {
-        "meta": "courses/009501/meta.json",
+        "questions": "courses/009501/questions.jsonl",
         "taxonomy": "courses/009501/taxonomy.json",
-        "questions": "courses/009501/questions.jsonl"
+        "meta": "courses/009501/meta.json"
       },
       "sha256": {
-        "meta": "173bbd080ed837532c96d5763abe20fbb6609b38fcf2a0cdf42c64159ad25f72",
+        "questions": "a0c4f2034429393f1204f7beca8401447327499651550b7657ae022bb13a7d4c",
         "taxonomy": "703437c399ba98a2b947d8e5dd0f68b67807ea99202978179b792357b78273bb",
-        "questions": "a0c4f2034429393f1204f7beca8401447327499651550b7657ae022bb13a7d4c"
+        "meta": "173bbd080ed837532c96d5763abe20fbb6609b38fcf2a0cdf42c64159ad25f72"
+      }
+    },
+    {
+      "code": "PHYS1010",
+      "name": "量子物理",
+      "name_en": "Quantum Physics",
+      "department": "物理学院",
+      "category": "common",
+      "total": 716,
+      "quarantined": 5,
+      "by_origin": {
+        "official": 414,
+        "community": 0,
+        "ai": 302
+      },
+      "exam_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/PHYS1010/meta.json",
+        "taxonomy": "courses/PHYS1010/taxonomy.json",
+        "questions": "courses/PHYS1010/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "48dcb9a48304983d84fcf9b4d0baed62ccdb53d4dfdee8cdf41bfac84ded1e16",
+        "taxonomy": "30f60a2283695bd8fbd0406b53127fdd6a4c8d4f8f67c7a84ffc012df924fc27",
+        "questions": "b650419b063d03f5b82126223e5c957dad5c1238e1f9013ccfa14c5f04263704"
+      }
+    },
+    {
+      "code": "019011",
+      "name": "有机化学A1",
+      "name_en": "Organic Chemistry (A1)",
+      "department": "化学与材料科学学院",
+      "category": "common",
+      "total": 1559,
+      "quarantined": 223,
+      "by_origin": {
+        "official": 585,
+        "community": 0,
+        "ai": 974
+      },
+      "exam_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "paths": {
+        "meta": "courses/019011/meta.json",
+        "taxonomy": "courses/019011/taxonomy.json",
+        "questions": "courses/019011/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "b05dfbe2da685b8b9bacbd3842af6517c62f79ee7bebf14914fc7430028a7a7a",
+        "taxonomy": "0dadf63d5ed2f1e1f1d999558e16d09f30f79aa435199dd2f6f3ac5b23c6fbef",
+        "questions": "a63363d8856b48af47e009746ee4855095344ad33cb6d588632fd93d3bc96482"
+      }
+    },
+    {
+      "code": "019012",
+      "name": "有机化学A2",
+      "name_en": "Organic Chemistry (A2)",
+      "department": "化学与材料科学学院",
+      "category": "common",
+      "total": 99,
+      "quarantined": 15,
+      "by_origin": {
+        "official": 51,
+        "community": 0,
+        "ai": 48
+      },
+      "exam_years": [
+        2016,
+        2017,
+        2019
+      ],
+      "paths": {
+        "meta": "courses/019012/meta.json",
+        "taxonomy": "courses/019012/taxonomy.json",
+        "questions": "courses/019012/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "d9a2ca6565f6ae913527f61c0120a60c2978b8b327f26924976faf1e6a478463",
+        "taxonomy": "1beb230b7c03e9c464fcad004a8728b20f37d938b9fcf8b7f9ace53a169b31f9",
+        "questions": "33edb9849e1c3ce786b50be3eb4655829e9e13fb6f74a1fc5b8eeab8c5e0bd50"
+      }
+    },
+    {
+      "code": "019047",
+      "name": "有机化学B",
+      "name_en": "Organic Chemistry (B)",
+      "department": "化学与材料科学学院",
+      "category": "common",
+      "total": 193,
+      "quarantined": 0,
+      "by_origin": {
+        "official": 131,
+        "community": 0,
+        "ai": 62
+      },
+      "exam_years": [
+        2021,
+        2022
+      ],
+      "paths": {
+        "meta": "courses/019047/meta.json",
+        "taxonomy": "courses/019047/taxonomy.json",
+        "questions": "courses/019047/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "e6ebefe30affbdcbe196c242774c807a49492560754b692163f7860301252e15",
+        "taxonomy": "48592dca178b6982a31073111ab4112c7fc34aecab9707c373196148e300af37",
+        "questions": "3dac60f05896d1f2aecb85bc506877f16a0379ffc0639efd0390f662332bbba8"
       }
     }
   ]
