@@ -17,8 +17,8 @@
     },
     "by_type": {
       "blank": 299,
-      "multi": 49,
-      "single": 868,
+      "multi": 41,
+      "single": 876,
       "solve": 317
     },
     "by_difficulty": {
@@ -74,7 +74,7 @@
     "taxonomy": "courses/CS1003/taxonomy.json"
   },
   "sha256": {
-    "questions": "df7d2085da46dab6f88ed301da422b5dde47bf8a1970123cfe76398bbe3bae68",
+    "questions": "6dd15d8a7fb4f1e4f38a1b687d38c8eebecfeab56f695028b88188a0284d1c3f",
     "taxonomy": "46fa2b6f45eaacfac22a15a73debdc51f2dca04a5202afc6c1c8adc16858c663"
   }
 }

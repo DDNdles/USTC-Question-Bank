@@ -17,7 +17,8 @@
     },
     "by_type": {
       "blank": 119,
-      "single": 118,
+      "multi": 2,
+      "single": 116,
       "solve": 194
     },
     "by_difficulty": {
@@ -70,7 +71,7 @@
     "taxonomy": "courses/STAT2002/taxonomy.json"
   },
   "sha256": {
-    "questions": "e5b051009c4a46e02bdf619fa6e82bffc77876462a600aff041124cf4b189166",
+    "questions": "bb65f9f18b49087918cadac5837be7bc0d29a9b4d9c2bca3b3489ec2ede6b938",
     "taxonomy": "667d86c6930d39052c519697d4dbf924e5b9456d4565b45c61ca6fbfebbcfe44"
   }
 }

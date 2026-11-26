@@ -17,9 +17,9 @@
     },
     "by_type": {
       "blank": 19,
-      "multi": 2,
+      "multi": 6,
       "proof": 12,
-      "single": 12,
+      "single": 8,
       "solve": 334
     },
     "by_difficulty": {
@@ -85,7 +85,7 @@
     "taxonomy": "courses/PHYS1001B/taxonomy.json"
   },
   "sha256": {
-    "questions": "07ca9932aa4c0278f297df4e0af1753e4a865f34c86f0382e3f905a1fdac22e8",
+    "questions": "236023079b652e41af7c27ed48c359f44c02bb0164de25a74f2662bae00d435b",
     "taxonomy": "15eed523d72c7a377f71cdc1b5059cb2c63c768ff72343971d4ff5feb214d5ca"
   }
 }

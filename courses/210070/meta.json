@@ -11,12 +11,13 @@
     "quarantined": 0,
     "taxonomy_nodes": 46,
     "by_origin": {
-      "official": 71,
-      "community": 145,
-      "ai": 131
+      "official": 70,
+      "community": 142,
+      "ai": 135
     },
     "by_type": {
-      "blank": 52,
+      "blank": 51,
+      "multi": 1,
       "proof": 1,
       "single": 152,
       "solve": 142
@@ -60,7 +61,7 @@
     "taxonomy": "courses/210070/taxonomy.json"
   },
   "sha256": {
-    "questions": "5cd9236937d16bc9005c63a465504c5b270b3ff881607da9c8de07c8536e0875",
+    "questions": "672280915f4f50c3eabe16b5ed4730cdceb72e47ace63377c6e140ef431b14ca",
     "taxonomy": "5d92b032f29625b74fc8a9dda1caaf389906e180c742a7f7f8d33f5d46c3be70"
   }
 }

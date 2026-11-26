@@ -18,8 +18,8 @@
     "by_type": {
       "blank": 19,
       "multi": 1,
-      "single": 106,
-      "solve": 67
+      "single": 101,
+      "solve": 72
     },
     "by_difficulty": {
       "1": 4,
@@ -68,7 +68,7 @@
     "taxonomy": "courses/019047/taxonomy.json"
   },
   "sha256": {
-    "questions": "3dac60f05896d1f2aecb85bc506877f16a0379ffc0639efd0390f662332bbba8",
+    "questions": "527514ab697502ad1bc584b015cad5eb849214de23eb82522308590519e299d5",
     "taxonomy": "48592dca178b6982a31073111ab4112c7fc34aecab9707c373196148e300af37"
   }
 }

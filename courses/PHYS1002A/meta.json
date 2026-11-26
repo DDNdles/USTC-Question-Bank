@@ -17,9 +17,9 @@
     },
     "by_type": {
       "blank": 45,
-      "multi": 2,
+      "multi": 9,
       "proof": 22,
-      "single": 91,
+      "single": 84,
       "solve": 192
     },
     "by_difficulty": {
@@ -74,7 +74,7 @@
     "taxonomy": "courses/PHYS1002A/taxonomy.json"
   },
   "sha256": {
-    "questions": "af490f13a5b159b18d4f457a90590999452f1cc794bf60911bb16238f1468472",
+    "questions": "6893edb2f663aab8c510a613e8206a8c602a26e95eb620e604f3cc350a180a23",
     "taxonomy": "ca7a25046ae104c333b10a82b6d4e55e409ce1330f0cbcd318dfc7d6d282fbbe"
   }
 }

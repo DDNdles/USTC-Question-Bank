@@ -17,8 +17,9 @@
     },
     "by_type": {
       "blank": 41,
+      "multi": 2,
       "proof": 6,
-      "single": 43,
+      "single": 41,
       "solve": 138
     },
     "by_difficulty": {
@@ -67,7 +68,7 @@
     "taxonomy": "courses/PHYS1003A/taxonomy.json"
   },
   "sha256": {
-    "questions": "29f4539ce4416d29286b5c186ab28a18a75a2d4cafec838bfcb4c09049ef1fc6",
+    "questions": "259d911f4ba96dae90e67cc53215638c4fa266ac42b58e6cc7b335a748e87c79",
     "taxonomy": "8b371542d876f31cff3a824d8ceab0e5d2d1a855bf4e337d6eaf37771e5bebc6"
   }
 }
