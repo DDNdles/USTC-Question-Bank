@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "course_code": "210045",
+  "nodes": [
+    {
+      "id": "ckt.basic",
+      "parent_id": null,
+      "level": 1,
+      "name": "基本概念与定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.basic.vars",
+      "parent_id": "ckt.basic",
+      "level": 2,
+      "name": "电压电流与功率",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.basic.kcl",
+      "parent_id": "ckt.basic",
+      "level": 2,
+      "name": "基尔霍夫定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.basic.elements",
+      "parent_id": "ckt.basic",
+      "level": 2,
+      "name": "电阻电容电感与电源",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.basic.models",
+      "parent_id": "ckt.basic",
+      "level": 2,
+      "name": "受控源与等效变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.resistive",
+      "parent_id": null,
+      "level": 1,
+      "name": "电阻电路分析",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.resistive.nodal",
+      "parent_id": "ckt.resistive",
+      "level": 2,
+      "name": "节点电压法",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.resistive.mesh",
+      "parent_id": "ckt.resistive",
+      "level": 2,
+      "name": "网孔与回路电流法",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.resistive.superpos",
+      "parent_id": "ckt.resistive",
+      "level": 2,
+      "name": "叠加定理与齐性定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.resistive.thevenin",
+      "parent_id": "ckt.resistive",
+      "level": 2,
+      "name": "戴维南与诺顿定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.resistive.maxpower",
+      "parent_id": "ckt.resistive",
+      "level": 2,
+      "name": "最大功率传输",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.resistive.twoport_res",
+      "parent_id": "ckt.resistive",
+      "level": 2,
+      "name": "含受控源电路",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.dynamic",
+      "parent_id": null,
+      "level": 1,
+      "name": "动态电路",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.dynamic.firstorder",
+      "parent_id": "ckt.dynamic",
+      "level": 2,
+      "name": "一阶电路与三要素法",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.dynamic.secondorder",
+      "parent_id": "ckt.dynamic",
+      "level": 2,
+      "name": "二阶电路",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.dynamic.laplace",
+      "parent_id": "ckt.dynamic",
+      "level": 2,
+      "name": "拉普拉斯变换分析法",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.dynamic.switching",
+      "parent_id": "ckt.dynamic",
+      "level": 2,
+      "name": "换路与初始条件",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.sinusoid",
+      "parent_id": null,
+      "level": 1,
+      "name": "正弦稳态",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.sinusoid.phasor",
+      "parent_id": "ckt.sinusoid",
+      "level": 2,
+      "name": "相量与阻抗导纳",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.sinusoid.power",
+      "parent_id": "ckt.sinusoid",
+      "level": 2,
+      "name": "有功无功与功率因数",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.sinusoid.resonance",
+      "parent_id": "ckt.sinusoid",
+      "level": 2,
+      "name": "频率响应与谐振",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.sinusoid.mutual",
+      "parent_id": "ckt.sinusoid",
+      "level": 2,
+      "name": "互感与变压器",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.sinusoid.threephase",
+      "parent_id": "ckt.sinusoid",
+      "level": 2,
+      "name": "三相电路",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.network",
+      "parent_id": null,
+      "level": 1,
+      "name": "网络与拓展",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.network.twoport",
+      "parent_id": "ckt.network",
+      "level": 2,
+      "name": "二端口网络参数",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.network.graph",
+      "parent_id": "ckt.network",
+      "level": 2,
+      "name": "网络图论初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "ckt.network.nonlinear",
+      "parent_id": "ckt.network",
+      "level": 2,
+      "name": "非线性电阻电路",
+      "chapter_ref": null
+    }
+  ]
+}

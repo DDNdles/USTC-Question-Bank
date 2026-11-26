@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH2004",
+  "nodes": [
+    {
+      "id": "agb.sets",
+      "parent_id": null,
+      "level": 1,
+      "name": "集合与映射",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.sets.equiv",
+      "parent_id": "agb.sets",
+      "level": 2,
+      "name": "等价关系与商集",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.sets.map",
+      "parent_id": "agb.sets",
+      "level": 2,
+      "name": "映射与基数",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.sets.perm",
+      "parent_id": "agb.sets",
+      "level": 2,
+      "name": "置换与置换群",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.groups",
+      "parent_id": null,
+      "level": 1,
+      "name": "群",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.groups.def",
+      "parent_id": "agb.groups",
+      "level": 2,
+      "name": "群的定义与例子",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.groups.subgroup",
+      "parent_id": "agb.groups",
+      "level": 2,
+      "name": "子群与陪集",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.groups.cyclic",
+      "parent_id": "agb.groups",
+      "level": 2,
+      "name": "循环群与生成元",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.groups.hom",
+      "parent_id": "agb.groups",
+      "level": 2,
+      "name": "群同态与同构",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.groups.normal",
+      "parent_id": "agb.groups",
+      "level": 2,
+      "name": "正规子群与商群",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.groups.action",
+      "parent_id": "agb.groups",
+      "level": 2,
+      "name": "群作用与轨道",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.rings",
+      "parent_id": null,
+      "level": 1,
+      "name": "环",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.rings.rdef",
+      "parent_id": "agb.rings",
+      "level": 2,
+      "name": "环与子环",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.rings.ideal",
+      "parent_id": "agb.rings",
+      "level": 2,
+      "name": "理想与商环",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.rings.rhom",
+      "parent_id": "agb.rings",
+      "level": 2,
+      "name": "环同态",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.rings.domain",
+      "parent_id": "agb.rings",
+      "level": 2,
+      "name": "整环与分式域",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.rings.poly",
+      "parent_id": "agb.rings",
+      "level": 2,
+      "name": "多项式环",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.rings.factor",
+      "parent_id": "agb.rings",
+      "level": 2,
+      "name": "因式分解与唯一分解整环",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.fields",
+      "parent_id": null,
+      "level": 1,
+      "name": "域",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.fields.fdef",
+      "parent_id": "agb.fields",
+      "level": 2,
+      "name": "域与特征",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.fields.ext",
+      "parent_id": "agb.fields",
+      "level": 2,
+      "name": "域扩张",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.fields.finite",
+      "parent_id": "agb.fields",
+      "level": 2,
+      "name": "有限域",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.app",
+      "parent_id": null,
+      "level": 1,
+      "name": "应用与综合",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.app.count",
+      "parent_id": "agb.app",
+      "level": 2,
+      "name": "计数与 Burnside 引理",
+      "chapter_ref": null
+    },
+    {
+      "id": "agb.app.crypto",
+      "parent_id": "agb.app",
+      "level": 2,
+      "name": "同余与模运算",
+      "chapter_ref": null
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH2004",
+  "name": "代数学基础",
+  "name_en": "Foundations of Algebra",
+  "department": "数学科学学院",
+  "category": "professional",
+  "description": "中国科学技术大学《代数学基础》（课号 MATH2004）结构化题库，收录 2021–2025 年10 套期中/期末真题、2 套期中模拟及《代数学基础往年题精选》（共 13 份材料 241 题），覆盖 19 个二级知识点，其中 64 题附原卷参考解答（origin=official）、177 题由模型独立推导与证明。",
+  "stats": {
+    "total": 241,
+    "quarantined": 6,
+    "taxonomy_nodes": 25,
+    "by_origin": {
+      "official": 64,
+      "community": 0,
+      "ai": 177
+    },
+    "by_type": {
+      "blank": 6,
+      "proof": 115,
+      "solve": 120
+    },
+    "by_difficulty": {
+      "1": 2,
+      "2": 43,
+      "3": 113,
+      "4": 74,
+      "5": 9
+    },
+    "exam_years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "algbase_exams",
+      "count": 241,
+      "rights": "third_party_exam",
+      "description": "2021–2025 年代数学基础期中/期末真题、模拟卷与往年题精选（13 份，241 题）"
+    }
+  ],
+  "known_notes": [
+    "2023 期末（18 题）、2024 期中（13 题）、2025 期末（17 题）及《期中模拟》（16 题）共 64 题附原卷参考解答（origin=official）；其余无标答期中/期末真题、模拟题与《往年题精选》共 177 题由模型独立求解（origin=ai）。",
+    "全库共 6 道低置信度题（含原卷设问疑残缺、函数积约定歧义或同题号笔误）标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+  ],
+  "files": {
+    "questions": "courses/MATH2004/questions.jsonl",
+    "taxonomy": "courses/MATH2004/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "642f10cfacf84306d8bfd3b8627cad5deaf0f12c045231c116b713874a0a29a1",
+    "taxonomy": "38068dc3fac82696081a2808016d6f3d1e3f9c543ae1a88613ca9ef31e37257d"
+  }
+}

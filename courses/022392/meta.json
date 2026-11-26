@@ -5,28 +5,28 @@
   "name_en": "Theoretical Mechanics (A)",
   "department": "物理学院",
   "category": "professional",
-  "description": "中国科学技术大学《理论力学A》（课号 022392）结构化题库，收录 2016–2026 学年18 份期中/期末真题及参考解答（含潘海俊班期中期末试卷）共 245 题，覆盖 30 个二级知识点，其中 76 题附原卷参考解答（origin=official）、169 题由模型独立推导并配分步解析。",
+  "description": "中国科学技术大学《理论力学A》（课号 022392）结构化题库，收录 2016–2026 学年23 份期中/期末真题及参考解答（含潘海俊班期中期末试卷及 2018–2021 补充卷）共 293 题，覆盖 30 个二级知识点，其中 83 题附原卷参考解答（origin=official）、210 题由模型独立推导并配分步解析。",
   "stats": {
-    "total": 245,
-    "quarantined": 42,
+    "total": 293,
+    "quarantined": 45,
     "taxonomy_nodes": 38,
     "by_origin": {
-      "official": 76,
+      "official": 83,
       "community": 0,
-      "ai": 169
+      "ai": 210
     },
     "by_type": {
       "blank": 5,
       "multi": 5,
-      "proof": 28,
-      "single": 11,
-      "solve": 196
+      "proof": 34,
+      "single": 17,
+      "solve": 232
     },
     "by_difficulty": {
-      "1": 0,
-      "2": 21,
-      "3": 71,
-      "4": 98,
+      "1": 3,
+      "2": 27,
+      "3": 93,
+      "4": 115,
       "5": 55
     },
     "exam_years": [
@@ -45,22 +45,22 @@
   "batches": [
     {
       "id": "tma_exams",
-      "count": 245,
+      "count": 293,
       "rights": "third_party_exam",
-      "description": "2016–2026 学年理论力学A 18 份期中/期末真题（含潘海俊班试卷，245 题）"
+      "description": "2016–2026 学年理论力学A 23 份期中/期末真题（含潘海俊班试卷及 2018–2021 补充卷，293 题）"
     }
   ],
   "known_notes": [
-    "2016 秋、2018、2022 春及 2025 期末，以及 2019–2021 期中/2020 期中共 76 题附原卷参考答案，标记为 origin=official；其余无标答期中/期末真题共 169 题由模型独立求解（origin=ai）。",
-    "2021 秋（潘海俊）期中与期末合卷已按 `第期中.` / `第期末.` 拆分为期中与期末独立试题序列。",
-    "全库共 42 道依赖原卷附图尺寸、扫描模糊或条件约定存在歧义的题目标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+    "2016 秋、2018、2022 春及 2025 期末，以及 2019–2021 期中/2020 期中与 2021 期中一（mid1）共 83 题附原卷参考答案，标记为 origin=official；其余无标答期中/期末真题共 210 题由模型独立求解（origin=ai）。",
+    "2021 秋（潘海俊）期中与期末合卷已按 `第期中.` / `第期末.` 拆分为期中与期末独立试题序列；同源重复的 mid2 2021、2019 期末重录卷及 2020 期末重题已去重。",
+    "全库共 45 道依赖原卷附图尺寸、扫描模糊或条件约定存在歧义的题目标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
   ],
   "files": {
     "questions": "courses/022392/questions.jsonl",
     "taxonomy": "courses/022392/taxonomy.json"
   },
   "sha256": {
-    "questions": "14bf6484631a0b620bc0c938ecdb3020c64679c5c308a48b1f77bfcf38dfbc6b",
+    "questions": "ac964c53df8b74651a57395704b8bf09f61c5ccc820893b0daa2b9acdf313176",
     "taxonomy": "1a835ed4247da7ee3e20d229d4a8435023bfd362c8a48633bac83705fbdccf10"
   }
 }

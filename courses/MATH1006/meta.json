@@ -5,27 +5,35 @@
   "name_en": "Mathematical Analysis (B1)",
   "department": "数学科学学院",
   "category": "common",
-  "description": "中国科学技术大学《数学分析(B1)》（课号 MATH1006）结构化题库，收录 2016–2025 年期中/期末/小测真题，以及程艺、陈卿、李平《数学分析讲义》第一册第 1–7 章课后习题及社区非官方详解。",
+  "description": "中国科学技术大学《数学分析(B1)》（课号 MATH1006）结构化题库，收录 2011–2026 年期中/期末/小测 25 套真题（含 2011–2015 单变量微积分卷与 2026 秋期中），以及程艺、陈卿、李平《数学分析讲义》第一册第 1–7 章课后习题及社区非官方详解。",
   "stats": {
-    "total": 445,
+    "total": 554,
     "quarantined": 0,
     "taxonomy_nodes": 31,
     "by_origin": {
-      "official": 133,
+      "official": 149,
       "community": 300,
-      "ai": 12
+      "ai": 105
     },
     "by_type": {
-      "solve": 445
+      "blank": 4,
+      "proof": 20,
+      "single": 12,
+      "solve": 518
     },
     "by_difficulty": {
       "1": 36,
-      "2": 134,
-      "3": 179,
-      "4": 74,
-      "5": 22
+      "2": 147,
+      "3": 229,
+      "4": 116,
+      "5": 26
     },
     "exam_years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
       2016,
       2017,
       2018,
@@ -35,15 +43,16 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ]
   },
   "batches": [
     {
       "id": "ma1_exams",
-      "count": 145,
+      "count": 254,
       "rights": "third_party_exam",
-      "description": "2016 小测与 2017–2025 学年期中/期末 18 套真题"
+      "description": "2011–2026 年小测与期中/期末 25 套真题（含 2011–2015 单变量微积分卷与 2026 秋期中）"
     },
     {
       "id": "ma1_textbook",
@@ -56,15 +65,15 @@
     "教材 300 题详解源自非官方仓库 DongYaoZe/math-analysis-lectures-solutions-USTC，标记为 origin=community；复核发现的原解错误（如 4.2.2(1)、6.1.4(5)）已修正并记入 quality.note。",
     "2021-2022 期中第 6 题、2024-2025 期中第 5 题及 2017-2018 期中第 6 题原卷参考答案存在局部错误或疑点，已在 quality.note 注明。",
     "2019-2020 期末第 3 题原扫描件缺页，按评分者手绘区域与答案重建，已在 quality.note 标注。",
-    "2016 小测仅有卷面，12 题解答由模型独立求解，标记为 origin=ai。",
-    "2020 秋期中在公开资料库中与 2019 期中文件 md5 相同，故未重复收录。"
+    "2016 小测（12 题）与 2011–2015 年无答案期中/期末卷（93 题）由模型独立求解，标记为 origin=ai；2026 秋期中（16 题）附官方参考答案（origin=official）。",
+    "2020 秋期中与 2019 期中文件 md5 相同，以及 2020/2024 秋重复归档期末卷均已去重，未重复收录。"
   ],
   "files": {
     "questions": "courses/MATH1006/questions.jsonl",
     "taxonomy": "courses/MATH1006/taxonomy.json"
   },
   "sha256": {
-    "questions": "d76b768a356d2519d8c4ebee3a88a9af01ad7836220bb4e8373ba0b4a958385d",
+    "questions": "6091337f27b863fa1cdbd596b4777c96face7bb1bf0317ade80da6c4920057c8",
     "taxonomy": "d226ca22ebfabb06ced10e4304e8f85a1f00d94bfea10da6e7a16c8878ab56a4"
   }
 }

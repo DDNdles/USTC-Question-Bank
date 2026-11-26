@@ -82,10 +82,14 @@ class TestQuestionBank(unittest.TestCase):
                 "017129",
                 "001101",
                 "001122",
+                "MATH2004",
+                "011103",
+                "210045",
+                "MATH2003",
             ],
         )
         self.assertEqual(len(self.bank["001548"]), 571)
-        self.assertEqual(len(self.bank["MATH1006"]), 445)
+        self.assertEqual(len(self.bank["MATH1006"]), 554)
         self.assertEqual(len(self.bank["MATH1007"]), 569)
         self.assertEqual(len(self.bank["MATH1009"]), 885)
         self.assertEqual(len(self.bank["CS1003"]), 1533)
@@ -131,7 +135,7 @@ class TestQuestionBank(unittest.TestCase):
         self.assertEqual(len(self.bank["019011"]), 1559)
         self.assertEqual(len(self.bank["019012"]), 99)
         self.assertEqual(len(self.bank["019047"]), 193)
-        self.assertEqual(len(self.bank["022392"]), 245)
+        self.assertEqual(len(self.bank["022392"]), 293)
         self.assertEqual(len(self.bank["022057"]), 198)
         self.assertEqual(len(self.bank["001506"]), 182)
         self.assertEqual(len(self.bank["001505"]), 173)
@@ -139,12 +143,16 @@ class TestQuestionBank(unittest.TestCase):
         self.assertEqual(len(self.bank["MATH3002"]), 239)
         self.assertEqual(len(self.bank["MATH3007"]), 241)
         self.assertEqual(len(self.bank["MATH3001"]), 255)
-        self.assertEqual(len(self.bank["017063"]), 73)
-        self.assertEqual(len(self.bank["017129"]), 161)
+        self.assertEqual(len(self.bank["017063"]), 84)
+        self.assertEqual(len(self.bank["017129"]), 204)
         self.assertEqual(len(self.bank["001101"]), 141)
         self.assertEqual(len(self.bank["001122"]), 103)
-        self.assertEqual(len(self.bank.all_questions()), 20828)
-        self.assertEqual(len(self.bank.all_questions(exclude_quarantined=True)), 20606)
+        self.assertEqual(len(self.bank["MATH2004"]), 241)
+        self.assertEqual(len(self.bank["011103"]), 120)
+        self.assertEqual(len(self.bank["210045"]), 140)
+        self.assertEqual(len(self.bank["MATH2003"]), 67)
+        self.assertEqual(len(self.bank.all_questions()), 21607)
+        self.assertEqual(len(self.bank.all_questions(exclude_quarantined=True)), 21343)
 
     def test_lookup_by_id(self) -> None:
         q = self.bank.get("MATH1006-tb-1.1.1")
@@ -410,6 +418,10 @@ class TestQuestionBank(unittest.TestCase):
             ("017129-exam-2011-m-01", "017129", "ai", 2011),
             ("001101-exam-2016-m-01", "001101", "ai", 2016),
             ("001122-exam-2020-f-01", "001122", "ai", 2020),
+            ("MATH2004-exam-2025-f-01", "MATH2004", "official", 2025),
+            ("011103-exam-2026s-f-01", "011103", "ai", 2026),
+            ("210045-exam-2025s-f-01", "210045", "official", 2025),
+            ("MATH2003-exam-2024-m-01", "MATH2003", "official", 2024),
         ]:
             qn = self.bank.get(qid)
             self.assertEqual(qn.course_code, code)
@@ -501,7 +513,7 @@ class TestQuestionBank(unittest.TestCase):
             conn = sqlite3.connect(db_path)
             try:
                 count = conn.execute("SELECT COUNT(*) FROM questions").fetchone()[0]
-                self.assertEqual(count, 20828)
+                self.assertEqual(count, 21607)
                 hits = conn.execute(
                     "SELECT id FROM questions_fts WHERE questions_fts MATCH 'Laurent' LIMIT 5"
                 ).fetchall()

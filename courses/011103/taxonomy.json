@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "course_code": "011103",
+  "nodes": [
+    {
+      "id": "ast.prep",
+      "parent_id": null,
+      "level": 1,
+      "name": "预备知识",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.prep.set",
+      "parent_id": "ast.prep",
+      "level": 2,
+      "name": "集合映射与关系",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.prep.int",
+      "parent_id": "ast.prep",
+      "level": 2,
+      "name": "整数与同余",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.prep.matrix",
+      "parent_id": "ast.prep",
+      "level": 2,
+      "name": "矩阵与线性变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.groups",
+      "parent_id": null,
+      "level": 1,
+      "name": "群",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.groups.gdef",
+      "parent_id": "ast.groups",
+      "level": 2,
+      "name": "群的定义与例子",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.groups.sub",
+      "parent_id": "ast.groups",
+      "level": 2,
+      "name": "子群与陪集",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.groups.cyclic",
+      "parent_id": "ast.groups",
+      "level": 2,
+      "name": "循环群",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.groups.perm",
+      "parent_id": "ast.groups",
+      "level": 2,
+      "name": "置换群",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.groups.normal",
+      "parent_id": "ast.groups",
+      "level": 2,
+      "name": "正规子群与商群",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.groups.hom",
+      "parent_id": "ast.groups",
+      "level": 2,
+      "name": "同态基本定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.rings",
+      "parent_id": null,
+      "level": 1,
+      "name": "环与域",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.rings.rdef",
+      "parent_id": "ast.rings",
+      "level": 2,
+      "name": "环与子环",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.rings.ideal",
+      "parent_id": "ast.rings",
+      "level": 2,
+      "name": "理想与商环",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.rings.poly",
+      "parent_id": "ast.rings",
+      "level": 2,
+      "name": "多项式环",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.rings.field",
+      "parent_id": "ast.rings",
+      "level": 2,
+      "name": "域与有限域",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.lattice",
+      "parent_id": null,
+      "level": 1,
+      "name": "格与布尔代数",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.lattice.ldef",
+      "parent_id": "ast.lattice",
+      "level": 2,
+      "name": "偏序集与格",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.lattice.dist",
+      "parent_id": "ast.lattice",
+      "level": 2,
+      "name": "分配格与有补格",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.lattice.bool",
+      "parent_id": "ast.lattice",
+      "level": 2,
+      "name": "布尔代数与布尔函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.lattice.min",
+      "parent_id": "ast.lattice",
+      "level": 2,
+      "name": "布尔表达式化简",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.app",
+      "parent_id": null,
+      "level": 1,
+      "name": "应用",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.app.code",
+      "parent_id": "ast.app",
+      "level": 2,
+      "name": "编码与纠错初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "ast.app.count",
+      "parent_id": "ast.app",
+      "level": 2,
+      "name": "计数与群作用",
+      "chapter_ref": null
+    }
+  ]
+}

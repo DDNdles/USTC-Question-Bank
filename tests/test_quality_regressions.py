@@ -18,7 +18,7 @@ class TestQualityRegressions(unittest.TestCase):
         cls.bank = QuestionBank(ROOT)
 
     def test_version_and_no_control_chars(self) -> None:
-        self.assertEqual(self.bank.manifest["data_version"], "0.20.0")
+        self.assertEqual(self.bank.manifest["data_version"], "0.21.0")
         for q in self.bank.all_questions():
             texts = [q.stem_md, q.answer_md, q.solution_md, q.note or "", *q.solution_steps]
             texts.extend(opt.md for opt in q.options)
@@ -94,14 +94,15 @@ class TestQualityRegressions(unittest.TestCase):
         self.assertEqual(self.bank.get("PHYS1005A-exam-2026-f-03").answer_md, "B")
 
     def test_new12_courses_quality_invariants(self) -> None:
-        new12_codes = [
+        new_codes = [
             "022392", "022057", "001506", "001505", "MATH3008", "MATH3002",
             "MATH3007", "MATH3001", "017063", "017129", "001101", "001122",
+            "MATH2004", "011103", "210045", "MATH2003",
         ]
         leak_re = re.compile(
-            r"原件|子代理|题解代理|\b(?:tma|ed|mpea|cva|cplx|real|prob|alg|stat|stoc|ode|pde)_[0-9a-f]{6,}\b"
+            r"原件|子代理|题解代理|intake-|work/|白名单|\bOCR\b|\b(?:048|049|03|19|20)_[A-Za-z0-9_\u4e00-\u9fff]+|\b(?:tma|ed|mpea|cva|cplx|real|prob|alg|stat|stoc|ode|pde)_[0-9a-f]{6,}\b"
         )
-        for code in new12_codes:
+        for code in new_codes:
             for q in self.bank[code]:
                 for txt in (q.stem_md, q.answer_md, q.solution_md, q.note or ""):
                     self.assertIsNone(leak_re.search(txt), f"Internal leak in {q.id}: {txt!r}")
@@ -110,3 +111,6 @@ class TestQualityRegressions(unittest.TestCase):
         self.assertEqual(self.bank.get("022057-tb-01").answer_origin, "community")
         self.assertEqual(self.bank.get("001101-hw1-01").source_kind, "notes")
         self.assertEqual(self.bank.get("001122-hw1-01").source_kind, "notes")
+        self.assertEqual(self.bank.get("011103-exam-2021s-f-01").source_year, 2021)
+        self.assertEqual(self.bank.get("210045-exam-2025s-f-01").source_term, "2024-2025-2")
+        self.assertEqual(self.bank.get("MATH1006-exam-2026m-01").answer_origin, "official")

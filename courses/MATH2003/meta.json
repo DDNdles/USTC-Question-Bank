@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH2003",
+  "name": "几何学基础",
+  "name_en": "Foundations of Geometry",
+  "department": "数学科学学院",
+  "category": "professional",
+  "description": "中国科学技术大学《几何学基础》（课号 MATH2003）结构化题库，收录 2021–2025 年5 套期中/期末真题（2021 期中、2023 期中/期末、2024 期中与 2025 期末，共 67 题），覆盖 16 个二级知识点，其中 18 题附原卷参考解答（origin=official）、49 题由模型独立证明与求解。",
+  "stats": {
+    "total": 67,
+    "quarantined": 1,
+    "taxonomy_nodes": 24,
+    "by_origin": {
+      "official": 18,
+      "community": 0,
+      "ai": 49
+    },
+    "by_type": {
+      "blank": 10,
+      "proof": 29,
+      "solve": 28
+    },
+    "by_difficulty": {
+      "1": 1,
+      "2": 21,
+      "3": 19,
+      "4": 21,
+      "5": 5
+    },
+    "exam_years": [
+      2021,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "geom_exams",
+      "count": 67,
+      "rights": "third_party_exam",
+      "description": "2021–2025 年几何学基础期中/期末真题（5 套，67 题）"
+    }
+  ],
+  "known_notes": [
+    "2024 期中（7 题）与 2025 期末部分题目（11 题）共 18 题附原卷参考解答（origin=official）；2021 期中、2023 期中/期末与 2025 期末无答部分共 49 题由模型独立推导（origin=ai）。",
+    "全库仅 1 题（2021 期中第一.h 题）标记为 quality.quarantined=true，其余 66 题均完整可用。"
+  ],
+  "files": {
+    "questions": "courses/MATH2003/questions.jsonl",
+    "taxonomy": "courses/MATH2003/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "e7f3fd982ce81be8c946086c6683fcfcdf2952ce43c717db0f2a03a98f12c418",
+    "taxonomy": "2baf7fbfaf312baa59492e486830b16baf74af8e5e80bcc275592a6f665118d5"
+  }
+}

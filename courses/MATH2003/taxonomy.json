@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH2003",
+  "nodes": [
+    {
+      "id": "geo.vector",
+      "parent_id": null,
+      "level": 1,
+      "name": "向量与坐标",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.vector.vec",
+      "parent_id": "geo.vector",
+      "level": 2,
+      "name": "向量运算与内积外积",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.vector.frame",
+      "parent_id": "geo.vector",
+      "level": 2,
+      "name": "坐标系与坐标变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.vector.plane",
+      "parent_id": "geo.vector",
+      "level": 2,
+      "name": "平面与直线方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.vector.dist",
+      "parent_id": "geo.vector",
+      "level": 2,
+      "name": "距离与夹角",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.conic",
+      "parent_id": null,
+      "level": 1,
+      "name": "二次曲线与曲面",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.conic.circle",
+      "parent_id": "geo.conic",
+      "level": 2,
+      "name": "圆与球",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.conic.conic",
+      "parent_id": "geo.conic",
+      "level": 2,
+      "name": "二次曲线分类",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.conic.quadric",
+      "parent_id": "geo.conic",
+      "level": 2,
+      "name": "二次曲面",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.conic.invariant",
+      "parent_id": "geo.conic",
+      "level": 2,
+      "name": "不变量与化简",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.affine",
+      "parent_id": null,
+      "level": 1,
+      "name": "仿射几何",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.affine.affine_space",
+      "parent_id": "geo.affine",
+      "level": 2,
+      "name": "仿射空间与仿射变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.affine.bary",
+      "parent_id": "geo.affine",
+      "level": 2,
+      "name": "重心坐标",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.affine.affine_class",
+      "parent_id": "geo.affine",
+      "level": 2,
+      "name": "仿射分类",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.projective",
+      "parent_id": null,
+      "level": 1,
+      "name": "射影几何",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.projective.proj_plane",
+      "parent_id": "geo.projective",
+      "level": 2,
+      "name": "射影平面与齐次坐标",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.projective.duality",
+      "parent_id": "geo.projective",
+      "level": 2,
+      "name": "对偶原理",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.projective.crossratio",
+      "parent_id": "geo.projective",
+      "level": 2,
+      "name": "交比与调和点列",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.projective.conic_proj",
+      "parent_id": "geo.projective",
+      "level": 2,
+      "name": "射影二次曲线",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.projective.transform",
+      "parent_id": "geo.projective",
+      "level": 2,
+      "name": "射影变换与变换群",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.nonEuclid",
+      "parent_id": null,
+      "level": 1,
+      "name": "非欧与变换群观点",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.nonEuclid.erlangen",
+      "parent_id": "geo.nonEuclid",
+      "level": 2,
+      "name": "Erlangen 纲领",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.nonEuclid.hyperbolic",
+      "parent_id": "geo.nonEuclid",
+      "level": 2,
+      "name": "双曲几何初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "geo.nonEuclid.isometry",
+      "parent_id": "geo.nonEuclid",
+      "level": 2,
+      "name": "等距变换与对称群",
+      "chapter_ref": null
+    }
+  ]
+}

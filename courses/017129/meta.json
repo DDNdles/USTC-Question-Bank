@@ -5,26 +5,26 @@
   "name_en": "Applied Stochastic Processes",
   "department": "数学科学学院",
   "category": "professional",
-  "description": "中国科学技术大学《实用随机过程》（课号 017129）结构化题库，收录 2011–2026 年12 套期中/期末真题（含 2019 级统计学专业期中试题，共 161 题），覆盖 32 个二级知识点，其中 36 题附原卷参考解答（origin=official）、125 题由模型独立推导并配分步解析。",
+  "description": "中国科学技术大学《实用随机过程》（课号 017129）结构化题库，收录 2011–2026 年15 套期中/期末真题（含 2019 级统计学专业期中试题及 2024 期中/期末、2025 期中完整试卷，共 204 题），覆盖 30 个二级知识点，其中 79 题附原卷参考解答（origin=official）、125 题由模型独立推导并配分步解析。",
   "stats": {
-    "total": 161,
+    "total": 204,
     "quarantined": 1,
     "taxonomy_nodes": 40,
     "by_origin": {
-      "official": 36,
+      "official": 79,
       "community": 0,
       "ai": 125
     },
     "by_type": {
-      "proof": 22,
-      "solve": 139
+      "proof": 27,
+      "solve": 177
     },
     "by_difficulty": {
       "1": 0,
-      "2": 25,
-      "3": 62,
-      "4": 62,
-      "5": 12
+      "2": 32,
+      "3": 75,
+      "4": 80,
+      "5": 17
     },
     "exam_years": [
       2011,
@@ -34,6 +34,7 @@
       2021,
       2022,
       2023,
+      2024,
       2025,
       2026
     ]
@@ -41,13 +42,13 @@
   "batches": [
     {
       "id": "stoc_exams",
-      "count": 161,
+      "count": 204,
       "rights": "third_party_exam",
-      "description": "2011–2026 年实用随机过程 12 套期中/期末真题（161 题）"
+      "description": "2011–2026 年实用随机过程 15 套期中/期末真题（204 题）"
     }
   ],
   "known_notes": [
-    "2015 期中、2023 期中、2026 期末及 2021 期末部分共 36 题附原卷参考解答标记为 origin=official；其余无标答期中/期末真题共 125 题由模型独立求解（origin=ai）。",
+    "2015 期中、2023 期中、2024 期中/期末、2025 期中、2026 期末及 2021 期末部分共 79 题附原卷参考解答标记为 origin=official；其余无标答期中/期末真题共 125 题由模型独立求解（origin=ai）。",
     "全库共 1 道（2022 期末第 1(2) 题）因周期马氏链收敛类条件表述严谨性问题标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
   ],
   "files": {
@@ -55,7 +56,7 @@
     "taxonomy": "courses/017129/taxonomy.json"
   },
   "sha256": {
-    "questions": "10b038c2ea044ee5470176f411aea2cd7e76d845c82a21abea91786dca4565e7",
+    "questions": "c7423b1e94a756959f269cea77e68b380e92f9f8a6f88099e5c695ba74b24fdd",
     "taxonomy": "bb6941b4a854d00bb968a5f525afdab13328e3b614d3c89800dc34ac233dffb1"
   }
 }

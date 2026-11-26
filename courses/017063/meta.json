@@ -5,28 +5,28 @@
   "name_en": "Mathematical Statistics",
   "department": "数学科学学院",
   "category": "professional",
-  "description": "中国科学技术大学《数理统计》（课号 017063）结构化题库，收录 2021–2026 年7 套期中/期末真题及残卷（共 73 题），覆盖 29 个二级知识点，其中 36 题附原卷参考解答（origin=official）、37 题由模型独立求解。",
+  "description": "中国科学技术大学《数理统计》（课号 017063）结构化题库，收录 2021–2026 年8 套期中/期末真题及残卷（含 2025 期末完整真题与参考答案，共 84 题），覆盖 18 个核心二级知识点，其中 47 题附原卷参考解答（origin=official）、37 题由模型独立求解。",
   "stats": {
-    "total": 73,
+    "total": 84,
     "quarantined": 5,
     "taxonomy_nodes": 37,
     "by_origin": {
-      "official": 36,
+      "official": 47,
       "community": 0,
       "ai": 37
     },
     "by_type": {
-      "blank": 4,
-      "proof": 9,
+      "blank": 6,
+      "proof": 10,
       "single": 10,
-      "solve": 50
+      "solve": 58
     },
     "by_difficulty": {
       "1": 0,
       "2": 4,
-      "3": 29,
-      "4": 26,
-      "5": 14
+      "3": 31,
+      "4": 30,
+      "5": 19
     },
     "exam_years": [
       2021,
@@ -39,13 +39,13 @@
   "batches": [
     {
       "id": "stat2_exams",
-      "count": 73,
+      "count": 84,
       "rights": "third_party_exam",
-      "description": "2021–2026 年数理统计 7 套期中/期末真题及残卷（73 题）"
+      "description": "2021–2026 年数理统计 8 套期中/期末真题及残卷（84 题）"
     }
   ],
   "known_notes": [
-    "2023 期中/期末残卷、2024 期末与 2025 期中含原卷参考解答共 36 题标记为 origin=official；2021 期中、2024 春期中与 2026 期末回忆/无答卷共 37 题由模型独立求解（origin=ai）。",
+    "2023 期中/期末残卷、2024 期末、2025 期中与 2025 期末含原卷参考解答共 47 题标记为 origin=official；2021 期中、2024 春期中与 2026 期末回忆/无答卷共 37 题由模型独立求解（origin=ai）。",
     "全库共 5 道回忆版缺样本表/直方图或参数化存疑题目标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
   ],
   "files": {
@@ -53,7 +53,7 @@
     "taxonomy": "courses/017063/taxonomy.json"
   },
   "sha256": {
-    "questions": "e68169ce3665e647ac832356bd1dea8d7064bb4589c01dab9f73fd00d94f2f46",
+    "questions": "ce0a53beafb32165969dc1b51e028937ee2dd260d99ee4288c10f467e3d2f0a7",
     "taxonomy": "c548440bb007a8af2b48bf10459ab81cdfc69455049e5da5b1788159045709f2"
   }
 }

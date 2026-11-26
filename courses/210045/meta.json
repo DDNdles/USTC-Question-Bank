@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "code": "210045",
+  "name": "电路基本理论",
+  "name_en": "Fundamentals of Electric Circuits",
+  "department": "信息科学技术学院",
+  "category": "professional",
+  "description": "中国科学技术大学《电路基本理论》（课号 210045）结构化题库，收录 2015–2025 学年10 套期末考试真题及公开参考答案（去重后共 140 题），覆盖 17 个二级知识点，其中 98 题附原卷参考解答（origin=official）、42 题由模型结合原卷电路拓扑说明求解。",
+  "stats": {
+    "total": 140,
+    "quarantined": 27,
+    "taxonomy_nodes": 27,
+    "by_origin": {
+      "official": 98,
+      "community": 0,
+      "ai": 42
+    },
+    "by_type": {
+      "blank": 56,
+      "solve": 84
+    },
+    "by_difficulty": {
+      "1": 0,
+      "2": 10,
+      "3": 57,
+      "4": 65,
+      "5": 8
+    },
+    "exam_years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "circuit_exams",
+      "count": 140,
+      "rights": "third_party_exam",
+      "description": "2015–2025 学年电路基本理论期末真题及公开参考答案（10 套，140 题）"
+    }
+  ],
+  "known_notes": [
+    "2017–2024 学年多套真题中共有 98 题附原卷参考解答（origin=official）；2015–2017 无解答真题及其余无答小题共 42 题由模型独立求解（origin=ai），并在 quality.note 中附有对应电路图元件连接说明。",
+    "重复收录的 2017–2018 第二大题副本（8 题）已于导出时去重；全库共 27 道高度依赖原卷复杂电路图拓扑的低置信度题标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+  ],
+  "files": {
+    "questions": "courses/210045/questions.jsonl",
+    "taxonomy": "courses/210045/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "66fe18f170d093331ed7fe37c6f8a61e296ef6b6bd164cee1e961989d69d938c",
+    "taxonomy": "c245b21d7f12d5ef184d67563d4071d430322e0500d0bcd6bd6ccc0df1191f98"
+  }
+}
