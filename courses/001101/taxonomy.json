@@ -1,0 +1,258 @@
+{
+  "schema_version": "1.0",
+  "course_code": "001101",
+  "nodes": [
+    {
+      "id": "ode.firstorder",
+      "parent_id": null,
+      "level": 1,
+      "name": "一阶方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.firstorder.separable",
+      "parent_id": "ode.firstorder",
+      "level": 2,
+      "name": "可分离变量",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.firstorder.linear",
+      "parent_id": "ode.firstorder",
+      "level": 2,
+      "name": "一阶线性方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.firstorder.exact",
+      "parent_id": "ode.firstorder",
+      "level": 2,
+      "name": "恰当方程与积分因子",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.firstorder.homogeneous",
+      "parent_id": "ode.firstorder",
+      "level": 2,
+      "name": "齐次方程与代换",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.implicit",
+      "parent_id": null,
+      "level": 1,
+      "name": "隐式方程与奇解",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.implicit.clairaut",
+      "parent_id": "ode.implicit",
+      "level": 2,
+      "name": "克莱罗方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.implicit.singular",
+      "parent_id": "ode.implicit",
+      "level": 2,
+      "name": "奇解与包络",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.implicit.existence",
+      "parent_id": "ode.implicit",
+      "level": 2,
+      "name": "解的存在唯一性",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.higher",
+      "parent_id": null,
+      "level": 1,
+      "name": "高阶线性方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.higher.constant",
+      "parent_id": "ode.higher",
+      "level": 2,
+      "name": "常系数线性方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.higher.characteristic",
+      "parent_id": "ode.higher",
+      "level": 2,
+      "name": "特征方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.higher.undetermined",
+      "parent_id": "ode.higher",
+      "level": 2,
+      "name": "待定系数法",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.higher.variation",
+      "parent_id": "ode.higher",
+      "level": 2,
+      "name": "常数变易法",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.systems",
+      "parent_id": null,
+      "level": 1,
+      "name": "线性方程组",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.systems.matrix",
+      "parent_id": "ode.systems",
+      "level": 2,
+      "name": "矩阵形式",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.systems.fundamental",
+      "parent_id": "ode.systems",
+      "level": 2,
+      "name": "基本解矩阵",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.systems.eigenvalue",
+      "parent_id": "ode.systems",
+      "level": 2,
+      "name": "特征值法",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.systems.nonhomogeneous",
+      "parent_id": "ode.systems",
+      "level": 2,
+      "name": "非齐次方程组",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.series",
+      "parent_id": null,
+      "level": 1,
+      "name": "级数解法",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.series.power",
+      "parent_id": "ode.series",
+      "level": 2,
+      "name": "幂级数解",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.series.frobenius",
+      "parent_id": "ode.series",
+      "level": 2,
+      "name": "弗罗贝尼乌斯方法",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.series.legendre",
+      "parent_id": "ode.series",
+      "level": 2,
+      "name": "勒让德方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.qualitative",
+      "parent_id": null,
+      "level": 1,
+      "name": "定性理论",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.qualitative.phase",
+      "parent_id": "ode.qualitative",
+      "level": 2,
+      "name": "相平面",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.qualitative.critical",
+      "parent_id": "ode.qualitative",
+      "level": 2,
+      "name": "奇点分类",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.qualitative.limit",
+      "parent_id": "ode.qualitative",
+      "level": 2,
+      "name": "极限环",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.qualitative.poincare",
+      "parent_id": "ode.qualitative",
+      "level": 2,
+      "name": "庞加莱-本迪克松定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.stability",
+      "parent_id": null,
+      "level": 1,
+      "name": "稳定性",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.stability.lyapunov",
+      "parent_id": "ode.stability",
+      "level": 2,
+      "name": "李雅普诺夫稳定性",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.stability.linearization",
+      "parent_id": "ode.stability",
+      "level": 2,
+      "name": "线性化",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.stability.function",
+      "parent_id": "ode.stability",
+      "level": 2,
+      "name": "李雅普诺夫函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.boundary",
+      "parent_id": null,
+      "level": 1,
+      "name": "边值问题",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.boundary.sturm",
+      "parent_id": "ode.boundary",
+      "level": 2,
+      "name": "施图姆-刘维尔问题",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.boundary.green",
+      "parent_id": "ode.boundary",
+      "level": 2,
+      "name": "格林函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "ode.boundary.eigen",
+      "parent_id": "ode.boundary",
+      "level": 2,
+      "name": "特征值展开",
+      "chapter_ref": null
+    }
+  ]
+}

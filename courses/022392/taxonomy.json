@@ -1,0 +1,272 @@
+{
+  "schema_version": "1.0",
+  "course_code": "022392",
+  "nodes": [
+    {
+      "id": "tma.kinematics",
+      "parent_id": null,
+      "level": 1,
+      "name": "质点运动学",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.kinematics.coords",
+      "parent_id": "tma.kinematics",
+      "level": 2,
+      "name": "坐标系与运动描述",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.kinematics.natural",
+      "parent_id": "tma.kinematics",
+      "level": 2,
+      "name": "自然坐标与切法向加速度",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.kinematics.relative",
+      "parent_id": "tma.kinematics",
+      "level": 2,
+      "name": "相对运动与参考系变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.newton",
+      "parent_id": null,
+      "level": 1,
+      "name": "牛顿力学",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.newton.laws",
+      "parent_id": "tma.newton",
+      "level": 2,
+      "name": "牛顿三定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.newton.inertia",
+      "parent_id": "tma.newton",
+      "level": 2,
+      "name": "惯性系与伽利略变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.newton.noninertial",
+      "parent_id": "tma.newton",
+      "level": 2,
+      "name": "非惯性系与惯性力",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.newton.constraint",
+      "parent_id": "tma.newton",
+      "level": 2,
+      "name": "约束与张力",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.lagrange",
+      "parent_id": null,
+      "level": 1,
+      "name": "拉格朗日力学",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.lagrange.generalized",
+      "parent_id": "tma.lagrange",
+      "level": 2,
+      "name": "广义坐标与自由度",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.lagrange.lagrangian",
+      "parent_id": "tma.lagrange",
+      "level": 2,
+      "name": "拉氏量与欧拉-拉格朗日方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.lagrange.symmetry",
+      "parent_id": "tma.lagrange",
+      "level": 2,
+      "name": "对称性与守恒律",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.lagrange.variational",
+      "parent_id": "tma.lagrange",
+      "level": 2,
+      "name": "变分原理与最小作用量",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.hamilton",
+      "parent_id": null,
+      "level": 1,
+      "name": "哈密顿力学",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.hamilton.canonical",
+      "parent_id": "tma.hamilton",
+      "level": 2,
+      "name": "正则方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.hamilton.poisson",
+      "parent_id": "tma.hamilton",
+      "level": 2,
+      "name": "泊松括号",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.hamilton.phasespace",
+      "parent_id": "tma.hamilton",
+      "level": 2,
+      "name": "相空间与刘维尔定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.hamilton.hj",
+      "parent_id": "tma.hamilton",
+      "level": 2,
+      "name": "哈密顿-雅可比方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.central",
+      "parent_id": null,
+      "level": 1,
+      "name": "中心力场",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.central.twobody",
+      "parent_id": "tma.central",
+      "level": 2,
+      "name": "两体问题与约化质量",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.central.kepler",
+      "parent_id": "tma.central",
+      "level": 2,
+      "name": "开普勒问题与轨道",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.central.effective",
+      "parent_id": "tma.central",
+      "level": 2,
+      "name": "有效势与轨道定性",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.central.scattering",
+      "parent_id": "tma.central",
+      "level": 2,
+      "name": "散射与散射截面",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.rigid",
+      "parent_id": null,
+      "level": 1,
+      "name": "刚体力学",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.rigid.inertia",
+      "parent_id": "tma.rigid",
+      "level": 2,
+      "name": "转动惯量与惯量张量",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.rigid.euler",
+      "parent_id": "tma.rigid",
+      "level": 2,
+      "name": "欧拉方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.rigid.tops",
+      "parent_id": "tma.rigid",
+      "level": 2,
+      "name": "陀螺与进动",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.rigid.fixed",
+      "parent_id": "tma.rigid",
+      "level": 2,
+      "name": "定点转动",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.oscillation",
+      "parent_id": null,
+      "level": 1,
+      "name": "振动与微振动",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.oscillation.shm",
+      "parent_id": "tma.oscillation",
+      "level": 2,
+      "name": "简谐振动",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.oscillation.damped",
+      "parent_id": "tma.oscillation",
+      "level": 2,
+      "name": "阻尼与受迫振动",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.oscillation.coupled",
+      "parent_id": "tma.oscillation",
+      "level": 2,
+      "name": "耦合振动与简正模",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.oscillation.parametric",
+      "parent_id": "tma.oscillation",
+      "level": 2,
+      "name": "参数共振",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.continuum",
+      "parent_id": null,
+      "level": 1,
+      "name": "连续介质与波",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.continuum.string",
+      "parent_id": "tma.continuum",
+      "level": 2,
+      "name": "弦振动",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.continuum.fluid",
+      "parent_id": "tma.continuum",
+      "level": 2,
+      "name": "理想流体初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "tma.continuum.wave",
+      "parent_id": "tma.continuum",
+      "level": 2,
+      "name": "波与色散",
+      "chapter_ref": null
+    }
+  ]
+}

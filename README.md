@@ -78,7 +78,19 @@
 | `019011` | 有机化学A1（含 310 张配图） | 1,559 | 726 | 0 | 833 | 2 | 2013–2025 | 50 |
 | `019012` | 有机化学A2 | 99 | 51 | 0 | 48 | 15 | 2016–2019 | 44 |
 | `019047` | 有机化学B | 193 | 131 | 0 | 62 | 0 | 2021–2022 | 31 |
-| **合计** | **47 门课程** | **18,512** | **11,735** | **1,600** | **5,177** | **136** | — | **1,857** |
+| `022392` | 理论力学A | 245 | 76 | 0 | 169 | 42 | 2016–2026 | 38 |
+| `022057` | 电动力学 | 198 | 113 | 20 | 65 | 0 | 2016–2026 | 39 |
+| `001506` | 数理方程A | 182 | 75 | 0 | 107 | 4 | 2001–2025 | 41 |
+| `001505` | 复变函数A | 173 | 17 | 0 | 156 | 7 | 2005–2024 | 31 |
+| `MATH3008` | 复分析 | 305 | 13 | 0 | 292 | 7 | 2011–2026 | 33 |
+| `MATH3002` | 实分析 | 239 | 40 | 0 | 199 | 5 | 2015–2026 | 37 |
+| `MATH3007` | 概率论 | 241 | 18 | 0 | 223 | 7 | 2013–2026 | 37 |
+| `MATH3001` | 近世代数 | 255 | 26 | 0 | 229 | 6 | 2019–2026 | 38 |
+| `017063` | 数理统计 | 73 | 36 | 0 | 37 | 5 | 2021–2026 | 37 |
+| `017129` | 实用随机过程 | 161 | 36 | 0 | 125 | 1 | 2011–2026 | 40 |
+| `001101` | 常微分方程 | 141 | 77 | 0 | 64 | 1 | 2016–2026 | 36 |
+| `001122` | 偏微分方程 | 103 | 59 | 0 | 44 | 1 | 2020–2025 | 36 |
+| **合计** | **59 门课程** | **20,828** | **12,321** | **1,620** | **6,887** | **222** | — | **2,300** |
 
 - **100% 含答案与分步解析**。`official` 为原卷/书末标答，`community` 为非官方书面详解，`ai` 为模型或独立推导。
 
@@ -132,6 +144,18 @@
 - **`019011` 有机化学A1**：`oca1_paper` (250，期中/期末与小测原卷)、`oca1_solved` (471，2013–2025 期中/期末、小测与 MOOC 期末测试参考解答)、`oca1_answer` (44，第二次小测答案与《有机化学反应机理的书写艺术》答案)、`oca1_drill` (794，分章讲义、2024 课件、MOOC 作业 1–13 讲与机理练习)；186 道带图题共附 310 张 300 DPI 灰度 WebP 配图（`courses/019011/assets/`，含结构式、反应路线、NMR/MS 谱图与配套解图），原 223 道缺图隔离题经逐页裁图与重解恢复 221 题（仅 2022 秋第一次小测答案二.1 与二.5 因原 PDF 仅印题号占位未附反应图而保留隔离）。
 - **`019012` 有机化学A2**：`oca2_paper` (19，2016–2017 英文期末卷)、`oca2_solved` (45，2015–2019 期终 A 卷与第一次单元测试含解答)、`oca2_answer` (35，第二/三次习题课练习题与参考答案；15 题因需据原卷结构式作答隔离)。
 - **`019047` 有机化学B**：`ocb_paper` (25，2021 秋第一次小测)、`ocb_solved` (101，2021–2022 秋期中及第二/三/四次小测与答案)、`ocb_answer` (52，有机化学B 第一/二/三次小测答案)、`ocb_drill` (15，10.24 习题课小测 1；0 隔离)。
+- **`022392` 理论力学A**：`tma_exams` (245，2016–2026 学年 18 份期中/期末真题，含潘海俊班试卷；42 题因题图维度或条件约定隔离)。
+- **`022057` 电动力学**：`elec_exams` (178，2016–2026 学年 13 套期中/期末真题含王少杰班期末)、`ed_guo_sol` (20，郭硕鸿《电动力学》第四版 Uphi. 修订版参考解答，`origin=community`；0 隔离)。
+- **`001506` 数理方程A**：`mpea_exams` (182，2001–2025 学年 16 套历年真题汇编及 2025 春参考答案；4 题隔离)。
+- **`001505` 复变函数A**：`cva_exams` (173，2005–2024 年 10 套历年期末真题与参考解答；7 题隔离)。
+- **`MATH3008` 复分析**：`cplx_exams` (305，2011–2026 年 23 套期中/期末真题；7 题隔离)。
+- **`MATH3002` 实分析**：`real_exams` (199，2015–2026 年 20 套期中/期末真题)、`real_hw` (40，2007–2008 学年《实变函数习题答案》；5 题隔离)。
+- **`MATH3007` 概率论**：`prob_exams` (241，2013–2026 年 23 套数院期中/期末真题；7 题隔离)。
+- **`MATH3001` 近世代数**：`alg_exams` (255，2019–2026 年 13 套期中/期末真题与随堂测验；6 题隔离)。
+- **`017063` 数理统计**：`stat2_exams` (73，2021–2026 年 7 套期中/期末真题及残卷；5 题隔离)。
+- **`017129` 实用随机过程**：`stoc_exams` (161，2011–2026 年 12 套期中/期末真题；1 题隔离)。
+- **`001101` 常微分方程**：`ode_exams` (69，2016–2026 年 7 套《常微分方程、偏微分方程》期中/期末/小测真题)、`ode_hw` (72，2026 秋章俊彦班第 1–5 次作业；1 题隔离)。
+- **`001122` 偏微分方程**：`pde_exams` (42，2020–2025 年 4 套《常微分方程、偏微分方程》期末真题)、`pde_hw` (61，2025 秋章俊彦班第 1–4 次作业；1 题隔离)。
 - 详细勘误与局限见各课程 `courses/<课号>/meta.json` 的 `known_notes`。
 
 </details>
@@ -251,7 +275,7 @@ paper = bank["001548"].sample(12, seed=2026, exclude_batches=["yan_mp_part1"])
 | 《数学分析讲义》非官方习题详解 | 数分 B1/B2 教材第 1–13 章详解底本（`origin=community`） | [DongYaoZe/math-analysis-lectures-solutions-USTC](https://github.com/DongYaoZe/math-analysis-lectures-solutions-USTC) |
 | 复变函数期末复习题库 | 复变 40 题复习题集（`github_workbook`） | [jieyou520/-](https://github.com/jieyou520/-) |
 | 数学分析历年真题汇编与讲义 | 补充卷面与课程范围核对 | [Passiflora-sago/Passiflora-sago.github.io](https://github.com/Passiflora-sago/Passiflora-sago.github.io) |
-| 专业课 / 电子信息工程与计科公开资料 | 线代 B1、计科、数据结构与线性电子线路历年真题、样卷及习题课资料 | [fandahao17/USTC-CS-Courses-Resource](https://github.com/fandahao17/USTC-CS-Courses-Resource) · [Wloner0809/ustc-course-resource](https://github.com/Wloner0809/ustc-course-resource) · [guch8017/USTC_CS_EXAM](https://github.com/guch8017/USTC_CS_EXAM) · [duxiaoyang/USTC-Course-Materials](https://github.com/duxiaoyang/USTC-Course-Materials) · [ly382965/USTC_learning_materials](https://github.com/ly382965/USTC_learning_materials) · [li-qi-lin/USTC-Course-Materials-Sharing](https://github.com/li-qi-lin/USTC-Course-Materials-Sharing) · [EpiHio/USTC_Automation](https://github.com/EpiHio/USTC_Automation) · [Mr-Philo/USTC_EEIS_Courses](https://github.com/Mr-Philo/USTC_EEIS_Courses) |
+| `023181` / `EE2003` / 专业课资料 | 线代、计科、电子信息与微分方程课程主页资料 | [zhangjy9610.me](https://www.zhangjy9610.me/) · [fandahao17/USTC-CS-Courses-Resource](https://github.com/fandahao17/USTC-CS-Courses-Resource) · [Wloner0809/ustc-course-resource](https://github.com/Wloner0809/ustc-course-resource) · [guch8017/USTC_CS_EXAM](https://github.com/guch8017/USTC_CS_EXAM) · [duxiaoyang/USTC-Course-Materials](https://github.com/duxiaoyang/USTC-Course-Materials) · [ly382965/USTC_learning_materials](https://github.com/ly382965/USTC_learning_materials) · [li-qi-lin/USTC-Course-Materials-Sharing](https://github.com/li-qi-lin/USTC-Course-Materials-Sharing) · [EpiHio/USTC_Automation](https://github.com/EpiHio/USTC_Automation) · [Mr-Philo/USTC_EEIS_Courses](https://github.com/Mr-Philo/USTC_EEIS_Courses) |
 
 完整版权归属与侵删渠道见 [NOTICE.md](NOTICE.md)。
 

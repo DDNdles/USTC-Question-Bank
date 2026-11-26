@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "code": "001122",
+  "name": "偏微分方程",
+  "name_en": "Partial Differential Equations",
+  "department": "数学科学学院",
+  "category": "professional",
+  "description": "中国科学技术大学《偏微分方程》（课号 001122）结构化题库，收录 2020–2025 年4 套《常微分方程、偏微分方程》期末真题（42 题）及 2025 秋章俊彦班第 1–4 次课程作业（61 题）共 103 题，覆盖 28 个二级知识点，其中 59 题附官方解答（origin=official）、44 题由模型独立求解。",
+  "stats": {
+    "total": 103,
+    "quarantined": 1,
+    "taxonomy_nodes": 36,
+    "by_origin": {
+      "official": 59,
+      "community": 0,
+      "ai": 44
+    },
+    "by_type": {
+      "proof": 63,
+      "solve": 40
+    },
+    "by_difficulty": {
+      "1": 1,
+      "2": 7,
+      "3": 36,
+      "4": 38,
+      "5": 21
+    },
+    "exam_years": [
+      2020,
+      2022,
+      2024,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "pde_exams",
+      "count": 42,
+      "rights": "third_party_exam",
+      "description": "2020–2025 年《常微分方程、偏微分方程》4 套偏微分方程期末真题（42 题）"
+    },
+    {
+      "id": "pde_hw",
+      "count": 61,
+      "rights": "third_party_notes",
+      "description": "2025 秋偏微分方程（章俊彦班）第 1–4 次课程作业（61 题）"
+    }
+  ],
+  "known_notes": [
+    "2025 秋偏微分方程（章俊彦班）第 2–4 次作业及 2025 期末真题共 59 题附官方参考解答（origin=official）；作业 1 与 2020/2022/2024 期末真题共 44 题由模型独立推导（origin=ai）。",
+    "全库仅 1 题（2025 秋作业 1 第 9(2) 题涉及加强梯度估计常数差异）标记为 quality.quarantined=true，其余 102 题均完整可用。"
+  ],
+  "files": {
+    "questions": "courses/001122/questions.jsonl",
+    "taxonomy": "courses/001122/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "d9b407d6cd328d7724215c8e506a1224bbcecf00d769f79672bb51e950b272a4",
+    "taxonomy": "b3f455ac6780171f60a18b5023c1e28c2ecc89e9af0a93d2b3c6a0f375df02eb"
+  }
+}

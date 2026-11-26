@@ -1,0 +1,265 @@
+{
+  "schema_version": "1.0",
+  "course_code": "017063",
+  "nodes": [
+    {
+      "id": "stat.sampling",
+      "parent_id": null,
+      "level": 1,
+      "name": "抽样与统计量",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.sampling.sample",
+      "parent_id": "stat.sampling",
+      "level": 2,
+      "name": "样本与统计量",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.sampling.order",
+      "parent_id": "stat.sampling",
+      "level": 2,
+      "name": "次序统计量",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.sampling.distribution",
+      "parent_id": "stat.sampling",
+      "level": 2,
+      "name": "抽样分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.sampling.chi",
+      "parent_id": "stat.sampling",
+      "level": 2,
+      "name": "卡方、t、F 分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.estimation",
+      "parent_id": null,
+      "level": 1,
+      "name": "点估计",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.estimation.moment",
+      "parent_id": "stat.estimation",
+      "level": 2,
+      "name": "矩估计",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.estimation.mle",
+      "parent_id": "stat.estimation",
+      "level": 2,
+      "name": "极大似然估计",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.estimation.bayes",
+      "parent_id": "stat.estimation",
+      "level": 2,
+      "name": "贝叶斯估计",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.estimation.equation",
+      "parent_id": "stat.estimation",
+      "level": 2,
+      "name": "估计方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.optimality",
+      "parent_id": null,
+      "level": 1,
+      "name": "估计的优良性",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.optimality.unbiased",
+      "parent_id": "stat.optimality",
+      "level": 2,
+      "name": "无偏性",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.optimality.efficiency",
+      "parent_id": "stat.optimality",
+      "level": 2,
+      "name": "有效性",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.optimality.cr",
+      "parent_id": "stat.optimality",
+      "level": 2,
+      "name": "Cramér-Rao 下界",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.optimality.sufficiency",
+      "parent_id": "stat.optimality",
+      "level": 2,
+      "name": "充分统计量",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.interval",
+      "parent_id": null,
+      "level": 1,
+      "name": "区间估计",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.interval.confidence",
+      "parent_id": "stat.interval",
+      "level": 2,
+      "name": "置信区间",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.interval.pivot",
+      "parent_id": "stat.interval",
+      "level": 2,
+      "name": "枢轴量法",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.interval.proportion",
+      "parent_id": "stat.interval",
+      "level": 2,
+      "name": "比例与方差区间",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.testing",
+      "parent_id": null,
+      "level": 1,
+      "name": "假设检验",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.testing.neyman",
+      "parent_id": "stat.testing",
+      "level": 2,
+      "name": "Neyman-Pearson 引理",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.testing.power",
+      "parent_id": "stat.testing",
+      "level": 2,
+      "name": "功效函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.testing.likelihood",
+      "parent_id": "stat.testing",
+      "level": 2,
+      "name": "似然比检验",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.testing.chisquare",
+      "parent_id": "stat.testing",
+      "level": 2,
+      "name": "卡方检验",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.anova",
+      "parent_id": null,
+      "level": 1,
+      "name": "方差分析",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.anova.oneway",
+      "parent_id": "stat.anova",
+      "level": 2,
+      "name": "单因素方差分析",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.anova.twoway",
+      "parent_id": "stat.anova",
+      "level": 2,
+      "name": "双因素方差分析",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.anova.multiple",
+      "parent_id": "stat.anova",
+      "level": 2,
+      "name": "多重比较",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.regression",
+      "parent_id": null,
+      "level": 1,
+      "name": "回归分析",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.regression.linear",
+      "parent_id": "stat.regression",
+      "level": 2,
+      "name": "线性回归",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.regression.least",
+      "parent_id": "stat.regression",
+      "level": 2,
+      "name": "最小二乘估计",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.regression.residual",
+      "parent_id": "stat.regression",
+      "level": 2,
+      "name": "残差诊断",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.regression.logistic",
+      "parent_id": "stat.regression",
+      "level": 2,
+      "name": "逻辑回归初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.nonparam",
+      "parent_id": null,
+      "level": 1,
+      "name": "非参数与稳健统计",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.nonparam.sign",
+      "parent_id": "stat.nonparam",
+      "level": 2,
+      "name": "符号检验",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.nonparam.rank",
+      "parent_id": "stat.nonparam",
+      "level": 2,
+      "name": "秩检验",
+      "chapter_ref": null
+    },
+    {
+      "id": "stat.nonparam.bootstrap",
+      "parent_id": "stat.nonparam",
+      "level": 2,
+      "name": "自助法",
+      "chapter_ref": null
+    }
+  ]
+}

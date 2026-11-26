@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH3008",
+  "name": "复分析",
+  "name_en": "Complex Analysis",
+  "department": "数学科学学院",
+  "category": "professional",
+  "description": "中国科学技术大学《复分析》（课号 MATH3008）结构化题库，收录 2011–2026 年23 套数学学院复分析期中/期末真题（305 题），覆盖 25 个二级知识点，其中 2026 期中13 题附原卷参考解答（origin=official）、其余 292 题由模型独立证明与求解。",
+  "stats": {
+    "total": 305,
+    "quarantined": 7,
+    "taxonomy_nodes": 33,
+    "by_origin": {
+      "official": 13,
+      "community": 0,
+      "ai": 292
+    },
+    "by_type": {
+      "proof": 120,
+      "solve": 185
+    },
+    "by_difficulty": {
+      "1": 4,
+      "2": 48,
+      "3": 139,
+      "4": 95,
+      "5": 19
+    },
+    "exam_years": [
+      2011,
+      2014,
+      2016,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "cplx_exams",
+      "count": 305,
+      "rights": "third_party_exam",
+      "description": "2011–2026 年复分析 23 套期中/期末真题（305 题）"
+    }
+  ],
+  "known_notes": [
+    "2026 年复分析期中试卷（13 题）附参考解答标记为 origin=official；2011–2025 年 22 套无标答期中/期末真题共 292 题由模型独立给出严格证明与计算（origin=ai）。",
+    "全库共 7 道原卷设问表述歧义或积分端点未指明题目标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+  ],
+  "files": {
+    "questions": "courses/MATH3008/questions.jsonl",
+    "taxonomy": "courses/MATH3008/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "f883479ff5a6f3ababfbcc1adb328bb0daca14b474b59c672d0152f922c0505d",
+    "taxonomy": "e03e318d384a7d49316a0e4cc76149bcdf8607e4ecde593f01312b1f42ae3cf8"
+  }
+}

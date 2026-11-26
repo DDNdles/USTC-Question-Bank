@@ -1,0 +1,279 @@
+{
+  "schema_version": "1.0",
+  "course_code": "022057",
+  "nodes": [
+    {
+      "id": "ed.maxwell",
+      "parent_id": null,
+      "level": 1,
+      "name": "电磁场基本方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.maxwell.maxwell",
+      "parent_id": "ed.maxwell",
+      "level": 2,
+      "name": "麦克斯韦方程组",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.maxwell.boundary",
+      "parent_id": "ed.maxwell",
+      "level": 2,
+      "name": "边界条件",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.maxwell.potential",
+      "parent_id": "ed.maxwell",
+      "level": 2,
+      "name": "电磁势与规范变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.electrostatics",
+      "parent_id": null,
+      "level": 1,
+      "name": "静电学",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.electrostatics.poisson",
+      "parent_id": "ed.electrostatics",
+      "level": 2,
+      "name": "泊松方程与拉普拉斯方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.electrostatics.method",
+      "parent_id": "ed.electrostatics",
+      "level": 2,
+      "name": "镜像法与分离变量",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.electrostatics.multipole",
+      "parent_id": "ed.electrostatics",
+      "level": 2,
+      "name": "多极展开",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.electrostatics.conductor",
+      "parent_id": "ed.electrostatics",
+      "level": 2,
+      "name": "导体与电容",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.magnetostatics",
+      "parent_id": null,
+      "level": 1,
+      "name": "静磁学",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.magnetostatics.biot",
+      "parent_id": "ed.magnetostatics",
+      "level": 2,
+      "name": "毕奥-萨伐尔定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.magnetostatics.vectorpotential",
+      "parent_id": "ed.magnetostatics",
+      "level": 2,
+      "name": "矢势",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.magnetostatics.magnetic",
+      "parent_id": "ed.magnetostatics",
+      "level": 2,
+      "name": "磁标势与磁介质",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.magnetostatics.multipole_m",
+      "parent_id": "ed.magnetostatics",
+      "level": 2,
+      "name": "磁多极展开",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.induction",
+      "parent_id": null,
+      "level": 1,
+      "name": "电磁感应与准静态场",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.induction.faraday",
+      "parent_id": "ed.induction",
+      "level": 2,
+      "name": "法拉第电磁感应定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.induction.quasistatic",
+      "parent_id": "ed.induction",
+      "level": 2,
+      "name": "准静态近似",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.induction.circuit",
+      "parent_id": "ed.induction",
+      "level": 2,
+      "name": "自感、互感与电路",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.waves",
+      "parent_id": null,
+      "level": 1,
+      "name": "电磁波",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.waves.plane",
+      "parent_id": "ed.waves",
+      "level": 2,
+      "name": "平面电磁波",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.waves.polarization",
+      "parent_id": "ed.waves",
+      "level": 2,
+      "name": "偏振",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.waves.reflection",
+      "parent_id": "ed.waves",
+      "level": 2,
+      "name": "反射与折射",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.waves.waveguide",
+      "parent_id": "ed.waves",
+      "level": 2,
+      "name": "波导与谐振腔",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.waves.dispersion",
+      "parent_id": "ed.waves",
+      "level": 2,
+      "name": "色散与吸收",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.radiation",
+      "parent_id": null,
+      "level": 1,
+      "name": "电磁辐射",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.radiation.retarded",
+      "parent_id": "ed.radiation",
+      "level": 2,
+      "name": "推迟势",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.radiation.dipole",
+      "parent_id": "ed.radiation",
+      "level": 2,
+      "name": "电偶极辐射",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.radiation.antenna",
+      "parent_id": "ed.radiation",
+      "level": 2,
+      "name": "天线辐射",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.radiation.multipole_r",
+      "parent_id": "ed.radiation",
+      "level": 2,
+      "name": "多极辐射",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.relativity",
+      "parent_id": null,
+      "level": 1,
+      "name": "狭义相对论",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.relativity.lorentz",
+      "parent_id": "ed.relativity",
+      "level": 2,
+      "name": "洛伦兹变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.relativity.fourvector",
+      "parent_id": "ed.relativity",
+      "level": 2,
+      "name": "四维矢量与张量",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.relativity.fieldtransform",
+      "parent_id": "ed.relativity",
+      "level": 2,
+      "name": "电磁场量变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.relativity.relativistic",
+      "parent_id": "ed.relativity",
+      "level": 2,
+      "name": "相对论力学",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.medium",
+      "parent_id": null,
+      "level": 1,
+      "name": "介质与电磁能量",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.medium.polarization_m",
+      "parent_id": "ed.medium",
+      "level": 2,
+      "name": "极化与磁化",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.medium.poynting",
+      "parent_id": "ed.medium",
+      "level": 2,
+      "name": "坡印廷定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.medium.momentum",
+      "parent_id": "ed.medium",
+      "level": 2,
+      "name": "电磁动量与应力张量",
+      "chapter_ref": null
+    },
+    {
+      "id": "ed.medium.plasma",
+      "parent_id": "ed.medium",
+      "level": 2,
+      "name": "等离子体初步",
+      "chapter_ref": null
+    }
+  ]
+}

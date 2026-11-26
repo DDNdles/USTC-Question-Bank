@@ -1,0 +1,265 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH3007",
+  "nodes": [
+    {
+      "id": "prob.space",
+      "parent_id": null,
+      "level": 1,
+      "name": "概率空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.space.axioms",
+      "parent_id": "prob.space",
+      "level": 2,
+      "name": "概率公理化",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.space.events",
+      "parent_id": "prob.space",
+      "level": 2,
+      "name": "事件与σ代数",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.space.conditional",
+      "parent_id": "prob.space",
+      "level": 2,
+      "name": "条件概率",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.space.independence",
+      "parent_id": "prob.space",
+      "level": 2,
+      "name": "独立性",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.rv",
+      "parent_id": null,
+      "level": 1,
+      "name": "随机变量",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.rv.distribution",
+      "parent_id": "prob.rv",
+      "level": 2,
+      "name": "分布函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.rv.discrete",
+      "parent_id": "prob.rv",
+      "level": 2,
+      "name": "离散型随机变量",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.rv.continuous",
+      "parent_id": "prob.rv",
+      "level": 2,
+      "name": "连续型随机变量",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.rv.transform",
+      "parent_id": "prob.rv",
+      "level": 2,
+      "name": "随机变量函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.moments",
+      "parent_id": null,
+      "level": 1,
+      "name": "数字特征",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.moments.expectation",
+      "parent_id": "prob.moments",
+      "level": 2,
+      "name": "期望",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.moments.variance",
+      "parent_id": "prob.moments",
+      "level": 2,
+      "name": "方差",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.moments.covariance",
+      "parent_id": "prob.moments",
+      "level": 2,
+      "name": "协方差与相关系数",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.moments.generating",
+      "parent_id": "prob.moments",
+      "level": 2,
+      "name": "矩母函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.conditional",
+      "parent_id": null,
+      "level": 1,
+      "name": "条件与独立",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.conditional.independent",
+      "parent_id": "prob.conditional",
+      "level": 2,
+      "name": "独立随机变量",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.conditional.conditional_d",
+      "parent_id": "prob.conditional",
+      "level": 2,
+      "name": "条件分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.conditional.conditional_e",
+      "parent_id": "prob.conditional",
+      "level": 2,
+      "name": "条件期望",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.limit",
+      "parent_id": null,
+      "level": 1,
+      "name": "极限定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.limit.convergence",
+      "parent_id": "prob.limit",
+      "level": 2,
+      "name": "收敛方式",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.limit.lln",
+      "parent_id": "prob.limit",
+      "level": 2,
+      "name": "大数定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.limit.clt",
+      "parent_id": "prob.limit",
+      "level": 2,
+      "name": "中心极限定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.limit.berry",
+      "parent_id": "prob.limit",
+      "level": 2,
+      "name": "贝里-埃森定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.cf",
+      "parent_id": null,
+      "level": 1,
+      "name": "特征函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.cf.characteristic",
+      "parent_id": "prob.cf",
+      "level": 2,
+      "name": "特征函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.cf.inversion",
+      "parent_id": "prob.cf",
+      "level": 2,
+      "name": "反演公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.cf.continuity",
+      "parent_id": "prob.cf",
+      "level": 2,
+      "name": "连续性定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.vectors",
+      "parent_id": null,
+      "level": 1,
+      "name": "随机向量",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.vectors.joint",
+      "parent_id": "prob.vectors",
+      "level": 2,
+      "name": "联合分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.vectors.marginal",
+      "parent_id": "prob.vectors",
+      "level": 2,
+      "name": "边缘分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.vectors.multinormal",
+      "parent_id": "prob.vectors",
+      "level": 2,
+      "name": "多元正态分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.vectors.transformation",
+      "parent_id": "prob.vectors",
+      "level": 2,
+      "name": "随机向量变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.martingale",
+      "parent_id": null,
+      "level": 1,
+      "name": "鞅初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.martingale.filtration",
+      "parent_id": "prob.martingale",
+      "level": 2,
+      "name": "滤波",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.martingale.martingale",
+      "parent_id": "prob.martingale",
+      "level": 2,
+      "name": "鞅",
+      "chapter_ref": null
+    },
+    {
+      "id": "prob.martingale.stopping",
+      "parent_id": "prob.martingale",
+      "level": 2,
+      "name": "停时",
+      "chapter_ref": null
+    }
+  ]
+}

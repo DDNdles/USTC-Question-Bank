@@ -1,0 +1,258 @@
+{
+  "schema_version": "1.0",
+  "course_code": "001122",
+  "nodes": [
+    {
+      "id": "pde.firstorder",
+      "parent_id": null,
+      "level": 1,
+      "name": "一阶偏微分方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.firstorder.characteristic",
+      "parent_id": "pde.firstorder",
+      "level": 2,
+      "name": "特征线法",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.firstorder.conservation",
+      "parent_id": "pde.firstorder",
+      "level": 2,
+      "name": "守恒律",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.firstorder.hj",
+      "parent_id": "pde.firstorder",
+      "level": 2,
+      "name": "哈密顿-雅可比方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.classification",
+      "parent_id": null,
+      "level": 1,
+      "name": "二阶方程分类",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.classification.types",
+      "parent_id": "pde.classification",
+      "level": 2,
+      "name": "椭圆、双曲、抛物型",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.classification.canonical",
+      "parent_id": "pde.classification",
+      "level": 2,
+      "name": "标准型",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.classification.characteristics",
+      "parent_id": "pde.classification",
+      "level": 2,
+      "name": "特征线",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.wave",
+      "parent_id": null,
+      "level": 1,
+      "name": "波动方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.wave.dalembert",
+      "parent_id": "pde.wave",
+      "level": 2,
+      "name": "达朗贝尔公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.wave.energy",
+      "parent_id": "pde.wave",
+      "level": 2,
+      "name": "能量方法",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.wave.reflection",
+      "parent_id": "pde.wave",
+      "level": 2,
+      "name": "边界反射",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.wave.dispersion",
+      "parent_id": "pde.wave",
+      "level": 2,
+      "name": "色散波",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.heat",
+      "parent_id": null,
+      "level": 1,
+      "name": "热方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.heat.fundamental",
+      "parent_id": "pde.heat",
+      "level": 2,
+      "name": "基本解",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.heat.maximum",
+      "parent_id": "pde.heat",
+      "level": 2,
+      "name": "极值原理",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.heat.smoothing",
+      "parent_id": "pde.heat",
+      "level": 2,
+      "name": "光滑化效应",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.heat.asymptotics",
+      "parent_id": "pde.heat",
+      "level": 2,
+      "name": "长期行为",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.potential",
+      "parent_id": null,
+      "level": 1,
+      "name": "位势方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.potential.laplace",
+      "parent_id": "pde.potential",
+      "level": 2,
+      "name": "拉普拉斯方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.potential.poisson",
+      "parent_id": "pde.potential",
+      "level": 2,
+      "name": "泊松方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.potential.mean",
+      "parent_id": "pde.potential",
+      "level": 2,
+      "name": "平均值公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.potential.boundary",
+      "parent_id": "pde.potential",
+      "level": 2,
+      "name": "边值问题",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.separation",
+      "parent_id": null,
+      "level": 1,
+      "name": "分离变量与特征值",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.separation.sturm",
+      "parent_id": "pde.separation",
+      "level": 2,
+      "name": "施图姆-刘维尔理论",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.separation.fourier",
+      "parent_id": "pde.separation",
+      "level": 2,
+      "name": "傅里叶方法",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.separation.eigenvalue",
+      "parent_id": "pde.separation",
+      "level": 2,
+      "name": "特征值问题",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.green",
+      "parent_id": null,
+      "level": 1,
+      "name": "格林函数与基本解",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.green.green",
+      "parent_id": "pde.green",
+      "level": 2,
+      "name": "格林函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.green.fundamental",
+      "parent_id": "pde.green",
+      "level": 2,
+      "name": "基本解",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.green.images",
+      "parent_id": "pde.green",
+      "level": 2,
+      "name": "镜像法",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.weak",
+      "parent_id": null,
+      "level": 1,
+      "name": "弱解与 Sobolev 空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.weak.distribution",
+      "parent_id": "pde.weak",
+      "level": 2,
+      "name": "分布理论",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.weak.sobolev",
+      "parent_id": "pde.weak",
+      "level": 2,
+      "name": "Sobolev 空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.weak.weak",
+      "parent_id": "pde.weak",
+      "level": 2,
+      "name": "弱解",
+      "chapter_ref": null
+    },
+    {
+      "id": "pde.weak.regularity",
+      "parent_id": "pde.weak",
+      "level": 2,
+      "name": "正则性",
+      "chapter_ref": null
+    }
+  ]
+}

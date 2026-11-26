@@ -1,0 +1,265 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH3002",
+  "nodes": [
+    {
+      "id": "real.measure",
+      "parent_id": null,
+      "level": 1,
+      "name": "测度论基础",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.measure.sigma",
+      "parent_id": "real.measure",
+      "level": 2,
+      "name": "σ代数",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.measure.lebesgue",
+      "parent_id": "real.measure",
+      "level": 2,
+      "name": "勒贝格测度",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.measure.measurable",
+      "parent_id": "real.measure",
+      "level": 2,
+      "name": "可测集",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.measure.null",
+      "parent_id": "real.measure",
+      "level": 2,
+      "name": "零测集与完备化",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.functions",
+      "parent_id": null,
+      "level": 1,
+      "name": "可测函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.functions.measurability",
+      "parent_id": "real.functions",
+      "level": 2,
+      "name": "可测性",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.functions.convergence",
+      "parent_id": "real.functions",
+      "level": 2,
+      "name": "各种收敛",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.functions.egorov",
+      "parent_id": "real.functions",
+      "level": 2,
+      "name": "叶戈罗夫定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.functions.lusin",
+      "parent_id": "real.functions",
+      "level": 2,
+      "name": "鲁津定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.integral",
+      "parent_id": null,
+      "level": 1,
+      "name": "勒贝格积分",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.integral.definition",
+      "parent_id": "real.integral",
+      "level": 2,
+      "name": "积分定义",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.integral.properties",
+      "parent_id": "real.integral",
+      "level": 2,
+      "name": "积分性质",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.integral.monotone",
+      "parent_id": "real.integral",
+      "level": 2,
+      "name": "单调收敛定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.integral.dominated",
+      "parent_id": "real.integral",
+      "level": 2,
+      "name": "控制收敛定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.differentiation",
+      "parent_id": null,
+      "level": 1,
+      "name": "微分与积分",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.differentiation.lebesgue",
+      "parent_id": "real.differentiation",
+      "level": 2,
+      "name": "勒贝格微分定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.differentiation.ftc",
+      "parent_id": "real.differentiation",
+      "level": 2,
+      "name": "微积分基本定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.differentiation.absolute",
+      "parent_id": "real.differentiation",
+      "level": 2,
+      "name": "绝对连续",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.differentiation.bounded",
+      "parent_id": "real.differentiation",
+      "level": 2,
+      "name": "有界变差函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.lp",
+      "parent_id": null,
+      "level": 1,
+      "name": "Lp 空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.lp.norms",
+      "parent_id": "real.lp",
+      "level": 2,
+      "name": "范数与完备性",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.lp.inequalities",
+      "parent_id": "real.lp",
+      "level": 2,
+      "name": "赫尔德与闵可夫斯基不等式",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.lp.duality",
+      "parent_id": "real.lp",
+      "level": 2,
+      "name": "对偶空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.lp.l2",
+      "parent_id": "real.lp",
+      "level": 2,
+      "name": "L2 与希尔伯特空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.product",
+      "parent_id": null,
+      "level": 1,
+      "name": "乘积测度",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.product.product",
+      "parent_id": "real.product",
+      "level": 2,
+      "name": "乘积测度",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.product.fubini",
+      "parent_id": "real.product",
+      "level": 2,
+      "name": "富比尼定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.product.convolution",
+      "parent_id": "real.product",
+      "level": 2,
+      "name": "卷积",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.signed",
+      "parent_id": null,
+      "level": 1,
+      "name": "符号测度",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.signed.signed",
+      "parent_id": "real.signed",
+      "level": 2,
+      "name": "符号测度",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.signed.rn",
+      "parent_id": "real.signed",
+      "level": 2,
+      "name": "Radon-Nikodym 定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.signed.jordan",
+      "parent_id": "real.signed",
+      "level": 2,
+      "name": "若尔当分解",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.topology",
+      "parent_id": null,
+      "level": 1,
+      "name": "度量空间与拓扑",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.topology.metric",
+      "parent_id": "real.topology",
+      "level": 2,
+      "name": "度量空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.topology.compact",
+      "parent_id": "real.topology",
+      "level": 2,
+      "name": "紧性",
+      "chapter_ref": null
+    },
+    {
+      "id": "real.topology.baire",
+      "parent_id": "real.topology",
+      "level": 2,
+      "name": "贝尔纲定理",
+      "chapter_ref": null
+    }
+  ]
+}

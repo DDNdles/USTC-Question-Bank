@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH3001",
+  "name": "近世代数",
+  "name_en": "Abstract Algebra",
+  "department": "数学科学学院",
+  "category": "professional",
+  "description": "中国科学技术大学《近世代数》（课号 MATH3001）结构化题库，收录 2019–2026 年13 套期中/期末真题（含 2019 年三次随堂/期中测验，共 255 题），覆盖 30 个二级知识点，其中 2023 期末 26 题附原卷参考解答（origin=official）、其余 229 题由模型独立求解。",
+  "stats": {
+    "total": 255,
+    "quarantined": 6,
+    "taxonomy_nodes": 38,
+    "by_origin": {
+      "official": 26,
+      "community": 0,
+      "ai": 229
+    },
+    "by_type": {
+      "blank": 9,
+      "proof": 103,
+      "single": 21,
+      "solve": 122
+    },
+    "by_difficulty": {
+      "1": 1,
+      "2": 34,
+      "3": 101,
+      "4": 95,
+      "5": 24
+    },
+    "exam_years": [
+      2019,
+      2020,
+      2021,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "alg_exams",
+      "count": 255,
+      "rights": "third_party_exam",
+      "description": "2019–2026 年近世代数 13 套期中/期末真题及随堂测验（255 题）"
+    }
+  ],
+  "known_notes": [
+    "2023 年近世代数期末试卷含原卷解答 26 题标记为 origin=official；其余 12 套期中/期末真题共 229 题由模型独立完成证明与计算（origin=ai）。",
+    "原库中 10 道 Y/N 判断题（2019 期中测 II 及 2023 期末）已规范为标准单选答案键 `Y`/`N`。",
+    "全库共 6 道原卷扫描残缺或设问约定存疑题目标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+  ],
+  "files": {
+    "questions": "courses/MATH3001/questions.jsonl",
+    "taxonomy": "courses/MATH3001/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "49cd5f791624a99e1a91f41c3e73f2bebc39c11f703a3590f28a035fc42c8cda",
+    "taxonomy": "2be8dc0fc7a741599433dad7c6c0d0a7803efd89a725b40ae18dbe407b4cee24"
+  }
+}

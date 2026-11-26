@@ -1,7 +1,7 @@
 {
   "name": "USTC-Question-Bank",
   "schema_version": "1.0",
-  "data_version": "0.19.0",
+  "data_version": "0.20.0",
   "updated_at": "2026-11-26",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
   "asset_base_url": null,
@@ -11,13 +11,13 @@
     "question_content": "Third-party rights retained by original authors and publishers; see NOTICE.md"
   },
   "stats": {
-    "courses": 47,
-    "questions": 18512,
-    "quarantined": 136,
+    "courses": 59,
+    "questions": 20828,
+    "quarantined": 222,
     "by_origin": {
-      "official": 11735,
-      "community": 1600,
-      "ai": 5177
+      "official": 12321,
+      "community": 1620,
+      "ai": 6887
     }
   },
   "courses": [
@@ -1522,6 +1522,426 @@
         "meta": "7f99266150d1124694876604e031dc6952c2f2b94404007bd406655adf61db5f",
         "taxonomy": "48592dca178b6982a31073111ab4112c7fc34aecab9707c373196148e300af37",
         "questions": "527514ab697502ad1bc584b015cad5eb849214de23eb82522308590519e299d5"
+      }
+    },
+    {
+      "code": "022392",
+      "name": "理论力学A",
+      "name_en": "Theoretical Mechanics (A)",
+      "department": "物理学院",
+      "category": "professional",
+      "total": 245,
+      "quarantined": 42,
+      "by_origin": {
+        "official": 76,
+        "community": 0,
+        "ai": 169
+      },
+      "exam_years": [
+        2016,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/022392/meta.json",
+        "taxonomy": "courses/022392/taxonomy.json",
+        "questions": "courses/022392/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "a17fab57801d0e93fbefe4efe2f4cde7691ec9858c4b3e2bce23ebf35316e4bd",
+        "taxonomy": "1a835ed4247da7ee3e20d229d4a8435023bfd362c8a48633bac83705fbdccf10",
+        "questions": "14bf6484631a0b620bc0c938ecdb3020c64679c5c308a48b1f77bfcf38dfbc6b"
+      }
+    },
+    {
+      "code": "022057",
+      "name": "电动力学",
+      "name_en": "Electrodynamics",
+      "department": "物理学院",
+      "category": "professional",
+      "total": 198,
+      "quarantined": 0,
+      "by_origin": {
+        "official": 113,
+        "community": 20,
+        "ai": 65
+      },
+      "exam_years": [
+        2016,
+        2017,
+        2019,
+        2020,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/022057/meta.json",
+        "taxonomy": "courses/022057/taxonomy.json",
+        "questions": "courses/022057/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "3ad544353d7ddfff37fd77bfc443285d38f347c169e8cde8c8ea7509a3bfe8af",
+        "taxonomy": "4e773bf1ad2f9d3f193a026d023b08992aaf7823caa565c759a6dd1912426cd8",
+        "questions": "b8ef3ae53df731dad26041673f5b864ddd6144e3b8e00b2bb60cca55faf1ca74"
+      }
+    },
+    {
+      "code": "001506",
+      "name": "数理方程A",
+      "name_en": "Equations of Mathematical Physics (A)",
+      "department": "数学科学学院",
+      "category": "professional",
+      "total": 182,
+      "quarantined": 4,
+      "by_origin": {
+        "official": 75,
+        "community": 0,
+        "ai": 107
+      },
+      "exam_years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2015,
+        2016,
+        2019,
+        2020,
+        2025
+      ],
+      "paths": {
+        "meta": "courses/001506/meta.json",
+        "taxonomy": "courses/001506/taxonomy.json",
+        "questions": "courses/001506/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "30495ae9edc3b3286f660736ec93c0da161711c326496da6f418937e1d97106c",
+        "taxonomy": "a6b52d6bbdf3cac787577bbd447050d3bc3d591ebe49746394a9a9e4fb2b2035",
+        "questions": "184c5da58d2e6cc159610e55b1c80cfbeaf0a07f4b77ec29ab0ff6466f87b6ec"
+      }
+    },
+    {
+      "code": "001505",
+      "name": "复变函数A",
+      "name_en": "Complex Variables (A)",
+      "department": "数学科学学院",
+      "category": "professional",
+      "total": 173,
+      "quarantined": 7,
+      "by_origin": {
+        "official": 17,
+        "community": 0,
+        "ai": 156
+      },
+      "exam_years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "paths": {
+        "meta": "courses/001505/meta.json",
+        "taxonomy": "courses/001505/taxonomy.json",
+        "questions": "courses/001505/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "6d70dbe2afafb818f4f2ea272ed0d4d059eed5cd6c067533d6901ab0b914e67e",
+        "taxonomy": "a9fca43372b8ea5d4baaafbbbcc5ddb7ee5715f407f958d7c495bb5321855e27",
+        "questions": "9cf95794ffae67c49922e9d676f0b1e2c342bd3a833600950bc196332f4f78f5"
+      }
+    },
+    {
+      "code": "MATH3008",
+      "name": "复分析",
+      "name_en": "Complex Analysis",
+      "department": "数学科学学院",
+      "category": "professional",
+      "total": 305,
+      "quarantined": 7,
+      "by_origin": {
+        "official": 13,
+        "community": 0,
+        "ai": 292
+      },
+      "exam_years": [
+        2011,
+        2014,
+        2016,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/MATH3008/meta.json",
+        "taxonomy": "courses/MATH3008/taxonomy.json",
+        "questions": "courses/MATH3008/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "cf30292b78816f9e3c2be40d341c0353ebff56266ee5dfde6a2577dc49958a91",
+        "taxonomy": "e03e318d384a7d49316a0e4cc76149bcdf8607e4ecde593f01312b1f42ae3cf8",
+        "questions": "f883479ff5a6f3ababfbcc1adb328bb0daca14b474b59c672d0152f922c0505d"
+      }
+    },
+    {
+      "code": "MATH3002",
+      "name": "实分析",
+      "name_en": "Real Analysis",
+      "department": "数学科学学院",
+      "category": "professional",
+      "total": 239,
+      "quarantined": 5,
+      "by_origin": {
+        "official": 40,
+        "community": 0,
+        "ai": 199
+      },
+      "exam_years": [
+        2015,
+        2016,
+        2017,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/MATH3002/meta.json",
+        "taxonomy": "courses/MATH3002/taxonomy.json",
+        "questions": "courses/MATH3002/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "8020cfa3b9763d35db9d52235cc3f00883be1693e6e61601259fa48ea15d1fbc",
+        "taxonomy": "120415dfe064a8f3537b169c2711c49e489c9c1b994b16f068a6cd4874cc07f7",
+        "questions": "32bf450d9da004446df5990cc40fe6b8b1a594ebaedf8ab5b5ecbfd4ccb83587"
+      }
+    },
+    {
+      "code": "MATH3007",
+      "name": "概率论",
+      "name_en": "Probability Theory",
+      "department": "数学科学学院",
+      "category": "professional",
+      "total": 241,
+      "quarantined": 7,
+      "by_origin": {
+        "official": 18,
+        "community": 0,
+        "ai": 223
+      },
+      "exam_years": [
+        2013,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/MATH3007/meta.json",
+        "taxonomy": "courses/MATH3007/taxonomy.json",
+        "questions": "courses/MATH3007/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "0bcd30d2e1f197b3b5c58f862abd96f26de601613df9bfeaed35f45704987419",
+        "taxonomy": "8bcbb167e8a45a6cbdb0de108504d8967f876c57452ed4e03339bd136536a8c5",
+        "questions": "24828666ed0538ae65b9a93c066061972ff305d55c3c61a6418f130acc9b85b0"
+      }
+    },
+    {
+      "code": "MATH3001",
+      "name": "近世代数",
+      "name_en": "Abstract Algebra",
+      "department": "数学科学学院",
+      "category": "professional",
+      "total": 255,
+      "quarantined": 6,
+      "by_origin": {
+        "official": 26,
+        "community": 0,
+        "ai": 229
+      },
+      "exam_years": [
+        2019,
+        2020,
+        2021,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/MATH3001/meta.json",
+        "taxonomy": "courses/MATH3001/taxonomy.json",
+        "questions": "courses/MATH3001/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "4044dfa09aa711c7b1a76f858374a100610f4aec47d83ba04bfa016675d3ee91",
+        "taxonomy": "2be8dc0fc7a741599433dad7c6c0d0a7803efd89a725b40ae18dbe407b4cee24",
+        "questions": "49cd5f791624a99e1a91f41c3e73f2bebc39c11f703a3590f28a035fc42c8cda"
+      }
+    },
+    {
+      "code": "017063",
+      "name": "数理统计",
+      "name_en": "Mathematical Statistics",
+      "department": "数学科学学院",
+      "category": "professional",
+      "total": 73,
+      "quarantined": 5,
+      "by_origin": {
+        "official": 36,
+        "community": 0,
+        "ai": 37
+      },
+      "exam_years": [
+        2021,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/017063/meta.json",
+        "taxonomy": "courses/017063/taxonomy.json",
+        "questions": "courses/017063/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "c33a1787d77a57279f07105d44f137f240a54872a07dad9b83593ca4b49fb4cb",
+        "taxonomy": "c548440bb007a8af2b48bf10459ab81cdfc69455049e5da5b1788159045709f2",
+        "questions": "e68169ce3665e647ac832356bd1dea8d7064bb4589c01dab9f73fd00d94f2f46"
+      }
+    },
+    {
+      "code": "017129",
+      "name": "实用随机过程",
+      "name_en": "Applied Stochastic Processes",
+      "department": "数学科学学院",
+      "category": "professional",
+      "total": 161,
+      "quarantined": 1,
+      "by_origin": {
+        "official": 36,
+        "community": 0,
+        "ai": 125
+      },
+      "exam_years": [
+        2011,
+        2015,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/017129/meta.json",
+        "taxonomy": "courses/017129/taxonomy.json",
+        "questions": "courses/017129/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "20091f983f7d0f4270a1775d2daabd19216e2fbdf5bf7a5775956486e1488228",
+        "taxonomy": "bb6941b4a854d00bb968a5f525afdab13328e3b614d3c89800dc34ac233dffb1",
+        "questions": "10b038c2ea044ee5470176f411aea2cd7e76d845c82a21abea91786dca4565e7"
+      }
+    },
+    {
+      "code": "001101",
+      "name": "常微分方程",
+      "name_en": "Ordinary Differential Equations",
+      "department": "数学科学学院",
+      "category": "professional",
+      "total": 141,
+      "quarantined": 1,
+      "by_origin": {
+        "official": 77,
+        "community": 0,
+        "ai": 64
+      },
+      "exam_years": [
+        2016,
+        2020,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/001101/meta.json",
+        "taxonomy": "courses/001101/taxonomy.json",
+        "questions": "courses/001101/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "1ffe33a5ef8ae9c432788cc12be45afd673de690c9f6d0aefcf489981044d25f",
+        "taxonomy": "162a1ebd0fc4e5025c1a7fd35eacb77cfb69290e4bdf624cce41c40842150e58",
+        "questions": "f57a6a419b02a5153223feed018d84b65ad1f4e26149c5425d95db885c3e274d"
+      }
+    },
+    {
+      "code": "001122",
+      "name": "偏微分方程",
+      "name_en": "Partial Differential Equations",
+      "department": "数学科学学院",
+      "category": "professional",
+      "total": 103,
+      "quarantined": 1,
+      "by_origin": {
+        "official": 59,
+        "community": 0,
+        "ai": 44
+      },
+      "exam_years": [
+        2020,
+        2022,
+        2024,
+        2025
+      ],
+      "paths": {
+        "meta": "courses/001122/meta.json",
+        "taxonomy": "courses/001122/taxonomy.json",
+        "questions": "courses/001122/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "3751beb0608ae8115bc53a3d0b0b8ac26c0580313b98d11b622557bda94f0ad3",
+        "taxonomy": "b3f455ac6780171f60a18b5023c1e28c2ecc89e9af0a93d2b3c6a0f375df02eb",
+        "questions": "d9b407d6cd328d7724215c8e506a1224bbcecf00d769f79672bb51e950b272a4"
       }
     }
   ]

@@ -1,0 +1,286 @@
+{
+  "schema_version": "1.0",
+  "course_code": "017129",
+  "nodes": [
+    {
+      "id": "stoc.basics",
+      "parent_id": null,
+      "level": 1,
+      "name": "随机过程基础",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.basics.definition",
+      "parent_id": "stoc.basics",
+      "level": 2,
+      "name": "定义与有限维分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.basics.covariance",
+      "parent_id": "stoc.basics",
+      "level": 2,
+      "name": "协方差函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.basics.stationary",
+      "parent_id": "stoc.basics",
+      "level": 2,
+      "name": "平稳性",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.basics.examples",
+      "parent_id": "stoc.basics",
+      "level": 2,
+      "name": "典型过程",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.poisson",
+      "parent_id": null,
+      "level": 1,
+      "name": "泊松过程",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.poisson.homogeneous",
+      "parent_id": "stoc.poisson",
+      "level": 2,
+      "name": "齐次泊松过程",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.poisson.interarrival",
+      "parent_id": "stoc.poisson",
+      "level": 2,
+      "name": "到达间隔与等待时间",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.poisson.thinning",
+      "parent_id": "stoc.poisson",
+      "level": 2,
+      "name": "稀疏与叠加",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.poisson.nonhomogeneous",
+      "parent_id": "stoc.poisson",
+      "level": 2,
+      "name": "非齐次泊松过程",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.markov",
+      "parent_id": null,
+      "level": 1,
+      "name": "马尔可夫链",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.markov.transition",
+      "parent_id": "stoc.markov",
+      "level": 2,
+      "name": "转移矩阵",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.markov.chapman",
+      "parent_id": "stoc.markov",
+      "level": 2,
+      "name": "C-K 方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.markov.classification",
+      "parent_id": "stoc.markov",
+      "level": 2,
+      "name": "状态分类",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.markov.stationary",
+      "parent_id": "stoc.markov",
+      "level": 2,
+      "name": "平稳分布与极限分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.ctmc",
+      "parent_id": null,
+      "level": 1,
+      "name": "连续时间马尔可夫链",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.ctmc.generator",
+      "parent_id": "stoc.ctmc",
+      "level": 2,
+      "name": "生成矩阵",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.ctmc.kolmogorov",
+      "parent_id": "stoc.ctmc",
+      "level": 2,
+      "name": "柯尔莫哥洛夫方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.ctmc.birthdeath",
+      "parent_id": "stoc.ctmc",
+      "level": 2,
+      "name": "生灭过程",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.ctmc.embedded",
+      "parent_id": "stoc.ctmc",
+      "level": 2,
+      "name": "嵌入链",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.renewal",
+      "parent_id": null,
+      "level": 1,
+      "name": "更新过程",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.renewal.renewal",
+      "parent_id": "stoc.renewal",
+      "level": 2,
+      "name": "更新方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.renewal.reward",
+      "parent_id": "stoc.renewal",
+      "level": 2,
+      "name": "更新报酬过程",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.renewal.residual",
+      "parent_id": "stoc.renewal",
+      "level": 2,
+      "name": "剩余寿命",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.renewal.theorem",
+      "parent_id": "stoc.renewal",
+      "level": 2,
+      "name": "更新定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.martingale",
+      "parent_id": null,
+      "level": 1,
+      "name": "鞅",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.martingale.definition",
+      "parent_id": "stoc.martingale",
+      "level": 2,
+      "name": "鞅的定义",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.martingale.optional",
+      "parent_id": "stoc.martingale",
+      "level": 2,
+      "name": "停时与可选停时",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.martingale.inequalities",
+      "parent_id": "stoc.martingale",
+      "level": 2,
+      "name": "鞅不等式",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.martingale.convergence",
+      "parent_id": "stoc.martingale",
+      "level": 2,
+      "name": "鞅收敛定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.brownian",
+      "parent_id": null,
+      "level": 1,
+      "name": "布朗运动",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.brownian.definition",
+      "parent_id": "stoc.brownian",
+      "level": 2,
+      "name": "定义与性质",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.brownian.hitting",
+      "parent_id": "stoc.brownian",
+      "level": 2,
+      "name": "首中时",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.brownian.reflected",
+      "parent_id": "stoc.brownian",
+      "level": 2,
+      "name": "反射与吸收",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.brownian.bridge",
+      "parent_id": "stoc.brownian",
+      "level": 2,
+      "name": "布朗桥",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.queue",
+      "parent_id": null,
+      "level": 1,
+      "name": "排队论初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.queue.mm1",
+      "parent_id": "stoc.queue",
+      "level": 2,
+      "name": "M/M/1 队列",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.queue.mmc",
+      "parent_id": "stoc.queue",
+      "level": 2,
+      "name": "M/M/c 队列",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.queue.little",
+      "parent_id": "stoc.queue",
+      "level": 2,
+      "name": "Little 公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "stoc.queue.priority",
+      "parent_id": "stoc.queue",
+      "level": 2,
+      "name": "优先级队列",
+      "chapter_ref": null
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "course_code": "001505",
+  "nodes": [
+    {
+      "id": "cva.complex",
+      "parent_id": null,
+      "level": 1,
+      "name": "复数与复变函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.complex.algebra",
+      "parent_id": "cva.complex",
+      "level": 2,
+      "name": "复数运算",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.complex.geometry",
+      "parent_id": "cva.complex",
+      "level": 2,
+      "name": "几何表示",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.complex.region",
+      "parent_id": "cva.complex",
+      "level": 2,
+      "name": "区域与曲线",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.complex.elementary",
+      "parent_id": "cva.complex",
+      "level": 2,
+      "name": "初等复变函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.analytic",
+      "parent_id": null,
+      "level": 1,
+      "name": "解析函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.analytic.cr",
+      "parent_id": "cva.analytic",
+      "level": 2,
+      "name": "柯西-黎曼条件",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.analytic.harmonic",
+      "parent_id": "cva.analytic",
+      "level": 2,
+      "name": "调和函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.analytic.derivative",
+      "parent_id": "cva.analytic",
+      "level": 2,
+      "name": "导数与微分",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.integral",
+      "parent_id": null,
+      "level": 1,
+      "name": "复积分",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.integral.contour",
+      "parent_id": "cva.integral",
+      "level": 2,
+      "name": "路径积分",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.integral.cauchy",
+      "parent_id": "cva.integral",
+      "level": 2,
+      "name": "柯西定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.integral.formula",
+      "parent_id": "cva.integral",
+      "level": 2,
+      "name": "柯西积分公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.integral.liouville",
+      "parent_id": "cva.integral",
+      "level": 2,
+      "name": "刘维尔定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.series",
+      "parent_id": null,
+      "level": 1,
+      "name": "级数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.series.taylor",
+      "parent_id": "cva.series",
+      "level": 2,
+      "name": "泰勒级数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.series.laurent",
+      "parent_id": "cva.series",
+      "level": 2,
+      "name": "洛朗级数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.series.singularity",
+      "parent_id": "cva.series",
+      "level": 2,
+      "name": "孤立奇点",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.series.convergence",
+      "parent_id": "cva.series",
+      "level": 2,
+      "name": "收敛半径",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.residue",
+      "parent_id": null,
+      "level": 1,
+      "name": "留数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.residue.theorem",
+      "parent_id": "cva.residue",
+      "level": 2,
+      "name": "留数定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.residue.realintegral",
+      "parent_id": "cva.residue",
+      "level": 2,
+      "name": "实积分计算",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.residue.argument",
+      "parent_id": "cva.residue",
+      "level": 2,
+      "name": "辐角原理与儒歇定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.mapping",
+      "parent_id": null,
+      "level": 1,
+      "name": "保角映射",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.mapping.conformal",
+      "parent_id": "cva.mapping",
+      "level": 2,
+      "name": "保角性",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.mapping.linear",
+      "parent_id": "cva.mapping",
+      "level": 2,
+      "name": "分式线性变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.mapping.elementarym",
+      "parent_id": "cva.mapping",
+      "level": 2,
+      "name": "初等映射",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.continuation",
+      "parent_id": null,
+      "level": 1,
+      "name": "解析延拓与整函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.continuation.continuation",
+      "parent_id": "cva.continuation",
+      "level": 2,
+      "name": "解析延拓",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.continuation.multivalued",
+      "parent_id": "cva.continuation",
+      "level": 2,
+      "name": "多值函数与黎曼面",
+      "chapter_ref": null
+    },
+    {
+      "id": "cva.continuation.entire",
+      "parent_id": "cva.continuation",
+      "level": 2,
+      "name": "整函数与亚纯函数",
+      "chapter_ref": null
+    }
+  ]
+}

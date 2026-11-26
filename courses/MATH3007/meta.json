@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH3007",
+  "name": "概率论",
+  "name_en": "Probability Theory",
+  "department": "数学科学学院",
+  "category": "professional",
+  "description": "中国科学技术大学《概率论》（数院，课号 MATH3007）结构化题库，收录 2013–2026 年23 套期中/期末真题（241 题），覆盖 29 个二级知识点，其中 2023/2024 期中 18 题附原卷参考解答（origin=official）、其余 223 题由模型独立推导与证明。",
+  "stats": {
+    "total": 241,
+    "quarantined": 7,
+    "taxonomy_nodes": 37,
+    "by_origin": {
+      "official": 18,
+      "community": 0,
+      "ai": 223
+    },
+    "by_type": {
+      "proof": 114,
+      "solve": 127
+    },
+    "by_difficulty": {
+      "1": 2,
+      "2": 23,
+      "3": 86,
+      "4": 69,
+      "5": 61
+    },
+    "exam_years": [
+      2013,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "prob_exams",
+      "count": 241,
+      "rights": "third_party_exam",
+      "description": "2013–2026 年概率论（数院）23 套期中/期末真题（241 题）"
+    }
+  ],
+  "known_notes": [
+    "2023 年与 2024 年概率论（数院）期中试卷含解答部分共 18 题标记为 origin=official；其余 21 套期中/期末真题（含 2013–2026 年）共 223 题由模型独立求解（origin=ai）。",
+    "全库共 7 道题干条件表述歧义（如古典模型约定或极限定理条件强弱）题目标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+  ],
+  "files": {
+    "questions": "courses/MATH3007/questions.jsonl",
+    "taxonomy": "courses/MATH3007/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "24828666ed0538ae65b9a93c066061972ff305d55c3c61a6418f130acc9b85b0",
+    "taxonomy": "8bcbb167e8a45a6cbdb0de108504d8967f876c57452ed4e03339bd136536a8c5"
+  }
+}

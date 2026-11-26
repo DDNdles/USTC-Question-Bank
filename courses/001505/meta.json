@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "code": "001505",
+  "name": "复变函数A",
+  "name_en": "Complex Variables (A)",
+  "department": "数学科学学院",
+  "category": "professional",
+  "description": "中国科学技术大学《复变函数A》（课号 001505）结构化题库，收录 2005–2024 年历年期末真题共 10 套（173 题），覆盖 23 个二级知识点，其中 17 题附 2019–2020 学年第一学期原卷参考答案（origin=official）、156 题由模型独立推导并配分步解析。",
+  "stats": {
+    "total": 173,
+    "quarantined": 7,
+    "taxonomy_nodes": 31,
+    "by_origin": {
+      "official": 17,
+      "community": 0,
+      "ai": 156
+    },
+    "by_type": {
+      "blank": 40,
+      "proof": 17,
+      "solve": 116
+    },
+    "by_difficulty": {
+      "1": 2,
+      "2": 28,
+      "3": 52,
+      "4": 62,
+      "5": 29
+    },
+    "exam_years": [
+      2005,
+      2006,
+      2007,
+      2008,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  },
+  "batches": [
+    {
+      "id": "cva_exams",
+      "count": 173,
+      "rights": "third_party_exam",
+      "description": "2005–2024 年复变函数A 10 套历年期末真题及参考答案（173 题）"
+    }
+  ],
+  "known_notes": [
+    "《复变函数历年真题》（含 2005–2008、2020、2022–2024 年 8 套 A 卷期末真题）已按年份拆分为独立题目编号；2019–2020 第一学期期末卷含答案部分 17 题标记为 origin=official，其余 156 题由模型求解（origin=ai）。",
+    "全库共 7 道原卷转录积分路径/指数存疑或扫描模糊题目标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+  ],
+  "files": {
+    "questions": "courses/001505/questions.jsonl",
+    "taxonomy": "courses/001505/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "9cf95794ffae67c49922e9d676f0b1e2c342bd3a833600950bc196332f4f78f5",
+    "taxonomy": "a9fca43372b8ea5d4baaafbbbcc5ddb7ee5715f407f958d7c495bb5321855e27"
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH3001",
+  "nodes": [
+    {
+      "id": "alg.groups",
+      "parent_id": null,
+      "level": 1,
+      "name": "群论基础",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.groups.group",
+      "parent_id": "alg.groups",
+      "level": 2,
+      "name": "群的定义与例子",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.groups.subgroup",
+      "parent_id": "alg.groups",
+      "level": 2,
+      "name": "子群",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.groups.coset",
+      "parent_id": "alg.groups",
+      "level": 2,
+      "name": "陪集与拉格朗日定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.groups.order",
+      "parent_id": "alg.groups",
+      "level": 2,
+      "name": "元素的阶",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.normal",
+      "parent_id": null,
+      "level": 1,
+      "name": "正规子群与商群",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.normal.normal",
+      "parent_id": "alg.normal",
+      "level": 2,
+      "name": "正规子群",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.normal.quotient",
+      "parent_id": "alg.normal",
+      "level": 2,
+      "name": "商群",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.normal.homomorphism",
+      "parent_id": "alg.normal",
+      "level": 2,
+      "name": "同态基本定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.normal.commutator",
+      "parent_id": "alg.normal",
+      "level": 2,
+      "name": "换位子群",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.permutation",
+      "parent_id": null,
+      "level": 1,
+      "name": "置换群与群作用",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.permutation.symmetric",
+      "parent_id": "alg.permutation",
+      "level": 2,
+      "name": "对称群",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.permutation.cycle",
+      "parent_id": "alg.permutation",
+      "level": 2,
+      "name": "轮换分解",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.permutation.action",
+      "parent_id": "alg.permutation",
+      "level": 2,
+      "name": "群作用",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.permutation.sylow",
+      "parent_id": "alg.permutation",
+      "level": 2,
+      "name": "西罗定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.abelian",
+      "parent_id": null,
+      "level": 1,
+      "name": "交换群",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.abelian.abelian",
+      "parent_id": "alg.abelian",
+      "level": 2,
+      "name": "交换群",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.abelian.direct",
+      "parent_id": "alg.abelian",
+      "level": 2,
+      "name": "直和分解",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.abelian.finitely",
+      "parent_id": "alg.abelian",
+      "level": 2,
+      "name": "有限生成交换群",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.rings",
+      "parent_id": null,
+      "level": 1,
+      "name": "环论基础",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.rings.ring",
+      "parent_id": "alg.rings",
+      "level": 2,
+      "name": "环的定义",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.rings.ideal",
+      "parent_id": "alg.rings",
+      "level": 2,
+      "name": "理想",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.rings.quotientring",
+      "parent_id": "alg.rings",
+      "level": 2,
+      "name": "商环",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.rings.homomorphism_r",
+      "parent_id": "alg.rings",
+      "level": 2,
+      "name": "环同态",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.domains",
+      "parent_id": null,
+      "level": 1,
+      "name": "整环与因子分解",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.domains.domain",
+      "parent_id": "alg.domains",
+      "level": 2,
+      "name": "整环",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.domains.ufd",
+      "parent_id": "alg.domains",
+      "level": 2,
+      "name": "唯一分解整环",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.domains.pid",
+      "parent_id": "alg.domains",
+      "level": 2,
+      "name": "主理想整环",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.domains.euclidean",
+      "parent_id": "alg.domains",
+      "level": 2,
+      "name": "欧几里得整环",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.fields",
+      "parent_id": null,
+      "level": 1,
+      "name": "域论",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.fields.field",
+      "parent_id": "alg.fields",
+      "level": 2,
+      "name": "域与域扩张",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.fields.algebraic",
+      "parent_id": "alg.fields",
+      "level": 2,
+      "name": "代数扩张",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.fields.finite",
+      "parent_id": "alg.fields",
+      "level": 2,
+      "name": "有限域",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.fields.degree",
+      "parent_id": "alg.fields",
+      "level": 2,
+      "name": "扩张次数",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.galois",
+      "parent_id": null,
+      "level": 1,
+      "name": "伽罗瓦理论初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.galois.automorphism",
+      "parent_id": "alg.galois",
+      "level": 2,
+      "name": "自同构",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.galois.correspondence",
+      "parent_id": "alg.galois",
+      "level": 2,
+      "name": "伽罗瓦对应",
+      "chapter_ref": null
+    },
+    {
+      "id": "alg.galois.solvable",
+      "parent_id": "alg.galois",
+      "level": 2,
+      "name": "可解群",
+      "chapter_ref": null
+    }
+  ]
+}

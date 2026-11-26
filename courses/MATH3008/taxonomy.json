@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH3008",
+  "nodes": [
+    {
+      "id": "cpax.foundations",
+      "parent_id": null,
+      "level": 1,
+      "name": "复数与解析函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.foundations.complex",
+      "parent_id": "cpax.foundations",
+      "level": 2,
+      "name": "复数与几何",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.foundations.analytic",
+      "parent_id": "cpax.foundations",
+      "level": 2,
+      "name": "解析性与柯西-黎曼条件",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.foundations.elementary",
+      "parent_id": "cpax.foundations",
+      "level": 2,
+      "name": "初等函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.foundations.harmonic",
+      "parent_id": "cpax.foundations",
+      "level": 2,
+      "name": "调和函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.integration",
+      "parent_id": null,
+      "level": 1,
+      "name": "复积分",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.integration.cauchy",
+      "parent_id": "cpax.integration",
+      "level": 2,
+      "name": "柯西定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.integration.formula",
+      "parent_id": "cpax.integration",
+      "level": 2,
+      "name": "柯西积分公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.integration.cauchytype",
+      "parent_id": "cpax.integration",
+      "level": 2,
+      "name": "柯西型积分",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.series",
+      "parent_id": null,
+      "level": 1,
+      "name": "级数展开",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.series.power",
+      "parent_id": "cpax.series",
+      "level": 2,
+      "name": "幂级数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.series.laurent",
+      "parent_id": "cpax.series",
+      "level": 2,
+      "name": "洛朗级数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.series.singularity",
+      "parent_id": "cpax.series",
+      "level": 2,
+      "name": "奇点分类",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.residue",
+      "parent_id": null,
+      "level": 1,
+      "name": "留数理论",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.residue.theorem",
+      "parent_id": "cpax.residue",
+      "level": 2,
+      "name": "留数定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.residue.integrals",
+      "parent_id": "cpax.residue",
+      "level": 2,
+      "name": "实积分计算",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.residue.argument",
+      "parent_id": "cpax.residue",
+      "level": 2,
+      "name": "辐角原理",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.mapping",
+      "parent_id": null,
+      "level": 1,
+      "name": "保角映射",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.mapping.conformal",
+      "parent_id": "cpax.mapping",
+      "level": 2,
+      "name": "保角映射",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.mapping.linear",
+      "parent_id": "cpax.mapping",
+      "level": 2,
+      "name": "分式线性变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.mapping.boundary",
+      "parent_id": "cpax.mapping",
+      "level": 2,
+      "name": "边界对应",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.entire",
+      "parent_id": null,
+      "level": 1,
+      "name": "整函数与亚纯函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.entire.weierstrass",
+      "parent_id": "cpax.entire",
+      "level": 2,
+      "name": "魏尔斯特拉斯分解",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.entire.mittag",
+      "parent_id": "cpax.entire",
+      "level": 2,
+      "name": "米塔格-莱夫勒定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.entire.picard",
+      "parent_id": "cpax.entire",
+      "level": 2,
+      "name": "皮卡定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.continuation",
+      "parent_id": null,
+      "level": 1,
+      "name": "解析延拓",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.continuation.analytic",
+      "parent_id": "cpax.continuation",
+      "level": 2,
+      "name": "解析延拓",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.continuation.riemann",
+      "parent_id": "cpax.continuation",
+      "level": 2,
+      "name": "黎曼面",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.continuation.gamma",
+      "parent_id": "cpax.continuation",
+      "level": 2,
+      "name": "伽马函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.harmonic",
+      "parent_id": null,
+      "level": 1,
+      "name": "调和函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.harmonic.mean",
+      "parent_id": "cpax.harmonic",
+      "level": 2,
+      "name": "平均值性质",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.harmonic.dirichlet",
+      "parent_id": "cpax.harmonic",
+      "level": 2,
+      "name": "狄利克雷问题",
+      "chapter_ref": null
+    },
+    {
+      "id": "cpax.harmonic.poisson",
+      "parent_id": "cpax.harmonic",
+      "level": 2,
+      "name": "泊松积分",
+      "chapter_ref": null
+    }
+  ]
+}

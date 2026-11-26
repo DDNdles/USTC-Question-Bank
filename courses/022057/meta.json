@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "code": "022057",
+  "name": "电动力学",
+  "name_en": "Electrodynamics",
+  "department": "物理学院",
+  "category": "professional",
+  "description": "中国科学技术大学《电动力学》（课号 022057）结构化题库，收录 2016–2026 学年13 套期中/期末真题（含王少杰班 2020 期末，178 题）及郭硕鸿《电动力学》（第四版）Uphi. 修订版习题参考解答（20 题）共 198 题，覆盖 31 个二级知识点，其中 113 题附原卷解答（origin=official）、20 题源自社区修订解答（origin=community）、65 题由模型独立推导。",
+  "stats": {
+    "total": 198,
+    "quarantined": 0,
+    "taxonomy_nodes": 39,
+    "by_origin": {
+      "official": 113,
+      "community": 20,
+      "ai": 65
+    },
+    "by_type": {
+      "blank": 33,
+      "proof": 27,
+      "solve": 138
+    },
+    "by_difficulty": {
+      "1": 0,
+      "2": 19,
+      "3": 88,
+      "4": 72,
+      "5": 19
+    },
+    "exam_years": [
+      2016,
+      2017,
+      2019,
+      2020,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "elec_exams",
+      "count": 178,
+      "rights": "third_party_exam",
+      "description": "2016–2026 学年电动力学 13 套期中/期末真题（含王少杰班 2020 期末，178 题）"
+    },
+    {
+      "id": "ed_guo_sol",
+      "count": 20,
+      "rights": "third_party_textbook_and_community",
+      "description": "郭硕鸿《电动力学》（第四版）Uphi. 修订版习题参考解答（20 题）"
+    }
+  ],
+  "known_notes": [
+    "2016–2017、2020 期末及 2023–2025 期中/期末共 113 题附原卷参考答案（origin=official）；郭硕鸿《电动力学》（第四版）Uphi. 修订版习题参考解答 20 题标记为 origin=community；其余 2019–2020、2026 期中/期末等 65 题由模型独立求解（origin=ai）。",
+    "全库零低置信度隔离题（quarantined=0）。"
+  ],
+  "files": {
+    "questions": "courses/022057/questions.jsonl",
+    "taxonomy": "courses/022057/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "b8ef3ae53df731dad26041673f5b864ddd6144e3b8e00b2bb60cca55faf1ca74",
+    "taxonomy": "4e773bf1ad2f9d3f193a026d023b08992aaf7823caa565c759a6dd1912426cd8"
+  }
+}

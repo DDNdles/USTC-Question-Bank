@@ -1,0 +1,293 @@
+{
+  "schema_version": "1.0",
+  "course_code": "001506",
+  "nodes": [
+    {
+      "id": "mpea.setup",
+      "parent_id": null,
+      "level": 1,
+      "name": "方程建立与定解问题",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.setup.derivation",
+      "parent_id": "mpea.setup",
+      "level": 2,
+      "name": "三类方程的推导",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.setup.classification",
+      "parent_id": "mpea.setup",
+      "level": 2,
+      "name": "二阶方程分类",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.setup.conditions",
+      "parent_id": "mpea.setup",
+      "level": 2,
+      "name": "定解条件",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.setup.wellposed",
+      "parent_id": "mpea.setup",
+      "level": 2,
+      "name": "适定性与叠加原理",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.separation",
+      "parent_id": null,
+      "level": 1,
+      "name": "分离变量法",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.separation.cartesian",
+      "parent_id": "mpea.separation",
+      "level": 2,
+      "name": "直角坐标分离变量",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.separation.polar",
+      "parent_id": "mpea.separation",
+      "level": 2,
+      "name": "极坐标与圆域",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.separation.eigenvalue",
+      "parent_id": "mpea.separation",
+      "level": 2,
+      "name": "本征值问题",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.separation.inhomogeneous",
+      "parent_id": "mpea.separation",
+      "level": 2,
+      "name": "非齐次问题展开",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.ode",
+      "parent_id": null,
+      "level": 1,
+      "name": "常微分方程方法",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.ode.secondorder",
+      "parent_id": "mpea.ode",
+      "level": 2,
+      "name": "二阶线性常微分方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.ode.series",
+      "parent_id": "mpea.ode",
+      "level": 2,
+      "name": "级数解法",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.ode.sturm",
+      "parent_id": "mpea.ode",
+      "level": 2,
+      "name": "施图姆-刘维尔理论",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.transform",
+      "parent_id": null,
+      "level": 1,
+      "name": "积分变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.transform.fourier",
+      "parent_id": "mpea.transform",
+      "level": 2,
+      "name": "傅里叶变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.transform.laplace",
+      "parent_id": "mpea.transform",
+      "level": 2,
+      "name": "拉普拉斯变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.transform.convolution",
+      "parent_id": "mpea.transform",
+      "level": 2,
+      "name": "卷积定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.green",
+      "parent_id": null,
+      "level": 1,
+      "name": "格林函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.green.green",
+      "parent_id": "mpea.green",
+      "level": 2,
+      "name": "格林函数构造",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.green.images",
+      "parent_id": "mpea.green",
+      "level": 2,
+      "name": "镜像法",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.green.eigen",
+      "parent_id": "mpea.green",
+      "level": 2,
+      "name": "本征函数展开",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.special",
+      "parent_id": null,
+      "level": 1,
+      "name": "特殊函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.special.bessel",
+      "parent_id": "mpea.special",
+      "level": 2,
+      "name": "贝塞尔函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.special.legendre",
+      "parent_id": "mpea.special",
+      "level": 2,
+      "name": "勒让德函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.special.spherical",
+      "parent_id": "mpea.special",
+      "level": 2,
+      "name": "球谐函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.special.orthogonal",
+      "parent_id": "mpea.special",
+      "level": 2,
+      "name": "正交多项式",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.wave",
+      "parent_id": null,
+      "level": 1,
+      "name": "波动方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.wave.dalembert",
+      "parent_id": "mpea.wave",
+      "level": 2,
+      "name": "达朗贝尔解",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.wave.traveling",
+      "parent_id": "mpea.wave",
+      "level": 2,
+      "name": "行波与边界反射",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.wave.energy",
+      "parent_id": "mpea.wave",
+      "level": 2,
+      "name": "能量积分",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.wave.dispersion",
+      "parent_id": "mpea.wave",
+      "level": 2,
+      "name": "色散关系",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.heat",
+      "parent_id": null,
+      "level": 1,
+      "name": "热传导方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.heat.fourierlaw",
+      "parent_id": "mpea.heat",
+      "level": 2,
+      "name": "热传导方程推导",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.heat.steady",
+      "parent_id": "mpea.heat",
+      "level": 2,
+      "name": "稳态问题",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.heat.maximum",
+      "parent_id": "mpea.heat",
+      "level": 2,
+      "name": "极值原理",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.heat.asymptotics",
+      "parent_id": "mpea.heat",
+      "level": 2,
+      "name": "长期行为",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.potential",
+      "parent_id": null,
+      "level": 1,
+      "name": "位势方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.potential.laplace",
+      "parent_id": "mpea.potential",
+      "level": 2,
+      "name": "拉普拉斯方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.potential.poisson",
+      "parent_id": "mpea.potential",
+      "level": 2,
+      "name": "泊松方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "mpea.potential.boundary",
+      "parent_id": "mpea.potential",
+      "level": 2,
+      "name": "边值问题",
+      "chapter_ref": null
+    }
+  ]
+}
