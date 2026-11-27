@@ -1,7 +1,7 @@
 {
   "name": "USTC-Question-Bank",
   "schema_version": "1.0",
-  "data_version": "0.23.0",
+  "data_version": "0.24.0",
   "updated_at": "2026-11-27",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
   "asset_base_url": null,
@@ -11,13 +11,13 @@
     "question_content": "Third-party rights retained by original authors and publishers; see NOTICE.md"
   },
   "stats": {
-    "courses": 67,
-    "questions": 23494,
-    "quarantined": 68,
+    "courses": 71,
+    "questions": 24546,
+    "quarantined": 71,
     "by_origin": {
-      "official": 13784,
+      "official": 14308,
       "community": 1621,
-      "ai": 8089
+      "ai": 8617
     }
   },
   "courses": [
@@ -1561,9 +1561,9 @@
         "questions": "courses/022392/questions.jsonl"
       },
       "sha256": {
-        "meta": "a5e148b61c6ce6886b18b22defd3f7e06ba03e1ed92f1accd099917f4f6d56f8",
+        "meta": "822d9548514b629b0de6aa1f863e03e5855cba4fe1be6dac5d54c844f12a7680",
         "taxonomy": "1a835ed4247da7ee3e20d229d4a8435023bfd362c8a48633bac83705fbdccf10",
-        "questions": "0cbd0444da17decda5f3ef8be2e6b52b137c19ce266e0bfb523d9b4fae013262"
+        "questions": "2b459888cef67a47d3bb788edf1a424fd8fdc56314b642977dbb9117bb62b077"
       }
     },
     {
@@ -2154,9 +2154,9 @@
         "questions": "courses/011146/questions.jsonl"
       },
       "sha256": {
-        "meta": "3f8b5e5fdc0d07620fe6fc156e2706a9b9f1dbb17cf71703ed5fc8940228e156",
+        "meta": "df24411c959e63b19c65ef158cb4be984cc25e7926975c45286b259510cc08c9",
         "taxonomy": "66fe7ee76b35ab65afb2340adbdfb15f1d41a1176afa6904b1cccd314a34e7ac",
-        "questions": "4365ac3742b8549261fc0caf6439d94ae35ddd707b4336bdcdab49212892090d"
+        "questions": "78a1a918457909d149d47d6895b09a8a94abbd02103066f3c5cf84538014bb5d"
       }
     },
     {
@@ -2193,9 +2193,9 @@
         "questions": "courses/022148/questions.jsonl"
       },
       "sha256": {
-        "meta": "8ff8dcde7ed02502aa9d0ee8e03c854fe90ab31d4ccb1393e9dcdf4aa3be90f7",
+        "meta": "c22005a7b951c0687ce757c5175033c0b87344a3a868a5d616086097274238b8",
         "taxonomy": "ad68f978f8d212ee527246343f7e26eff6fc37f2df02fa4eb9f5ea3f3dc213d8",
-        "questions": "92be0fde2f918e87b696f5fabb8ab56c3efe68753eb5830f1196fa2690a63d4f"
+        "questions": "cfb8dca55cd300e4cc7d558b9d337d5efe22bbb76b85c5054b2a42f8ae0ed98c"
       }
     },
     {
@@ -2232,6 +2232,141 @@
         "meta": "a0e8e070ceb9bfc19950cc45d702a588b7e7d940c49b2a10184e90b45c06080a",
         "taxonomy": "7c880ca7c3293b5bfb43fefc55bbc58e6d651a1060c8cb90639ab15ada1c9786",
         "questions": "245e8595f8297fd226d32c6d22abbc516afd7425ad19cc5e10d2f020a6b5d858"
+      }
+    },
+    {
+      "code": "MATH3004",
+      "name": "泛函分析",
+      "name_en": "Functional Analysis",
+      "department": "数学科学学院",
+      "category": "professional",
+      "total": 293,
+      "quarantined": 0,
+      "by_origin": {
+        "official": 125,
+        "community": 0,
+        "ai": 168
+      },
+      "exam_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/MATH3004/meta.json",
+        "taxonomy": "courses/MATH3004/taxonomy.json",
+        "questions": "courses/MATH3004/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "4c9ba657278cdf6626014ce238c8ea67ac5944b92663db2e45eff44f662a901b",
+        "taxonomy": "4a8db535ade8a181d40d629df514bd4b5c59774800ad486a8bad54cf0437686f",
+        "questions": "d299a8390540f3cd6368d0795b7002bbe284cbd7bf110ad93c2fcb69f2dd6d61"
+      }
+    },
+    {
+      "code": "MATH3003",
+      "name": "拓扑学",
+      "name_en": "Topology",
+      "department": "数学科学学院",
+      "category": "professional",
+      "total": 196,
+      "quarantined": 0,
+      "by_origin": {
+        "official": 40,
+        "community": 0,
+        "ai": 156
+      },
+      "exam_years": [
+        2016,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "paths": {
+        "meta": "courses/MATH3003/meta.json",
+        "taxonomy": "courses/MATH3003/taxonomy.json",
+        "questions": "courses/MATH3003/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "3929463c302d8afd2e3f9d294181a1fa3008bd9e8d0dbc8d858e8ed87c805948",
+        "taxonomy": "6032df0f4ecc87e7f7c3edf355b60626c6fd09641e89fd063d3b96389ec8c4dc",
+        "questions": "ea01694c3e81347cdc374f7e466a901aea066d463a423f79dee210b41c28134d"
+      }
+    },
+    {
+      "code": "MATH3009",
+      "name": "微分几何",
+      "name_en": "Differential Geometry",
+      "department": "数学科学学院",
+      "category": "professional",
+      "total": 497,
+      "quarantined": 2,
+      "by_origin": {
+        "official": 347,
+        "community": 0,
+        "ai": 150
+      },
+      "exam_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2023,
+        2024,
+        2025
+      ],
+      "paths": {
+        "meta": "courses/MATH3009/meta.json",
+        "taxonomy": "courses/MATH3009/taxonomy.json",
+        "questions": "courses/MATH3009/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "e67798c4d030812b6e08c4977bfdde6a133111cf0e645052872826ed40be786b",
+        "taxonomy": "ada19ee35cd8f733afcdbf7a68a661a7d9595039afbe138534e9850d9a3ad964",
+        "questions": "804f5ba4eac358e7b4dafc46366410398e6e4c81156e621c6bc821dc74fd280a"
+      }
+    },
+    {
+      "code": "MATH3010",
+      "name": "组合学",
+      "name_en": "Combinatorics",
+      "department": "数学科学学院",
+      "category": "professional",
+      "total": 66,
+      "quarantined": 1,
+      "by_origin": {
+        "official": 12,
+        "community": 0,
+        "ai": 54
+      },
+      "exam_years": [
+        2016,
+        2020,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/MATH3010/meta.json",
+        "taxonomy": "courses/MATH3010/taxonomy.json",
+        "questions": "courses/MATH3010/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "e7d53488fc6516b29b64e6ac62326f10b23fd8d7ea071bd6ff21172fc2ab4d61",
+        "taxonomy": "f41dbb12369208d9f8579e0de2be1934c60fe9cac348934cf8ba3b093afeac02",
+        "questions": "bfd2dffe2d7e5b4fca6b030a02c94ed3589a0a4e9189ace1bfc277bbcb5a64a8"
       }
     }
   ]

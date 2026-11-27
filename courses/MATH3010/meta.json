@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH3010",
+  "name": "组合学",
+  "name_en": "Combinatorics",
+  "department": "数学科学学院",
+  "category": "professional",
+  "description": "中国科学技术大学《组合学》（课号 MATH3010）结构化题库，收录 2016–2026 年8 套期中/期末真题（共 66 题），覆盖全部 7 个二级知识点，其中 12 题附原卷参考解答（origin=official）、54 题由模型独立证明与计数求解。",
+  "stats": {
+    "total": 66,
+    "quarantined": 1,
+    "taxonomy_nodes": 35,
+    "by_origin": {
+      "official": 12,
+      "community": 0,
+      "ai": 54
+    },
+    "by_type": {
+      "proof": 47,
+      "solve": 19
+    },
+    "by_difficulty": {
+      "1": 0,
+      "2": 17,
+      "3": 28,
+      "4": 21,
+      "5": 0
+    },
+    "exam_years": [
+      2016,
+      2020,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "cmb_exams",
+      "count": 66,
+      "rights": "third_party_exam",
+      "description": "2016–2026 年组合学 8 套期中/期末真题（66 题）"
+    }
+  ],
+  "known_notes": [
+    "2023 秋期末与 2025 秋期中共 12 题附原卷参考解答（origin=official）；其余无标答卷及小问共 54 题由模型独立求解与推导（origin=ai）。",
+    "已对照原卷修复 2024 秋期末第 3 题因子 $\\frac{2n}{3\\sqrt{d}}$、修正第 5 题偏序链划分准确阈值（$m\\geqslant 6$ 为真）并补全第 2/4 题与 2023 秋期中第 6 题、2024 秋期中第 4 题精确公式；仅 2020 秋期末第 1 题因手写回忆稿遗漏极值长度条件保持隔离（quarantined=1）。"
+  ],
+  "files": {
+    "questions": "courses/MATH3010/questions.jsonl",
+    "taxonomy": "courses/MATH3010/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "bfd2dffe2d7e5b4fca6b030a02c94ed3589a0a4e9189ace1bfc277bbcb5a64a8",
+    "taxonomy": "f41dbb12369208d9f8579e0de2be1934c60fe9cac348934cf8ba3b093afeac02"
+  }
+}

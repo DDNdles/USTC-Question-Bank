@@ -1,0 +1,230 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH3004",
+  "nodes": [
+    {
+      "id": "fa.metric",
+      "parent_id": null,
+      "level": 1,
+      "name": "度量空间与赋范空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.metric.topo",
+      "parent_id": "fa.metric",
+      "level": 2,
+      "name": "度量与收敛、开集闭集",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.metric.complete",
+      "parent_id": "fa.metric",
+      "level": 2,
+      "name": "完备性与 Banach 不动点定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.metric.norm",
+      "parent_id": "fa.metric",
+      "level": 2,
+      "name": "范数与赋范线性空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.metric.example",
+      "parent_id": "fa.metric",
+      "level": 2,
+      "name": "典型空间（l^p、L^p、C[a,b]）",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.banach",
+      "parent_id": null,
+      "level": 1,
+      "name": "Banach 空间与有界算子",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.banach.lin",
+      "parent_id": "fa.banach",
+      "level": 2,
+      "name": "线性算子与有界性",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.banach.opnorm",
+      "parent_id": "fa.banach",
+      "level": 2,
+      "name": "算子范数与算子空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.banach.quotient",
+      "parent_id": "fa.banach",
+      "level": 2,
+      "name": "商空间与商范数",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.banach.theorem",
+      "parent_id": "fa.banach",
+      "level": 2,
+      "name": "开映射、闭图像与一致有界原理",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.dual",
+      "parent_id": null,
+      "level": 1,
+      "name": "线性泛函与对偶",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.dual.hb",
+      "parent_id": "fa.dual",
+      "level": 2,
+      "name": "Hahn–Banach 延拓定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.dual.duals",
+      "parent_id": "fa.dual",
+      "level": 2,
+      "name": "对偶空间与 Riesz 表示",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.dual.weak",
+      "parent_id": "fa.dual",
+      "level": 2,
+      "name": "弱收敛与自反性",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.hilbert",
+      "parent_id": null,
+      "level": 1,
+      "name": "Hilbert 空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.hilbert.inner",
+      "parent_id": "fa.hilbert",
+      "level": 2,
+      "name": "内积与正交分解",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.hilbert.proj",
+      "parent_id": "fa.hilbert",
+      "level": 2,
+      "name": "投影定理与最佳逼近",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.hilbert.orthobasis",
+      "parent_id": "fa.hilbert",
+      "level": 2,
+      "name": "标准正交基与广义 Fourier 展开",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.hilbert.adjoint",
+      "parent_id": "fa.hilbert",
+      "level": 2,
+      "name": "伴随算子与自伴算子",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.spectral",
+      "parent_id": null,
+      "level": 1,
+      "name": "谱理论",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.spectral.resolvent",
+      "parent_id": "fa.spectral",
+      "level": 2,
+      "name": "预解集、谱与分类",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.spectral.compact",
+      "parent_id": "fa.spectral",
+      "level": 2,
+      "name": "紧算子的谱",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.spectral.spec",
+      "parent_id": "fa.spectral",
+      "level": 2,
+      "name": "谱定理（紧自伴/有界自伴）",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.spectral.app",
+      "parent_id": "fa.spectral",
+      "level": 2,
+      "name": "谱的应用（算子函数演算）",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.apply",
+      "parent_id": null,
+      "level": 1,
+      "name": "积分方程与应用",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.apply.fredholm",
+      "parent_id": "fa.apply",
+      "level": 2,
+      "name": "Fredholm/Volterra 积分方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.apply.diffop",
+      "parent_id": "fa.apply",
+      "level": 2,
+      "name": "微分算子与 Sturm–Liouville",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.apply.weakderiv",
+      "parent_id": "fa.apply",
+      "level": 2,
+      "name": "广义函数与 Sobolev 空间初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.realvar",
+      "parent_id": null,
+      "level": 1,
+      "name": "实变基础（殷保群班补充）",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.realvar.meas",
+      "parent_id": "fa.realvar",
+      "level": 2,
+      "name": "可测集与可测函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.realvar.lint",
+      "parent_id": "fa.realvar",
+      "level": 2,
+      "name": "Lebesgue 积分与收敛定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "fa.realvar.lspace",
+      "parent_id": "fa.realvar",
+      "level": 2,
+      "name": "L^p 空间与积分不等式",
+      "chapter_ref": null
+    }
+  ]
+}

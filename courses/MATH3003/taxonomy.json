@@ -1,0 +1,202 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH3003",
+  "nodes": [
+    {
+      "id": "top.space",
+      "parent_id": null,
+      "level": 1,
+      "name": "拓扑空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.space.defn",
+      "parent_id": "top.space",
+      "level": 2,
+      "name": "拓扑、基与子基",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.space.map",
+      "parent_id": "top.space",
+      "level": 2,
+      "name": "连续映射与同胚",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.space.sub",
+      "parent_id": "top.space",
+      "level": 2,
+      "name": "子空间、积空间与商空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.space.gen",
+      "parent_id": "top.space",
+      "level": 2,
+      "name": "生成拓扑与泛性质",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.property",
+      "parent_id": null,
+      "level": 1,
+      "name": "拓扑性质",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.property.conn",
+      "parent_id": "top.property",
+      "level": 2,
+      "name": "连通性与道路连通",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.property.comp",
+      "parent_id": "top.property",
+      "level": 2,
+      "name": "紧致性、序列紧致与极限点紧致",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.property.sep",
+      "parent_id": "top.property",
+      "level": 2,
+      "name": "分离公理（Hausdorff/正则/正规）",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.property.metr",
+      "parent_id": "top.property",
+      "level": 2,
+      "name": "可度量化与 Urysohn 引理",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.surface",
+      "parent_id": null,
+      "level": 1,
+      "name": "曲面与多面体",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.surface.surf",
+      "parent_id": "top.surface",
+      "level": 2,
+      "name": "曲面、多边形粘贴与分类",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.surface.complex",
+      "parent_id": "top.surface",
+      "level": 2,
+      "name": "单纯复形与欧拉示性数",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.surface.example",
+      "parent_id": "top.surface",
+      "level": 2,
+      "name": "射影平面、Klein 瓶等典型曲面",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.homotopy",
+      "parent_id": null,
+      "level": 1,
+      "name": "同伦与基本群",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.homotopy.homotopy",
+      "parent_id": "top.homotopy",
+      "level": 2,
+      "name": "同伦、同伦等价与形变收缩",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.homotopy.pigroup",
+      "parent_id": "top.homotopy",
+      "level": 2,
+      "name": "基本群与圆的基本群",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.homotopy.vankampen",
+      "parent_id": "top.homotopy",
+      "level": 2,
+      "name": "van Kampen 定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.homotopy.degree",
+      "parent_id": "top.homotopy",
+      "level": 2,
+      "name": "映射次数与 Brouwer 不动点定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.cover",
+      "parent_id": null,
+      "level": 1,
+      "name": "覆叠空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.cover.cover",
+      "parent_id": "top.cover",
+      "level": 2,
+      "name": "覆叠映射、提升与覆盖变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.cover.uni",
+      "parent_id": "top.cover",
+      "level": 2,
+      "name": "万有覆叠",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.cover.corr",
+      "parent_id": "top.cover",
+      "level": 2,
+      "name": "子群对应与分类",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.cover.appl",
+      "parent_id": "top.cover",
+      "level": 2,
+      "name": "覆叠的应用",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.homology",
+      "parent_id": null,
+      "level": 1,
+      "name": "同调初步（讲义补充）",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.homology.chain",
+      "parent_id": "top.homology",
+      "level": 2,
+      "name": "链群与同调群",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.homology.comput",
+      "parent_id": "top.homology",
+      "level": 2,
+      "name": "单纯同调计算",
+      "chapter_ref": null
+    },
+    {
+      "id": "top.homology.applh",
+      "parent_id": "top.homology",
+      "level": 2,
+      "name": "同调的应用（Brouwer/Jordan）",
+      "chapter_ref": null
+    }
+  ]
+}

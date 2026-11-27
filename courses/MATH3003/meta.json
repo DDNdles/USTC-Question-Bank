@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH3003",
+  "name": "拓扑学",
+  "name_en": "Topology",
+  "department": "数学科学学院",
+  "category": "professional",
+  "description": "中国科学技术大学《拓扑学》（课号 MATH3003）结构化题库，收录 2016–2025 年9 套春季期中/期末真题（共 196 题，含 2022 秋/春华罗庚班期中与 2024 春期中附解答），其中 40 题附原卷参考解答（origin=official）、156 题由模型独立证明与推导，并为 2022 春期中图形判断题补全 2 幅灰度 WebP 配图。",
+  "stats": {
+    "total": 196,
+    "quarantined": 0,
+    "taxonomy_nodes": 28,
+    "by_origin": {
+      "official": 40,
+      "community": 0,
+      "ai": 156
+    },
+    "by_type": {
+      "blank": 80,
+      "proof": 73,
+      "solve": 43
+    },
+    "by_difficulty": {
+      "1": 19,
+      "2": 58,
+      "3": 78,
+      "4": 35,
+      "5": 6
+    },
+    "exam_years": [
+      2016,
+      2020,
+      2021,
+      2022,
+      2024,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "top_exams",
+      "count": 196,
+      "rights": "third_party_exam",
+      "description": "2016–2025 春拓扑学 9 套期中/期末真题（含 2024 春期中附解答，196 题）"
+    }
+  ],
+  "known_notes": [
+    "2024 春期中（40 题）附原卷参考解答（origin=official）；其余 8 套无标答真题共 156 题由模型独立求解与证明（origin=ai）。",
+    "已对照原卷修复全部 9 道初筛低置信题：为 2022 春期中第 1(1) 与 1(2) 题补裁「杯子/帽子」「小波/迪西」实拍配图并校正同胚判断结果，补全 2024 春期末第 5.1.2/5.2.2/5.8.3 题原卷条件与初等覆盖提升证明，全库已清零隔离（quarantined=0）。"
+  ],
+  "files": {
+    "questions": "courses/MATH3003/questions.jsonl",
+    "taxonomy": "courses/MATH3003/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "ea01694c3e81347cdc374f7e466a901aea066d463a423f79dee210b41c28134d",
+    "taxonomy": "6032df0f4ecc87e7f7c3edf355b60626c6fd09641e89fd063d3b96389ec8c4dc"
+  }
+}

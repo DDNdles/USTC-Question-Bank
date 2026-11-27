@@ -1,0 +1,272 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH3009",
+  "nodes": [
+    {
+      "id": "dg.curve",
+      "parent_id": null,
+      "level": 1,
+      "name": "曲线论",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.curve.space",
+      "parent_id": "dg.curve",
+      "level": 2,
+      "name": "空间曲线与 Frenet 标架",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.curve.curvature",
+      "parent_id": "dg.curve",
+      "level": 2,
+      "name": "曲率与挠率",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.curve.planar",
+      "parent_id": "dg.curve",
+      "level": 2,
+      "name": "平面曲线与旋转曲线",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.curve.exist",
+      "parent_id": "dg.curve",
+      "level": 2,
+      "name": "曲线论基本定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.surface",
+      "parent_id": null,
+      "level": 1,
+      "name": "曲面论",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.surface.param",
+      "parent_id": "dg.surface",
+      "level": 2,
+      "name": "正则参数曲面与坐标变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.surface.tangent",
+      "parent_id": "dg.surface",
+      "level": 2,
+      "name": "切平面、法向量与法球",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.surface.coord",
+      "parent_id": "dg.surface",
+      "level": 2,
+      "name": "坐标曲线、正交网与等温坐标",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.surface.example",
+      "parent_id": "dg.surface",
+      "level": 2,
+      "name": "经典曲面（球面/环面/伪球面）",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.ffi",
+      "parent_id": null,
+      "level": 1,
+      "name": "第一基本形式",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.ffi.metric",
+      "parent_id": "dg.ffi",
+      "level": 2,
+      "name": "第一基本形式与弧长",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.ffi.area",
+      "parent_id": "dg.ffi",
+      "level": 2,
+      "name": "面积元素与面积公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.ffi.iso",
+      "parent_id": "dg.ffi",
+      "level": 2,
+      "name": "保距变换与保角变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.ffi.intrinsic",
+      "parent_id": "dg.ffi",
+      "level": 2,
+      "name": "内蕴几何初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.sfi",
+      "parent_id": null,
+      "level": 1,
+      "name": "第二基本形式与曲率",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.sfi.shape",
+      "parent_id": "dg.sfi",
+      "level": 2,
+      "name": "Weingarten 映射与第二基本形式",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.sfi.gausscurv",
+      "parent_id": "dg.sfi",
+      "level": 2,
+      "name": "Gauss 曲率与平均曲率",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.sfi.principal",
+      "parent_id": "dg.sfi",
+      "level": 2,
+      "name": "主曲率、主方向与 umbilic 点",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.sfi.points",
+      "parent_id": "dg.sfi",
+      "level": 2,
+      "name": "椭圆/双曲/抛物点",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.gaussmap",
+      "parent_id": null,
+      "level": 1,
+      "name": "Gauss 映射与 Egregium 定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.gaussmap.map",
+      "parent_id": "dg.gaussmap",
+      "level": 2,
+      "name": "Gauss 映射与形状算子",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.gaussmap.theorem",
+      "parent_id": "dg.gaussmap",
+      "level": 2,
+      "name": "Theorema Egregium",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.gaussmap.formula",
+      "parent_id": "dg.gaussmap",
+      "level": 2,
+      "name": "Gauss 方程与 Codazzi 方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.geod",
+      "parent_id": null,
+      "level": 1,
+      "name": "测地线",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.geod.equation",
+      "parent_id": "dg.geod",
+      "level": 2,
+      "name": "测地线方程与 Christoffel 符号",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.geod.covariant",
+      "parent_id": "dg.geod",
+      "level": 2,
+      "name": "协变微分与平行移动",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.geod.min",
+      "parent_id": "dg.geod",
+      "level": 2,
+      "name": "测地线的极小性质与测地坐标",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.geod.special",
+      "parent_id": "dg.geod",
+      "level": 2,
+      "name": "典型曲面上的测地线",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.global",
+      "parent_id": null,
+      "level": 1,
+      "name": "整体微分几何",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.global.gb",
+      "parent_id": "dg.global",
+      "level": 2,
+      "name": "Gauss–Bonnet 公式（局部与整体）",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.global.closed",
+      "parent_id": "dg.global",
+      "level": 2,
+      "name": "闭曲面与整体定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.global.index",
+      "parent_id": "dg.global",
+      "level": 2,
+      "name": "指标定理初步与旋转指数",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.global.parallel",
+      "parent_id": "dg.global",
+      "level": 2,
+      "name": "和乐与整体刚性",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.tensor",
+      "parent_id": null,
+      "level": 1,
+      "name": "张量分析初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.tensor.tensor",
+      "parent_id": "dg.tensor",
+      "level": 2,
+      "name": "度量张量与张量运算",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.tensor.covar",
+      "parent_id": "dg.tensor",
+      "level": 2,
+      "name": "协变导数与 Laplace–Beltrami",
+      "chapter_ref": null
+    },
+    {
+      "id": "dg.tensor.transform",
+      "parent_id": "dg.tensor",
+      "level": 2,
+      "name": "坐标变换与不变量",
+      "chapter_ref": null
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH3004",
+  "name": "泛函分析",
+  "name_en": "Functional Analysis",
+  "department": "数学科学学院",
+  "category": "professional",
+  "description": "中国科学技术大学《泛函分析》（课号 MATH3004）结构化题库，收录 2016–2026 年19 套期中/期末真题（含 2016/2017 H 班期末与 2022 期末（uexam 版）H 班卷，172 题）、殷保群班《实变函数与泛函分析习题集》（68 题）及泛函分析习题课讲义与作业（53 题）共 293 题，其中 125 题附原卷或习题集参考解答（origin=official）、168 题由模型独立推导与证明。",
+  "stats": {
+    "total": 293,
+    "quarantined": 0,
+    "taxonomy_nodes": 32,
+    "by_origin": {
+      "official": 125,
+      "community": 0,
+      "ai": 168
+    },
+    "by_type": {
+      "blank": 25,
+      "proof": 208,
+      "single": 25,
+      "solve": 35
+    },
+    "by_difficulty": {
+      "1": 5,
+      "2": 68,
+      "3": 117,
+      "4": 95,
+      "5": 8
+    },
+    "exam_years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "fa_exams",
+      "count": 172,
+      "rights": "third_party_exam",
+      "description": "2016–2026 年泛函分析 19 套期中/期末真题（含 H 班期末与 2022 uexam 卷，172 题）"
+    },
+    {
+      "id": "fa_drill",
+      "count": 121,
+      "rights": "third_party_notes",
+      "description": "殷保群班《实变函数与泛函分析习题集》（68 题）与泛函分析习题课讲义/作业（53 题）"
+    }
+  ],
+  "known_notes": [
+    "2024 秋期中、习题集及习题课讲义/作业部分共 125 题附原卷或课程参考解答（origin=official）；其余 18 套无标答真题及部分习题共 168 题由模型独立证明与推导（origin=ai）。",
+    "2022 秋期末与 2022 秋期末（uexam 版，实为泛函分析(H) 001706.01 考试卷）为两套完全独立真题，无跨卷重复。",
+    "原 2022 秋期末（uexam 版）第五.2 题已对照原卷补全 $\\epsilon\\in(0,1/2]$ 条件并采用 Hahn–Banach 保范延拓给出精确 $2\\varepsilon$ 证明，2024 秋期末第 III.1.1 题已标注原卷 $\\mathrm{d}x$ 印刷笔误，全库已清零隔离（quarantined=0）。"
+  ],
+  "files": {
+    "questions": "courses/MATH3004/questions.jsonl",
+    "taxonomy": "courses/MATH3004/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "d299a8390540f3cd6368d0795b7002bbe284cbd7bf110ad93c2fcb69f2dd6d61",
+    "taxonomy": "4a8db535ade8a181d40d629df514bd4b5c59774800ad486a8bad54cf0437686f"
+  }
+}

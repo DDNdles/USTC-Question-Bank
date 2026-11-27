@@ -1,0 +1,251 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH3010",
+  "nodes": [
+    {
+      "id": "cmb.graph",
+      "parent_id": null,
+      "level": 1,
+      "name": "图论基础",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.graph.basic",
+      "parent_id": "cmb.graph",
+      "level": 2,
+      "name": "图的基本概念与度数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.graph.tree",
+      "parent_id": "cmb.graph",
+      "level": 2,
+      "name": "树与生成树",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.graph.match",
+      "parent_id": "cmb.graph",
+      "level": 2,
+      "name": "匹配与婚姻定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.graph.coloring",
+      "parent_id": "cmb.graph",
+      "level": 2,
+      "name": "图着色与 Brooks 定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.graph.planar",
+      "parent_id": "cmb.graph",
+      "level": 2,
+      "name": "平面图与 Euler 公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.extremal",
+      "parent_id": null,
+      "level": 1,
+      "name": "极值组合",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.extremal.turan",
+      "parent_id": "cmb.extremal",
+      "level": 2,
+      "name": "Turán 定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.extremal.exnum",
+      "parent_id": "cmb.extremal",
+      "level": 2,
+      "name": "ex(n,H) 与 Erdős–Stone",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.extremal.setsys",
+      "parent_id": "cmb.extremal",
+      "level": 2,
+      "name": "集合系（Sperner、Δ-系统、Frankl）",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.extremal.cycleex",
+      "parent_id": "cmb.extremal",
+      "level": 2,
+      "name": "偶圈/奇圈极值问题",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.ramsey",
+      "parent_id": null,
+      "level": 1,
+      "name": "Ramsey 理论",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.ramsey.finite",
+      "parent_id": "cmb.ramsey",
+      "level": 2,
+      "name": "有限 Ramsey 数与递推界",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.ramsey.classic",
+      "parent_id": "cmb.ramsey",
+      "level": 2,
+      "name": "经典 Ramsey 数与对角线界",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.ramsey.arith",
+      "parent_id": "cmb.ramsey",
+      "level": 2,
+      "name": "算术 Ramsey（van der Waerden）",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.ramsey.structure",
+      "parent_id": "cmb.ramsey",
+      "level": 2,
+      "name": "结构 Ramsey 与规范 Ramsey",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.prob",
+      "parent_id": null,
+      "level": 1,
+      "name": "概率方法",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.prob.first",
+      "parent_id": "cmb.prob",
+      "level": 2,
+      "name": "一阶矩法",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.prob.second",
+      "parent_id": "cmb.prob",
+      "level": 2,
+      "name": "二阶矩法",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.prob.local",
+      "parent_id": "cmb.prob",
+      "level": 2,
+      "name": "Lovász 局部引理",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.prob.randomgraph",
+      "parent_id": "cmb.prob",
+      "level": 2,
+      "name": "随机图性质与下界",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.count",
+      "parent_id": null,
+      "level": 1,
+      "name": "计数与生成函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.count.binom",
+      "parent_id": "cmb.count",
+      "level": 2,
+      "name": "二项式恒等式与组合恒等式",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.count.genfunc",
+      "parent_id": "cmb.count",
+      "level": 2,
+      "name": "普通/指数生成函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.count.inclusion",
+      "parent_id": "cmb.count",
+      "level": 2,
+      "name": "容斥原理",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.count.recurrence",
+      "parent_id": "cmb.count",
+      "level": 2,
+      "name": "递推与 Catalan 数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.design",
+      "parent_id": null,
+      "level": 1,
+      "name": "设计与编码",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.design.bibd",
+      "parent_id": "cmb.design",
+      "level": 2,
+      "name": "平衡不完全区组设计（BIBD）",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.design.latin",
+      "parent_id": "cmb.design",
+      "level": 2,
+      "name": "拉丁方与正交拉丁方",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.design.code",
+      "parent_id": "cmb.design",
+      "level": 2,
+      "name": "纠错码与码的参数界",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.design.finitegeom",
+      "parent_id": "cmb.design",
+      "level": 2,
+      "name": "有限射影平面",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.order",
+      "parent_id": null,
+      "level": 1,
+      "name": "序与其它专题",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.order.poset",
+      "parent_id": "cmb.order",
+      "level": 2,
+      "name": "偏序集与 Dilworth/Mirsky",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.order.ramseygraph",
+      "parent_id": "cmb.order",
+      "level": 2,
+      "name": "拉姆齐型图参数",
+      "chapter_ref": null
+    },
+    {
+      "id": "cmb.order.misc",
+      "parent_id": "cmb.order",
+      "level": 2,
+      "name": "其它专题（Szekeres、Erdős–Szekeres 等）",
+      "chapter_ref": null
+    }
+  ]
+}

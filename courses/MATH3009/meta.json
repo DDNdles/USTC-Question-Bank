@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH3009",
+  "name": "微分几何",
+  "name_en": "Differential Geometry",
+  "department": "数学科学学院",
+  "category": "professional",
+  "description": "中国科学技术大学《微分几何》（课号 MATH3009）结构化题库，收录 2017–2025 秋17 套期中/期末真题（含 H 班与普通班，198 题）以及微分几何习题课讲义与黄天一助教习题课（299 题）共 497 题，其中 347 题附原卷或讲义参考解答（origin=official）、150 题由模型独立求解与推导。",
+  "stats": {
+    "total": 497,
+    "quarantined": 2,
+    "taxonomy_nodes": 38,
+    "by_origin": {
+      "official": 347,
+      "community": 0,
+      "ai": 150
+    },
+    "by_type": {
+      "blank": 8,
+      "proof": 308,
+      "solve": 181
+    },
+    "by_difficulty": {
+      "1": 12,
+      "2": 80,
+      "3": 211,
+      "4": 180,
+      "5": 14
+    },
+    "exam_years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "dg_exams",
+      "count": 198,
+      "rights": "third_party_exam",
+      "description": "2017–2025 秋微分几何 17 套期中/期末真题（含 H 班与普通班，198 题）"
+    },
+    {
+      "id": "dg_drill",
+      "count": 299,
+      "rights": "third_party_notes",
+      "description": "微分几何习题课讲义（197 题）与黄天一助教一/三/五/七次习题课（102 题）"
+    }
+  ],
+  "known_notes": [
+    "2019/2020/2025 秋期中、2024 秋期末与两份习题课讲义共 347 题附原卷或讲义参考解答（origin=official）；其余 13 套无标答期中/期末真题（含多套 H 班试卷）共 150 题由模型独立推导（origin=ai）。",
+    "已对照原卷修复 2017H 期末 5(2)、2019 期末 3(1)/4(4)、2020H 期中 6(2)（核实手写实为 $K\\equiv 0$）、2023 期中 7（补全 Enneper 曲面方程）及曲线收缩流梯度估计共 6 题；仅 2017H 期末 5(3)（原卷注暂缺）与 2024H 期末 6.7.2(c)（回忆版注忘记）保持隔离（quarantined=2）。"
+  ],
+  "files": {
+    "questions": "courses/MATH3009/questions.jsonl",
+    "taxonomy": "courses/MATH3009/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "804f5ba4eac358e7b4dafc46366410398e6e4c81156e621c6bc821dc74fd280a",
+    "taxonomy": "ada19ee35cd8f733afcdbf7a68a661a7d9595039afbe138534e9850d9a3ad964"
+  }
+}
