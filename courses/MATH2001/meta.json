@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "code": "MATH2001",
+  "name": "计算方法",
+  "name_en": "Numerical Methods",
+  "department": "数学科学学院",
+  "category": "professional",
+  "description": "中国科学技术大学《计算方法》（课号 MATH2001）结构化题库，收录 2005–2025 学年21 套期末与模拟真题（377 题），以及 2023 春、2025 春课程作业（含答案，181 题）与练习题（9 题），共 567 题，其中 312 题附官方参考解答（origin=official）、255 题由模型独立求解与验算。",
+  "stats": {
+    "total": 567,
+    "quarantined": 20,
+    "taxonomy_nodes": 49,
+    "by_origin": {
+      "official": 312,
+      "community": 0,
+      "ai": 255
+    },
+    "by_type": {
+      "blank": 147,
+      "proof": 79,
+      "solve": 341
+    },
+    "by_difficulty": {
+      "1": 30,
+      "2": 126,
+      "3": 222,
+      "4": 139,
+      "5": 50
+    },
+    "exam_years": [
+      2006,
+      2007,
+      2009,
+      2011,
+      2012,
+      2013,
+      2014,
+      2016,
+      2017,
+      2018,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "num_exams",
+      "count": 377,
+      "rights": "third_party_exam",
+      "description": "2005–2025 学年计算方法 21 套期末与模拟真题（377 题）"
+    },
+    {
+      "id": "num_hw",
+      "count": 190,
+      "rights": "third_party_notes",
+      "description": "计算方法 2023 春、2025 春课程作业（含答案，181 题）与练习题（9 题）"
+    }
+  ],
+  "known_notes": [
+    "2007–2025 学年部分期末真题、练习题与 2023/2025 春全部课程作业共 312 题附原卷或课程参考解答（origin=official）；其余无标答期末及模拟卷共 255 题由模型独立求解（origin=ai）。",
+    "全库共 20 道低置信度题（含 2024 春回忆版及依赖原卷未印刷数据/图形之题目）标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+  ],
+  "files": {
+    "questions": "courses/MATH2001/questions.jsonl",
+    "taxonomy": "courses/MATH2001/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "70df1a05c08b10dcd755ede1a7c37f7097972d99037baca99a9c22217cfeaf0f",
+    "taxonomy": "58e8adb7c6e1d429f880ca73a0273cfba6d4538062abad4d517829b9281f46db"
+  }
+}

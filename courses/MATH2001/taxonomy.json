@@ -1,0 +1,349 @@
+{
+  "schema_version": "1.0",
+  "course_code": "MATH2001",
+  "nodes": [
+    {
+      "id": "num.err",
+      "parent_id": null,
+      "level": 1,
+      "name": "误差与数值稳定性",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.err.abs",
+      "parent_id": "num.err",
+      "level": 2,
+      "name": "绝对误差与相对误差",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.err.sig",
+      "parent_id": "num.err",
+      "level": 2,
+      "name": "有效数字",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.err.cond",
+      "parent_id": "num.err",
+      "level": 2,
+      "name": "条件数与病态问题",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.err.stable",
+      "parent_id": "num.err",
+      "level": 2,
+      "name": "算法稳定性",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.interp",
+      "parent_id": null,
+      "level": 1,
+      "name": "插值方法",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.interp.lagrange",
+      "parent_id": "num.interp",
+      "level": 2,
+      "name": "Lagrange 插值",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.interp.newton",
+      "parent_id": "num.interp",
+      "level": 2,
+      "name": "差商与 Newton 插值",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.interp.hermite",
+      "parent_id": "num.interp",
+      "level": 2,
+      "name": "Hermite 插值",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.interp.piecewise",
+      "parent_id": "num.interp",
+      "level": 2,
+      "name": "分段插值与样条",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.interp.err_i",
+      "parent_id": "num.interp",
+      "level": 2,
+      "name": "插值余项与误差估计",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.approx",
+      "parent_id": null,
+      "level": 1,
+      "name": "函数逼近与曲线拟合",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.approx.lsq",
+      "parent_id": "num.approx",
+      "level": 2,
+      "name": "最小二乘拟合",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.approx.orth",
+      "parent_id": "num.approx",
+      "level": 2,
+      "name": "正交多项式",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.approx.best",
+      "parent_id": "num.approx",
+      "level": 2,
+      "name": "最佳一致逼近",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.quad",
+      "parent_id": null,
+      "level": 1,
+      "name": "数值积分与数值微分",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.quad.nc",
+      "parent_id": "num.quad",
+      "level": 2,
+      "name": "Newton–Cotes 公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.quad.comp",
+      "parent_id": "num.quad",
+      "level": 2,
+      "name": "复合求积公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.quad.romberg",
+      "parent_id": "num.quad",
+      "level": 2,
+      "name": "Romberg 与 Richardson 外推",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.quad.gauss",
+      "parent_id": "num.quad",
+      "level": 2,
+      "name": "Gauss 型求积",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.quad.diff",
+      "parent_id": "num.quad",
+      "level": 2,
+      "name": "数值微分",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.direct",
+      "parent_id": null,
+      "level": 1,
+      "name": "线性方程组直接法",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.direct.gauss",
+      "parent_id": "num.direct",
+      "level": 2,
+      "name": "Gauss 消元与列主元",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.direct.lu",
+      "parent_id": "num.direct",
+      "level": 2,
+      "name": "LU 与 Cholesky 分解",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.direct.tridiag",
+      "parent_id": "num.direct",
+      "level": 2,
+      "name": "追赶法",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.direct.norm",
+      "parent_id": "num.direct",
+      "level": 2,
+      "name": "向量与矩阵范数",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.iter",
+      "parent_id": null,
+      "level": 1,
+      "name": "线性方程组迭代法",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.iter.jacobi",
+      "parent_id": "num.iter",
+      "level": 2,
+      "name": "Jacobi 迭代",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.iter.gs",
+      "parent_id": "num.iter",
+      "level": 2,
+      "name": "Gauss–Seidel 迭代",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.iter.sor",
+      "parent_id": "num.iter",
+      "level": 2,
+      "name": "SOR 与松弛因子",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.iter.conv",
+      "parent_id": "num.iter",
+      "level": 2,
+      "name": "收敛性与谱半径",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.eig",
+      "parent_id": null,
+      "level": 1,
+      "name": "特征值计算",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.eig.power",
+      "parent_id": "num.eig",
+      "level": 2,
+      "name": "幂法与反幂法",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.eig.qr",
+      "parent_id": "num.eig",
+      "level": 2,
+      "name": "QR 方法",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.eig.jacobi_e",
+      "parent_id": "num.eig",
+      "level": 2,
+      "name": "Jacobi 旋转法",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.root",
+      "parent_id": null,
+      "level": 1,
+      "name": "非线性方程求根",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.root.bisect",
+      "parent_id": "num.root",
+      "level": 2,
+      "name": "二分法",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.root.newton_r",
+      "parent_id": "num.root",
+      "level": 2,
+      "name": "Newton 法",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.root.secant",
+      "parent_id": "num.root",
+      "level": 2,
+      "name": "弦截法与抛物线法",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.root.accel",
+      "parent_id": "num.root",
+      "level": 2,
+      "name": "Aitken 与 Steffensen 加速",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.ode",
+      "parent_id": null,
+      "level": 1,
+      "name": "常微分方程数值解",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.ode.euler",
+      "parent_id": "num.ode",
+      "level": 2,
+      "name": "Euler 法与改进 Euler 法",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.ode.rk",
+      "parent_id": "num.ode",
+      "level": 2,
+      "name": "Runge–Kutta 方法",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.ode.multi",
+      "parent_id": "num.ode",
+      "level": 2,
+      "name": "线性多步法",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.ode.stiff",
+      "parent_id": "num.ode",
+      "level": 2,
+      "name": "稳定性与刚性方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.opt",
+      "parent_id": null,
+      "level": 1,
+      "name": "最优化方法",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.opt.onedim",
+      "parent_id": "num.opt",
+      "level": 2,
+      "name": "一维搜索（黄金分割/斐波那契）",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.opt.lp",
+      "parent_id": "num.opt",
+      "level": 2,
+      "name": "线性规划与单纯形",
+      "chapter_ref": null
+    },
+    {
+      "id": "num.opt.unconst",
+      "parent_id": "num.opt",
+      "level": 2,
+      "name": "无约束优化（最速下降/共轭梯度/拟牛顿）",
+      "chapter_ref": null
+    }
+  ]
+}

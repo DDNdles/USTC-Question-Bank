@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "code": "011146",
+  "name": "算法基础",
+  "name_en": "Foundations of Algorithms",
+  "department": "计算机科学与技术学院",
+  "category": "professional",
+  "description": "中国科学技术大学《算法基础》（课号 011146）结构化题库，收录 2009–2026 学年19 套期中/期末/补考真题及样卷（去重后 212 题）、hw1–hw10 课程作业（去重后 103 题）与习题课讲义（25 题），去重后共 340 题，覆盖 34 个二级知识点。",
+  "stats": {
+    "total": 340,
+    "quarantined": 12,
+    "taxonomy_nodes": 43,
+    "by_origin": {
+      "official": 227,
+      "community": 1,
+      "ai": 112
+    },
+    "by_type": {
+      "blank": 3,
+      "multi": 6,
+      "proof": 62,
+      "single": 39,
+      "solve": 230
+    },
+    "by_difficulty": {
+      "1": 9,
+      "2": 84,
+      "3": 137,
+      "4": 87,
+      "5": 23
+    },
+    "exam_years": [
+      2009,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "agf_exams",
+      "count": 212,
+      "rights": "third_party_exam",
+      "description": "2009–2026 学年算法基础期中/期末/补考真题及样卷（去重后 19 套，212 题）"
+    },
+    {
+      "id": "agf_hw",
+      "count": 103,
+      "rights": "third_party_notes",
+      "description": "算法基础 hw1–hw10 课程作业与解答（去重后 103 题）"
+    },
+    {
+      "id": "agf_drill",
+      "count": 25,
+      "rights": "third_party_notes",
+      "description": "算法基础第一次与期末习题课讲义例题（25 题）"
+    }
+  ],
+  "known_notes": [
+    "同源重复的《作业答案（hw1–hw10）》（94 题）及 2023 春期中民间版第 5 题（1 题）已于导出时去重，保留《作业题（hw1–hw10）》（103 题）与官方试卷解答版本。",
+    "2023 春期中民间答案第 1 题标记为 origin=community；其余原卷、样卷、习题课及 hw1–hw10 官方参考答案标记为 origin=official；无标答期中/期末卷由模型独立证明与推导（origin=ai）。",
+    "全库共 12 道依赖原卷流网络/堆示意图的低置信度题标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+  ],
+  "files": {
+    "questions": "courses/011146/questions.jsonl",
+    "taxonomy": "courses/011146/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "97f1451055fc0dd142cd94e110a360b96407342ee911367a9c1092f5bddaf912",
+    "taxonomy": "66fe7ee76b35ab65afb2340adbdfb15f1d41a1176afa6904b1cccd314a34e7ac"
+  }
+}

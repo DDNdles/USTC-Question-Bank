@@ -1,0 +1,307 @@
+{
+  "schema_version": "1.0",
+  "course_code": "022148",
+  "nodes": [
+    {
+      "id": "qma.basic",
+      "parent_id": null,
+      "level": 1,
+      "name": "量子力学基础",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.basic.wave",
+      "parent_id": "qma.basic",
+      "level": 2,
+      "name": "波粒二象性与物质波",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.basic.super",
+      "parent_id": "qma.basic",
+      "level": 2,
+      "name": "态叠加原理",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.basic.measure",
+      "parent_id": "qma.basic",
+      "level": 2,
+      "name": "算符、测量与不确定关系",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.basic.blackbody",
+      "parent_id": "qma.basic",
+      "level": 2,
+      "name": "黑体辐射与早期量子论",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.oned",
+      "parent_id": null,
+      "level": 1,
+      "name": "一维定态问题",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.oned.well",
+      "parent_id": "qma.oned",
+      "level": 2,
+      "name": "无限深势阱",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.oned.barrier",
+      "parent_id": "qma.oned",
+      "level": 2,
+      "name": "方势垒与隧穿",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.oned.sho",
+      "parent_id": "qma.oned",
+      "level": 2,
+      "name": "谐振子",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.oned.delta",
+      "parent_id": "qma.oned",
+      "level": 2,
+      "name": "δ 势与周期性势场",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.formal",
+      "parent_id": null,
+      "level": 1,
+      "name": "形式理论",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.formal.hilbert",
+      "parent_id": "qma.formal",
+      "level": 2,
+      "name": "态矢与希尔伯特空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.formal.rep",
+      "parent_id": "qma.formal",
+      "level": 2,
+      "name": "表象与表象变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.formal.comm",
+      "parent_id": "qma.formal",
+      "level": 2,
+      "name": "对易关系与守恒量",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.formal.evol",
+      "parent_id": "qma.formal",
+      "level": 2,
+      "name": "演化算符与传播子",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.formal.density",
+      "parent_id": "qma.formal",
+      "level": 2,
+      "name": "密度矩阵与混合态",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.angular",
+      "parent_id": null,
+      "level": 1,
+      "name": "角动量",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.angular.algebra",
+      "parent_id": "qma.angular",
+      "level": 2,
+      "name": "角动量代数与本征值",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.angular.spin",
+      "parent_id": "qma.angular",
+      "level": 2,
+      "name": "自旋与 Pauli 矩阵",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.angular.couple",
+      "parent_id": "qma.angular",
+      "level": 2,
+      "name": "角动量耦合与 CG 系数",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.angular.rot",
+      "parent_id": "qma.angular",
+      "level": 2,
+      "name": "转动与球张量",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.central",
+      "parent_id": null,
+      "level": 1,
+      "name": "中心力场",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.central.radial",
+      "parent_id": "qma.central",
+      "level": 2,
+      "name": "径向方程与有效势",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.central.hydrogen",
+      "parent_id": "qma.central",
+      "level": 2,
+      "name": "氢原子",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.central.spherical",
+      "parent_id": "qma.central",
+      "level": 2,
+      "name": "球谐函数与角分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.approx",
+      "parent_id": null,
+      "level": 1,
+      "name": "近似方法",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.approx.pert",
+      "parent_id": "qma.approx",
+      "level": 2,
+      "name": "定态微扰论",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.approx.var",
+      "parent_id": "qma.approx",
+      "level": 2,
+      "name": "变分法",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.approx.wkb",
+      "parent_id": "qma.approx",
+      "level": 2,
+      "name": "WKB 近似",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.approx.tdpert",
+      "parent_id": "qma.approx",
+      "level": 2,
+      "name": "含时微扰与跃迁",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.scatter",
+      "parent_id": null,
+      "level": 1,
+      "name": "散射理论",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.scatter.partial",
+      "parent_id": "qma.scatter",
+      "level": 2,
+      "name": "分波法与相移",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.scatter.born",
+      "parent_id": "qma.scatter",
+      "level": 2,
+      "name": "Born 近似",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.scatter.cross",
+      "parent_id": "qma.scatter",
+      "level": 2,
+      "name": "散射截面",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.many",
+      "parent_id": null,
+      "level": 1,
+      "name": "全同粒子与多体",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.many.identical",
+      "parent_id": "qma.many",
+      "level": 2,
+      "name": "全同粒子与交换对称",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.many.pauli",
+      "parent_id": "qma.many",
+      "level": 2,
+      "name": "Pauli 原理与行列式波函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.many.helium",
+      "parent_id": "qma.many",
+      "level": 2,
+      "name": "氦原子与交换能",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.many.band",
+      "parent_id": "qma.many",
+      "level": 2,
+      "name": "能带与多体初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.field",
+      "parent_id": null,
+      "level": 1,
+      "name": "电磁场中的粒子",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.field.landau",
+      "parent_id": "qma.field",
+      "level": 2,
+      "name": "Landau 能级",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.field.zeeman",
+      "parent_id": "qma.field",
+      "level": 2,
+      "name": "Zeeman 效应与自旋进动",
+      "chapter_ref": null
+    },
+    {
+      "id": "qma.field.fine",
+      "parent_id": "qma.field",
+      "level": 2,
+      "name": "精细结构与超精细结构",
+      "chapter_ref": null
+    }
+  ]
+}

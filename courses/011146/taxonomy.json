@@ -1,0 +1,307 @@
+{
+  "schema_version": "1.0",
+  "course_code": "011146",
+  "nodes": [
+    {
+      "id": "agf.analysis",
+      "parent_id": null,
+      "level": 1,
+      "name": "算法分析与复杂度",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.analysis.asym",
+      "parent_id": "agf.analysis",
+      "level": 2,
+      "name": "渐近记号与复杂度",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.analysis.recur",
+      "parent_id": "agf.analysis",
+      "level": 2,
+      "name": "递推式与主定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.analysis.amort",
+      "parent_id": "agf.analysis",
+      "level": 2,
+      "name": "摊还分析",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.analysis.lower",
+      "parent_id": "agf.analysis",
+      "level": 2,
+      "name": "下界与判定树",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.divide",
+      "parent_id": null,
+      "level": 1,
+      "name": "分治策略",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.divide.sort_dc",
+      "parent_id": "agf.divide",
+      "level": 2,
+      "name": "归并排序与快速排序",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.divide.select",
+      "parent_id": "agf.divide",
+      "level": 2,
+      "name": "线性时间选择",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.divide.matrix",
+      "parent_id": "agf.divide",
+      "level": 2,
+      "name": "矩阵乘法与 Strassen",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.divide.fft",
+      "parent_id": "agf.divide",
+      "level": 2,
+      "name": "FFT 与多项式运算",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.sort",
+      "parent_id": null,
+      "level": 1,
+      "name": "排序与选择",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.sort.heap",
+      "parent_id": "agf.sort",
+      "level": 2,
+      "name": "堆与堆排序",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.sort.quick",
+      "parent_id": "agf.sort",
+      "level": 2,
+      "name": "快排与随机化",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.sort.linear",
+      "parent_id": "agf.sort",
+      "level": 2,
+      "name": "计数/基数/桶排序",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.ds",
+      "parent_id": null,
+      "level": 1,
+      "name": "数据结构与算法",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.ds.rbtree",
+      "parent_id": "agf.ds",
+      "level": 2,
+      "name": "红黑树与 B 树",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.ds.hash",
+      "parent_id": "agf.ds",
+      "level": 2,
+      "name": "散列与全域散列",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.ds.union",
+      "parent_id": "agf.ds",
+      "level": 2,
+      "name": "并查集",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.ds.aug",
+      "parent_id": "agf.ds",
+      "level": 2,
+      "name": "增强数据结构",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.dp",
+      "parent_id": null,
+      "level": 1,
+      "name": "动态规划",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.dp.seq",
+      "parent_id": "agf.dp",
+      "level": 2,
+      "name": "LCS 与编辑距离",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.dp.knap",
+      "parent_id": "agf.dp",
+      "level": 2,
+      "name": "背包问题",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.dp.chain",
+      "parent_id": "agf.dp",
+      "level": 2,
+      "name": "矩阵链与区间 DP",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.dp.tree_dp",
+      "parent_id": "agf.dp",
+      "level": 2,
+      "name": "树形 DP 与状态压缩",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.greedy",
+      "parent_id": null,
+      "level": 1,
+      "name": "贪心算法",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.greedy.matroid",
+      "parent_id": "agf.greedy",
+      "level": 2,
+      "name": "拟阵与贪心正确性",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.greedy.huffman",
+      "parent_id": "agf.greedy",
+      "level": 2,
+      "name": "Huffman 编码",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.greedy.sched",
+      "parent_id": "agf.greedy",
+      "level": 2,
+      "name": "调度与区间贪心",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.greedy.mst_g",
+      "parent_id": "agf.greedy",
+      "level": 2,
+      "name": "最小生成树",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.graph",
+      "parent_id": null,
+      "level": 1,
+      "name": "图算法",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.graph.bfs",
+      "parent_id": "agf.graph",
+      "level": 2,
+      "name": "BFS/DFS 与拓扑排序",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.graph.sp",
+      "parent_id": "agf.graph",
+      "level": 2,
+      "name": "最短路算法",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.graph.flow",
+      "parent_id": "agf.graph",
+      "level": 2,
+      "name": "网络流与匹配",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.graph.conn",
+      "parent_id": "agf.graph",
+      "level": 2,
+      "name": "连通性与割",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.npc",
+      "parent_id": null,
+      "level": 1,
+      "name": "NP 完全性与近似",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.npc.reduce",
+      "parent_id": "agf.npc",
+      "level": 2,
+      "name": "多项式归约",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.npc.classic",
+      "parent_id": "agf.npc",
+      "level": 2,
+      "name": "经典 NP 完全问题",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.npc.approx",
+      "parent_id": "agf.npc",
+      "level": 2,
+      "name": "近似算法与近似比",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.npc.random",
+      "parent_id": "agf.npc",
+      "level": 2,
+      "name": "随机算法",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.string",
+      "parent_id": null,
+      "level": 1,
+      "name": "串匹配与综合",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.string.kmp",
+      "parent_id": "agf.string",
+      "level": 2,
+      "name": "KMP 与 Z 算法",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.string.hash_s",
+      "parent_id": "agf.string",
+      "level": 2,
+      "name": "Rabin–Karp",
+      "chapter_ref": null
+    },
+    {
+      "id": "agf.string.misc",
+      "parent_id": "agf.string",
+      "level": 2,
+      "name": "综合应用",
+      "chapter_ref": null
+    }
+  ]
+}

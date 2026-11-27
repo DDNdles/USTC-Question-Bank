@@ -1,0 +1,279 @@
+{
+  "schema_version": "1.0",
+  "course_code": "022062",
+  "nodes": [
+    {
+      "id": "tsp.laws",
+      "parent_id": null,
+      "level": 1,
+      "name": "热力学基本定律",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.laws.first",
+      "parent_id": "tsp.laws",
+      "level": 2,
+      "name": "第一定律与内能",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.laws.second",
+      "parent_id": "tsp.laws",
+      "level": 2,
+      "name": "第二定律与熵",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.laws.third",
+      "parent_id": "tsp.laws",
+      "level": 2,
+      "name": "第三定律与绝对零度",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.laws.potentials",
+      "parent_id": "tsp.laws",
+      "level": 2,
+      "name": "自由能与热力学势",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.relations",
+      "parent_id": null,
+      "level": 1,
+      "name": "热力学关系",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.relations.maxwell",
+      "parent_id": "tsp.relations",
+      "level": 2,
+      "name": "Maxwell 关系",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.relations.legendre",
+      "parent_id": "tsp.relations",
+      "level": 2,
+      "name": "勒让德变换与特性函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.relations.response",
+      "parent_id": "tsp.relations",
+      "level": 2,
+      "name": "响应函数与稳定性",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.relations.mag",
+      "parent_id": "tsp.relations",
+      "level": 2,
+      "name": "磁介质热力学",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.phase",
+      "parent_id": null,
+      "level": 1,
+      "name": "相变与相平衡",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.phase.clausius",
+      "parent_id": "tsp.phase",
+      "level": 2,
+      "name": "Clausius–Clapeyron 方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.phase.diagram",
+      "parent_id": "tsp.phase",
+      "level": 2,
+      "name": "相图与相律",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.phase.critical",
+      "parent_id": "tsp.phase",
+      "level": 2,
+      "name": "临界现象与临界指数",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.phase.mixture",
+      "parent_id": "tsp.phase",
+      "level": 2,
+      "name": "混合物与化学势",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.ensemble",
+      "parent_id": null,
+      "level": 1,
+      "name": "统计物理基础",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.ensemble.micro",
+      "parent_id": "tsp.ensemble",
+      "level": 2,
+      "name": "微正则系综",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.ensemble.canon",
+      "parent_id": "tsp.ensemble",
+      "level": 2,
+      "name": "正则系综与配分函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.ensemble.grand",
+      "parent_id": "tsp.ensemble",
+      "level": 2,
+      "name": "巨正则系综",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.ensemble.classical",
+      "parent_id": "tsp.ensemble",
+      "level": 2,
+      "name": "经典极限与相空间",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.classical",
+      "parent_id": null,
+      "level": 1,
+      "name": "经典统计应用",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.classical.mb",
+      "parent_id": "tsp.classical",
+      "level": 2,
+      "name": "Maxwell–Boltzmann 分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.classical.equip",
+      "parent_id": "tsp.classical",
+      "level": 2,
+      "name": "能量均分定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.classical.gas",
+      "parent_id": "tsp.classical",
+      "level": 2,
+      "name": "理想气体与真实气体",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.classical.solid_c",
+      "parent_id": "tsp.classical",
+      "level": 2,
+      "name": "固体比热经典理论",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.quantum",
+      "parent_id": null,
+      "level": 1,
+      "name": "量子统计",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.quantum.fd",
+      "parent_id": "tsp.quantum",
+      "level": 2,
+      "name": "Fermi–Dirac 统计",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.quantum.be",
+      "parent_id": "tsp.quantum",
+      "level": 2,
+      "name": "Bose–Einstein 统计",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.quantum.photon",
+      "parent_id": "tsp.quantum",
+      "level": 2,
+      "name": "黑体辐射与 Planck 公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.quantum.phonon",
+      "parent_id": "tsp.quantum",
+      "level": 2,
+      "name": "声子与 Debye 模型",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.lowtemp",
+      "parent_id": null,
+      "level": 1,
+      "name": "固体与低温物理",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.lowtemp.electron",
+      "parent_id": "tsp.lowtemp",
+      "level": 2,
+      "name": "金属电子气",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.lowtemp.bose",
+      "parent_id": "tsp.lowtemp",
+      "level": 2,
+      "name": "玻色–爱因斯坦凝聚",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.lowtemp.super",
+      "parent_id": "tsp.lowtemp",
+      "level": 2,
+      "name": "超流与超导初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.lowtemp.white",
+      "parent_id": "tsp.lowtemp",
+      "level": 2,
+      "name": "白矮星与简并压",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.fluct",
+      "parent_id": null,
+      "level": 1,
+      "name": "涨落与不可逆过程",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.fluct.fluc",
+      "parent_id": "tsp.fluct",
+      "level": 2,
+      "name": "涨落理论与关联函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.fluct.brown",
+      "parent_id": "tsp.fluct",
+      "level": 2,
+      "name": "Brownian 运动",
+      "chapter_ref": null
+    },
+    {
+      "id": "tsp.fluct.transport",
+      "parent_id": "tsp.fluct",
+      "level": 2,
+      "name": "输运过程与 Boltzmann 方程",
+      "chapter_ref": null
+    }
+  ]
+}

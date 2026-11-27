@@ -1,8 +1,8 @@
 {
   "name": "USTC-Question-Bank",
   "schema_version": "1.0",
-  "data_version": "0.21.0",
-  "updated_at": "2026-11-26",
+  "data_version": "0.22.0",
+  "updated_at": "2026-11-27",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
   "asset_base_url": null,
   "feedback_endpoint": "https://dsh-study-feedback-relay.ddndles.workers.dev/",
@@ -11,13 +11,13 @@
     "question_content": "Third-party rights retained by original authors and publishers; see NOTICE.md"
   },
   "stats": {
-    "courses": 63,
-    "questions": 21607,
-    "quarantined": 264,
+    "courses": 67,
+    "questions": 23507,
+    "quarantined": 306,
     "by_origin": {
-      "official": 12578,
-      "community": 1620,
-      "ai": 7409
+      "official": 13771,
+      "community": 1621,
+      "ai": 8115
     }
   },
   "courses": [
@@ -93,14 +93,14 @@
         2026
       ],
       "paths": {
-        "meta": "courses/MATH1006/meta.json",
+        "questions": "courses/MATH1006/questions.jsonl",
         "taxonomy": "courses/MATH1006/taxonomy.json",
-        "questions": "courses/MATH1006/questions.jsonl"
+        "meta": "courses/MATH1006/meta.json"
       },
       "sha256": {
-        "meta": "c5619b24bc33a91956ca4f81b3b0be06af9224121af302da5ef24059eb14fcb4",
+        "questions": "6091337f27b863fa1cdbd596b4777c96face7bb1bf0317ade80da6c4920057c8",
         "taxonomy": "d226ca22ebfabb06ced10e4304e8f85a1f00d94bfea10da6e7a16c8878ab56a4",
-        "questions": "6091337f27b863fa1cdbd596b4777c96face7bb1bf0317ade80da6c4920057c8"
+        "meta": "c5619b24bc33a91956ca4f81b3b0be06af9224121af302da5ef24059eb14fcb4"
       }
     },
     {
@@ -1556,14 +1556,14 @@
         2026
       ],
       "paths": {
-        "meta": "courses/022392/meta.json",
+        "questions": "courses/022392/questions.jsonl",
         "taxonomy": "courses/022392/taxonomy.json",
-        "questions": "courses/022392/questions.jsonl"
+        "meta": "courses/022392/meta.json"
       },
       "sha256": {
-        "meta": "e9cfb447e2d43994ee11063e191be613d67e7efd78458bb826e1629ab6384dc9",
+        "questions": "ac964c53df8b74651a57395704b8bf09f61c5ccc820893b0daa2b9acdf313176",
         "taxonomy": "1a835ed4247da7ee3e20d229d4a8435023bfd362c8a48633bac83705fbdccf10",
-        "questions": "ac964c53df8b74651a57395704b8bf09f61c5ccc820893b0daa2b9acdf313176"
+        "meta": "e9cfb447e2d43994ee11063e191be613d67e7efd78458bb826e1629ab6384dc9"
       }
     },
     {
@@ -1590,14 +1590,14 @@
         2026
       ],
       "paths": {
-        "meta": "courses/022057/meta.json",
+        "questions": "courses/022057/questions.jsonl",
         "taxonomy": "courses/022057/taxonomy.json",
-        "questions": "courses/022057/questions.jsonl"
+        "meta": "courses/022057/meta.json"
       },
       "sha256": {
-        "meta": "3ad544353d7ddfff37fd77bfc443285d38f347c169e8cde8c8ea7509a3bfe8af",
+        "questions": "b8ef3ae53df731dad26041673f5b864ddd6144e3b8e00b2bb60cca55faf1ca74",
         "taxonomy": "4e773bf1ad2f9d3f193a026d023b08992aaf7823caa565c759a6dd1912426cd8",
-        "questions": "b8ef3ae53df731dad26041673f5b864ddd6144e3b8e00b2bb60cca55faf1ca74"
+        "meta": "3ad544353d7ddfff37fd77bfc443285d38f347c169e8cde8c8ea7509a3bfe8af"
       }
     },
     {
@@ -1630,14 +1630,14 @@
         2025
       ],
       "paths": {
-        "meta": "courses/001506/meta.json",
+        "questions": "courses/001506/questions.jsonl",
         "taxonomy": "courses/001506/taxonomy.json",
-        "questions": "courses/001506/questions.jsonl"
+        "meta": "courses/001506/meta.json"
       },
       "sha256": {
-        "meta": "04f6e4d25f0d202b3b977c4783b78b57d3256905892a48c0864aff5c22b48676",
+        "questions": "5d52f43f3ea71023f0aff13baf4d40b060425dc0a963c2637bad781f038ad30c",
         "taxonomy": "a6b52d6bbdf3cac787577bbd447050d3bc3d591ebe49746394a9a9e4fb2b2035",
-        "questions": "5d52f43f3ea71023f0aff13baf4d40b060425dc0a963c2637bad781f038ad30c"
+        "meta": "04f6e4d25f0d202b3b977c4783b78b57d3256905892a48c0864aff5c22b48676"
       }
     },
     {
@@ -1666,14 +1666,14 @@
         2024
       ],
       "paths": {
-        "meta": "courses/001505/meta.json",
+        "questions": "courses/001505/questions.jsonl",
         "taxonomy": "courses/001505/taxonomy.json",
-        "questions": "courses/001505/questions.jsonl"
+        "meta": "courses/001505/meta.json"
       },
       "sha256": {
-        "meta": "6d70dbe2afafb818f4f2ea272ed0d4d059eed5cd6c067533d6901ab0b914e67e",
+        "questions": "9cf95794ffae67c49922e9d676f0b1e2c342bd3a833600950bc196332f4f78f5",
         "taxonomy": "a9fca43372b8ea5d4baaafbbbcc5ddb7ee5715f407f958d7c495bb5321855e27",
-        "questions": "9cf95794ffae67c49922e9d676f0b1e2c342bd3a833600950bc196332f4f78f5"
+        "meta": "6d70dbe2afafb818f4f2ea272ed0d4d059eed5cd6c067533d6901ab0b914e67e"
       }
     },
     {
@@ -1704,14 +1704,14 @@
         2026
       ],
       "paths": {
-        "meta": "courses/MATH3008/meta.json",
+        "questions": "courses/MATH3008/questions.jsonl",
         "taxonomy": "courses/MATH3008/taxonomy.json",
-        "questions": "courses/MATH3008/questions.jsonl"
+        "meta": "courses/MATH3008/meta.json"
       },
       "sha256": {
-        "meta": "cf30292b78816f9e3c2be40d341c0353ebff56266ee5dfde6a2577dc49958a91",
+        "questions": "f883479ff5a6f3ababfbcc1adb328bb0daca14b474b59c672d0152f922c0505d",
         "taxonomy": "e03e318d384a7d49316a0e4cc76149bcdf8607e4ecde593f01312b1f42ae3cf8",
-        "questions": "f883479ff5a6f3ababfbcc1adb328bb0daca14b474b59c672d0152f922c0505d"
+        "meta": "cf30292b78816f9e3c2be40d341c0353ebff56266ee5dfde6a2577dc49958a91"
       }
     },
     {
@@ -1741,14 +1741,14 @@
         2026
       ],
       "paths": {
-        "meta": "courses/MATH3002/meta.json",
+        "questions": "courses/MATH3002/questions.jsonl",
         "taxonomy": "courses/MATH3002/taxonomy.json",
-        "questions": "courses/MATH3002/questions.jsonl"
+        "meta": "courses/MATH3002/meta.json"
       },
       "sha256": {
-        "meta": "7c749204dbc13a4baa82a3297446724952b644c2894bb4ba71c509d34a2f8555",
+        "questions": "7d18a48d8e72d3f2e72203b6563622ec0affcd05ad97159a261aea5422b51a3d",
         "taxonomy": "120415dfe064a8f3537b169c2711c49e489c9c1b994b16f068a6cd4874cc07f7",
-        "questions": "7d18a48d8e72d3f2e72203b6563622ec0affcd05ad97159a261aea5422b51a3d"
+        "meta": "7c749204dbc13a4baa82a3297446724952b644c2894bb4ba71c509d34a2f8555"
       }
     },
     {
@@ -1779,14 +1779,14 @@
         2026
       ],
       "paths": {
-        "meta": "courses/MATH3007/meta.json",
+        "questions": "courses/MATH3007/questions.jsonl",
         "taxonomy": "courses/MATH3007/taxonomy.json",
-        "questions": "courses/MATH3007/questions.jsonl"
+        "meta": "courses/MATH3007/meta.json"
       },
       "sha256": {
-        "meta": "893ba53fa908307399ed1abcafa0848b1b90a4352b5c33368f54f96d29d42bdb",
+        "questions": "af1541d58ed7b97b24b11874b7ecf1ecdd76b8192bdb0cde3a8307ac81fc7dc6",
         "taxonomy": "8bcbb167e8a45a6cbdb0de108504d8967f876c57452ed4e03339bd136536a8c5",
-        "questions": "af1541d58ed7b97b24b11874b7ecf1ecdd76b8192bdb0cde3a8307ac81fc7dc6"
+        "meta": "893ba53fa908307399ed1abcafa0848b1b90a4352b5c33368f54f96d29d42bdb"
       }
     },
     {
@@ -1812,14 +1812,14 @@
         2026
       ],
       "paths": {
-        "meta": "courses/MATH3001/meta.json",
+        "questions": "courses/MATH3001/questions.jsonl",
         "taxonomy": "courses/MATH3001/taxonomy.json",
-        "questions": "courses/MATH3001/questions.jsonl"
+        "meta": "courses/MATH3001/meta.json"
       },
       "sha256": {
-        "meta": "9cdc67f8a707f82e73351e9944f01a0e8a2eabc0fb00f5541c637c509d4547ba",
+        "questions": "20a71410edc743c723db21d52a2e10c7750b0262a303e278c1c570baf4e9022c",
         "taxonomy": "2be8dc0fc7a741599433dad7c6c0d0a7803efd89a725b40ae18dbe407b4cee24",
-        "questions": "20a71410edc743c723db21d52a2e10c7750b0262a303e278c1c570baf4e9022c"
+        "meta": "9cdc67f8a707f82e73351e9944f01a0e8a2eabc0fb00f5541c637c509d4547ba"
       }
     },
     {
@@ -1843,14 +1843,14 @@
         2026
       ],
       "paths": {
-        "meta": "courses/017063/meta.json",
+        "questions": "courses/017063/questions.jsonl",
         "taxonomy": "courses/017063/taxonomy.json",
-        "questions": "courses/017063/questions.jsonl"
+        "meta": "courses/017063/meta.json"
       },
       "sha256": {
-        "meta": "338ce9cda4938f9129a7a902dadba282e8ead101b17b4adbd6185d27b747b123",
+        "questions": "ce0a53beafb32165969dc1b51e028937ee2dd260d99ee4288c10f467e3d2f0a7",
         "taxonomy": "c548440bb007a8af2b48bf10459ab81cdfc69455049e5da5b1788159045709f2",
-        "questions": "ce0a53beafb32165969dc1b51e028937ee2dd260d99ee4288c10f467e3d2f0a7"
+        "meta": "338ce9cda4938f9129a7a902dadba282e8ead101b17b4adbd6185d27b747b123"
       }
     },
     {
@@ -1879,14 +1879,14 @@
         2026
       ],
       "paths": {
-        "meta": "courses/017129/meta.json",
+        "questions": "courses/017129/questions.jsonl",
         "taxonomy": "courses/017129/taxonomy.json",
-        "questions": "courses/017129/questions.jsonl"
+        "meta": "courses/017129/meta.json"
       },
       "sha256": {
-        "meta": "d1ac134baa60e1ef0fc020042073439d8d16dcf3e53c073fe3d70586ad24972e",
+        "questions": "c7423b1e94a756959f269cea77e68b380e92f9f8a6f88099e5c695ba74b24fdd",
         "taxonomy": "bb6941b4a854d00bb968a5f525afdab13328e3b614d3c89800dc34ac233dffb1",
-        "questions": "c7423b1e94a756959f269cea77e68b380e92f9f8a6f88099e5c695ba74b24fdd"
+        "meta": "d1ac134baa60e1ef0fc020042073439d8d16dcf3e53c073fe3d70586ad24972e"
       }
     },
     {
@@ -1911,14 +1911,14 @@
         2026
       ],
       "paths": {
-        "meta": "courses/001101/meta.json",
+        "questions": "courses/001101/questions.jsonl",
         "taxonomy": "courses/001101/taxonomy.json",
-        "questions": "courses/001101/questions.jsonl"
+        "meta": "courses/001101/meta.json"
       },
       "sha256": {
-        "meta": "1ffe33a5ef8ae9c432788cc12be45afd673de690c9f6d0aefcf489981044d25f",
+        "questions": "f57a6a419b02a5153223feed018d84b65ad1f4e26149c5425d95db885c3e274d",
         "taxonomy": "162a1ebd0fc4e5025c1a7fd35eacb77cfb69290e4bdf624cce41c40842150e58",
-        "questions": "f57a6a419b02a5153223feed018d84b65ad1f4e26149c5425d95db885c3e274d"
+        "meta": "1ffe33a5ef8ae9c432788cc12be45afd673de690c9f6d0aefcf489981044d25f"
       }
     },
     {
@@ -1941,14 +1941,14 @@
         2025
       ],
       "paths": {
-        "meta": "courses/001122/meta.json",
+        "questions": "courses/001122/questions.jsonl",
         "taxonomy": "courses/001122/taxonomy.json",
-        "questions": "courses/001122/questions.jsonl"
+        "meta": "courses/001122/meta.json"
       },
       "sha256": {
-        "meta": "3751beb0608ae8115bc53a3d0b0b8ac26c0580313b98d11b622557bda94f0ad3",
+        "questions": "d9b407d6cd328d7724215c8e506a1224bbcecf00d769f79672bb51e950b272a4",
         "taxonomy": "b3f455ac6780171f60a18b5023c1e28c2ecc89e9af0a93d2b3c6a0f375df02eb",
-        "questions": "d9b407d6cd328d7724215c8e506a1224bbcecf00d769f79672bb51e950b272a4"
+        "meta": "3751beb0608ae8115bc53a3d0b0b8ac26c0580313b98d11b622557bda94f0ad3"
       }
     },
     {
@@ -1972,14 +1972,14 @@
         2025
       ],
       "paths": {
-        "meta": "courses/MATH2004/meta.json",
+        "questions": "courses/MATH2004/questions.jsonl",
         "taxonomy": "courses/MATH2004/taxonomy.json",
-        "questions": "courses/MATH2004/questions.jsonl"
+        "meta": "courses/MATH2004/meta.json"
       },
       "sha256": {
-        "meta": "7f81a12915d460a8ed712090072bab51234676c37a6e8958b97619610e399d08",
+        "questions": "642f10cfacf84306d8bfd3b8627cad5deaf0f12c045231c116b713874a0a29a1",
         "taxonomy": "38068dc3fac82696081a2808016d6f3d1e3f9c543ae1a88613ca9ef31e37257d",
-        "questions": "642f10cfacf84306d8bfd3b8627cad5deaf0f12c045231c116b713874a0a29a1"
+        "meta": "7f81a12915d460a8ed712090072bab51234676c37a6e8958b97619610e399d08"
       }
     },
     {
@@ -2006,14 +2006,14 @@
         2026
       ],
       "paths": {
-        "meta": "courses/011103/meta.json",
+        "questions": "courses/011103/questions.jsonl",
         "taxonomy": "courses/011103/taxonomy.json",
-        "questions": "courses/011103/questions.jsonl"
+        "meta": "courses/011103/meta.json"
       },
       "sha256": {
-        "meta": "9fa4fcec890bca6607dc2b032799a508bd0a6922cd59c5e604e26e86d7996195",
+        "questions": "47f20145ab71d772106691969b7f98ae1c7a7cbe89509b6eda1b3c21927aeda3",
         "taxonomy": "32b9b6462ed5efbc3192b7bb859f33744473ece48738f3b273fdfe4a701a71c3",
-        "questions": "47f20145ab71d772106691969b7f98ae1c7a7cbe89509b6eda1b3c21927aeda3"
+        "meta": "9fa4fcec890bca6607dc2b032799a508bd0a6922cd59c5e604e26e86d7996195"
       }
     },
     {
@@ -2042,14 +2042,14 @@
         2025
       ],
       "paths": {
-        "meta": "courses/210045/meta.json",
+        "questions": "courses/210045/questions.jsonl",
         "taxonomy": "courses/210045/taxonomy.json",
-        "questions": "courses/210045/questions.jsonl"
+        "meta": "courses/210045/meta.json"
       },
       "sha256": {
-        "meta": "3310ca3727a4792ba99945b366ff236ed22e7b48d50c3bff1c27be5e6289a6c5",
+        "questions": "66fe18f170d093331ed7fe37c6f8a61e296ef6b6bd164cee1e961989d69d938c",
         "taxonomy": "c245b21d7f12d5ef184d67563d4071d430322e0500d0bcd6bd6ccc0df1191f98",
-        "questions": "66fe18f170d093331ed7fe37c6f8a61e296ef6b6bd164cee1e961989d69d938c"
+        "meta": "3310ca3727a4792ba99945b366ff236ed22e7b48d50c3bff1c27be5e6289a6c5"
       }
     },
     {
@@ -2072,14 +2072,166 @@
         2025
       ],
       "paths": {
-        "meta": "courses/MATH2003/meta.json",
+        "questions": "courses/MATH2003/questions.jsonl",
         "taxonomy": "courses/MATH2003/taxonomy.json",
-        "questions": "courses/MATH2003/questions.jsonl"
+        "meta": "courses/MATH2003/meta.json"
       },
       "sha256": {
-        "meta": "8bb081a9dee44bc483ee11c9031cb838ad9c0fa77a46cf55ff1c754a57ac3e6c",
+        "questions": "e7f3fd982ce81be8c946086c6683fcfcdf2952ce43c717db0f2a03a98f12c418",
         "taxonomy": "2baf7fbfaf312baa59492e486830b16baf74af8e5e80bcc275592a6f665118d5",
-        "questions": "e7f3fd982ce81be8c946086c6683fcfcdf2952ce43c717db0f2a03a98f12c418"
+        "meta": "8bb081a9dee44bc483ee11c9031cb838ad9c0fa77a46cf55ff1c754a57ac3e6c"
+      }
+    },
+    {
+      "code": "MATH2001",
+      "name": "计算方法",
+      "name_en": "Numerical Methods",
+      "department": "数学科学学院",
+      "category": "professional",
+      "total": 567,
+      "quarantined": 20,
+      "by_origin": {
+        "official": 312,
+        "community": 0,
+        "ai": 255
+      },
+      "exam_years": [
+        2006,
+        2007,
+        2009,
+        2011,
+        2012,
+        2013,
+        2014,
+        2016,
+        2017,
+        2018,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "paths": {
+        "meta": "courses/MATH2001/meta.json",
+        "taxonomy": "courses/MATH2001/taxonomy.json",
+        "questions": "courses/MATH2001/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "8b810c7c235609acee7f2ca0627f29a9900e1aebc9bf429394db6c3a08cce2c1",
+        "taxonomy": "58e8adb7c6e1d429f880ca73a0273cfba6d4538062abad4d517829b9281f46db",
+        "questions": "70df1a05c08b10dcd755ede1a7c37f7097972d99037baca99a9c22217cfeaf0f"
+      }
+    },
+    {
+      "code": "011146",
+      "name": "算法基础",
+      "name_en": "Foundations of Algorithms",
+      "department": "计算机科学与技术学院",
+      "category": "professional",
+      "total": 340,
+      "quarantined": 12,
+      "by_origin": {
+        "official": 227,
+        "community": 1,
+        "ai": 112
+      },
+      "exam_years": [
+        2009,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/011146/meta.json",
+        "taxonomy": "courses/011146/taxonomy.json",
+        "questions": "courses/011146/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "0cdd9fed59dee33dc27a48f7a29f8ca7e8d57f942940abb54b928cf6ec381be7",
+        "taxonomy": "66fe7ee76b35ab65afb2340adbdfb15f1d41a1176afa6904b1cccd314a34e7ac",
+        "questions": "97f1451055fc0dd142cd94e110a360b96407342ee911367a9c1092f5bddaf912"
+      }
+    },
+    {
+      "code": "022148",
+      "name": "量子力学A",
+      "name_en": "Quantum Mechanics (A)",
+      "department": "物理学院",
+      "category": "professional",
+      "total": 687,
+      "quarantined": 6,
+      "by_origin": {
+        "official": 399,
+        "community": 0,
+        "ai": 288
+      },
+      "exam_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "paths": {
+        "meta": "courses/022148/meta.json",
+        "taxonomy": "courses/022148/taxonomy.json",
+        "questions": "courses/022148/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "d31424f89f29bf1d8404fcb2fcc878ca6704637e15b919b82c8cded51fa0cff8",
+        "taxonomy": "ad68f978f8d212ee527246343f7e26eff6fc37f2df02fa4eb9f5ea3f3dc213d8",
+        "questions": "f3bbcf8d99ac2614976ce785bd7325c73ea0107ffece56d4d7ef25829ace6642"
+      }
+    },
+    {
+      "code": "022062",
+      "name": "热力学与统计物理A",
+      "name_en": "Thermodynamics and Statistical Physics (A)",
+      "department": "物理学院",
+      "category": "professional",
+      "total": 306,
+      "quarantined": 4,
+      "by_origin": {
+        "official": 255,
+        "community": 0,
+        "ai": 51
+      },
+      "exam_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "paths": {
+        "meta": "courses/022062/meta.json",
+        "taxonomy": "courses/022062/taxonomy.json",
+        "questions": "courses/022062/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "c947e89b9f4a88a1266fec605ec3d54769bb5abbf31c97cd17a4c186249bc1bc",
+        "taxonomy": "7c880ca7c3293b5bfb43fefc55bbc58e6d651a1060c8cb90639ab15ada1c9786",
+        "questions": "abc945d778f3a538de0b89488e280d3f387f3d7ed06edb81cfcbad414b68f257"
       }
     }
   ]

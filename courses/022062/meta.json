@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "code": "022062",
+  "name": "热力学与统计物理A",
+  "name_en": "Thermodynamics and Statistical Physics (A)",
+  "department": "物理学院",
+  "category": "professional",
+  "description": "中国科学技术大学《热力学与统计物理A》（课号 022062）结构化题库，收录 2016–2025 春19 套期中/期末真题及 2024 春第二次小测验（共 306 题），覆盖 31 个二级知识点，其中 255 题附原卷参考解答（origin=official）、51 题由模型独立求解与推导。",
+  "stats": {
+    "total": 306,
+    "quarantined": 4,
+    "taxonomy_nodes": 39,
+    "by_origin": {
+      "official": 255,
+      "community": 0,
+      "ai": 51
+    },
+    "by_type": {
+      "blank": 1,
+      "proof": 22,
+      "solve": 283
+    },
+    "by_difficulty": {
+      "1": 2,
+      "2": 53,
+      "3": 120,
+      "4": 113,
+      "5": 18
+    },
+    "exam_years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "tsp_exams",
+      "count": 306,
+      "rights": "third_party_exam",
+      "description": "2016–2025 春热力学与统计物理A 19 套期中/期末及小测真题（306 题）"
+    }
+  ],
+  "known_notes": [
+    "2016、2018–2025 年绝大部分期中/期末及 2024 春第二次小测验共 255 题附原卷官方参考解答（origin=official）；2017 春期中、2017 期末、2021 期中及 2019 期中部分题共 51 题由模型独立求解（origin=ai）。",
+    "全库共 4 道低置信度题标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+  ],
+  "files": {
+    "questions": "courses/022062/questions.jsonl",
+    "taxonomy": "courses/022062/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "abc945d778f3a538de0b89488e280d3f387f3d7ed06edb81cfcbad414b68f257",
+    "taxonomy": "7c880ca7c3293b5bfb43fefc55bbc58e6d651a1060c8cb90639ab15ada1c9786"
+  }
+}
