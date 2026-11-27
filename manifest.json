@@ -1,7 +1,7 @@
 {
   "name": "USTC-Question-Bank",
   "schema_version": "1.0",
-  "data_version": "0.22.0",
+  "data_version": "0.23.0",
   "updated_at": "2026-11-27",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
   "asset_base_url": null,
@@ -12,12 +12,12 @@
   },
   "stats": {
     "courses": 67,
-    "questions": 23507,
-    "quarantined": 306,
+    "questions": 23494,
+    "quarantined": 68,
     "by_origin": {
-      "official": 13771,
+      "official": 13784,
       "community": 1621,
-      "ai": 8115
+      "ai": 8089
     }
   },
   "courses": [
@@ -28,7 +28,7 @@
       "department": "数学科学学院",
       "category": "professional",
       "total": 571,
-      "quarantined": 3,
+      "quarantined": 0,
       "by_origin": {
         "official": 229,
         "community": 26,
@@ -51,14 +51,14 @@
         2025
       ],
       "paths": {
-        "questions": "courses/001548/questions.jsonl",
+        "meta": "courses/001548/meta.json",
         "taxonomy": "courses/001548/taxonomy.json",
-        "meta": "courses/001548/meta.json"
+        "questions": "courses/001548/questions.jsonl"
       },
       "sha256": {
-        "questions": "f6330b4a4c16271e535bdbee2c4179b283afc297390c98499f07e2baa22d42f6",
+        "meta": "7d420f3849225cc4afc3c449ba6ccce27e1122aa4eadf7c0285997fb451d1653",
         "taxonomy": "3ad9d35e865c3c994901b9c4a25ad066f68a968c7924cbbd456bcdb7f07e6fcf",
-        "meta": "187e9a772272e4c6ee536e002de6b704da8290c9e6ef044ef139e57b880b1f8c"
+        "questions": "0042fff53453fdf6a7e51943d99e2273f28d5feb457822b87aa844a322139842"
       }
     },
     {
@@ -93,14 +93,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/MATH1006/questions.jsonl",
+        "meta": "courses/MATH1006/meta.json",
         "taxonomy": "courses/MATH1006/taxonomy.json",
-        "meta": "courses/MATH1006/meta.json"
+        "questions": "courses/MATH1006/questions.jsonl"
       },
       "sha256": {
-        "questions": "6091337f27b863fa1cdbd596b4777c96face7bb1bf0317ade80da6c4920057c8",
+        "meta": "c5619b24bc33a91956ca4f81b3b0be06af9224121af302da5ef24059eb14fcb4",
         "taxonomy": "d226ca22ebfabb06ced10e4304e8f85a1f00d94bfea10da6e7a16c8878ab56a4",
-        "meta": "c5619b24bc33a91956ca4f81b3b0be06af9224121af302da5ef24059eb14fcb4"
+        "questions": "6091337f27b863fa1cdbd596b4777c96face7bb1bf0317ade80da6c4920057c8"
       }
     },
     {
@@ -128,14 +128,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/MATH1007/questions.jsonl",
+        "meta": "courses/MATH1007/meta.json",
         "taxonomy": "courses/MATH1007/taxonomy.json",
-        "meta": "courses/MATH1007/meta.json"
+        "questions": "courses/MATH1007/questions.jsonl"
       },
       "sha256": {
-        "questions": "81799adb01324382c79681da3985cc7e58ab75e2ac97bad9bb4e8cb1351d3e5f",
+        "meta": "72dbb32980861085f4b8579c907ff40ec8afe48dd8d8d081ba4747c232354807",
         "taxonomy": "17e6e0b970f3788c9ebc20d68df92f245bbf49ab9581805e270a4e137cfadb32",
-        "meta": "72dbb32980861085f4b8579c907ff40ec8afe48dd8d8d081ba4747c232354807"
+        "questions": "81799adb01324382c79681da3985cc7e58ab75e2ac97bad9bb4e8cb1351d3e5f"
       }
     },
     {
@@ -167,14 +167,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/MATH1009/questions.jsonl",
+        "meta": "courses/MATH1009/meta.json",
         "taxonomy": "courses/MATH1009/taxonomy.json",
-        "meta": "courses/MATH1009/meta.json"
+        "questions": "courses/MATH1009/questions.jsonl"
       },
       "sha256": {
-        "questions": "f122609c7ec27d177d938f64d90af43564e8ec7c89ec76f01157abcdf22b8e2a",
+        "meta": "2fe6eb72e11283289a803e6ce4b78b6e8a69a1e4a7db824550e1b5bbd2394d21",
         "taxonomy": "ba8d0730bb724b58344c8a48e59358e7a8734c29febb55fa863b04fea77d3a02",
-        "meta": "2fe6eb72e11283289a803e6ce4b78b6e8a69a1e4a7db824550e1b5bbd2394d21"
+        "questions": "f122609c7ec27d177d938f64d90af43564e8ec7c89ec76f01157abcdf22b8e2a"
       }
     },
     {
@@ -199,14 +199,14 @@
         2025
       ],
       "paths": {
-        "questions": "courses/CS1003/questions.jsonl",
+        "meta": "courses/CS1003/meta.json",
         "taxonomy": "courses/CS1003/taxonomy.json",
-        "meta": "courses/CS1003/meta.json"
+        "questions": "courses/CS1003/questions.jsonl"
       },
       "sha256": {
-        "questions": "6dd15d8a7fb4f1e4f38a1b687d38c8eebecfeab56f695028b88188a0284d1c3f",
+        "meta": "c5fa654968e0aa2e4186542efb5c117cadca9ffd23dfb84653900979419db05f",
         "taxonomy": "46fa2b6f45eaacfac22a15a73debdc51f2dca04a5202afc6c1c8adc16858c663",
-        "meta": "c5fa654968e0aa2e4186542efb5c117cadca9ffd23dfb84653900979419db05f"
+        "questions": "6dd15d8a7fb4f1e4f38a1b687d38c8eebecfeab56f695028b88188a0284d1c3f"
       }
     },
     {
@@ -216,7 +216,7 @@
       "department": "物理学院",
       "category": "common",
       "total": 253,
-      "quarantined": 5,
+      "quarantined": 0,
       "by_origin": {
         "official": 49,
         "community": 1,
@@ -241,14 +241,14 @@
         2025
       ],
       "paths": {
-        "questions": "courses/PHYS1001A/questions.jsonl",
+        "meta": "courses/PHYS1001A/meta.json",
         "taxonomy": "courses/PHYS1001A/taxonomy.json",
-        "meta": "courses/PHYS1001A/meta.json"
+        "questions": "courses/PHYS1001A/questions.jsonl"
       },
       "sha256": {
-        "questions": "9a1a38c902ca74f28dfa81a2bb2a7f3d468175f648a8697c4908dc465c5c6e6f",
+        "meta": "cfe1bd5ccb331a6cea9f018e8d0b754f726fa83bc55c642d2b2b4c3bf85bd789",
         "taxonomy": "c4bb47a4850489d389a9e2873c2b30fd6d6d9081af258ff0b7e09f0684cfe8df",
-        "meta": "49db2edc818b8f5c82af4174d4684d14d76107ba08282fd99cff4bdea5923f40"
+        "questions": "1fb4679eb559dbbc5d2c6ec5d88bfdb09ce160c11e193c9f590fc06461e33a00"
       }
     },
     {
@@ -257,12 +257,12 @@
       "name_en": "Thermal Physics (A)",
       "department": "物理学院",
       "category": "common",
-      "total": 352,
-      "quarantined": 3,
+      "total": 351,
+      "quarantined": 2,
       "by_origin": {
         "official": 219,
         "community": 13,
-        "ai": 120
+        "ai": 119
       },
       "exam_years": [
         2004,
@@ -278,14 +278,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/PHYS1002A/questions.jsonl",
+        "meta": "courses/PHYS1002A/meta.json",
         "taxonomy": "courses/PHYS1002A/taxonomy.json",
-        "meta": "courses/PHYS1002A/meta.json"
+        "questions": "courses/PHYS1002A/questions.jsonl"
       },
       "sha256": {
-        "questions": "6893edb2f663aab8c510a613e8206a8c602a26e95eb620e604f3cc350a180a23",
+        "meta": "13f7248669123790e1e7c4605295a6b017f9509b50d7a081beeffe9a060c29fe",
         "taxonomy": "ca7a25046ae104c333b10a82b6d4e55e409ce1330f0cbcd318dfc7d6d282fbbe",
-        "meta": "1b539e14f9451e2510097bf0c64ebd5f73d4f5d87fb09db4057b78960a71595c"
+        "questions": "0abb1db93c14d54fe4aa193da10da28b0d1b4f0c51a6f1a9a323c94188bd3385"
       }
     },
     {
@@ -295,7 +295,7 @@
       "department": "物理学院",
       "category": "common",
       "total": 121,
-      "quarantined": 5,
+      "quarantined": 3,
       "by_origin": {
         "official": 43,
         "community": 0,
@@ -311,14 +311,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/PHYS1004A/questions.jsonl",
+        "meta": "courses/PHYS1004A/meta.json",
         "taxonomy": "courses/PHYS1004A/taxonomy.json",
-        "meta": "courses/PHYS1004A/meta.json"
+        "questions": "courses/PHYS1004A/questions.jsonl"
       },
       "sha256": {
-        "questions": "06595e603f987866bd49bd5ea06bc2c494cb99c231b1e8f61bdd09a36fda5912",
+        "meta": "01353bf3daa8320f75582b1c0fe38f52eac12df42deaf178be1484a886690077",
         "taxonomy": "dc37a23b0987cc00d11ab727700b3a1584ffb3419853a2e9698e15a9c361de92",
-        "meta": "afbb8fcad35559455ff9df77b0d0a4dde4e645f41f853f665a9db5000b6a0f89"
+        "questions": "31e97969d9d024bd7d0ff2816a30be3fe0b2b76aa23130a852ab131cce2d4ba8"
       }
     },
     {
@@ -342,14 +342,14 @@
         2024
       ],
       "paths": {
-        "questions": "courses/210070/questions.jsonl",
+        "meta": "courses/210070/meta.json",
         "taxonomy": "courses/210070/taxonomy.json",
-        "meta": "courses/210070/meta.json"
+        "questions": "courses/210070/questions.jsonl"
       },
       "sha256": {
-        "questions": "672280915f4f50c3eabe16b5ed4730cdceb72e47ace63377c6e140ef431b14ca",
+        "meta": "3f2fb307294b1dfece6afe913c7fa3aafa51260234094b5662026e83876b94f5",
         "taxonomy": "5d92b032f29625b74fc8a9dda1caaf389906e180c742a7f7f8d33f5d46c3be70",
-        "meta": "3f2fb307294b1dfece6afe913c7fa3aafa51260234094b5662026e83876b94f5"
+        "questions": "672280915f4f50c3eabe16b5ed4730cdceb72e47ace63377c6e140ef431b14ca"
       }
     },
     {
@@ -359,7 +359,7 @@
       "department": "数学科学学院",
       "category": "common",
       "total": 431,
-      "quarantined": 3,
+      "quarantined": 1,
       "by_origin": {
         "official": 327,
         "community": 0,
@@ -389,14 +389,14 @@
         2025
       ],
       "paths": {
-        "questions": "courses/STAT2002/questions.jsonl",
+        "meta": "courses/STAT2002/meta.json",
         "taxonomy": "courses/STAT2002/taxonomy.json",
-        "meta": "courses/STAT2002/meta.json"
+        "questions": "courses/STAT2002/questions.jsonl"
       },
       "sha256": {
-        "questions": "bb65f9f18b49087918cadac5837be7bc0d29a9b4d9c2bca3b3489ec2ede6b938",
+        "meta": "6676a8ef9444f75fe24dc016eb53b5b86a0aea61e1c8f0336f9fabaeae8074ad",
         "taxonomy": "667d86c6930d39052c519697d4dbf924e5b9456d4565b45c61ca6fbfebbcfe44",
-        "meta": "af5781820161bdd9058da49458ca2b03d8d6c43acc55266575f234333c38adf8"
+        "questions": "9519b4196dcb74b2df77f6db6eb626a7581575aee58818662cfdd4b33fb05367"
       }
     },
     {
@@ -406,7 +406,7 @@
       "department": "物理学院",
       "category": "common",
       "total": 228,
-      "quarantined": 3,
+      "quarantined": 1,
       "by_origin": {
         "official": 121,
         "community": 16,
@@ -421,14 +421,14 @@
         2025
       ],
       "paths": {
-        "questions": "courses/PHYS1003A/questions.jsonl",
+        "meta": "courses/PHYS1003A/meta.json",
         "taxonomy": "courses/PHYS1003A/taxonomy.json",
-        "meta": "courses/PHYS1003A/meta.json"
+        "questions": "courses/PHYS1003A/questions.jsonl"
       },
       "sha256": {
-        "questions": "259d911f4ba96dae90e67cc53215638c4fa266ac42b58e6cc7b335a748e87c79",
+        "meta": "e4802413495cef911484818dc5979330b67ceb78167a4684dbe88c74599aaf9c",
         "taxonomy": "8b371542d876f31cff3a824d8ceab0e5d2d1a855bf4e337d6eaf37771e5bebc6",
-        "meta": "48b4b91558ab8b2bf6d9e3e37471fde37506a71a5b790170a5369859cd96ea53"
+        "questions": "4347d7d1092cbf4a4f3e85957923417f82d3f574bc371106f02fd3d5216f70e7"
       }
     },
     {
@@ -454,14 +454,14 @@
         2022
       ],
       "paths": {
-        "questions": "courses/210050/questions.jsonl",
+        "meta": "courses/210050/meta.json",
         "taxonomy": "courses/210050/taxonomy.json",
-        "meta": "courses/210050/meta.json"
+        "questions": "courses/210050/questions.jsonl"
       },
       "sha256": {
-        "questions": "77429f17971cf376ef5633d8c082c13cc2394d09e194f5ef8bf6266d6a1c382a",
+        "meta": "1da2eea49920e1f28f377c9059a9a2559214339b1547a1c2780075eaeafbc3f4",
         "taxonomy": "2c16cb5964e5d55589aca9b857e4d1a251ca4df54a205ad5602909c445238253",
-        "meta": "1da2eea49920e1f28f377c9059a9a2559214339b1547a1c2780075eaeafbc3f4"
+        "questions": "77429f17971cf376ef5633d8c082c13cc2394d09e194f5ef8bf6266d6a1c382a"
       }
     },
     {
@@ -483,14 +483,14 @@
         2019
       ],
       "paths": {
-        "questions": "courses/023181/questions.jsonl",
+        "meta": "courses/023181/meta.json",
         "taxonomy": "courses/023181/taxonomy.json",
-        "meta": "courses/023181/meta.json"
+        "questions": "courses/023181/questions.jsonl"
       },
       "sha256": {
-        "questions": "af578cba42ee3b3a9cf97a501e43a5ea84f2e2ffb58bed847c4d2dab95ef4165",
+        "meta": "a45870f9f44d195e8964cb12e5cc8fa47c6aa4ff680062204098c7eee719015b",
         "taxonomy": "13b82f2c1c3797fac4df33f21bb080ddc0b0e2a336ea7a512f4f0c1e291b689a",
-        "meta": "a45870f9f44d195e8964cb12e5cc8fa47c6aa4ff680062204098c7eee719015b"
+        "questions": "af578cba42ee3b3a9cf97a501e43a5ea84f2e2ffb58bed847c4d2dab95ef4165"
       }
     },
     {
@@ -500,25 +500,25 @@
       "department": "信息科学技术学院",
       "category": "professional",
       "total": 505,
-      "quarantined": 13,
+      "quarantined": 0,
       "by_origin": {
-        "official": 122,
+        "official": 123,
         "community": 0,
-        "ai": 383
+        "ai": 382
       },
       "exam_years": [
         2020,
         2024
       ],
       "paths": {
-        "questions": "courses/EE2003/questions.jsonl",
+        "meta": "courses/EE2003/meta.json",
         "taxonomy": "courses/EE2003/taxonomy.json",
-        "meta": "courses/EE2003/meta.json"
+        "questions": "courses/EE2003/questions.jsonl"
       },
       "sha256": {
-        "questions": "f75c6b2b03d85b7729b28d56d14d1a6f7c04b926602a2dffc91a50d68ac26def",
+        "meta": "b7fc905c852a8b3e4be57166418733f96133a3be8d18d908b5249e538c765973",
         "taxonomy": "dfde976ca54c9c51f5dc6d9ccec5579918d851afde72c676b37d918d7f1a3e77",
-        "meta": "6c0c8e018e8f1aa1dc3d4fc44d66f8467e37a827abd025704eb163b2b5c1a51a"
+        "questions": "a5c69e2a6c7ea64974bcb90833c2aceae30977f83f45728920a1af3c99607965"
       }
     },
     {
@@ -546,14 +546,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/MATH1001/questions.jsonl",
+        "meta": "courses/MATH1001/meta.json",
         "taxonomy": "courses/MATH1001/taxonomy.json",
-        "meta": "courses/MATH1001/meta.json"
+        "questions": "courses/MATH1001/questions.jsonl"
       },
       "sha256": {
-        "questions": "341d5e2b8f4e6638c943cd9ae337a3b531bdebc1e117b0eb0a55e3f17dbb6c4e",
+        "meta": "6740989cbb7938fef6e829b7b4e9e1e11d7bd640133229e026968af39901f55f",
         "taxonomy": "35105be87d67191ce4ebb4db4eff8cb9bdf44e7d196b9aa52ecbba12b4e76e89",
-        "meta": "1f7b98f904ce56bb0af5022396b306b1ce74146d0d1e4fc60ac3e4ca2b355c8b"
+        "questions": "8b93ad013cdcf5c8b2f470bccb14aa9a1c4c48237f1e2e4fba68ef167e36b903"
       }
     },
     {
@@ -563,7 +563,7 @@
       "department": "数学科学学院",
       "category": "common",
       "total": 299,
-      "quarantined": 4,
+      "quarantined": 1,
       "by_origin": {
         "official": 34,
         "community": 27,
@@ -582,14 +582,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/MATH1002/questions.jsonl",
+        "meta": "courses/MATH1002/meta.json",
         "taxonomy": "courses/MATH1002/taxonomy.json",
-        "meta": "courses/MATH1002/meta.json"
+        "questions": "courses/MATH1002/questions.jsonl"
       },
       "sha256": {
-        "questions": "fbd085f5fdcdbd25819abb1680d8203991a890ee4b70e52f72f7493a8fb3ddf3",
+        "meta": "e1fa340c533c4c0551dc55591f11ff963928080694071beca3d1956946d52afa",
         "taxonomy": "656acad64bf4b5745a2133863d64f1ecd01760dde29a0b0d6edec280269aa825",
-        "meta": "17952d249c09a39399c63e34e62f1e70ac0a6d8528ea1f30a410a69358575588"
+        "questions": "a3e003b0883fe74fe1e835089482be50a762496173b61c3fd1db6794bdc72d15"
       }
     },
     {
@@ -599,7 +599,7 @@
       "department": "物理学院",
       "category": "common",
       "total": 379,
-      "quarantined": 7,
+      "quarantined": 3,
       "by_origin": {
         "official": 161,
         "community": 12,
@@ -624,14 +624,14 @@
         2025
       ],
       "paths": {
-        "questions": "courses/PHYS1001B/questions.jsonl",
+        "meta": "courses/PHYS1001B/meta.json",
         "taxonomy": "courses/PHYS1001B/taxonomy.json",
-        "meta": "courses/PHYS1001B/meta.json"
+        "questions": "courses/PHYS1001B/questions.jsonl"
       },
       "sha256": {
-        "questions": "236023079b652e41af7c27ed48c359f44c02bb0164de25a74f2662bae00d435b",
+        "meta": "bbe3e205ecee8bbf3607e52b32bc6a2e8f84849c694d6ccb3d2234545cc136fa",
         "taxonomy": "15eed523d72c7a377f71cdc1b5059cb2c63c768ff72343971d4ff5feb214d5ca",
-        "meta": "e57deacf8e2cdd15fd6f227a4340347eddcd835fecd6afc6f971cf2154bcd1c9"
+        "questions": "fad31b6eb9b317043443d5b5238d13b5b6b62975fc4aa5d80140c8e7be427e5b"
       }
     },
     {
@@ -640,12 +640,12 @@
       "name_en": "Thermal Physics (B)",
       "department": "物理学院",
       "category": "common",
-      "total": 277,
-      "quarantined": 1,
+      "total": 276,
+      "quarantined": 0,
       "by_origin": {
         "official": 176,
         "community": 0,
-        "ai": 101
+        "ai": 100
       },
       "exam_years": [
         2004,
@@ -663,14 +663,14 @@
         2025
       ],
       "paths": {
-        "questions": "courses/PHYS1002B/questions.jsonl",
+        "meta": "courses/PHYS1002B/meta.json",
         "taxonomy": "courses/PHYS1002B/taxonomy.json",
-        "meta": "courses/PHYS1002B/meta.json"
+        "questions": "courses/PHYS1002B/questions.jsonl"
       },
       "sha256": {
-        "questions": "5373b98311e0f42cfc7bf68a2aa0bab98d071adc59aca454cb9b18503ebfa0f5",
+        "meta": "ab5356125e24a092ac9ba7f0aab884431a5999bbc5baee3352353686fe4713ef",
         "taxonomy": "30625b0fff90371308944f1a4d84f81f4c81de5911ca0ef389f333f86a25e4ca",
-        "meta": "a01fa73838a6ca94ac14089c0c465c895f66295a081f85476b3bdbbf66b6577f"
+        "questions": "fcb28dc8d23e54f3c2bcbe251e5613f7818e2a690ce6a4242ec165270826e9b4"
       }
     },
     {
@@ -697,14 +697,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/MATH1004/questions.jsonl",
+        "meta": "courses/MATH1004/meta.json",
         "taxonomy": "courses/MATH1004/taxonomy.json",
-        "meta": "courses/MATH1004/meta.json"
+        "questions": "courses/MATH1004/questions.jsonl"
       },
       "sha256": {
-        "questions": "e56ee94cfbeb1e075bd9f64e3a6930332b1f5e15aaa8904ab6d62494288a40cb",
+        "meta": "d24e5f7cc7d98bb2d2189df62687ce80c863a1a36cd5aa768437fa4d606c7ab9",
         "taxonomy": "1ae57c0bb8bda78daef4a225c99f15a94a6cae6b46180d85273458b5f794f82e",
-        "meta": "84d4bc28aeb691489b686c35a043e3b2deb1d1860cb4a1eff8cd65bb5aa07e5f"
+        "questions": "0399cdeade90b8c93dc69ab3dab00d4ecf1ed13044aef22007989f905ca9c4f3"
       }
     },
     {
@@ -714,7 +714,7 @@
       "department": "数学科学学院",
       "category": "common",
       "total": 166,
-      "quarantined": 2,
+      "quarantined": 1,
       "by_origin": {
         "official": 118,
         "community": 0,
@@ -731,14 +731,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/MATH1005/questions.jsonl",
+        "meta": "courses/MATH1005/meta.json",
         "taxonomy": "courses/MATH1005/taxonomy.json",
-        "meta": "courses/MATH1005/meta.json"
+        "questions": "courses/MATH1005/questions.jsonl"
       },
       "sha256": {
-        "questions": "abdf212130f891284a3f324c55721eec42e121465a881bb5af5037babc063c35",
+        "meta": "55d3c2c8e44fb8bb2e7e5b0f0c8bb0d126874eb04524e5e194adda0f886cceab",
         "taxonomy": "90711d7c43a16a0da93019f8ab6e30b18bb4ca2f6d03171b3fb6bdcd8e0e1797",
-        "meta": "18f1337d2fde8fdb5ebea52e11db7ddd9b715eeb75dacf7d99f03ab85daa4e6b"
+        "questions": "db4bdd3d38ce6556a29b57b9b547a15209ab2630baa0ab523635da24d0bca296"
       }
     },
     {
@@ -748,7 +748,7 @@
       "department": "数学科学学院",
       "category": "common",
       "total": 131,
-      "quarantined": 5,
+      "quarantined": 3,
       "by_origin": {
         "official": 10,
         "community": 51,
@@ -762,14 +762,14 @@
         2025
       ],
       "paths": {
-        "questions": "courses/MATH1010/questions.jsonl",
+        "meta": "courses/MATH1010/meta.json",
         "taxonomy": "courses/MATH1010/taxonomy.json",
-        "meta": "courses/MATH1010/meta.json"
+        "questions": "courses/MATH1010/questions.jsonl"
       },
       "sha256": {
-        "questions": "8e5b07145c38bca164f659f31ed84224a7d9906d1451d88232212c7395c5f353",
+        "meta": "ff11f28a83f6409f0b929afd5141838452d4c7d34fb4b7f8b5f8fcc37a785c4e",
         "taxonomy": "3e73aa3af0b17d77ac86a83503b3eb6e026cf163976c4a26899ad05e28e8ccc3",
-        "meta": "18289f80e71d1af3ce3d7d48cc2603973051aeef8235e602b1169cab51373b33"
+        "questions": "3416114063747256de8be8e5b76a29b10d6d9cff6ca5b6f6c6e74a688661da9a"
       }
     },
     {
@@ -779,7 +779,7 @@
       "department": "物理学院",
       "category": "common",
       "total": 131,
-      "quarantined": 1,
+      "quarantined": 0,
       "by_origin": {
         "official": 42,
         "community": 0,
@@ -791,14 +791,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/PHYS1004H/questions.jsonl",
+        "meta": "courses/PHYS1004H/meta.json",
         "taxonomy": "courses/PHYS1004H/taxonomy.json",
-        "meta": "courses/PHYS1004H/meta.json"
+        "questions": "courses/PHYS1004H/questions.jsonl"
       },
       "sha256": {
-        "questions": "c071488cbb5d7da6779b0fe867b1bca2563423f8fb2de253e6b922480b98b832",
+        "meta": "d1d161cdef71b6e995eb1b5a6e240f84ea54bbe1f3044ec5d87edabf697c3faf",
         "taxonomy": "767ad79ce6a76b44b0ad0ed1bb4e1f0ac279ce288455cf6a61820e9ab50a3f64",
-        "meta": "f637234994466204b419125d3c2ec381d7a821fb310815df903806a30e654a9b"
+        "questions": "58e52656f71181f826104e8027b4e56f2355d2e8b98168f5c51e1a4e66e633f3"
       }
     },
     {
@@ -808,7 +808,7 @@
       "department": "物理学院",
       "category": "common",
       "total": 151,
-      "quarantined": 9,
+      "quarantined": 1,
       "by_origin": {
         "official": 42,
         "community": 40,
@@ -823,14 +823,14 @@
         2025
       ],
       "paths": {
-        "questions": "courses/PHYS1004C/questions.jsonl",
+        "meta": "courses/PHYS1004C/meta.json",
         "taxonomy": "courses/PHYS1004C/taxonomy.json",
-        "meta": "courses/PHYS1004C/meta.json"
+        "questions": "courses/PHYS1004C/questions.jsonl"
       },
       "sha256": {
-        "questions": "7e8876d1887db0cdbd50d41474ca60772a4eec6ece73c481022eb0c02ea407cb",
+        "meta": "53fffac45431bfdf4963cc6817c985d10efc0c861f340dc1d2aebf511f1162ac",
         "taxonomy": "fbee754f07cd08cd5f0ddfdd4c8f312dcf17ba76de258fad058114043406329b",
-        "meta": "b526d9aafb8a87bd50b048264fe02f6d8571f924c840d1f62c35c58676b0200b"
+        "questions": "913888c4195d1cdca486d36c2c15696ce6f33c6892d9a72d33e45e9394dc56ae"
       }
     },
     {
@@ -840,7 +840,7 @@
       "department": "物理学院",
       "category": "common",
       "total": 151,
-      "quarantined": 1,
+      "quarantined": 0,
       "by_origin": {
         "official": 96,
         "community": 0,
@@ -851,14 +851,14 @@
         2021
       ],
       "paths": {
-        "questions": "courses/PHYS1004B/questions.jsonl",
+        "meta": "courses/PHYS1004B/meta.json",
         "taxonomy": "courses/PHYS1004B/taxonomy.json",
-        "meta": "courses/PHYS1004B/meta.json"
+        "questions": "courses/PHYS1004B/questions.jsonl"
       },
       "sha256": {
-        "questions": "9dc7d4dc0228477e540e6ce070ef66a305c209bfb6cf9636b0ba607c3fd0d822",
+        "meta": "2e17f5315fb19fb023a4cd106022d6a1d430b4c8edd1177110f9684e864a79f1",
         "taxonomy": "3128dce431cbb28e9aadf20665a863b662aaab9d9056a133ea3269e1aed50621",
-        "meta": "f68d25b4afd14893d81ca8938041dc7bec9684c93e8f66c03390957ca902f02e"
+        "questions": "63ab1dc0aa744bc23860cd1642d4c3215970ae126735caa2eb0a92ccc30fd50a"
       }
     },
     {
@@ -868,7 +868,7 @@
       "department": "物理学院",
       "category": "common",
       "total": 78,
-      "quarantined": 5,
+      "quarantined": 0,
       "by_origin": {
         "official": 53,
         "community": 0,
@@ -881,14 +881,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/PHYS1001H/questions.jsonl",
+        "meta": "courses/PHYS1001H/meta.json",
         "taxonomy": "courses/PHYS1001H/taxonomy.json",
-        "meta": "courses/PHYS1001H/meta.json"
+        "questions": "courses/PHYS1001H/questions.jsonl"
       },
       "sha256": {
-        "questions": "bfacb635d1c5bd7fe5b0b08e5b4bdb913d1f4fd402cd65db2cf25bd8914b8b18",
+        "meta": "dde7c3ce5a9e23b18b1e697e4651a0c2a45f1ac7023b3d4f981200147be40fd5",
         "taxonomy": "7db83ab52e70b99b0ab0219d05f4db66fd43667914c15d687e71b6c0e3818818",
-        "meta": "24d30b101e38923e385c68927e1cb5b26d18fcb9cebf715841b3a483b8176ef3"
+        "questions": "c0787788cf5bbdf85943ed57dc043b426af5820b631a53e3bf89e8d317390542"
       }
     },
     {
@@ -908,14 +908,14 @@
         2024
       ],
       "paths": {
-        "questions": "courses/019161/questions.jsonl",
+        "meta": "courses/019161/meta.json",
         "taxonomy": "courses/019161/taxonomy.json",
-        "meta": "courses/019161/meta.json"
+        "questions": "courses/019161/questions.jsonl"
       },
       "sha256": {
-        "questions": "55c9731207e7e096fde760b4fc47add4eb64853c2378ee5224fe837adc87f031",
+        "meta": "2cc2caa5026d14c4495c5de413557402ae7021974d9677d8d2d7a327b1e319fe",
         "taxonomy": "3b96aca15743ebf5d1f95f1cabb674338e2d5d564d7beb1a91f8a035ffb4ea25",
-        "meta": "2cc2caa5026d14c4495c5de413557402ae7021974d9677d8d2d7a327b1e319fe"
+        "questions": "55c9731207e7e096fde760b4fc47add4eb64853c2378ee5224fe837adc87f031"
       }
     },
     {
@@ -933,14 +933,14 @@
       },
       "exam_years": [],
       "paths": {
-        "questions": "courses/019163/questions.jsonl",
+        "meta": "courses/019163/meta.json",
         "taxonomy": "courses/019163/taxonomy.json",
-        "meta": "courses/019163/meta.json"
+        "questions": "courses/019163/questions.jsonl"
       },
       "sha256": {
-        "questions": "4572cc16f3e7b64fe5d309e6e8c4240d5b9b0b509f0bee3e0c8f24714e8be209",
+        "meta": "beb3f2525133008d2af3a44207003054c90c358b738dd5a9144d87a23cffa16d",
         "taxonomy": "ed83576978f1939c1444fbdd32e71bb1f9938b8d40ef9d3f1e0aac89f93f4a07",
-        "meta": "beb3f2525133008d2af3a44207003054c90c358b738dd5a9144d87a23cffa16d"
+        "questions": "4572cc16f3e7b64fe5d309e6e8c4240d5b9b0b509f0bee3e0c8f24714e8be209"
       }
     },
     {
@@ -958,14 +958,14 @@
       },
       "exam_years": [],
       "paths": {
-        "questions": "courses/019165/questions.jsonl",
+        "meta": "courses/019165/meta.json",
         "taxonomy": "courses/019165/taxonomy.json",
-        "meta": "courses/019165/meta.json"
+        "questions": "courses/019165/questions.jsonl"
       },
       "sha256": {
-        "questions": "69c111303aee4bfdc832476dc13605fbd0e568656eaf267326217c85b7c98534",
+        "meta": "caea283e79dee0bef78a0e76e205fcbed304cbc6e02efcefc63e9caececeef41",
         "taxonomy": "e6bcd7ce23e7271d57c9c9587b5be7ebc3bea51a95e86a427766c2bdb1bcde1a",
-        "meta": "caea283e79dee0bef78a0e76e205fcbed304cbc6e02efcefc63e9caececeef41"
+        "questions": "69c111303aee4bfdc832476dc13605fbd0e568656eaf267326217c85b7c98534"
       }
     },
     {
@@ -985,14 +985,14 @@
         2004
       ],
       "paths": {
-        "questions": "courses/019166/questions.jsonl",
+        "meta": "courses/019166/meta.json",
         "taxonomy": "courses/019166/taxonomy.json",
-        "meta": "courses/019166/meta.json"
+        "questions": "courses/019166/questions.jsonl"
       },
       "sha256": {
-        "questions": "338d1d1be611a913ea1372585f9041aab5ad6743dc75df5da20b43acdcdb6d2f",
+        "meta": "93152ccebbce4d98294831fe1bcecc70d6b56b270c3bb418409c118954283947",
         "taxonomy": "0bdd2406db0990393127460f0cf312cdc738414aa15955cb3e0141d7bff1c53e",
-        "meta": "93152ccebbce4d98294831fe1bcecc70d6b56b270c3bb418409c118954283947"
+        "questions": "338d1d1be611a913ea1372585f9041aab5ad6743dc75df5da20b43acdcdb6d2f"
       }
     },
     {
@@ -1013,14 +1013,14 @@
         2025
       ],
       "paths": {
-        "questions": "courses/CS1003L/questions.jsonl",
+        "meta": "courses/CS1003L/meta.json",
         "taxonomy": "courses/CS1003L/taxonomy.json",
-        "meta": "courses/CS1003L/meta.json"
+        "questions": "courses/CS1003L/questions.jsonl"
       },
       "sha256": {
-        "questions": "68647c2879d28318ccecd0838a7b8bf934056042a4a406dcb9dfcb4dba45f94a",
+        "meta": "db4f40c61c6b44b2c39bf2853e4a15bf5cbd8b65360719141af5d1d52885ff43",
         "taxonomy": "dcb08aae1b98c1570785dfebc2c82b6a91f54b8cc6791caa67bdcc4ac92c0a08",
-        "meta": "db4f40c61c6b44b2c39bf2853e4a15bf5cbd8b65360719141af5d1d52885ff43"
+        "questions": "68647c2879d28318ccecd0838a7b8bf934056042a4a406dcb9dfcb4dba45f94a"
       }
     },
     {
@@ -1043,14 +1043,14 @@
         2023
       ],
       "paths": {
-        "questions": "courses/CS1002A/questions.jsonl",
+        "meta": "courses/CS1002A/meta.json",
         "taxonomy": "courses/CS1002A/taxonomy.json",
-        "meta": "courses/CS1002A/meta.json"
+        "questions": "courses/CS1002A/questions.jsonl"
       },
       "sha256": {
-        "questions": "eb411f5e824184507b5c33cf210c0bfc47863d9e42668842039315e43aeaa6b7",
+        "meta": "7722912706814aeefef54dc1bd0c61d244bddf6bf56905be0380f71ceb53819f",
         "taxonomy": "fefae4e8fb1e8aa91b666663c238b981c99627ccc118acce919fef95afb6cf67",
-        "meta": "7722912706814aeefef54dc1bd0c61d244bddf6bf56905be0380f71ceb53819f"
+        "questions": "eb411f5e824184507b5c33cf210c0bfc47863d9e42668842039315e43aeaa6b7"
       }
     },
     {
@@ -1072,14 +1072,14 @@
         2024
       ],
       "paths": {
-        "questions": "courses/MARX1012/questions.jsonl",
+        "meta": "courses/MARX1012/meta.json",
         "taxonomy": "courses/MARX1012/taxonomy.json",
-        "meta": "courses/MARX1012/meta.json"
+        "questions": "courses/MARX1012/questions.jsonl"
       },
       "sha256": {
-        "questions": "3d9d3460634a633b13a8a7cadf3fe0e23008b5cba91a2fbaae92dd2b8de281f0",
+        "meta": "01df44ffa859da4e80d94868b7516e2cab727167822be76f6e810d30b1e1b524",
         "taxonomy": "03db05ace11fc72ca97e50ac6f8a29e47b0a57a3a47a58490de03a467eab872e",
-        "meta": "01df44ffa859da4e80d94868b7516e2cab727167822be76f6e810d30b1e1b524"
+        "questions": "3d9d3460634a633b13a8a7cadf3fe0e23008b5cba91a2fbaae92dd2b8de281f0"
       }
     },
     {
@@ -1089,11 +1089,11 @@
       "department": "计算机科学与技术学院",
       "category": "common",
       "total": 431,
-      "quarantined": 22,
+      "quarantined": 11,
       "by_origin": {
-        "official": 255,
+        "official": 259,
         "community": 0,
-        "ai": 176
+        "ai": 172
       },
       "exam_years": [
         2021,
@@ -1102,14 +1102,14 @@
         2025
       ],
       "paths": {
-        "questions": "courses/229001/questions.jsonl",
+        "meta": "courses/229001/meta.json",
         "taxonomy": "courses/229001/taxonomy.json",
-        "meta": "courses/229001/meta.json"
+        "questions": "courses/229001/questions.jsonl"
       },
       "sha256": {
-        "questions": "91ce60619ecf524feafb5304132e970b5e4a85583a51ea15e08909b367f3048d",
+        "meta": "7e2e65bb57fb89afeb8467e4550449e087dd1b0391dda9ea587c0f27acf7ea21",
         "taxonomy": "257eced17d4eb1c72f16678da6e1137dfa1737bfb918abc296355df57e87f91d",
-        "meta": "2fc17f46e7e32d715d942b94071af17c951dc5a8b5a949ecf912cebdd8311ec8"
+        "questions": "8eda8e9d42498094c7e8ed2f5e5f6dfd367ec620fb4c304952c1cfefeb2f3c6b"
       }
     },
     {
@@ -1119,7 +1119,7 @@
       "department": "数学科学学院",
       "category": "common",
       "total": 247,
-      "quarantined": 2,
+      "quarantined": 0,
       "by_origin": {
         "official": 139,
         "community": 0,
@@ -1137,14 +1137,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/MATH1003/questions.jsonl",
+        "meta": "courses/MATH1003/meta.json",
         "taxonomy": "courses/MATH1003/taxonomy.json",
-        "meta": "courses/MATH1003/meta.json"
+        "questions": "courses/MATH1003/questions.jsonl"
       },
       "sha256": {
-        "questions": "9f319f685b38d3214b511ff0973d2a4b9a8db5b999606ca7242b09f587786b4a",
+        "meta": "6ac3473e7df54a6839eece6b0c014e9c9762fbc3febc684cc259c821036ec1b7",
         "taxonomy": "df0b909035a5334b7ce74f7814e35f49230d4b6c704f97f9cd8c0ab0bb890132",
-        "meta": "3f399ae244d4190635593a06e1e20248f136ee1f5c89fb501fbfa54c78f01f4b"
+        "questions": "e1d2fccf66276bf56cfbddd113fee539e34377465ef29ce6cd053c58a1da1b4e"
       }
     },
     {
@@ -1154,7 +1154,7 @@
       "department": "数学科学学院",
       "category": "common",
       "total": 270,
-      "quarantined": 2,
+      "quarantined": 0,
       "by_origin": {
         "official": 102,
         "community": 0,
@@ -1177,14 +1177,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/MATH1008/questions.jsonl",
+        "meta": "courses/MATH1008/meta.json",
         "taxonomy": "courses/MATH1008/taxonomy.json",
-        "meta": "courses/MATH1008/meta.json"
+        "questions": "courses/MATH1008/questions.jsonl"
       },
       "sha256": {
-        "questions": "6c49d792254ad630f5e408a91bd02f576f5ba7353e01a5a08e09366e8095db04",
+        "meta": "afff0af40699e94a54842982abc3c169da03d62e08e6633e669dc5ce8285bde3",
         "taxonomy": "424f36e7a67e502a3290d925259e6047ab7758b124c7c0b5f3d1c30ef41a6130",
-        "meta": "6ea7de9754643ac970f72c2b8ca9aa71338a717f9ed19021ba0d07cf4dc3644f"
+        "questions": "d9658cca5aa6277d62aa55d007c6c59ef23d34a37aa3eed3ad9b196d6a12f395"
       }
     },
     {
@@ -1208,14 +1208,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/PHYS1005A/questions.jsonl",
+        "meta": "courses/PHYS1005A/meta.json",
         "taxonomy": "courses/PHYS1005A/taxonomy.json",
-        "meta": "courses/PHYS1005A/meta.json"
+        "questions": "courses/PHYS1005A/questions.jsonl"
       },
       "sha256": {
-        "questions": "f51b1e4ddf93c3470cfc61ec87ad97ea53bbcb0bb6d8444e05de92e37f2160ad",
+        "meta": "e7f7bf875c304e6ea0a72f5444396736051b9efa48ff29b90119fba714e55f3a",
         "taxonomy": "d449d7de820c21bec4624905a76a405d7cde14630fcba68c5d77ba63d60fbdd9",
-        "meta": "e7f7bf875c304e6ea0a72f5444396736051b9efa48ff29b90119fba714e55f3a"
+        "questions": "f51b1e4ddf93c3470cfc61ec87ad97ea53bbcb0bb6d8444e05de92e37f2160ad"
       }
     },
     {
@@ -1225,7 +1225,7 @@
       "department": "物理学院",
       "category": "common",
       "total": 156,
-      "quarantined": 3,
+      "quarantined": 0,
       "by_origin": {
         "official": 85,
         "community": 0,
@@ -1239,14 +1239,14 @@
         2025
       ],
       "paths": {
-        "questions": "courses/PHYS1005B/questions.jsonl",
+        "meta": "courses/PHYS1005B/meta.json",
         "taxonomy": "courses/PHYS1005B/taxonomy.json",
-        "meta": "courses/PHYS1005B/meta.json"
+        "questions": "courses/PHYS1005B/questions.jsonl"
       },
       "sha256": {
-        "questions": "7d50a093af29dd0f014d331bb3ef5fb3b3381ff2959e67f9554ace887971d0ca",
+        "meta": "741ce37bee3d86ff8c0cde35669b6420d4ce45594ba0d7233bc10ac1da205c66",
         "taxonomy": "977f2a7220db2d4636f786bd42bb7826c1c194782b84f07a94622f1c2d7e0704",
-        "meta": "d27b1c037b9f6e13bce601bd315766bc2eefdb7d7fee00c5473428e7ec4945d5"
+        "questions": "e80a529d31768283466c6aa093a495be98960588450c345c9b12f99adc37efee"
       }
     },
     {
@@ -1256,7 +1256,7 @@
       "department": "物理学院",
       "category": "common",
       "total": 147,
-      "quarantined": 1,
+      "quarantined": 0,
       "by_origin": {
         "official": 102,
         "community": 0,
@@ -1266,14 +1266,14 @@
         2022
       ],
       "paths": {
-        "questions": "courses/PHYS1003B/questions.jsonl",
+        "meta": "courses/PHYS1003B/meta.json",
         "taxonomy": "courses/PHYS1003B/taxonomy.json",
-        "meta": "courses/PHYS1003B/meta.json"
+        "questions": "courses/PHYS1003B/questions.jsonl"
       },
       "sha256": {
-        "questions": "b2a9d8e6751dff2417c6ecfb570b569f21a2a6798f331e8ea1938750b40c75b9",
+        "meta": "08c12ba0e024c68157cc85b0ef3177a466bffc8becde5847f2ada1924e9bb30a",
         "taxonomy": "56b3cd9617c49bfeafe8a24a54ebb2fd7a07e827f21484433cfe6460954504f0",
-        "meta": "a73e46829142ddbc41992c68e310c4a9557a9a53c3075b931026507269ae7fae"
+        "questions": "a90ec4f77846d6339661808d39956915ecaba45d29c48a868c32ba5cf9edab80"
       }
     },
     {
@@ -1291,14 +1291,14 @@
       },
       "exam_years": [],
       "paths": {
-        "questions": "courses/MARX1011/questions.jsonl",
+        "meta": "courses/MARX1011/meta.json",
         "taxonomy": "courses/MARX1011/taxonomy.json",
-        "meta": "courses/MARX1011/meta.json"
+        "questions": "courses/MARX1011/questions.jsonl"
       },
       "sha256": {
-        "questions": "7e2e9cb4c7e0720c45ac5cb9582dffb601779d94f1cdd4a4d1b813ef67a2bbf0",
+        "meta": "cd585bd09aa949c57a8fff7c424e21bcf85f30442b3f20126a05493b1996b960",
         "taxonomy": "067546b1fae52a3f94da1c1e9aaa1f31d2e443e856924f52eba540749d4d8e0f",
-        "meta": "4d60c4941bc169aac373487da7c26d19da00f7c49821d132f3c50688524530ea"
+        "questions": "321f603877e70d8f289c6f4e1912b0a7509a970b875cd850177ab61eaeb921eb"
       }
     },
     {
@@ -1316,14 +1316,14 @@
       },
       "exam_years": [],
       "paths": {
-        "questions": "courses/MARX1010/questions.jsonl",
+        "meta": "courses/MARX1010/meta.json",
         "taxonomy": "courses/MARX1010/taxonomy.json",
-        "meta": "courses/MARX1010/meta.json"
+        "questions": "courses/MARX1010/questions.jsonl"
       },
       "sha256": {
-        "questions": "be166776db388b308ceb6abc8d4a8449608ad9586b432461094dde5a2101ead1",
+        "meta": "3c949c031c8c2a1a4fbebe620f6008bc2036e1a441b2ab189a9820894281b64a",
         "taxonomy": "3d574d04a227e5e130b55f2e754dcc3c55d10ebc0ca43f221f662b0b9dc39332",
-        "meta": "3c949c031c8c2a1a4fbebe620f6008bc2036e1a441b2ab189a9820894281b64a"
+        "questions": "be166776db388b308ceb6abc8d4a8449608ad9586b432461094dde5a2101ead1"
       }
     },
     {
@@ -1343,14 +1343,14 @@
         2022
       ],
       "paths": {
-        "questions": "courses/MARX1013/questions.jsonl",
+        "meta": "courses/MARX1013/meta.json",
         "taxonomy": "courses/MARX1013/taxonomy.json",
-        "meta": "courses/MARX1013/meta.json"
+        "questions": "courses/MARX1013/questions.jsonl"
       },
       "sha256": {
-        "questions": "b5e954fb648a7092e33069acc27fd42de2dad0e79b64ed38260fffcfac54ec99",
+        "meta": "c815fe6a20546043d039af29a925d0e1d5f025b5e66666a734e4eef42e6c8d10",
         "taxonomy": "ecef5f1bb033a580543ad199468bbe0ab15f33666ba086c716251c13728e9935",
-        "meta": "c815fe6a20546043d039af29a925d0e1d5f025b5e66666a734e4eef42e6c8d10"
+        "questions": "b5e954fb648a7092e33069acc27fd42de2dad0e79b64ed38260fffcfac54ec99"
       }
     },
     {
@@ -1370,14 +1370,14 @@
         2022
       ],
       "paths": {
-        "questions": "courses/MARX1014/questions.jsonl",
+        "meta": "courses/MARX1014/meta.json",
         "taxonomy": "courses/MARX1014/taxonomy.json",
-        "meta": "courses/MARX1014/meta.json"
+        "questions": "courses/MARX1014/questions.jsonl"
       },
       "sha256": {
-        "questions": "9c87bc90fcfe24b59c47d5aa98afb308a81866b03fb3bd61a1f7e98465871b68",
+        "meta": "65fc028465d1c699822b6be1f861f75c3db3f16165dd6e94d22549b8aa842a18",
         "taxonomy": "ce9c284dbefbddc5de6ed7ee3ea3d0a41f81e4951fc93dc4ea90a3e949c13553",
-        "meta": "9b5105eaab6c4a79531ee0c54897299b16ceb33af940ebaf6a3ba421fefbb528"
+        "questions": "4dbf9a99470b9b22dbcda96edabf56101ceff7c455cb8751d137dbdcd6086fcc"
       }
     },
     {
@@ -1395,14 +1395,14 @@
       },
       "exam_years": [],
       "paths": {
-        "questions": "courses/009501/questions.jsonl",
+        "meta": "courses/009501/meta.json",
         "taxonomy": "courses/009501/taxonomy.json",
-        "meta": "courses/009501/meta.json"
+        "questions": "courses/009501/questions.jsonl"
       },
       "sha256": {
-        "questions": "a0c4f2034429393f1204f7beca8401447327499651550b7657ae022bb13a7d4c",
+        "meta": "b9cf79df243add484dc3b40d950c9c57143cd7d7fcf0118b34f142e348b0c80f",
         "taxonomy": "703437c399ba98a2b947d8e5dd0f68b67807ea99202978179b792357b78273bb",
-        "meta": "173bbd080ed837532c96d5763abe20fbb6609b38fcf2a0cdf42c64159ad25f72"
+        "questions": "db797f90d1bf9b685880bafcfbe59fcb4851f2a73432d58575e8120bbbad3ed9"
       }
     },
     {
@@ -1412,7 +1412,7 @@
       "department": "物理学院",
       "category": "common",
       "total": 716,
-      "quarantined": 5,
+      "quarantined": 0,
       "by_origin": {
         "official": 414,
         "community": 0,
@@ -1425,14 +1425,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/PHYS1010/questions.jsonl",
+        "meta": "courses/PHYS1010/meta.json",
         "taxonomy": "courses/PHYS1010/taxonomy.json",
-        "meta": "courses/PHYS1010/meta.json"
+        "questions": "courses/PHYS1010/questions.jsonl"
       },
       "sha256": {
-        "questions": "c2da2d1d81c7618692a321ab34dca754a8936ac7ac24686445211ce5a79ea57c",
+        "meta": "b462e9cd1f65f95a7382ea2b23792dc18d333e681e9c490b676981e9747af268",
         "taxonomy": "30f60a2283695bd8fbd0406b53127fdd6a4c8d4f8f67c7a84ffc012df924fc27",
-        "meta": "645f1caa36f393c9e5b3a5edf383057970ab6809c0d55dcc322b518cb0f8a974"
+        "questions": "cbcddd2985d1f02429d8714305b86e8e7d8e175f1a702f6b3a84603a85d04784"
       }
     },
     {
@@ -1463,14 +1463,14 @@
         2025
       ],
       "paths": {
-        "questions": "courses/019011/questions.jsonl",
+        "meta": "courses/019011/meta.json",
         "taxonomy": "courses/019011/taxonomy.json",
-        "meta": "courses/019011/meta.json"
+        "questions": "courses/019011/questions.jsonl"
       },
       "sha256": {
-        "questions": "469ebe22bc35a637e2c0650f55f16d23cd20fb72a076d1f06bc070367c95e33b",
+        "meta": "4e36a03173d814b0bdd84b1403f46263ec06882ef430916082429b01e394d064",
         "taxonomy": "0dadf63d5ed2f1e1f1d999558e16d09f30f79aa435199dd2f6f3ac5b23c6fbef",
-        "meta": "72533820cee5cc42621b2bcd08efe398c81387ac454be4d77049a7c7f62ede7e"
+        "questions": "13a7e5665c649c51ece1a0b0fd5f006de5c8e1ce685e392fc578e34c66860c96"
       }
     },
     {
@@ -1480,7 +1480,7 @@
       "department": "化学与材料科学学院",
       "category": "common",
       "total": 99,
-      "quarantined": 15,
+      "quarantined": 0,
       "by_origin": {
         "official": 51,
         "community": 0,
@@ -1492,14 +1492,14 @@
         2019
       ],
       "paths": {
-        "questions": "courses/019012/questions.jsonl",
+        "meta": "courses/019012/meta.json",
         "taxonomy": "courses/019012/taxonomy.json",
-        "meta": "courses/019012/meta.json"
+        "questions": "courses/019012/questions.jsonl"
       },
       "sha256": {
-        "questions": "33edb9849e1c3ce786b50be3eb4655829e9e13fb6f74a1fc5b8eeab8c5e0bd50",
+        "meta": "c1468fc48423e5a2311b17a769d648e806f1600bc97b522add19873cd217c9f3",
         "taxonomy": "1beb230b7c03e9c464fcad004a8728b20f37d938b9fcf8b7f9ace53a169b31f9",
-        "meta": "d9a2ca6565f6ae913527f61c0120a60c2978b8b327f26924976faf1e6a478463"
+        "questions": "4b1fe77e2fade33db21f11a1b27c7ffcc04320c71ba64ba61b636f099d3d8106"
       }
     },
     {
@@ -1520,14 +1520,14 @@
         2022
       ],
       "paths": {
-        "questions": "courses/019047/questions.jsonl",
+        "meta": "courses/019047/meta.json",
         "taxonomy": "courses/019047/taxonomy.json",
-        "meta": "courses/019047/meta.json"
+        "questions": "courses/019047/questions.jsonl"
       },
       "sha256": {
-        "questions": "527514ab697502ad1bc584b015cad5eb849214de23eb82522308590519e299d5",
+        "meta": "7f99266150d1124694876604e031dc6952c2f2b94404007bd406655adf61db5f",
         "taxonomy": "48592dca178b6982a31073111ab4112c7fc34aecab9707c373196148e300af37",
-        "meta": "7f99266150d1124694876604e031dc6952c2f2b94404007bd406655adf61db5f"
+        "questions": "527514ab697502ad1bc584b015cad5eb849214de23eb82522308590519e299d5"
       }
     },
     {
@@ -1537,7 +1537,7 @@
       "department": "物理学院",
       "category": "professional",
       "total": 293,
-      "quarantined": 45,
+      "quarantined": 1,
       "by_origin": {
         "official": 83,
         "community": 0,
@@ -1556,14 +1556,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/022392/questions.jsonl",
+        "meta": "courses/022392/meta.json",
         "taxonomy": "courses/022392/taxonomy.json",
-        "meta": "courses/022392/meta.json"
+        "questions": "courses/022392/questions.jsonl"
       },
       "sha256": {
-        "questions": "ac964c53df8b74651a57395704b8bf09f61c5ccc820893b0daa2b9acdf313176",
+        "meta": "a5e148b61c6ce6886b18b22defd3f7e06ba03e1ed92f1accd099917f4f6d56f8",
         "taxonomy": "1a835ed4247da7ee3e20d229d4a8435023bfd362c8a48633bac83705fbdccf10",
-        "meta": "e9cfb447e2d43994ee11063e191be613d67e7efd78458bb826e1629ab6384dc9"
+        "questions": "0cbd0444da17decda5f3ef8be2e6b52b137c19ce266e0bfb523d9b4fae013262"
       }
     },
     {
@@ -1590,14 +1590,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/022057/questions.jsonl",
+        "meta": "courses/022057/meta.json",
         "taxonomy": "courses/022057/taxonomy.json",
-        "meta": "courses/022057/meta.json"
+        "questions": "courses/022057/questions.jsonl"
       },
       "sha256": {
-        "questions": "b8ef3ae53df731dad26041673f5b864ddd6144e3b8e00b2bb60cca55faf1ca74",
+        "meta": "3ad544353d7ddfff37fd77bfc443285d38f347c169e8cde8c8ea7509a3bfe8af",
         "taxonomy": "4e773bf1ad2f9d3f193a026d023b08992aaf7823caa565c759a6dd1912426cd8",
-        "meta": "3ad544353d7ddfff37fd77bfc443285d38f347c169e8cde8c8ea7509a3bfe8af"
+        "questions": "b8ef3ae53df731dad26041673f5b864ddd6144e3b8e00b2bb60cca55faf1ca74"
       }
     },
     {
@@ -1607,7 +1607,7 @@
       "department": "数学科学学院",
       "category": "professional",
       "total": 182,
-      "quarantined": 4,
+      "quarantined": 1,
       "by_origin": {
         "official": 75,
         "community": 0,
@@ -1630,14 +1630,14 @@
         2025
       ],
       "paths": {
-        "questions": "courses/001506/questions.jsonl",
+        "meta": "courses/001506/meta.json",
         "taxonomy": "courses/001506/taxonomy.json",
-        "meta": "courses/001506/meta.json"
+        "questions": "courses/001506/questions.jsonl"
       },
       "sha256": {
-        "questions": "5d52f43f3ea71023f0aff13baf4d40b060425dc0a963c2637bad781f038ad30c",
+        "meta": "e1b2a499ed5b4cf6813d9d957a35ae643364fefe322826ff4c844e7458bcb835",
         "taxonomy": "a6b52d6bbdf3cac787577bbd447050d3bc3d591ebe49746394a9a9e4fb2b2035",
-        "meta": "04f6e4d25f0d202b3b977c4783b78b57d3256905892a48c0864aff5c22b48676"
+        "questions": "a7b67a59a0b7691391a1d8285617d06a3756b72a94eaafe28eb16c00f0d1349c"
       }
     },
     {
@@ -1647,7 +1647,7 @@
       "department": "数学科学学院",
       "category": "professional",
       "total": 173,
-      "quarantined": 7,
+      "quarantined": 0,
       "by_origin": {
         "official": 17,
         "community": 0,
@@ -1666,14 +1666,14 @@
         2024
       ],
       "paths": {
-        "questions": "courses/001505/questions.jsonl",
+        "meta": "courses/001505/meta.json",
         "taxonomy": "courses/001505/taxonomy.json",
-        "meta": "courses/001505/meta.json"
+        "questions": "courses/001505/questions.jsonl"
       },
       "sha256": {
-        "questions": "9cf95794ffae67c49922e9d676f0b1e2c342bd3a833600950bc196332f4f78f5",
+        "meta": "05baaa8562ab541a79abdd82f6e3aac671edec746b10b34d377d7cd46f0de580",
         "taxonomy": "a9fca43372b8ea5d4baaafbbbcc5ddb7ee5715f407f958d7c495bb5321855e27",
-        "meta": "6d70dbe2afafb818f4f2ea272ed0d4d059eed5cd6c067533d6901ab0b914e67e"
+        "questions": "27bfe9a57a5ce2b696b42335081dd9d846772ce2a64405d420e3f4866abf2261"
       }
     },
     {
@@ -1683,7 +1683,7 @@
       "department": "数学科学学院",
       "category": "professional",
       "total": 305,
-      "quarantined": 7,
+      "quarantined": 2,
       "by_origin": {
         "official": 13,
         "community": 0,
@@ -1704,14 +1704,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/MATH3008/questions.jsonl",
+        "meta": "courses/MATH3008/meta.json",
         "taxonomy": "courses/MATH3008/taxonomy.json",
-        "meta": "courses/MATH3008/meta.json"
+        "questions": "courses/MATH3008/questions.jsonl"
       },
       "sha256": {
-        "questions": "f883479ff5a6f3ababfbcc1adb328bb0daca14b474b59c672d0152f922c0505d",
+        "meta": "f2b15d912a69b66cf87eab6d38b4432094dfca7b4686451440ffda42309636e3",
         "taxonomy": "e03e318d384a7d49316a0e4cc76149bcdf8607e4ecde593f01312b1f42ae3cf8",
-        "meta": "cf30292b78816f9e3c2be40d341c0353ebff56266ee5dfde6a2577dc49958a91"
+        "questions": "c2b6565bd9e2f6ea601d2353436b7650c3b6be03de779a375a48fb306f8766c6"
       }
     },
     {
@@ -1721,7 +1721,7 @@
       "department": "数学科学学院",
       "category": "professional",
       "total": 239,
-      "quarantined": 5,
+      "quarantined": 3,
       "by_origin": {
         "official": 40,
         "community": 0,
@@ -1741,14 +1741,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/MATH3002/questions.jsonl",
+        "meta": "courses/MATH3002/meta.json",
         "taxonomy": "courses/MATH3002/taxonomy.json",
-        "meta": "courses/MATH3002/meta.json"
+        "questions": "courses/MATH3002/questions.jsonl"
       },
       "sha256": {
-        "questions": "7d18a48d8e72d3f2e72203b6563622ec0affcd05ad97159a261aea5422b51a3d",
+        "meta": "75991a63fd118725f7362844a4ec416632e67f808fc9892976251177b6884379",
         "taxonomy": "120415dfe064a8f3537b169c2711c49e489c9c1b994b16f068a6cd4874cc07f7",
-        "meta": "7c749204dbc13a4baa82a3297446724952b644c2894bb4ba71c509d34a2f8555"
+        "questions": "c9c35e57cae7360c47bcf44451521574210d8c8c0a49044794b53cfc5132a70e"
       }
     },
     {
@@ -1758,7 +1758,7 @@
       "department": "数学科学学院",
       "category": "professional",
       "total": 241,
-      "quarantined": 7,
+      "quarantined": 2,
       "by_origin": {
         "official": 18,
         "community": 0,
@@ -1779,14 +1779,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/MATH3007/questions.jsonl",
+        "meta": "courses/MATH3007/meta.json",
         "taxonomy": "courses/MATH3007/taxonomy.json",
-        "meta": "courses/MATH3007/meta.json"
+        "questions": "courses/MATH3007/questions.jsonl"
       },
       "sha256": {
-        "questions": "af1541d58ed7b97b24b11874b7ecf1ecdd76b8192bdb0cde3a8307ac81fc7dc6",
+        "meta": "9b98e8725bdcde08b7f14b685a705323292806840cd8a12462f48fc0b9146977",
         "taxonomy": "8bcbb167e8a45a6cbdb0de108504d8967f876c57452ed4e03339bd136536a8c5",
-        "meta": "893ba53fa908307399ed1abcafa0848b1b90a4352b5c33368f54f96d29d42bdb"
+        "questions": "460c0d2e030e9acf95f4658f280b76ceca4eddd814ba0ded75395faf87efdd8c"
       }
     },
     {
@@ -1796,7 +1796,7 @@
       "department": "数学科学学院",
       "category": "professional",
       "total": 255,
-      "quarantined": 6,
+      "quarantined": 3,
       "by_origin": {
         "official": 26,
         "community": 0,
@@ -1812,14 +1812,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/MATH3001/questions.jsonl",
+        "meta": "courses/MATH3001/meta.json",
         "taxonomy": "courses/MATH3001/taxonomy.json",
-        "meta": "courses/MATH3001/meta.json"
+        "questions": "courses/MATH3001/questions.jsonl"
       },
       "sha256": {
-        "questions": "20a71410edc743c723db21d52a2e10c7750b0262a303e278c1c570baf4e9022c",
+        "meta": "5e767c96f95b3ebe6d7ae17d26bb9ce5a8a223384aee6a842e20d148c965e394",
         "taxonomy": "2be8dc0fc7a741599433dad7c6c0d0a7803efd89a725b40ae18dbe407b4cee24",
-        "meta": "9cdc67f8a707f82e73351e9944f01a0e8a2eabc0fb00f5541c637c509d4547ba"
+        "questions": "31bbaa79f982add35610dfe31c5ed623a6fa9d9ddf8bc9b15b86b684ffe5452b"
       }
     },
     {
@@ -1829,7 +1829,7 @@
       "department": "数学科学学院",
       "category": "professional",
       "total": 84,
-      "quarantined": 5,
+      "quarantined": 1,
       "by_origin": {
         "official": 47,
         "community": 0,
@@ -1843,14 +1843,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/017063/questions.jsonl",
+        "meta": "courses/017063/meta.json",
         "taxonomy": "courses/017063/taxonomy.json",
-        "meta": "courses/017063/meta.json"
+        "questions": "courses/017063/questions.jsonl"
       },
       "sha256": {
-        "questions": "ce0a53beafb32165969dc1b51e028937ee2dd260d99ee4288c10f467e3d2f0a7",
+        "meta": "939c10052fc30fc45f0e159be01f39fdde89f23960f4ecc59afbea5b5a45652e",
         "taxonomy": "c548440bb007a8af2b48bf10459ab81cdfc69455049e5da5b1788159045709f2",
-        "meta": "338ce9cda4938f9129a7a902dadba282e8ead101b17b4adbd6185d27b747b123"
+        "questions": "e51e2a105ab5ab2f42245bda2f08f737ad244049538246708370423222f23744"
       }
     },
     {
@@ -1860,7 +1860,7 @@
       "department": "数学科学学院",
       "category": "professional",
       "total": 204,
-      "quarantined": 1,
+      "quarantined": 0,
       "by_origin": {
         "official": 79,
         "community": 0,
@@ -1879,14 +1879,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/017129/questions.jsonl",
+        "meta": "courses/017129/meta.json",
         "taxonomy": "courses/017129/taxonomy.json",
-        "meta": "courses/017129/meta.json"
+        "questions": "courses/017129/questions.jsonl"
       },
       "sha256": {
-        "questions": "c7423b1e94a756959f269cea77e68b380e92f9f8a6f88099e5c695ba74b24fdd",
+        "meta": "40434893bb75c5104aebaeb3416d1f359b834a2160aa483afaddbfb8c6252730",
         "taxonomy": "bb6941b4a854d00bb968a5f525afdab13328e3b614d3c89800dc34ac233dffb1",
-        "meta": "d1ac134baa60e1ef0fc020042073439d8d16dcf3e53c073fe3d70586ad24972e"
+        "questions": "d3110da50e85c57736eb0c96b8dc083acbf6d8b78339598d4314b3eb4e5e66f8"
       }
     },
     {
@@ -1896,7 +1896,7 @@
       "department": "数学科学学院",
       "category": "professional",
       "total": 141,
-      "quarantined": 1,
+      "quarantined": 0,
       "by_origin": {
         "official": 77,
         "community": 0,
@@ -1911,14 +1911,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/001101/questions.jsonl",
+        "meta": "courses/001101/meta.json",
         "taxonomy": "courses/001101/taxonomy.json",
-        "meta": "courses/001101/meta.json"
+        "questions": "courses/001101/questions.jsonl"
       },
       "sha256": {
-        "questions": "f57a6a419b02a5153223feed018d84b65ad1f4e26149c5425d95db885c3e274d",
+        "meta": "c8db3b074a3acf9ff42ac26614bfc42ba4df9473fbdc20bc34121f677adf91f6",
         "taxonomy": "162a1ebd0fc4e5025c1a7fd35eacb77cfb69290e4bdf624cce41c40842150e58",
-        "meta": "1ffe33a5ef8ae9c432788cc12be45afd673de690c9f6d0aefcf489981044d25f"
+        "questions": "ec574bb69bb2b138694cb72c790a6baf380ca12127dcfd9b9f123a1b35e68cb5"
       }
     },
     {
@@ -1928,7 +1928,7 @@
       "department": "数学科学学院",
       "category": "professional",
       "total": 103,
-      "quarantined": 1,
+      "quarantined": 0,
       "by_origin": {
         "official": 59,
         "community": 0,
@@ -1941,14 +1941,14 @@
         2025
       ],
       "paths": {
-        "questions": "courses/001122/questions.jsonl",
+        "meta": "courses/001122/meta.json",
         "taxonomy": "courses/001122/taxonomy.json",
-        "meta": "courses/001122/meta.json"
+        "questions": "courses/001122/questions.jsonl"
       },
       "sha256": {
-        "questions": "d9b407d6cd328d7724215c8e506a1224bbcecf00d769f79672bb51e950b272a4",
+        "meta": "cdb59b7985d2ce1bdec049e4791dfd21a4f3b92880917fe023720f67971c2252",
         "taxonomy": "b3f455ac6780171f60a18b5023c1e28c2ecc89e9af0a93d2b3c6a0f375df02eb",
-        "meta": "3751beb0608ae8115bc53a3d0b0b8ac26c0580313b98d11b622557bda94f0ad3"
+        "questions": "b4dd5867ec27ae167e29886341f53b3885b0ee89467a7c368165f46333628f55"
       }
     },
     {
@@ -1972,14 +1972,14 @@
         2025
       ],
       "paths": {
-        "questions": "courses/MATH2004/questions.jsonl",
+        "meta": "courses/MATH2004/meta.json",
         "taxonomy": "courses/MATH2004/taxonomy.json",
-        "meta": "courses/MATH2004/meta.json"
+        "questions": "courses/MATH2004/questions.jsonl"
       },
       "sha256": {
-        "questions": "642f10cfacf84306d8bfd3b8627cad5deaf0f12c045231c116b713874a0a29a1",
+        "meta": "108405c2fae577a0d6f1575c6cc47c5726ca378f33b432ff93fa22432ded9bbf",
         "taxonomy": "38068dc3fac82696081a2808016d6f3d1e3f9c543ae1a88613ca9ef31e37257d",
-        "meta": "7f81a12915d460a8ed712090072bab51234676c37a6e8958b97619610e399d08"
+        "questions": "f392fcc7cd32142a3c2fd430e280ddd1f2f0ba4ad72453ab471417e38b96535c"
       }
     },
     {
@@ -1989,7 +1989,7 @@
       "department": "计算机科学与技术学院",
       "category": "professional",
       "total": 120,
-      "quarantined": 5,
+      "quarantined": 3,
       "by_origin": {
         "official": 0,
         "community": 0,
@@ -2006,14 +2006,14 @@
         2026
       ],
       "paths": {
-        "questions": "courses/011103/questions.jsonl",
+        "meta": "courses/011103/meta.json",
         "taxonomy": "courses/011103/taxonomy.json",
-        "meta": "courses/011103/meta.json"
+        "questions": "courses/011103/questions.jsonl"
       },
       "sha256": {
-        "questions": "47f20145ab71d772106691969b7f98ae1c7a7cbe89509b6eda1b3c21927aeda3",
+        "meta": "c2876e59ab5955315366f63db7d8204b4e3a4b05198eedd597f7ecfc918f4ab9",
         "taxonomy": "32b9b6462ed5efbc3192b7bb859f33744473ece48738f3b273fdfe4a701a71c3",
-        "meta": "9fa4fcec890bca6607dc2b032799a508bd0a6922cd59c5e604e26e86d7996195"
+        "questions": "64b04fdf14f8ae827b9bc5d48a301b2e4b29069f642859ce082bf9764f33edc1"
       }
     },
     {
@@ -2023,11 +2023,11 @@
       "department": "信息科学技术学院",
       "category": "professional",
       "total": 140,
-      "quarantined": 27,
+      "quarantined": 0,
       "by_origin": {
-        "official": 98,
+        "official": 101,
         "community": 0,
-        "ai": 42
+        "ai": 39
       },
       "exam_years": [
         2016,
@@ -2042,14 +2042,14 @@
         2025
       ],
       "paths": {
-        "questions": "courses/210045/questions.jsonl",
+        "meta": "courses/210045/meta.json",
         "taxonomy": "courses/210045/taxonomy.json",
-        "meta": "courses/210045/meta.json"
+        "questions": "courses/210045/questions.jsonl"
       },
       "sha256": {
-        "questions": "66fe18f170d093331ed7fe37c6f8a61e296ef6b6bd164cee1e961989d69d938c",
+        "meta": "439efcbc672c90e59d8e010698620b64cb10152ed5518e30771804c7a430372b",
         "taxonomy": "c245b21d7f12d5ef184d67563d4071d430322e0500d0bcd6bd6ccc0df1191f98",
-        "meta": "3310ca3727a4792ba99945b366ff236ed22e7b48d50c3bff1c27be5e6289a6c5"
+        "questions": "395d9c92f46130ccca5567a646f7bddedd0e10bda93ff82ea63e7a3a1aafe622"
       }
     },
     {
@@ -2059,7 +2059,7 @@
       "department": "数学科学学院",
       "category": "professional",
       "total": 67,
-      "quarantined": 1,
+      "quarantined": 0,
       "by_origin": {
         "official": 18,
         "community": 0,
@@ -2072,14 +2072,14 @@
         2025
       ],
       "paths": {
-        "questions": "courses/MATH2003/questions.jsonl",
+        "meta": "courses/MATH2003/meta.json",
         "taxonomy": "courses/MATH2003/taxonomy.json",
-        "meta": "courses/MATH2003/meta.json"
+        "questions": "courses/MATH2003/questions.jsonl"
       },
       "sha256": {
-        "questions": "e7f3fd982ce81be8c946086c6683fcfcdf2952ce43c717db0f2a03a98f12c418",
+        "meta": "ba5637ea109d1d00ebfb947f359ff2263ed79fe95e89921ee78e069c45bb7c25",
         "taxonomy": "2baf7fbfaf312baa59492e486830b16baf74af8e5e80bcc275592a6f665118d5",
-        "meta": "8bb081a9dee44bc483ee11c9031cb838ad9c0fa77a46cf55ff1c754a57ac3e6c"
+        "questions": "1373adcceb9a01c13937ca169bb1f2696e26b5d1dfc67a69e061b6ce9d457e7b"
       }
     },
     {
@@ -2088,12 +2088,12 @@
       "name_en": "Numerical Methods",
       "department": "数学科学学院",
       "category": "professional",
-      "total": 567,
-      "quarantined": 20,
+      "total": 556,
+      "quarantined": 0,
       "by_origin": {
         "official": 312,
         "community": 0,
-        "ai": 255
+        "ai": 244
       },
       "exam_years": [
         2006,
@@ -2118,9 +2118,9 @@
         "questions": "courses/MATH2001/questions.jsonl"
       },
       "sha256": {
-        "meta": "8b810c7c235609acee7f2ca0627f29a9900e1aebc9bf429394db6c3a08cce2c1",
+        "meta": "ca3a2286119381f06abbc0bfd4ec528f1dd15072efa05054be710a23fa7a50d7",
         "taxonomy": "58e8adb7c6e1d429f880ca73a0273cfba6d4538062abad4d517829b9281f46db",
-        "questions": "70df1a05c08b10dcd755ede1a7c37f7097972d99037baca99a9c22217cfeaf0f"
+        "questions": "6c7048047564a70a6730743e2728f9208d7ebdc059fafb8db5f0ac331b296f90"
       }
     },
     {
@@ -2130,11 +2130,11 @@
       "department": "计算机科学与技术学院",
       "category": "professional",
       "total": 340,
-      "quarantined": 12,
+      "quarantined": 3,
       "by_origin": {
-        "official": 227,
+        "official": 232,
         "community": 1,
-        "ai": 112
+        "ai": 107
       },
       "exam_years": [
         2009,
@@ -2154,9 +2154,9 @@
         "questions": "courses/011146/questions.jsonl"
       },
       "sha256": {
-        "meta": "0cdd9fed59dee33dc27a48f7a29f8ca7e8d57f942940abb54b928cf6ec381be7",
+        "meta": "3f8b5e5fdc0d07620fe6fc156e2706a9b9f1dbb17cf71703ed5fc8940228e156",
         "taxonomy": "66fe7ee76b35ab65afb2340adbdfb15f1d41a1176afa6904b1cccd314a34e7ac",
-        "questions": "97f1451055fc0dd142cd94e110a360b96407342ee911367a9c1092f5bddaf912"
+        "questions": "4365ac3742b8549261fc0caf6439d94ae35ddd707b4336bdcdab49212892090d"
       }
     },
     {
@@ -2166,7 +2166,7 @@
       "department": "物理学院",
       "category": "professional",
       "total": 687,
-      "quarantined": 6,
+      "quarantined": 0,
       "by_origin": {
         "official": 399,
         "community": 0,
@@ -2193,9 +2193,9 @@
         "questions": "courses/022148/questions.jsonl"
       },
       "sha256": {
-        "meta": "d31424f89f29bf1d8404fcb2fcc878ca6704637e15b919b82c8cded51fa0cff8",
+        "meta": "8ff8dcde7ed02502aa9d0ee8e03c854fe90ab31d4ccb1393e9dcdf4aa3be90f7",
         "taxonomy": "ad68f978f8d212ee527246343f7e26eff6fc37f2df02fa4eb9f5ea3f3dc213d8",
-        "questions": "f3bbcf8d99ac2614976ce785bd7325c73ea0107ffece56d4d7ef25829ace6642"
+        "questions": "92be0fde2f918e87b696f5fabb8ab56c3efe68753eb5830f1196fa2690a63d4f"
       }
     },
     {
@@ -2205,7 +2205,7 @@
       "department": "物理学院",
       "category": "professional",
       "total": 306,
-      "quarantined": 4,
+      "quarantined": 0,
       "by_origin": {
         "official": 255,
         "community": 0,
@@ -2229,9 +2229,9 @@
         "questions": "courses/022062/questions.jsonl"
       },
       "sha256": {
-        "meta": "c947e89b9f4a88a1266fec605ec3d54769bb5abbf31c97cd17a4c186249bc1bc",
+        "meta": "a0e8e070ceb9bfc19950cc45d702a588b7e7d940c49b2a10184e90b45c06080a",
         "taxonomy": "7c880ca7c3293b5bfb43fefc55bbc58e6d651a1060c8cb90639ab15ada1c9786",
-        "questions": "abc945d778f3a538de0b89488e280d3f387f3d7ed06edb81cfcbad414b68f257"
+        "questions": "245e8595f8297fd226d32c6d22abbc516afd7425ad19cc5e10d2f020a6b5d858"
       }
     }
   ]

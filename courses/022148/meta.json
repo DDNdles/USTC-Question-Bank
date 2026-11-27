@@ -8,7 +8,7 @@
   "description": "中国科学技术大学《量子力学A》（课号 022148）结构化题库，收录 2012–2025 秋25 套期中/期末真题与郑惠南班分章试题解析（去重后 302 题）、12 周周作业（92 题），以及张鹏飞、阮图南、朱栋培、吴强著《量子力学习题解答与剖析》（一~四册共 293 题，曾谨言《量子力学（第四版）》全解），去重后共 687 题。",
   "stats": {
     "total": 687,
-    "quarantined": 6,
+    "quarantined": 0,
     "taxonomy_nodes": 43,
     "by_origin": {
       "official": 399,
@@ -65,15 +65,15 @@
   ],
   "known_notes": [
     "2015 秋期中 SMJ 班卷一第 2 题与 2015 秋期中第 2 题同题，已于导出时去重，去重后共 687 题。",
-    "2018–2024 秋部分期末/期中真题与 YHX 班试卷（106 题）及《量子力学习题解答与剖析》（293 题）标记为 origin=official；无标答真题、郑惠南班试题与 12 周周作业（288 题）由模型独立推导（origin=ai）。",
-    "全库共 6 道题面残缺或依赖原卷示意图的低置信度题标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+    "2018–2024 秋部分期末/期中真题与 YHX 班试卷（106 题）及《量子力学习题解答与剖析》（293 题）标记为 origin=official；无标答真题、郑惠南班试题与 12 周周作业（288 题）由模型对照补裁原图与 SymPy 严密推导（origin=ai）。",
+    "原 6 道隔离题已从各期中与作业 PDF 补裁 5 幅干涉仪/Bloch 球面/跃迁图（并从同日 SMJ 班卷一恢复缺失页内容）全部修复，全库已清零隔离（quarantined=0）。"
   ],
   "files": {
     "questions": "courses/022148/questions.jsonl",
     "taxonomy": "courses/022148/taxonomy.json"
   },
   "sha256": {
-    "questions": "f3bbcf8d99ac2614976ce785bd7325c73ea0107ffece56d4d7ef25829ace6642",
+    "questions": "92be0fde2f918e87b696f5fabb8ab56c3efe68753eb5830f1196fa2690a63d4f",
     "taxonomy": "ad68f978f8d212ee527246343f7e26eff6fc37f2df02fa4eb9f5ea3f3dc213d8"
   }
 }

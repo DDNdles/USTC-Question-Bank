@@ -8,7 +8,7 @@
   "description": "中国科学技术大学《常微分方程》（课号 001101）结构化题库，收录 2016–2026 年7 套《常微分方程、偏微分方程》期中/期末/小测真题（69 题）及 2026 秋章俊彦班第 1–5 次课程作业（72 题）共 141 题，覆盖 28 个二级知识点，其中 77 题附官方解答（origin=official）、64 题由模型独立求解。",
   "stats": {
     "total": 141,
-    "quarantined": 1,
+    "quarantined": 0,
     "taxonomy_nodes": 36,
     "by_origin": {
       "official": 77,
@@ -51,14 +51,14 @@
   ],
   "known_notes": [
     "2026 秋常微分方程（章俊彦班）第 1、2、4、5 次作业（含官方解答）及 2025 期中/期末、2026 小测共 77 题标记为 origin=official；作业 3 与 2016–2024 期中真题共 64 题由模型独立求解（origin=ai）。",
-    "全库仅 1 题标记为 quality.quarantined=true，其余 140 题均完整可用。"
+    "2024 期中第 4(2) 题已补齐方程组题干、校正平衡点特征向量与稳定流形谬误并附完整相图，全库已清零隔离（quarantined=0）。"
   ],
   "files": {
     "questions": "courses/001101/questions.jsonl",
     "taxonomy": "courses/001101/taxonomy.json"
   },
   "sha256": {
-    "questions": "f57a6a419b02a5153223feed018d84b65ad1f4e26149c5425d95db885c3e274d",
+    "questions": "ec574bb69bb2b138694cb72c790a6baf380ca12127dcfd9b9f123a1b35e68cb5",
     "taxonomy": "162a1ebd0fc4e5025c1a7fd35eacb77cfb69290e4bdf624cce41c40842150e58"
   }
 }

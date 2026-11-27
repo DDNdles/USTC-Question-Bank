@@ -8,12 +8,12 @@
   "description": "中国科学技术大学《算法基础》（课号 011146）结构化题库，收录 2009–2026 学年19 套期中/期末/补考真题及样卷（去重后 212 题）、hw1–hw10 课程作业（去重后 103 题）与习题课讲义（25 题），去重后共 340 题，覆盖 34 个二级知识点。",
   "stats": {
     "total": 340,
-    "quarantined": 12,
+    "quarantined": 3,
     "taxonomy_nodes": 43,
     "by_origin": {
-      "official": 227,
+      "official": 232,
       "community": 1,
-      "ai": 112
+      "ai": 107
     },
     "by_type": {
       "blank": 3,
@@ -64,15 +64,15 @@
   ],
   "known_notes": [
     "同源重复的《作业答案（hw1–hw10）》（94 题）及 2023 春期中民间版第 5 题（1 题）已于导出时去重，保留《作业题（hw1–hw10）》（103 题）与官方试卷解答版本。",
-    "2023 春期中民间答案第 1 题标记为 origin=community；其余原卷、样卷、习题课及 hw1–hw10 官方参考答案标记为 origin=official；无标答期中/期末卷由模型独立证明与推导（origin=ai）。",
-    "全库共 12 道依赖原卷流网络/堆示意图的低置信度题标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+    "2023 春期中民间答案第 1 题标记为 origin=community；其余原卷、样卷、习题课及 hw1–hw10 官方参考答案标记为 origin=official（含 `2023 春期末` 原卷提示证明共 232 题）；无标答期中/期末卷由模型独立证明与推导（107 题，origin=ai）。",
+    "已从原卷补裁红黑树、多段图、最小生成树、网络流与斐波那契堆配图并修复 hw5-4 括号匹配证明等共 9 题，剩余 3 题因回忆版原文件缺失文字或明确注明「图就不画了」保持 quality.quarantined=true。"
   ],
   "files": {
     "questions": "courses/011146/questions.jsonl",
     "taxonomy": "courses/011146/taxonomy.json"
   },
   "sha256": {
-    "questions": "97f1451055fc0dd142cd94e110a360b96407342ee911367a9c1092f5bddaf912",
+    "questions": "4365ac3742b8549261fc0caf6439d94ae35ddd707b4336bdcdab49212892090d",
     "taxonomy": "66fe7ee76b35ab65afb2340adbdfb15f1d41a1176afa6904b1cccd314a34e7ac"
   }
 }

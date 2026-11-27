@@ -8,7 +8,7 @@
   "description": "中国科学技术大学《实分析》（课号 MATH3002）结构化题库，收录 2015–2026 年20 套期中/期末真题（199 题）及 2007–2008 学年《实变函数习题答案》（40 题）共 239 题，覆盖 29 个二级知识点，其中 40 题附课程习题解答（origin=official）、199 题由模型独立证明与求解。",
   "stats": {
     "total": 239,
-    "quarantined": 5,
+    "quarantined": 3,
     "taxonomy_nodes": 37,
     "by_origin": {
       "official": 40,
@@ -57,14 +57,14 @@
   ],
   "known_notes": [
     "2007–2008 学年第二学期《实变函数习题答案》（batch=real_hw，40 题）附官方参考解答标记为 origin=official；2015–2026 年 20 套实分析期中/期末真题（199 题）由模型独立证明与求解（origin=ai）。",
-    "全库共 5 道原卷转录疑缺条件或测度完备性约定歧义题目标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+    "已对照原卷恢复并重证 2 题，剩余 3 题因原卷缺条件保持 quality.quarantined=true。"
   ],
   "files": {
     "questions": "courses/MATH3002/questions.jsonl",
     "taxonomy": "courses/MATH3002/taxonomy.json"
   },
   "sha256": {
-    "questions": "7d18a48d8e72d3f2e72203b6563622ec0affcd05ad97159a261aea5422b51a3d",
+    "questions": "c9c35e57cae7360c47bcf44451521574210d8c8c0a49044794b53cfc5132a70e",
     "taxonomy": "120415dfe064a8f3537b169c2711c49e489c9c1b994b16f068a6cd4874cc07f7"
   }
 }

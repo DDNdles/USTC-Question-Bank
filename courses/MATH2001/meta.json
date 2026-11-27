@@ -5,27 +5,27 @@
   "name_en": "Numerical Methods",
   "department": "数学科学学院",
   "category": "professional",
-  "description": "中国科学技术大学《计算方法》（课号 MATH2001）结构化题库，收录 2005–2025 学年21 套期末与模拟真题（377 题），以及 2023 春、2025 春课程作业（含答案，181 题）与练习题（9 题），共 567 题，其中 312 题附官方参考解答（origin=official）、255 题由模型独立求解与验算。",
+  "description": "中国科学技术大学《计算方法》（课号 MATH2001）结构化题库，收录 2005–2025 学年20 套期末与模拟真题（366 题，已剔除与 2023–2024 第二学期期末同卷重复的回忆版残题），以及 2023 春、2025 春课程作业（含答案，181 题）与练习题（9 题），去重后共 556 题，其中 312 题附官方参考解答（origin=official）、244 题由模型独立求解与验算。",
   "stats": {
-    "total": 567,
-    "quarantined": 20,
+    "total": 556,
+    "quarantined": 0,
     "taxonomy_nodes": 49,
     "by_origin": {
       "official": 312,
       "community": 0,
-      "ai": 255
+      "ai": 244
     },
     "by_type": {
       "blank": 147,
-      "proof": 79,
-      "solve": 341
+      "proof": 78,
+      "solve": 331
     },
     "by_difficulty": {
       "1": 30,
       "2": 126,
-      "3": 222,
-      "4": 139,
-      "5": 50
+      "3": 218,
+      "4": 136,
+      "5": 46
     },
     "exam_years": [
       2006,
@@ -48,9 +48,9 @@
   "batches": [
     {
       "id": "num_exams",
-      "count": 377,
+      "count": 366,
       "rights": "third_party_exam",
-      "description": "2005–2025 学年计算方法 21 套期末与模拟真题（377 题）"
+      "description": "2005–2025 学年计算方法 20 套去重期末与模拟真题（366 题）"
     },
     {
       "id": "num_hw",
@@ -60,15 +60,15 @@
     }
   ],
   "known_notes": [
-    "2007–2025 学年部分期末真题、练习题与 2023/2025 春全部课程作业共 312 题附原卷或课程参考解答（origin=official）；其余无标答期末及模拟卷共 255 题由模型独立求解（origin=ai）。",
-    "全库共 20 道低置信度题（含 2024 春回忆版及依赖原卷未印刷数据/图形之题目）标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+    "2007–2025 学年部分期末真题、练习题与 2023/2025 春全部课程作业共 312 题附原卷或课程参考解答（origin=official）；其余无标答期末及模拟卷共 244 题由模型独立求解（origin=ai）。",
+    "已对照 `2013 春`/`2025 模拟一` 原卷补全数据表与公式、统一中科大 `(p,q)` 多步法记号修复 9 题，并剔除同卷重复回忆残题 11 题，全库已清零隔离（quarantined=0）。"
   ],
   "files": {
     "questions": "courses/MATH2001/questions.jsonl",
     "taxonomy": "courses/MATH2001/taxonomy.json"
   },
   "sha256": {
-    "questions": "70df1a05c08b10dcd755ede1a7c37f7097972d99037baca99a9c22217cfeaf0f",
+    "questions": "6c7048047564a70a6730743e2728f9208d7ebdc059fafb8db5f0ac331b296f90",
     "taxonomy": "58e8adb7c6e1d429f880ca73a0273cfba6d4538062abad4d517829b9281f46db"
   }
 }

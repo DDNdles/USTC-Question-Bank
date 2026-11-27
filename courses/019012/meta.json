@@ -8,7 +8,7 @@
   "description": "中国科学技术大学《有机化学A2》（课号 019012）结构化题库，收录 2015–2019 学年期终 A 卷、英文期末卷、第一次单元测试题与第二/三次习题课练习题共 6 份材料 99 题，覆盖 35 个二级知识点，其中 51 题附原卷/习题课参考解答（origin=official）、48 题由模型作答。",
   "stats": {
     "total": 99,
-    "quarantined": 15,
+    "quarantined": 0,
     "taxonomy_nodes": 44,
     "by_origin": {
       "official": 51,
@@ -56,14 +56,14 @@
   ],
   "known_notes": [
     "2015–2017 期终考试 A 卷参考答案、2018–2019 第一次单元测试参考答案与第二/三次习题课参考答案共 51 题标记为 origin=official；无答案英文期末卷与部分未附文字答案小问共 48 题为 AI 标注（origin=ai）。",
-    "公开版将 15 道因化学结构式仅存于原卷图像、无法在纯文本下唯一给出结构式答案的题目（标为需据原卷结构式作答者）标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+    "全库 15 道原缺失化学结构式与合成路线图的题目已全部从 2015–2017 年真题 PDF 精裁补齐（含 15 张题图与 5 张官方参考合成路线图）并完成机理核验，全库已清零隔离（quarantined=0）。"
   ],
   "files": {
     "questions": "courses/019012/questions.jsonl",
     "taxonomy": "courses/019012/taxonomy.json"
   },
   "sha256": {
-    "questions": "33edb9849e1c3ce786b50be3eb4655829e9e13fb6f74a1fc5b8eeab8c5e0bd50",
+    "questions": "4b1fe77e2fade33db21f11a1b27c7ffcc04320c71ba64ba61b636f099d3d8106",
     "taxonomy": "1beb230b7c03e9c464fcad004a8728b20f37d938b9fcf8b7f9ace53a169b31f9"
   }
 }

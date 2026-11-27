@@ -7,25 +7,25 @@
   "category": "common",
   "description": "中国科学技术大学《热学A》（课号 PHYS1002A）结构化题库，收录 2004–2026 年期中/期末/预考/免修考与三次小测真题、热学历年真题合订本及清华大学《大学物理》热学选择题库，并附 48 张灰度 WebP 与矢量化重绘 SVG 配图。",
   "stats": {
-    "total": 352,
-    "quarantined": 3,
+    "total": 351,
+    "quarantined": 2,
     "taxonomy_nodes": 45,
     "by_origin": {
       "official": 219,
       "community": 13,
-      "ai": 120
+      "ai": 119
     },
     "by_type": {
       "blank": 45,
       "multi": 9,
       "proof": 22,
       "single": 84,
-      "solve": 192
+      "solve": 191
     },
     "by_difficulty": {
       "1": 13,
       "2": 101,
-      "3": 128,
+      "3": 127,
       "4": 102,
       "5": 8
     },
@@ -52,7 +52,7 @@
     },
     {
       "id": "therm1_quiz",
-      "count": 233,
+      "count": 232,
       "rights": "third_party_textbook_and_community",
       "description": "热学历年真题合订本（10 卷）+ 2021 三次小测 + 清华大学《大学物理》热学选择题库"
     },
@@ -64,8 +64,8 @@
     }
   ],
   "known_notes": [
-    "2016 秋「力学与热学」期末卷热学部分（9 题）、2021 春邵明班期中/期末与三次小测、2017 公共题及 2022/2026 期末卷等采用原卷/公开参考答案（232 题，origin=official 或 community）；无标答卷与回忆版由模型独立求解（120 题，origin=ai）。",
-    "全库共 3 道回忆版缺条件或非独立题干（仅公式引导段）标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。",
+    "2016 秋「力学与热学」期末卷热学部分（9 题）、2021 春邵明班期中/期末与三次小测、2017 公共题及 2022/2026 期末卷等采用原卷/公开参考答案（232 题，origin=official 或 community）；无标答卷与回忆版由模型独立求解（119 题，origin=ai）。",
+    "原《热学历年真题》第 4 题共享题干已并入已独立拆录的 4.1–4.6 小问而剔除；全库剩余 2 道回忆版缺关键参量题（2021 春期末与 2026 春小测）标记为 quality.quarantined=true。",
     "2004 期末第三题、热学期终（第一套）第二题、物理系期中（第一套）第六题与 2026 春期末第一-5题原扫描件/回忆版缺失插图，未挂图；其余 48 道带图题已提取为灰度 WebP 或矢量化重绘 SVG 存入 courses/PHYS1002A/assets/。",
     "回忆版试卷（2021 期末、2024/2025/2026 期末、2026 朱弘预考及免修考）措辞可能与原始印卷略有出入，已在 source.ref 与 quality.note 标注。"
   ],
@@ -74,7 +74,7 @@
     "taxonomy": "courses/PHYS1002A/taxonomy.json"
   },
   "sha256": {
-    "questions": "6893edb2f663aab8c510a613e8206a8c602a26e95eb620e604f3cc350a180a23",
+    "questions": "0abb1db93c14d54fe4aa193da10da28b0d1b4f0c51a6f1a9a323c94188bd3385",
     "taxonomy": "ca7a25046ae104c333b10a82b6d4e55e409ce1330f0cbcd318dfc7d6d282fbbe"
   }
 }

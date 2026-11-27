@@ -8,7 +8,7 @@
   "description": "中国科学技术大学《理论力学A》（课号 022392）结构化题库，收录 2016–2026 学年23 份期中/期末真题及参考解答（含潘海俊班期中期末试卷及 2018–2021 补充卷）共 293 题，覆盖 30 个二级知识点，其中 83 题附原卷参考解答（origin=official）、210 题由模型独立推导并配分步解析。",
   "stats": {
     "total": 293,
-    "quarantined": 45,
+    "quarantined": 1,
     "taxonomy_nodes": 38,
     "by_origin": {
       "official": 83,
@@ -53,14 +53,14 @@
   "known_notes": [
     "2016 秋、2018、2022 春及 2025 期末，以及 2019–2021 期中/2020 期中与 2021 期中一（mid1）共 83 题附原卷参考答案，标记为 origin=official；其余无标答期中/期末真题共 210 题由模型独立求解（origin=ai）。",
     "2021 秋（潘海俊）期中与期末合卷已按 `第期中.` / `第期末.` 拆分为期中与期末独立试题序列；同源重复的 mid2 2021、2019 期末重录卷及 2020 期末重题已去重。",
-    "全库共 45 道依赖原卷附图尺寸、扫描模糊或条件约定存在歧义的题目标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+    "原 45 道隔离题中已对照原卷 PDF 与讲义完成 SymPy 验算并补裁 19 幅高清配图（清除红笔学生笔记）修复 44 题，仅余 2025 期中第 4 题因原卷文本与图中均缺冲量方向保持 quality.quarantined=true。"
   ],
   "files": {
     "questions": "courses/022392/questions.jsonl",
     "taxonomy": "courses/022392/taxonomy.json"
   },
   "sha256": {
-    "questions": "ac964c53df8b74651a57395704b8bf09f61c5ccc820893b0daa2b9acdf313176",
+    "questions": "0cbd0444da17decda5f3ef8be2e6b52b137c19ce266e0bfb523d9b4fae013262",
     "taxonomy": "1a835ed4247da7ee3e20d229d4a8435023bfd362c8a48633bac83705fbdccf10"
   }
 }

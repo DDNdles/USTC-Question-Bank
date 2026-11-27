@@ -8,7 +8,7 @@
   "description": "中国科学技术大学《概率论》（数院，课号 MATH3007）结构化题库，收录 2013–2026 年23 套期中/期末真题（241 题），覆盖 29 个二级知识点，其中 2023/2024 期中 18 题附原卷参考解答（origin=official）、其余 223 题由模型独立推导与证明。",
   "stats": {
     "total": 241,
-    "quarantined": 7,
+    "quarantined": 2,
     "taxonomy_nodes": 37,
     "by_origin": {
       "official": 18,
@@ -51,14 +51,14 @@
   ],
   "known_notes": [
     "2023 年与 2024 年概率论（数院）期中试卷含解答部分共 18 题标记为 origin=official；其余 21 套期中/期末真题（含 2013–2026 年）共 223 题由模型独立求解（origin=ai）。",
-    "全库共 7 道题干条件表述歧义（如古典模型约定或极限定理条件强弱）题目标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+    "已对照 2021 期末原卷勘误（补齐 Lindeberg 条件）并修正骰子概率等 5 题，剩余 2 题因原卷缺条件保持 quality.quarantined=true。"
   ],
   "files": {
     "questions": "courses/MATH3007/questions.jsonl",
     "taxonomy": "courses/MATH3007/taxonomy.json"
   },
   "sha256": {
-    "questions": "af1541d58ed7b97b24b11874b7ecf1ecdd76b8192bdb0cde3a8307ac81fc7dc6",
+    "questions": "460c0d2e030e9acf95f4658f280b76ceca4eddd814ba0ded75395faf87efdd8c",
     "taxonomy": "8bcbb167e8a45a6cbdb0de108504d8967f876c57452ed4e03339bd136536a8c5"
   }
 }

@@ -8,7 +8,7 @@
   "description": "中国科学技术大学《近世代数》（课号 MATH3001）结构化题库，收录 2019–2026 年13 套期中/期末真题（含 2019 年三次随堂/期中测验，共 255 题），覆盖 30 个二级知识点，其中 2023 期末 26 题附原卷参考解答（origin=official）、其余 229 题由模型独立求解。",
   "stats": {
     "total": 255,
-    "quarantined": 6,
+    "quarantined": 3,
     "taxonomy_nodes": 38,
     "by_origin": {
       "official": 26,
@@ -49,14 +49,14 @@
   "known_notes": [
     "2023 年近世代数期末试卷含原卷解答 26 题标记为 origin=official；其余 12 套期中/期末真题共 229 题由模型独立完成证明与计算（origin=ai）。",
     "原库中 10 道 Y/N 判断题（2019 期中测 II 及 2023 期末）已规范为标准单选答案键 `Y`/`N`。",
-    "全库共 6 道原卷扫描残缺或设问约定存疑题目标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+    "已对照原卷与手写回忆页恢复 3 题（含 Bruhat 分解代表元、`1-ab` 与分圆域伽罗瓦群），剩余 3 题因原卷确系缺条件或符号未定义保持 quality.quarantined=true。"
   ],
   "files": {
     "questions": "courses/MATH3001/questions.jsonl",
     "taxonomy": "courses/MATH3001/taxonomy.json"
   },
   "sha256": {
-    "questions": "20a71410edc743c723db21d52a2e10c7750b0262a303e278c1c570baf4e9022c",
+    "questions": "31bbaa79f982add35610dfe31c5ed623a6fa9d9ddf8bc9b15b86b684ffe5452b",
     "taxonomy": "2be8dc0fc7a741599433dad7c6c0d0a7803efd89a725b40ae18dbe407b4cee24"
   }
 }

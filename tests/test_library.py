@@ -98,7 +98,7 @@ class TestQuestionBank(unittest.TestCase):
         self.assertEqual(len(self.bank["MATH1009"]), 885)
         self.assertEqual(len(self.bank["CS1003"]), 1533)
         self.assertEqual(len(self.bank["PHYS1001A"]), 253)
-        self.assertEqual(len(self.bank["PHYS1002A"]), 352)
+        self.assertEqual(len(self.bank["PHYS1002A"]), 351)
         self.assertEqual(len(self.bank["PHYS1004A"]), 121)
         self.assertEqual(len(self.bank["210070"]), 347)
         self.assertEqual(len(self.bank["STAT2002"]), 431)
@@ -109,7 +109,7 @@ class TestQuestionBank(unittest.TestCase):
         self.assertEqual(len(self.bank["MATH1001"]), 169)
         self.assertEqual(len(self.bank["MATH1002"]), 299)
         self.assertEqual(len(self.bank["PHYS1001B"]), 379)
-        self.assertEqual(len(self.bank["PHYS1002B"]), 277)
+        self.assertEqual(len(self.bank["PHYS1002B"]), 276)
         self.assertEqual(len(self.bank["MATH1004"]), 171)
         self.assertEqual(len(self.bank["MATH1005"]), 166)
         self.assertEqual(len(self.bank["MATH1010"]), 131)
@@ -155,12 +155,12 @@ class TestQuestionBank(unittest.TestCase):
         self.assertEqual(len(self.bank["011103"]), 120)
         self.assertEqual(len(self.bank["210045"]), 140)
         self.assertEqual(len(self.bank["MATH2003"]), 67)
-        self.assertEqual(len(self.bank["MATH2001"]), 567)
+        self.assertEqual(len(self.bank["MATH2001"]), 556)
         self.assertEqual(len(self.bank["011146"]), 340)
         self.assertEqual(len(self.bank["022148"]), 687)
         self.assertEqual(len(self.bank["022062"]), 306)
-        self.assertEqual(len(self.bank.all_questions()), 23507)
-        self.assertEqual(len(self.bank.all_questions(exclude_quarantined=True)), 23201)
+        self.assertEqual(len(self.bank.all_questions()), 23494)
+        self.assertEqual(len(self.bank.all_questions(exclude_quarantined=True)), 23426)
 
     def test_lookup_by_id(self) -> None:
         q = self.bank.get("MATH1006-tb-1.1.1")
@@ -481,35 +481,44 @@ class TestQuestionBank(unittest.TestCase):
         phys = self.bank["PHYS1001A"]
         with_figs = phys.query(has_figures=True, exclude_quarantined=False)
         self.assertEqual(len(with_figs), 86)
-        self.assertEqual(len(phys.query(has_figures=True)), 84)
+        self.assertEqual(len(phys.query(has_figures=True)), 86)
         for q in with_figs:
             for fg in (*q.stem_figures, *q.solution_figures):
                 self.assertTrue(pathlib.Path(phys.resolve_asset(fg.path)).is_file())
 
         for code_check, exp_all, exp_clean in [
             ("PHYS1002A", 48, 48),
-            ("PHYS1004A", 58, 54),
+            ("PHYS1004A", 58, 56),
             ("210070", 17, 17),
             ("STAT2002", 1, 1),
-            ("PHYS1003A", 20, 19),
+            ("PHYS1003A", 20, 20),
             ("210050", 362, 362),
             ("023181", 319, 319),
-            ("EE2003", 20, 17),
-            ("PHYS1001B", 145, 143),
+            ("EE2003", 20, 20),
+            ("PHYS1001B", 145, 145),
             ("PHYS1002B", 30, 30),
-            ("PHYS1004H", 37, 36),
-            ("PHYS1004C", 98, 92),
-            ("PHYS1004B", 64, 64),
-            ("PHYS1001H", 14, 13),
+            ("PHYS1004H", 37, 37),
+            ("PHYS1004C", 98, 98),
+            ("PHYS1004B", 65, 65),
+            ("PHYS1001H", 14, 14),
             ("019161", 4, 4),
             ("019165", 5, 5),
             ("019166", 1, 1),
             ("CS1002A", 54, 54),
-            ("229001", 3, 3),
+            ("229001", 9, 5),
             ("PHYS1005B", 3, 3),
             ("PHYS1003B", 23, 23),
             ("009501", 70, 70),
             ("019011", 186, 186),
+            ("PHYS1010", 1, 1),
+            ("019012", 15, 15),
+            ("022392", 19, 18),
+            ("001505", 1, 1),
+            ("017063", 2, 2),
+            ("001101", 1, 1),
+            ("210045", 27, 27),
+            ("011146", 7, 7),
+            ("022148", 5, 5),
         ]:
             cb = self.bank[code_check]
             wf = cb.query(has_figures=True, exclude_quarantined=False)
@@ -525,7 +534,7 @@ class TestQuestionBank(unittest.TestCase):
             conn = sqlite3.connect(db_path)
             try:
                 count = conn.execute("SELECT COUNT(*) FROM questions").fetchone()[0]
-                self.assertEqual(count, 23507)
+                self.assertEqual(count, 23494)
                 hits = conn.execute(
                     "SELECT id FROM questions_fts WHERE questions_fts MATCH 'Laurent' LIMIT 5"
                 ).fetchall()

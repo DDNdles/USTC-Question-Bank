@@ -18,7 +18,7 @@ class TestQualityRegressions(unittest.TestCase):
         cls.bank = QuestionBank(ROOT)
 
     def test_version_and_no_control_chars(self) -> None:
-        self.assertEqual(self.bank.manifest["data_version"], "0.22.0")
+        self.assertEqual(self.bank.manifest["data_version"], "0.23.0")
         for q in self.bank.all_questions():
             texts = [q.stem_md, q.answer_md, q.solution_md, q.note or "", *q.solution_steps]
             texts.extend(opt.md for opt in q.options)
@@ -120,3 +120,7 @@ class TestQualityRegressions(unittest.TestCase):
         self.assertEqual(self.bank.get("022148-hw-01").source_kind, "notes")
         self.assertEqual(self.bank.get("022148-tb-v1-01").source_kind, "book")
         self.assertEqual(self.bank.get("022062-exam-2016s-f-01").source_term, "2015-2016-2")
+        self.assertFalse(self.bank.get("022392-exam-2018f-f-06").quarantined)
+        self.assertFalse(self.bank.get("210045-exam-2016s-f-04").quarantined)
+        self.assertFalse(self.bank.get("019012-exam-2016s-f-08").quarantined)
+        self.assertEqual(self.bank.get("017129-exam-2022-f-02").answer_md, "错误")

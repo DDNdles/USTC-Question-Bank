@@ -8,7 +8,7 @@
   "description": "中国科学技术大学《代数结构》（课号 011103）结构化题库，收录 2017–2026 年10 套期中/期末与小测真题（含 2018 春、2019 徐宏力班、2020 小测、2020–2023 期末及 2026 春试卷，去重后共 120 题），覆盖 14 个二级知识点，全库题解由模型独立完成严密证明与计算并经符号核验（origin=ai）。",
   "stats": {
     "total": 120,
-    "quarantined": 5,
+    "quarantined": 3,
     "taxonomy_nodes": 24,
     "by_origin": {
       "official": 0,
@@ -47,14 +47,14 @@
   ],
   "known_notes": [
     "原公开合集 `ustc-course-resources` 中与 `2018 春期末试题（Lyncien）`、`2020—2021 第二学期期末`、`2022 春季学期试卷` 重复的 3 份副本已于导出时去重，共保留 10 套独立试卷 120 题。",
-    "全库共 5 道回忆版缺具体数值/缺原置换定义题目标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+    "已对照 2023 春期末 PDF 补回丢失上标与完整置换定义并恢复 2 题，剩余 2017 春回忆版 3 题因原卷确实缺失参数保持 quality.quarantined=true。"
   ],
   "files": {
     "questions": "courses/011103/questions.jsonl",
     "taxonomy": "courses/011103/taxonomy.json"
   },
   "sha256": {
-    "questions": "47f20145ab71d772106691969b7f98ae1c7a7cbe89509b6eda1b3c21927aeda3",
+    "questions": "64b04fdf14f8ae827b9bc5d48a301b2e4b29069f642859ce082bf9764f33edc1",
     "taxonomy": "32b9b6462ed5efbc3192b7bb859f33744473ece48738f3b273fdfe4a701a71c3"
   }
 }

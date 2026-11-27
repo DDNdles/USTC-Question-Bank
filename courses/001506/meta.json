@@ -8,7 +8,7 @@
   "description": "中国科学技术大学《数理方程A》（课号 001506）结构化题库，收录 2001–2025 学年历年真题汇编及 2025 春真题参考答案（共 16 套真题与补充题，合计 182 题），覆盖 33 个二级知识点，其中 75 题附原卷参考解答（origin=official）、107 题由模型独立求解并配分步解析。",
   "stats": {
     "total": 182,
-    "quarantined": 4,
+    "quarantined": 1,
     "taxonomy_nodes": 41,
     "by_origin": {
       "official": 75,
@@ -54,14 +54,14 @@
   ],
   "known_notes": [
     "《数理方程历年真题1》（2001–2015 年 10 套真题及补充题）与《数理方程A历年真题》（2014–2020 年 5 套真题）已按分卷学期拆分为独立年度题目编号；2025 春参考答案与汇编含解部分共 75 题标记为 origin=official，无答案卷 107 题由模型推导（origin=ai）。",
-    "全库共 4 道原卷扫描残缺或共振边界条件存疑题目标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+    "原 4 道隔离题已对照原卷恢复 3 题（含修正分离变量双曲符号与球谐括号），仅余 2001–2002 第一学期第 12 题因排版原件缺项保持 quality.quarantined=true。"
   ],
   "files": {
     "questions": "courses/001506/questions.jsonl",
     "taxonomy": "courses/001506/taxonomy.json"
   },
   "sha256": {
-    "questions": "5d52f43f3ea71023f0aff13baf4d40b060425dc0a963c2637bad781f038ad30c",
+    "questions": "a7b67a59a0b7691391a1d8285617d06a3756b72a94eaafe28eb16c00f0d1349c",
     "taxonomy": "a6b52d6bbdf3cac787577bbd447050d3bc3d591ebe49746394a9a9e4fb2b2035"
   }
 }

@@ -8,7 +8,7 @@
   "description": "中国科学技术大学《复变函数A》（课号 001505）结构化题库，收录 2005–2024 年历年期末真题共 10 套（173 题），覆盖 23 个二级知识点，其中 17 题附 2019–2020 学年第一学期原卷参考答案（origin=official）、156 题由模型独立推导并配分步解析。",
   "stats": {
     "total": 173,
-    "quarantined": 7,
+    "quarantined": 0,
     "taxonomy_nodes": 31,
     "by_origin": {
       "official": 17,
@@ -50,14 +50,14 @@
   ],
   "known_notes": [
     "《复变函数历年真题》（含 2005–2008、2020、2022–2024 年 8 套 A 卷期末真题）已按年份拆分为独立题目编号；2019–2020 第一学期期末卷含答案部分 17 题标记为 origin=official，其余 156 题由模型求解（origin=ai）。",
-    "全库共 7 道原卷转录积分路径/指数存疑或扫描模糊题目标记为 quality.quarantined=true，下游组卷/评测建议默认过滤。"
+    "原 7 道隔离题已逐页核对原卷 PDF 恢复共轭横线、分母完整多项式与被积函数 $\\sin(\\mathrm{e}x)$ 并附共形映射示意图，全库已清零隔离（quarantined=0）。"
   ],
   "files": {
     "questions": "courses/001505/questions.jsonl",
     "taxonomy": "courses/001505/taxonomy.json"
   },
   "sha256": {
-    "questions": "9cf95794ffae67c49922e9d676f0b1e2c342bd3a833600950bc196332f4f78f5",
+    "questions": "27bfe9a57a5ce2b696b42335081dd9d846772ce2a64405d420e3f4866abf2261",
     "taxonomy": "a9fca43372b8ea5d4baaafbbbcc5ddb7ee5715f407f958d7c495bb5321855e27"
   }
 }
