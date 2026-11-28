@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "code": "010177",
+  "name": "现代控制理论",
+  "name_en": "Modern Control Theory",
+  "department": "信息科学技术学院",
+  "category": "professional",
+  "description": "中国科学技术大学《现代控制理论》（课号 010177）结构化题库，收录 2007–2026 学年5 份期末试卷与合订真题（含 07-08 至 17-18 六套附解答真题，94 题）以及《证明题汇编》《复习题》（63 题）共 157 题，其中 139 题附原卷或合订本参考解答（origin=official）、18 题由模型独立求解与验证。",
+  "stats": {
+    "total": 157,
+    "quarantined": 2,
+    "taxonomy_nodes": 32,
+    "by_origin": {
+      "official": 139,
+      "community": 0,
+      "ai": 18
+    },
+    "by_type": {
+      "blank": 2,
+      "proof": 58,
+      "solve": 97
+    },
+    "by_difficulty": {
+      "1": 0,
+      "2": 10,
+      "3": 54,
+      "4": 76,
+      "5": 17
+    },
+    "exam_years": [
+      2007,
+      2014,
+      2022,
+      2025
+    ]
+  },
+  "batches": [
+    {
+      "id": "mct_exams",
+      "count": 94,
+      "rights": "third_party_exam",
+      "description": "2007–2026 学年现代控制理论 5 份期末试卷与真题合订本（含 07-08 至 17-18 六套卷，94 题）"
+    },
+    {
+      "id": "mct_drill",
+      "count": 63,
+      "rights": "third_party_notes",
+      "description": "现代控制理论《证明题汇编》与《复习题》（63 题）"
+    }
+  ],
+  "known_notes": [
+    "已完成 2007–2008 学年真题合订本 66 页扫描解答的逐题核对与标答回填（45 题全部升级为 origin=official 并修正原手写印刷计算笔误），叠加 2014–2015、2025 试卷与《证明题汇编》《复习题》共 139 题附官方参考解答（origin=official）。",
+    "已从原卷 PDF 恢复 12 道丢失矩阵/约束的题干并补裁 10 道（7 幅独立原图）电路/框图/系统 WebP 配图（`courses/010177/assets/`），修复并解除隔离 25 题；仅 2022–2023 回忆版第四.1 题（原卷缺输入定义）与 2025–2026 期末第 4 题（原卷公式条件内部矛盾）保持隔离（quarantined=2）。"
+  ],
+  "files": {
+    "questions": "courses/010177/questions.jsonl",
+    "taxonomy": "courses/010177/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "335a7beda90bbaf40fd2205b50759862cbfc159aa85549f206caf9c28310f518",
+    "taxonomy": "0394d86da10426e33d21b3e6ee506f01017e2ec696311c4d20bd472e0c626294"
+  }
+}

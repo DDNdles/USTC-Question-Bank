@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "code": "CS2002",
+  "name": "数理逻辑基础",
+  "name_en": "Foundations of Mathematical Logic",
+  "department": "计算机科学与技术学院",
+  "category": "professional",
+  "description": "中国科学技术大学《数理逻辑基础》（课号 CS2002）结构化题库，收录 2017–2026 年8 套期中/期末真题与回忆卷（79 题）、汪芳庭《数理逻辑》课后习题（260 题）及概念辨析、习题课作业、Hank Wang 汇总与直接证明专题（64 题）共 403 题，其中 220 题附原卷或书末参考解答（origin=official）、183 题由模型独立推导与证明。",
+  "stats": {
+    "total": 403,
+    "quarantined": 8,
+    "taxonomy_nodes": 34,
+    "by_origin": {
+      "official": 220,
+      "community": 0,
+      "ai": 183
+    },
+    "by_type": {
+      "blank": 8,
+      "proof": 176,
+      "single": 48,
+      "solve": 171
+    },
+    "by_difficulty": {
+      "1": 1,
+      "2": 87,
+      "3": 198,
+      "4": 103,
+      "5": 14
+    },
+    "exam_years": [
+      2017,
+      2018,
+      2020,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "mlg_exams",
+      "count": 79,
+      "rights": "third_party_exam",
+      "description": "2017–2026 年数理逻辑基础 8 套期中/期末真题（79 题）"
+    },
+    {
+      "id": "mlg_book",
+      "count": 260,
+      "rights": "third_party_textbook",
+      "description": "汪芳庭《数理逻辑》教材课后习题及书末参考答案（260 题）"
+    },
+    {
+      "id": "mlg_drill",
+      "count": 64,
+      "rights": "third_party_notes",
+      "description": "数理逻辑概念辨析、习题课与作业解答、Hank Wang 汇总及直接证明专题（64 题）"
+    }
+  ],
+  "known_notes": [
+    "汪芳庭《数理逻辑》书末答案已全量完成编号对齐回填（含原漏录的练习 1.10.3(2) 题补录与 1.10.3/1.10.4 题干校正，共 144 题标答），叠加 2020 期中、2022–2023 期末与习题课/概念辨析等共 220 题附参考解答（origin=official）。",
+    "已对照汪芳庭《数理逻辑》原书 §3.6.2 编码表及 §1.11/§2.1/§3.6.3–3.6.4 修复全部 13 道教材隔离题与 6 道真题/概念隔离题（并据 §2.2.1–2.2.2 校正 2024 期末第一.6 题结论），共解除隔离 19 题；仅余 8 道回忆版残缺或标注存疑题（2017 第 6 题、2018 第 6 题、2025 第 2/4(2) 题、2026 第一.1/六.1 题及汇总对应复收条目）保持隔离（quarantined=8）。"
+  ],
+  "files": {
+    "questions": "courses/CS2002/questions.jsonl",
+    "taxonomy": "courses/CS2002/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "d6f64ba027c530aff292534c212e53fc8af39325b9bb9bf5da424874d32ed89b",
+    "taxonomy": "4ebdd88b10b02c817be9ba522889a45d6a15a246a9ad3c52dea91fd03121d539"
+  }
+}

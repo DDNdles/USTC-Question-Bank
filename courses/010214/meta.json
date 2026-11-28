@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "code": "010214",
+  "name": "计算机控制",
+  "name_en": "Computer Control Systems",
+  "department": "信息科学技术学院",
+  "category": "professional",
+  "description": "中国科学技术大学《计算机控制》（课号 010214）结构化题库，收录 2001–2025 学年22 套期末真题（305 题）与李嗣福《计算机控制》教材课后习题解答（89 题）共 394 题，其中 76 题附教材解答手册参考解答（origin=official）、318 题由模型依据李嗣福教材规范独立求解并经数值仿真验算，26 道含图题附 20 幅精裁灰度 WebP 配图。",
+  "stats": {
+    "total": 394,
+    "quarantined": 10,
+    "taxonomy_nodes": 32,
+    "by_origin": {
+      "official": 76,
+      "community": 0,
+      "ai": 318
+    },
+    "by_type": {
+      "blank": 8,
+      "multi": 13,
+      "proof": 7,
+      "single": 3,
+      "solve": 363
+    },
+    "by_difficulty": {
+      "1": 13,
+      "2": 90,
+      "3": 166,
+      "4": 89,
+      "5": 36
+    },
+    "exam_years": [
+      2001,
+      2002,
+      2003,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2022,
+      2023,
+      2024
+    ]
+  },
+  "batches": [
+    {
+      "id": "cc_exams",
+      "count": 305,
+      "rights": "third_party_exam",
+      "description": "2001–2025 学年计算机控制 22 套历年期末真题（305 题）"
+    },
+    {
+      "id": "cc_book",
+      "count": 89,
+      "rights": "third_party_textbook",
+      "description": "李嗣福《计算机控制》教材课后习题解答（89 题）"
+    }
+  ],
+  "known_notes": [
+    "李嗣福《计算机控制》教材课后习题解答中 76 题附原解答手册标答（origin=official）；22 套历年期末真题（305 题）与无标答习题共 318 题由模型独立求解并经 Jury 判据与闭环仿真验算（origin=ai）。",
+    "已对照原卷 PDF 为 26 道系统框图、正弦采样图、Simulink/CIPS 架构及响应曲线题补裁 20 幅灰度 WebP 配图（`courses/010214/assets/`），修正 2013–2014 期末第 2.1–2.6 题选项对齐与 2015–2016(B) 第 8.1–8.6 题缺失选项并解除 69 题隔离；仅余 10 题因原 PDF 物理缺失 Bode 附图、MATLAB 清单、阅读材料、扫描裁切或扩充动态响应法附表保持隔离（quarantined=10）。"
+  ],
+  "files": {
+    "questions": "courses/010214/questions.jsonl",
+    "taxonomy": "courses/010214/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "26a121b2ac489774744aca09917c59e90818ee659e2e5a0825c61864a74e7241",
+    "taxonomy": "936a0d3a0486b08ef551cba4d0239747704ccfb5aa530110b57e640c914eb612"
+  }
+}

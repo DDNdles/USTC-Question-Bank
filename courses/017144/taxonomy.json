@@ -1,0 +1,216 @@
+{
+  "schema_version": "1.0",
+  "course_code": "017144",
+  "nodes": [
+    {
+      "id": "spb.prob",
+      "parent_id": null,
+      "level": 1,
+      "name": "概率基础与随机过程基本概念",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.prob.cond",
+      "parent_id": "spb.prob",
+      "level": 2,
+      "name": "条件期望、全概率与贝叶斯",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.prob.rvar",
+      "parent_id": "spb.prob",
+      "level": 2,
+      "name": "随机变量、数字特征与矩",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.prob.charf",
+      "parent_id": "spb.prob",
+      "level": 2,
+      "name": "特征函数与常用分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.prob.conv",
+      "parent_id": "spb.prob",
+      "level": 2,
+      "name": "收敛方式与极限定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.prob.defn",
+      "parent_id": "spb.prob",
+      "level": 2,
+      "name": "随机过程定义、有维分布与均值/相关函数",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.poisson",
+      "parent_id": null,
+      "level": 1,
+      "name": "Poisson 过程与更新过程",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.poisson.basic",
+      "parent_id": "spb.poisson",
+      "level": 2,
+      "name": "Poisson 过程定义与基本性质",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.poisson.var",
+      "parent_id": "spb.poisson",
+      "level": 2,
+      "name": "非齐次/复合 Poisson 过程",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.poisson.inter",
+      "parent_id": "spb.poisson",
+      "level": 2,
+      "name": "到达间隔、等待时间与指数分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.poisson.renew",
+      "parent_id": "spb.poisson",
+      "level": 2,
+      "name": "更新过程与基本更新定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.dmc",
+      "parent_id": null,
+      "level": 1,
+      "name": "离散时间 Markov 链",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.dmc.defn",
+      "parent_id": "spb.dmc",
+      "level": 2,
+      "name": "Markov 链、转移矩阵与 C-K 方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.dmc.class",
+      "parent_id": "spb.dmc",
+      "level": 2,
+      "name": "状态分类：不可约、周期、常返与瞬过",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.dmc.limit",
+      "parent_id": "spb.dmc",
+      "level": 2,
+      "name": "遍历定理与平稳分布",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.dmc.appl",
+      "parent_id": "spb.dmc",
+      "level": 2,
+      "name": "分支过程、吸收概率等应用",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.cmc",
+      "parent_id": null,
+      "level": 1,
+      "name": "连续时间 Markov 链",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.cmc.gen",
+      "parent_id": "spb.cmc",
+      "level": 2,
+      "name": "Q 矩阵与生灭过程",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.cmc.fb",
+      "parent_id": "spb.cmc",
+      "level": 2,
+      "name": "前向/后向方程与转移函数矩阵指数",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.cmc.stat",
+      "parent_id": "spb.cmc",
+      "level": 2,
+      "name": "平稳分布与极限定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.station",
+      "parent_id": null,
+      "level": 1,
+      "name": "平稳过程",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.station.defn",
+      "parent_id": "spb.station",
+      "level": 2,
+      "name": "宽平稳定义与各态历经性",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.station.corr",
+      "parent_id": "spb.station",
+      "level": 2,
+      "name": "自相关函数与谱密度",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.station.ergod",
+      "parent_id": "spb.station",
+      "level": 2,
+      "name": "遍历定理与均方演算",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.station.filter",
+      "parent_id": "spb.station",
+      "level": 2,
+      "name": "线性滤波与谱表示",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.brown",
+      "parent_id": null,
+      "level": 1,
+      "name": "Brown 运动与 Itô 随机微积分",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.brown.brown",
+      "parent_id": "spb.brown",
+      "level": 2,
+      "name": "Brown 运动的性质与变换",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.brown.ito",
+      "parent_id": "spb.brown",
+      "level": 2,
+      "name": "Itô 积分与 Itô 公式",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.brown.sde",
+      "parent_id": "spb.brown",
+      "level": 2,
+      "name": "随机微分方程求解初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "spb.brown.mart",
+      "parent_id": "spb.brown",
+      "level": 2,
+      "name": "鞅与停时初步",
+      "chapter_ref": null
+    }
+  ]
+}

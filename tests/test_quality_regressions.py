@@ -18,7 +18,7 @@ class TestQualityRegressions(unittest.TestCase):
         cls.bank = QuestionBank(ROOT)
 
     def test_version_and_no_control_chars(self) -> None:
-        self.assertEqual(self.bank.manifest["data_version"], "0.24.0")
+        self.assertEqual(self.bank.manifest["data_version"], "0.25.0")
         for q in self.bank.all_questions():
             texts = [q.stem_md, q.answer_md, q.solution_md, q.note or "", *q.solution_steps]
             texts.extend(opt.md for opt in q.options)
@@ -100,9 +100,10 @@ class TestQualityRegressions(unittest.TestCase):
             "MATH2004", "011103", "210045", "MATH2003",
             "MATH2001", "011146", "022148", "022062",
             "MATH3004", "MATH3003", "MATH3009", "MATH3010",
+            "017144", "010214", "010177", "CS2002",
         ]
         leak_re = re.compile(
-            r"原件|子代理|题解代理|intake-|work/|白名单|任务包|\bOCR\b|\b(?:048|049|03|19|20)_[A-Za-z0-9_\u4e00-\u9fff]+|\b(?:tma|ed|mpea|cva|cplx|real|prob|alg|stat|stoc|ode|pde|num|agf|qma|tsp)_[0-9a-zA-Z_]+\b|\b(?:fa|top|dg|cmb)_(?:\d+[a-zA-Z0-9_]*|exset|recite|xiti|hw|hyt|xkjy)\b"
+            r"原件|子代理|题解代理|intake-|work/|白名单|任务包|options_broken|[\uf000-\uf0ff]|\bOCR\b|\b(?:048|049|03|19|20)_[A-Za-z0-9_\u4e00-\u9fff]+|\b(?:tma|ed|mpea|cva|cplx|real|prob|alg|stat|stoc|ode|pde|num|agf|qma|tsp)_[0-9a-zA-Z_]+\b|\b(?:fa|top|dg|cmb)_(?:\d+[a-zA-Z0-9_]*|exset|recite|xiti|hw|hyt|xkjy)\b|\b(?:spb|cc|mct|mlg)_(?:20\d{2}[a-z0-9_]*|spexam|review|bkt|book|partial|scanunk|xiti|hw|proof|shiti|concept)\b"
         )
         for code in new_codes:
             for q in self.bank[code]:
@@ -124,6 +125,15 @@ class TestQualityRegressions(unittest.TestCase):
         self.assertEqual(len(self.bank.get("MATH3003-exam-2022s-m-01").stem_figures), 1)
         self.assertEqual(len(self.bank.get("MATH3003-exam-2022s-m-02").stem_figures), 1)
         self.assertFalse(self.bank.get("MATH3009-exam-2017f-f2-08").quarantined)
+        self.assertEqual(self.bank.get("CS2002-tb-260").answer_origin, "official")
+        self.assertEqual(self.bank.get("CS2002-exam-2024-f-04").answer_md, "B")
+        self.assertEqual(self.bank.get("017144-exam-2024f-f-03").answer_origin, "official")
+        self.assertEqual(self.bank.get("017144-exam-2024f-f-03").answer_md, "B")
+        self.assertEqual(self.bank.get("010214-exam-2013f-f-02").answer_md, "A")
+        self.assertEqual(self.bank.get("010214-exam-2013f-f-07").answer_md, "ABC")
+        self.assertEqual(self.bank.get("010177-drill-proof-45").answer_origin, "official")
+        self.assertEqual(len(self.bank.get("010177-drill-proof-45").stem_figures), 1)
+        self.assertFalse(self.bank.get("010177-drill-proof-45").quarantined)
         self.assertTrue(self.bank.get("MATH3009-exam-2017f-f2-09").quarantined)
         self.assertTrue(self.bank.get("MATH3010-exam-2020f-f-01").quarantined)
         self.assertEqual(self.bank.get("022148-tb-v1-01").source_kind, "book")

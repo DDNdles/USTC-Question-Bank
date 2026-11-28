@@ -1,8 +1,8 @@
 {
   "name": "USTC-Question-Bank",
   "schema_version": "1.0",
-  "data_version": "0.24.0",
-  "updated_at": "2026-11-27",
+  "data_version": "0.25.0",
+  "updated_at": "2026-11-28",
   "repository": "https://github.com/DDNdles/USTC-Question-Bank",
   "asset_base_url": null,
   "feedback_endpoint": "https://dsh-study-feedback-relay.ddndles.workers.dev/",
@@ -11,13 +11,13 @@
     "question_content": "Third-party rights retained by original authors and publishers; see NOTICE.md"
   },
   "stats": {
-    "courses": 71,
-    "questions": 24546,
-    "quarantined": 71,
+    "courses": 75,
+    "questions": 26248,
+    "quarantined": 91,
     "by_origin": {
-      "official": 14308,
+      "official": 14995,
       "community": 1621,
-      "ai": 8617
+      "ai": 9632
     }
   },
   "courses": [
@@ -2367,6 +2367,152 @@
         "meta": "e7d53488fc6516b29b64e6ac62326f10b23fd8d7ea071bd6ff21172fc2ab4d61",
         "taxonomy": "f41dbb12369208d9f8579e0de2be1934c60fe9cac348934cf8ba3b093afeac02",
         "questions": "bfd2dffe2d7e5b4fca6b030a02c94ed3589a0a4e9189ace1bfc277bbcb5a64a8"
+      }
+    },
+    {
+      "code": "017144",
+      "name": "随机过程B",
+      "name_en": "Stochastic Processes B",
+      "department": "数学科学学院",
+      "category": "professional",
+      "total": 748,
+      "quarantined": 0,
+      "by_origin": {
+        "official": 252,
+        "community": 0,
+        "ai": 496
+      },
+      "exam_years": [
+        2013,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/017144/meta.json",
+        "taxonomy": "courses/017144/taxonomy.json",
+        "questions": "courses/017144/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "6beff440178f17c311528070a59aa6b0a3e245a9773253e6e13041f897c67d55",
+        "taxonomy": "896b1363f0217ff6b960cc0f816452b4b45ca07fdc420dd12d228f783cdb5b8f",
+        "questions": "0e19642e373653494061bdb114bb1f1b2c2b48263f7faafb955a2bc5e098422b"
+      }
+    },
+    {
+      "code": "010214",
+      "name": "计算机控制",
+      "name_en": "Computer Control Systems",
+      "department": "信息科学技术学院",
+      "category": "professional",
+      "total": 394,
+      "quarantined": 10,
+      "by_origin": {
+        "official": 76,
+        "community": 0,
+        "ai": 318
+      },
+      "exam_years": [
+        2001,
+        2002,
+        2003,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2022,
+        2023,
+        2024
+      ],
+      "paths": {
+        "meta": "courses/010214/meta.json",
+        "taxonomy": "courses/010214/taxonomy.json",
+        "questions": "courses/010214/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "97c176982308832eee35aab5856fc321bdda3f28c6ea9e556df5cf564f09b005",
+        "taxonomy": "936a0d3a0486b08ef551cba4d0239747704ccfb5aa530110b57e640c914eb612",
+        "questions": "26a121b2ac489774744aca09917c59e90818ee659e2e5a0825c61864a74e7241"
+      }
+    },
+    {
+      "code": "010177",
+      "name": "现代控制理论",
+      "name_en": "Modern Control Theory",
+      "department": "信息科学技术学院",
+      "category": "professional",
+      "total": 157,
+      "quarantined": 2,
+      "by_origin": {
+        "official": 139,
+        "community": 0,
+        "ai": 18
+      },
+      "exam_years": [
+        2007,
+        2014,
+        2022,
+        2025
+      ],
+      "paths": {
+        "meta": "courses/010177/meta.json",
+        "taxonomy": "courses/010177/taxonomy.json",
+        "questions": "courses/010177/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "2a1ba7afb9d701f6dae2c25aecf11ab2c502a60566e5bb6292fa48e40132eafe",
+        "taxonomy": "0394d86da10426e33d21b3e6ee506f01017e2ec696311c4d20bd472e0c626294",
+        "questions": "335a7beda90bbaf40fd2205b50759862cbfc159aa85549f206caf9c28310f518"
+      }
+    },
+    {
+      "code": "CS2002",
+      "name": "数理逻辑基础",
+      "name_en": "Foundations of Mathematical Logic",
+      "department": "计算机科学与技术学院",
+      "category": "professional",
+      "total": 403,
+      "quarantined": 8,
+      "by_origin": {
+        "official": 220,
+        "community": 0,
+        "ai": 183
+      },
+      "exam_years": [
+        2017,
+        2018,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "paths": {
+        "meta": "courses/CS2002/meta.json",
+        "taxonomy": "courses/CS2002/taxonomy.json",
+        "questions": "courses/CS2002/questions.jsonl"
+      },
+      "sha256": {
+        "meta": "72fa94fe944fe08aa5ff469122448850294b25f4371fe2e761ec408dfcc45e28",
+        "taxonomy": "4ebdd88b10b02c817be9ba522889a45d6a15a246a9ad3c52dea91fd03121d539",
+        "questions": "d6f64ba027c530aff292534c212e53fc8af39325b9bb9bf5da424874d32ed89b"
       }
     }
   ]

@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0",
+  "course_code": "CS2002",
+  "nodes": [
+    {
+      "id": "mlg.propsyn",
+      "parent_id": null,
+      "level": 1,
+      "name": "命题逻辑：语法与语义",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.propsyn.syntax",
+      "parent_id": "mlg.propsyn",
+      "level": 2,
+      "name": "L 的公式、形成规则与复杂度归纳",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.propsyn.sem",
+      "parent_id": "mlg.propsyn",
+      "level": 2,
+      "name": "真值指派、真值表与赋值",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.propsyn.express",
+      "parent_id": "mlg.propsyn",
+      "level": 2,
+      "name": "联结词功能与表达能力",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.entail",
+      "parent_id": null,
+      "level": 1,
+      "name": "重言式、推论与等值",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.entail.taut",
+      "parent_id": "mlg.entail",
+      "level": 2,
+      "name": "重言式/矛盾式判定",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.entail.le",
+      "parent_id": "mlg.entail",
+      "level": 2,
+      "name": "语义推论及其性质",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.entail.equiv",
+      "parent_id": "mlg.entail",
+      "level": 2,
+      "name": "等值演算与常用等值式",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.axl",
+      "parent_id": null,
+      "level": 1,
+      "name": "公理系统 L 与证明方法",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.axl.axioms",
+      "parent_id": "mlg.axl",
+      "level": 2,
+      "name": "公理模式 L1–L3 与推理规则",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.axl.direct",
+      "parent_id": "mlg.axl",
+      "level": 2,
+      "name": "直接证明法与二级结论",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.axl.deduction",
+      "parent_id": "mlg.axl",
+      "level": 2,
+      "name": "演绎定理及其应用",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.axl.indirect",
+      "parent_id": "mlg.axl",
+      "level": 2,
+      "name": "反证法与间接证明",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.normal",
+      "parent_id": null,
+      "level": 1,
+      "name": "范式与判定",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.normal.dnf",
+      "parent_id": "mlg.normal",
+      "level": 2,
+      "name": "合取/析取范式与主范式",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.normal.prenex",
+      "parent_id": "mlg.normal",
+      "level": 2,
+      "name": "前束范式与 Skolem 化（谓词部分）",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.normal.decide",
+      "parent_id": "mlg.normal",
+      "level": 2,
+      "name": "可满足性判定流程",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.pred",
+      "parent_id": null,
+      "level": 1,
+      "name": "谓词逻辑：语法与语义",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.pred.psyn",
+      "parent_id": "mlg.pred",
+      "level": 2,
+      "name": "项、公式、量词作用域与自由变元",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.pred.intp",
+      "parent_id": "mlg.pred",
+      "level": 2,
+      "name": "解释、满足与永真式",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.pred.symbol",
+      "parent_id": "mlg.pred",
+      "level": 2,
+      "name": "自然语言符号化",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.pred.pvalid",
+      "parent_id": "mlg.pred",
+      "level": 2,
+      "name": "谓词永真式与逻辑推论",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.kax",
+      "parent_id": null,
+      "level": 1,
+      "name": "谓词公演系统 K 与推演",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.kax.kaxioms",
+      "parent_id": "mlg.kax",
+      "level": 2,
+      "name": "K 公理模式与推广规则",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.kax.quant",
+      "parent_id": "mlg.kax",
+      "level": 2,
+      "name": "量词引入/消去推演",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.kax.kproof",
+      "parent_id": "mlg.kax",
+      "level": 2,
+      "name": "形式化推演与完备性定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.modelth",
+      "parent_id": null,
+      "level": 1,
+      "name": "模型论与完全性应用",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.modelth.complete",
+      "parent_id": "mlg.modelth",
+      "level": 2,
+      "name": "完全性定理与紧性定理",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.modelth.compact",
+      "parent_id": "mlg.modelth",
+      "level": 2,
+      "name": "紧性定理应用（模型存在性）",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.modelth.model",
+      "parent_id": "mlg.modelth",
+      "level": 2,
+      "name": "模型、同构与范畴性概念辨析",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.undec",
+      "parent_id": null,
+      "level": 1,
+      "name": "可判定性与算术化（拓展）",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.undec.decid",
+      "parent_id": "mlg.undec",
+      "level": 2,
+      "name": "判定问题与不可判定性",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.undec.arith",
+      "parent_id": "mlg.undec",
+      "level": 2,
+      "name": "形式算术与 Gödel 现象",
+      "chapter_ref": null
+    },
+    {
+      "id": "mlg.undec.misc",
+      "parent_id": "mlg.undec",
+      "level": 2,
+      "name": "综合判断题与常见误区",
+      "chapter_ref": null
+    }
+  ]
+}

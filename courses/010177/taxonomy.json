@@ -1,0 +1,230 @@
+{
+  "schema_version": "1.0",
+  "course_code": "010177",
+  "nodes": [
+    {
+      "id": "mct.model",
+      "parent_id": null,
+      "level": 1,
+      "name": "状态空间模型与解",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.model.build",
+      "parent_id": "mct.model",
+      "level": 2,
+      "name": "由传递函数/结构图建立状态方程",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.model.solve",
+      "parent_id": "mct.model",
+      "level": 2,
+      "name": "状态方程求解与状态转移矩阵",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.model.equiv",
+      "parent_id": "mct.model",
+      "level": 2,
+      "name": "线性变换与不变量",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.model.disc",
+      "parent_id": "mct.model",
+      "level": 2,
+      "name": "离散时间与线性时变系统",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.realiz",
+      "parent_id": null,
+      "level": 1,
+      "name": "能控能观与实现理论",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.realiz.ctrl",
+      "parent_id": "mct.realiz",
+      "level": 2,
+      "name": "能控性定义与判据",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.realiz.obs",
+      "parent_id": "mct.realiz",
+      "level": 2,
+      "name": "能观性定义与判据",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.realiz.canon",
+      "parent_id": "mct.realiz",
+      "level": 2,
+      "name": "能控/能观标准形与对偶",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.realiz.kalman",
+      "parent_id": "mct.realiz",
+      "level": 2,
+      "name": "Kalman 结构分解",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.realiz.realmin",
+      "parent_id": "mct.realiz",
+      "level": 2,
+      "name": "极小实现与传递函数矩阵",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.stab",
+      "parent_id": null,
+      "level": 1,
+      "name": "稳定性理论",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.stab.lyap",
+      "parent_id": "mct.stab",
+      "level": 2,
+      "name": "Lyapunov 稳定与直接法",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.stab.linear",
+      "parent_id": "mct.stab",
+      "level": 2,
+      "name": "线性系统稳定判据（Routh、Lyapunov 方程）",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.stab.nonlin",
+      "parent_id": "mct.stab",
+      "level": 2,
+      "name": "非线性系统稳定（相平面、变量梯度）",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.fb",
+      "parent_id": null,
+      "level": 1,
+      "name": "状态反馈综合",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.fb.pole",
+      "parent_id": "mct.fb",
+      "level": 2,
+      "name": "状态反馈极点配置",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.fb.decoup",
+      "parent_id": "mct.fb",
+      "level": 2,
+      "name": "解耦控制",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.fb.track",
+      "parent_id": "mct.fb",
+      "level": 2,
+      "name": "伺服跟踪与内模",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.fb.robust",
+      "parent_id": "mct.fb",
+      "level": 2,
+      "name": "抗扰与调节器设计",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.observer",
+      "parent_id": null,
+      "level": 1,
+      "name": "观测器与状态估计",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.observer.full",
+      "parent_id": "mct.observer",
+      "level": 2,
+      "name": "全阶/降阶观测器设计",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.observer.sep",
+      "parent_id": "mct.observer",
+      "level": 2,
+      "name": "分离原理与基于观测器补偿",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.observer.est",
+      "parent_id": "mct.observer",
+      "level": 2,
+      "name": "状态估计与滤波初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.tf",
+      "parent_id": null,
+      "level": 1,
+      "name": "传递函数矩阵与外部描述",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.tf.tfm",
+      "parent_id": "mct.tf",
+      "level": 2,
+      "name": "传递函数矩阵及其化简",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.tf.mfd",
+      "parent_id": "mct.tf",
+      "level": 2,
+      "name": "多项式矩阵描述与零极点",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.tf.inter",
+      "parent_id": "mct.tf",
+      "level": 2,
+      "name": "能控/能观性与极零相消",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.proofm",
+      "parent_id": null,
+      "level": 1,
+      "name": "证明与综合题方法",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.proofm.proof",
+      "parent_id": "mct.proofm",
+      "level": 2,
+      "name": "能控能观/稳定类证明题",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.proofm.comp",
+      "parent_id": "mct.proofm",
+      "level": 2,
+      "name": "大型综合设计题（试卷压轴）",
+      "chapter_ref": null
+    },
+    {
+      "id": "mct.proofm.misc",
+      "parent_id": "mct.proofm",
+      "level": 2,
+      "name": "概念辨析与判断题",
+      "chapter_ref": null
+    }
+  ]
+}

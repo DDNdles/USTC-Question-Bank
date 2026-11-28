@@ -1,0 +1,230 @@
+{
+  "schema_version": "1.0",
+  "course_code": "010214",
+  "nodes": [
+    {
+      "id": "cc.intro",
+      "parent_id": null,
+      "level": 1,
+      "name": "计算机控制系统概论",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.intro.comp",
+      "parent_id": "cc.intro",
+      "level": 2,
+      "name": "系统组成、特点与分类",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.intro.io",
+      "parent_id": "cc.intro",
+      "level": 2,
+      "name": "A/D、D/A 接口与采样保持器",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.intro.real",
+      "parent_id": "cc.intro",
+      "level": 2,
+      "name": "实时性、可靠性与系统结构",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.model",
+      "parent_id": null,
+      "level": 1,
+      "name": "数学描述与离散化",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.model.sample",
+      "parent_id": "cc.model",
+      "level": 2,
+      "name": "采样定理与信号复现",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.model.ztrans",
+      "parent_id": "cc.model",
+      "level": 2,
+      "name": "z 变换、反演与性质",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.model.pulse",
+      "parent_id": "cc.model",
+      "level": 2,
+      "name": "脉冲传递函数与方框图",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.model.state",
+      "parent_id": "cc.model",
+      "level": 2,
+      "name": "离散系统状态空间描述",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.analysis",
+      "parent_id": null,
+      "level": 1,
+      "name": "离散系统分析",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.analysis.stab",
+      "parent_id": "cc.analysis",
+      "level": 2,
+      "name": "稳定性判据（Jury、w 变换等）",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.analysis.perf",
+      "parent_id": "cc.analysis",
+      "level": 2,
+      "name": "动态性能与稳态误差",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.analysis.samp",
+      "parent_id": "cc.analysis",
+      "level": 2,
+      "name": "香农采样与纹波分析",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.design",
+      "parent_id": null,
+      "level": 1,
+      "name": "数字控制器设计",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.design.pid",
+      "parent_id": "cc.design",
+      "level": 2,
+      "name": "数字 PID 与连续设计离散化",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.design.dead",
+      "parent_id": "cc.design",
+      "level": 2,
+      "name": "最少拍（无纹波/有纹波）设计",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.design.ripple",
+      "parent_id": "cc.design",
+      "level": 2,
+      "name": "无纹波设计与输出约束",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.design.delay",
+      "parent_id": "cc.design",
+      "level": 2,
+      "name": "纯滞后校正与 Smith 预估器",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.design.adapt",
+      "parent_id": "cc.design",
+      "level": 2,
+      "name": "参数修正、串级与自适应设计",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.stated",
+      "parent_id": null,
+      "level": 1,
+      "name": "状态空间设计方法",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.stated.pole",
+      "parent_id": "cc.stated",
+      "level": 2,
+      "name": "状态反馈极点配置",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.stated.deadb",
+      "parent_id": "cc.stated",
+      "level": 2,
+      "name": "最少拍无差控制",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.stated.opt",
+      "parent_id": "cc.stated",
+      "level": 2,
+      "name": "二次型最优与随机最少拍",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.stated.obs",
+      "parent_id": "cc.stated",
+      "level": 2,
+      "name": "状态观测器设计与分离原理",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.process",
+      "parent_id": null,
+      "level": 1,
+      "name": "过程计算机控制系统",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.process.das",
+      "parent_id": "cc.process",
+      "level": 2,
+      "name": "数据采集与 SCC 监督控制",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.process.hw",
+      "parent_id": "cc.process",
+      "level": 2,
+      "name": "工控机、可编程控制器与过程通道",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.process.eng",
+      "parent_id": "cc.process",
+      "level": 2,
+      "name": "锅炉燃烧等计算机控制系统实例",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.intel",
+      "parent_id": null,
+      "level": 1,
+      "name": "智能控制初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.intel.fuzzy",
+      "parent_id": "cc.intel",
+      "level": 2,
+      "name": "模糊控制基础",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.intel.neural",
+      "parent_id": "cc.intel",
+      "level": 2,
+      "name": "神经网络控制初步",
+      "chapter_ref": null
+    },
+    {
+      "id": "cc.intel.expert",
+      "parent_id": "cc.intel",
+      "level": 2,
+      "name": "专家系统与学习控制",
+      "chapter_ref": null
+    }
+  ]
+}

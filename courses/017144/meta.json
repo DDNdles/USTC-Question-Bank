@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "code": "017144",
+  "name": "随机过程B",
+  "name_en": "Stochastic Processes B",
+  "department": "数学科学学院",
+  "category": "professional",
+  "description": "中国科学技术大学《随机过程B》（课号 017144）结构化题库，收录 2013–2026 年20 套随机过程A/B 期中、期末、补考与真题汇编（454 题）、方兆本《随机过程》课后习题（170 题）及复习题、考前补充题与考题精选（124 题）共 748 题，其中 252 题附原卷或详解参考答案（origin=official）、496 题由模型独立求解与验证。",
+  "stats": {
+    "total": 748,
+    "quarantined": 0,
+    "taxonomy_nodes": 30,
+    "by_origin": {
+      "official": 252,
+      "community": 0,
+      "ai": 496
+    },
+    "by_type": {
+      "blank": 159,
+      "multi": 4,
+      "proof": 97,
+      "single": 79,
+      "solve": 409
+    },
+    "by_difficulty": {
+      "1": 8,
+      "2": 196,
+      "3": 364,
+      "4": 168,
+      "5": 12
+    },
+    "exam_years": [
+      2013,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2026
+    ]
+  },
+  "batches": [
+    {
+      "id": "spb_exams",
+      "count": 454,
+      "rights": "third_party_exam",
+      "description": "2013–2026 年随机过程B/A 20 套期中、期末、补考与真题汇编（454 题）"
+    },
+    {
+      "id": "spb_book",
+      "count": 170,
+      "rights": "third_party_textbook",
+      "description": "方兆本《随机过程》课后习题（170 题）"
+    },
+    {
+      "id": "spb_drill",
+      "count": 124,
+      "rights": "third_party_notes",
+      "description": "随机过程B 复习题与详解、考前补充题及考题精选（124 题）"
+    }
+  ],
+  "known_notes": [
+    "2018–2024 年多套期末真题、《随机过程 历年真题汇编（SPexam 2023）》部分真题及《复习题与详解》《考题精选》共 252 题附原卷或书面参考解答（origin=official）；方兆本《随机过程》课后习题（170 题）及无标答期中/期末真题共 496 题由模型独立求解与推导（origin=ai）。",
+    "已对照全部原卷 PDF 修复原 53 道隔离题及 6 项选项异常标记：从原卷文本层核实 2024 秋期末第一.3 题标答为错（×），更正 2013-01-22 第 5 题 $Y(t)=X_{N(t)}$ 与 2018 春A 期中第四题 Ehrenfest 模型原题表述，补全 2023 春小测与考前补充题参数、矩阵及概率分布，并为迷宫与交通流问题补裁 5 张灰度 WebP 配图（`courses/017144/assets/`），全库已清零隔离（quarantined=0）。"
+  ],
+  "files": {
+    "questions": "courses/017144/questions.jsonl",
+    "taxonomy": "courses/017144/taxonomy.json"
+  },
+  "sha256": {
+    "questions": "0e19642e373653494061bdb114bb1f1b2c2b48263f7faafb955a2bc5e098422b",
+    "taxonomy": "896b1363f0217ff6b960cc0f816452b4b45ca07fdc420dd12d228f783cdb5b8f"
+  }
+}
